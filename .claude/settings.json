@@ -1,0 +1,6 @@
+{
+  "enabledPlugins": {
+    "threejs-webgl@claude-design-skillstack": true,
+    "react-three-fiber@claude-design-skillstack": true
+  }
+}

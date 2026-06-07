@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO — SRS §5.2 -->
+    <title>Leandro De Los Santos Aboy — Software Developer & Project Manager</title>
+    <meta name="description" content="Portfolio de Leandro De Los Santos Aboy. Desarrollo de software, gestión de proyectos, animaciones y experiencias web interactivas. Buenos Aires." />
+    <link rel="canonical" href="https://portfolioleandro.vercel.app/" />
+
+    <!-- OG Tags — SRS §5.2 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolioleandro.vercel.app/" />
+    <meta property="og:title" content="Leandro De Los Santos Aboy — Software Developer & Project Manager" />
+    <meta property="og:description" content="Portfolio de Leandro De Los Santos Aboy. Desarrollo de software, gestión de proyectos, animaciones y experiencias web interactivas." />
+    <meta property="og:image" content="https://portfolioleandro.vercel.app/og-cover.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Leandro De Los Santos Aboy — Software Developer & Project Manager" />
+    <meta name="twitter:description" content="Portfolio de Leandro De Los Santos Aboy. Desarrollo de software, gestión de proyectos." />
+    <meta name="twitter:image" content="https://portfolioleandro.vercel.app/og-cover.jpg" />
+
+    <!-- Preload fuentes críticas — SRS §5.1 -->
+    <link rel="preload" href="/fonts/playfair-900.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/dm-sans-400.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Google Fonts (fallback mientras no haya archivos locales) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JSON-LD Person Schema — SRS §5.2 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Leandro De Los Santos Aboy",
+      "jobTitle": "Software Developer & Project Manager",
+      "url": "https://portfolioleandro.vercel.app",
+      "sameAs": [
+        "https://github.com/Leandelosantos",
+        "https://www.linkedin.com/in/leandrodelossantosaboy/"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

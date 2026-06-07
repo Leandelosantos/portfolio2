@@ -1,0 +1,176 @@
+/* globals.css — SRS §2.1 — Paleta de colores + reset base */
+
+/* ── CSS VARIABLES ────────────────────────────────────── */
+:root {
+  /* Base */
+  --color-bg:           #0A0A0A;   /* Negro profundo — fondo global */
+  --color-bg-elevated:  #111111;   /* Cards y overlays */
+  --color-bg-subtle:    #161616;   /* Secciones alternadas */
+
+  /* Texto */
+  --color-text-primary:   #F0EDE8; /* Blanco roto — jerarquía principal */
+  --color-text-secondary: #8A8680; /* Gris cálido — metadata, labels */
+  --color-text-muted:     #3D3B38; /* Muy sutil — separadores, placeholders */
+
+  /* Acento */
+  --color-accent:         #E8E0D4; /* Crema — hover states, subrayados */
+  --color-accent-hot:     #C8F04D; /* Lima eléctrico — CTA único, cursor dot */
+  --color-accent-mid:     #4D7CFF; /* Azul eléctrico — links activos */
+
+  /* Borders */
+  --color-border:         rgba(240, 237, 232, 0.08);
+  --color-border-hover:   rgba(240, 237, 232, 0.20);
+
+  /* Gradientes funcionales */
+  --gradient-hero:    radial-gradient(ellipse 80% 50% at 50% -10%, #1a1a2e 0%, transparent 60%);
+  --gradient-fade-b:  linear-gradient(to bottom, transparent, #0A0A0A);
+
+  /* Layout — SRS §2.3 */
+  --grid-columns: 12;
+  --grid-gap: 24px;
+  --max-width: 1440px;
+  --margin-x: clamp(24px, 6vw, 120px);
+
+  /* Fuentes — SRS §2.2 */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-ui:      'DM Sans', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* ── RESET ────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-ui);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* Cursor custom en dispositivos no-touch — SRS §2.4 */
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Focus visible — SRS §5.3 */
+:focus-visible {
+  outline: 2px solid var(--color-accent-hot);
+  outline-offset: 2px;
+}
+
+/* Skip link — SRS §5.3 / buenas-practicas §6 */
+.skip-link {
+  position: fixed;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  background: var(--color-accent-hot);
+  color: var(--color-bg);
+  padding: 0.5rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  transition: top 0.2s ease;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Elementos base */
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Scrollbar — estética dark */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-text-muted);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-secondary);
+}
+
+/* will-change cleanup helper — SRS §5.1 */
+.animate-gpu {
+  will-change: transform;
+}
+
+/* ── FASE 6 — Responsive mobile — SRS §5.4 ────────────── */
+
+/* Hero: 1 columna en mobile — 3D canvas oculto */
+@media (max-width: 767px) {
+  .hero__grid {
+    grid-template-columns: 1fr !important;
+    padding-top: clamp(80px, 10vh, 120px) !important;
+  }
+  .hero__canvas-col {
+    display: none !important;
+  }
+}
+
+/* Navbar: ocultar links horizontales, mostrar hamburger */
+.nav__links  { display: flex; }
+.nav__burger { display: none; }
+
+@media (max-width: 767px) {
+  .nav__links  { display: none !important; }
+  .nav__burger { display: flex !important; }
+}
+
+/* ProjectRow: ocultar año y tags en mobile — solo índice + título */
+@media (max-width: 767px) {
+  .project-row__link {
+    grid-template-columns: 3rem 1fr !important;
+    gap: 1rem !important;
+  }
+  .project-row__meta {
+    display: none !important;
+  }
+}

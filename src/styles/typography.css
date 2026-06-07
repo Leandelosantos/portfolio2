@@ -1,0 +1,76 @@
+/* typography.css — SRS §2.2 — Tokens tipográficos */
+
+:root {
+  /* Tamaños — SRS §2.2 */
+  --type-display:  clamp(56px, 8vw, 120px);   /* Hero heading — Playfair 900 */
+  --type-headline: clamp(32px, 4vw, 64px);     /* Títulos de sección — Playfair 700 */
+  --type-project:  clamp(24px, 3vw, 48px);     /* Nombre proyecto hover — Playfair 400 italic */
+  --type-body:     clamp(15px, 1.2vw, 18px);   /* Body copy — DM Sans 300/400 */
+  --type-label:    12px;                        /* Tags, categorías, años — DM Sans 500 */
+  --type-mono:     13px;                        /* Stack tech, timestamps — JetBrains Mono 400 */
+
+  /* Line heights */
+  --lh-display:  1.0;
+  --lh-headline: 1.1;
+  --lh-body:     1.6;
+  --lh-label:    1.2;
+
+  /* Letter spacing */
+  --ls-label:    0.1em;
+  --ls-mono:     0.05em;
+  --ls-button:   0.08em;
+}
+
+/* ── CLASES BASE ───────────────────────────────────────── */
+
+.type-display {
+  font-family: var(--font-display);
+  font-size: var(--type-display);
+  font-weight: 900;
+  line-height: var(--lh-display);
+  color: var(--color-text-primary);
+}
+
+.type-headline {
+  font-family: var(--font-display);
+  font-size: var(--type-headline);
+  font-weight: 700;
+  line-height: var(--lh-headline);
+  color: var(--color-text-primary);
+}
+
+.type-project {
+  font-family: var(--font-display);
+  font-size: var(--type-project);
+  font-weight: 400;
+  font-style: italic;
+  line-height: var(--lh-headline);
+  color: var(--color-text-primary);
+}
+
+.type-body {
+  font-family: var(--font-ui);
+  font-size: var(--type-body);
+  font-weight: 400;
+  line-height: var(--lh-body);
+  color: var(--color-text-secondary);
+}
+
+.type-label {
+  font-family: var(--font-ui);
+  font-size: var(--type-label);
+  font-weight: 500;
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.type-mono {
+  font-family: var(--font-mono);
+  font-size: var(--type-mono);
+  font-weight: 400;
+  letter-spacing: var(--ls-mono);
+  color: var(--color-text-muted);
+}
+
+/* Regla SRS §2.2: máx 3 niveles tipográficos simultáneos, contraste ≥ 2x entre nivel 1 y 2 */

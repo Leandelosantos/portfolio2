@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-leandro",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^6.24.0",
+    "gsap": "^3.12.5",
+    "@gsap/react": "^2.1.1",
+    "three": "^0.165.0",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/drei": "^9.108.0",
+    "@mui/material": "^5.16.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@emailjs/browser": "^4.0.0",
+    "react-hook-form": "^7.52.0",
+    "split-type": "^0.3.4"
+  },
+  "devDependencies": {
+    "vite": "^5.3.0",
+    "@vitejs/plugin-react": "^4.3.0"
+  }
+}
