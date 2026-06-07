@@ -206,10 +206,10 @@ function ServiceTile({ service }) {
             style={{
               fontFamily: 'var(--font-mono)',
               fontSize: '11px',
-              color: 'var(--color-text-muted)',
+              color: 'var(--color-accent-hot)',
               letterSpacing: 'var(--ls-mono)',
               textTransform: 'uppercase',
-              border: '1px solid var(--color-border)',
+              border: '1px solid var(--color-accent-hot)',
               padding: '2px 8px',
             }}
           >

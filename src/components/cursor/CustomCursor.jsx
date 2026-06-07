@@ -38,7 +38,7 @@ export function CustomCursor() {
     // Event delegation — captura elementos dinámicos (routes futuras)
     const onEnter = (e) => {
       if (e.target.closest(INTERACTIVE)) {
-        gsap.to(ring, { scale: 2.5, duration: 0.3, ease: 'power2.out' });
+        gsap.to(ring, { scale: 0.5, duration: 0.3, ease: 'power2.out' });
       }
     };
     const onLeave = (e) => {

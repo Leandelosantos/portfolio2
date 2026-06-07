@@ -42,7 +42,7 @@ const textFieldSx = {
     fontFamily: 'var(--font-mono)',
     fontSize: '13px',
     letterSpacing: 'var(--ls-mono)',
-    color: 'var(--color-text-muted)',
+    color: 'var(--color-text-secondary)',
     '&.Mui-focused': { color: 'var(--color-accent-hot)' },
   },
   '& .MuiFormHelperText-root': {
@@ -304,7 +304,7 @@ export function Contact() {
                 style={{
                   fontFamily: 'var(--font-mono)',
                   fontSize: '11px',
-                  color: 'var(--color-text-muted)',
+                  color: 'var(--color-text-secondary)',
                   margin: '4px 0 0',
                   letterSpacing: 'var(--ls-mono)',
                 }}
@@ -336,7 +336,7 @@ export function Contact() {
 const channelLabelStyle = {
   fontFamily: 'var(--font-mono)',
   fontSize: 'var(--type-mono)',
-  color: 'var(--color-text-muted)',
+  color: 'var(--color-text-secondary)',
   letterSpacing: 'var(--ls-mono)',
   textTransform: 'uppercase',
   margin: '0 0 2rem',

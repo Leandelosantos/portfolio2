@@ -98,7 +98,7 @@ export function SelectedWork() {
   const handleMouseEnter = (project) => {
     if (!isDesktop) return;
     setActiveThumb(project.thumbnail);
-    gsap.to(previewRef.current, { opacity: 1, scale: 1, duration: 0.3, ease: 'power2.out' });
+    // opacity 1 solo en img onLoad — evita caja visible cuando imagen no carga
   };
 
   const handleMouseLeave = () => {
@@ -139,6 +139,9 @@ export function SelectedWork() {
             src={activeThumb}
             alt=""
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+            onLoad={() => {
+              gsap.to(previewRef.current, { opacity: 1, scale: 1, duration: 0.3, ease: 'power2.out' });
+            }}
             onError={(e) => {
               e.currentTarget.style.display = 'none';
             }}
