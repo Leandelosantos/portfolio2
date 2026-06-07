@@ -1,12 +1,14 @@
 // App.jsx — SRS §4.1 — Estructura de providers + rutas
 // FASE 2: LoaderContext + MouseContext + CustomCursor + Navbar + Footer + SkipLink
 
-import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { lazy, Suspense, useLayoutEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { ThemeProvider, CssBaseline } from '@mui/material';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { muiTheme } from './theme/muiTheme';
 import { LoaderProvider } from './context/LoaderContext';
 import { MouseProvider } from './context/MouseContext';
+import { PageTransitionProvider } from './context/PageTransitionContext';
 import { Loader } from './components/sections/Loader';
 import { CustomCursor } from './components/cursor/CustomCursor';
 import { Navbar } from './components/layout/Navbar';
@@ -14,6 +16,15 @@ import { Footer } from './components/layout/Footer';
 import { SkipLink } from './components/ui/SkipLink';
 import { WhatsAppButton } from './components/ui/WhatsAppButton';
 import { Home } from './pages/Home';
+
+// Refresca ScrollTrigger en cada cambio de ruta (recalcula posiciones)
+function ScrollRefresh() {
+  const { pathname } = useLocation();
+  useLayoutEffect(() => {
+    ScrollTrigger.refresh();
+  }, [pathname]);
+  return null;
+}
 
 // ── Páginas secundarias — lazy loaded ───────────────────────
 const WorkList  = lazy(() => import('./pages/WorkList').catch(() => ({ default: () => <PagePlaceholder label="Proyectos" /> })));
@@ -47,35 +58,39 @@ function App() {
       <LoaderProvider>
         <MouseProvider>
           <BrowserRouter>
-            {/* Accesibilidad: skip link (visible en focus) */}
-            <SkipLink />
+            <PageTransitionProvider>
+              <ScrollRefresh />
 
-            {/* Cursor personalizado — solo desktop (pointer: fine) */}
-            <CustomCursor />
+              {/* Accesibilidad: skip link (visible en focus) */}
+              <SkipLink />
 
-            {/* Loader de entrada — se monta sobre todo */}
-            <Loader />
+              {/* Cursor personalizado — solo desktop (pointer: fine) */}
+              <CustomCursor />
 
-            {/* Navegación global */}
-            <Navbar />
+              {/* Loader de entrada — se monta sobre todo */}
+              <Loader />
 
-            {/* Rutas — SRS §4 / PROJECT_MEMORY rutas actualizadas */}
-            <Suspense fallback={null}>
-              <Routes>
-                <Route path="/"            element={<Home />} />
-                <Route path="/work"        element={<WorkList />} />
-                <Route path="/work/:slug"  element={<CaseStudy />} />
-                <Route path="/ia"          element={<IAPage />} />
-                <Route path="/sobre-mi"    element={<AboutPage />} />
-                <Route path="/exhibiciones" element={<ExhibicionesPage />} />
-              </Routes>
-            </Suspense>
+              {/* Navegación global */}
+              <Navbar />
 
-            {/* Footer global */}
-            <Footer />
+              {/* Rutas — SRS §4 / PROJECT_MEMORY rutas actualizadas */}
+              <Suspense fallback={null}>
+                <Routes>
+                  <Route path="/"            element={<Home />} />
+                  <Route path="/work"        element={<WorkList />} />
+                  <Route path="/work/:slug"  element={<CaseStudy />} />
+                  <Route path="/ia"          element={<IAPage />} />
+                  <Route path="/sobre-mi"    element={<AboutPage />} />
+                  <Route path="/exhibiciones" element={<ExhibicionesPage />} />
+                </Routes>
+              </Suspense>
 
-            {/* WhatsApp sticky — visible solo en mobile (< 768px) */}
-            <WhatsAppButton />
+              {/* Footer global */}
+              <Footer />
+
+              {/* WhatsApp sticky — visible solo en mobile (< 768px) */}
+              <WhatsAppButton />
+            </PageTransitionProvider>
           </BrowserRouter>
         </MouseProvider>
       </LoaderProvider>

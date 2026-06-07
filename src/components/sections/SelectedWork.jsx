@@ -4,10 +4,10 @@
 // buenas-practicas §3: useGSAP, ScrollTrigger once, sin setState en mousemove
 
 import { useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ProjectRow } from '../ui/ProjectRow';
+import { TransitionLink } from '../ui/TransitionLink';
 import { projects } from '../../data/projects';
 
 // Preview solo en desktop — touch no dispara mousemove
@@ -173,7 +173,7 @@ export function SelectedWork() {
         >
           Proyectos
         </h2>
-        <Link
+        <TransitionLink
           to="/work"
           style={{
             fontFamily: 'var(--font-mono)',
@@ -192,7 +192,7 @@ export function SelectedWork() {
           }
         >
           Ver todos →
-        </Link>
+        </TransitionLink>
       </div>
 
       {/* Filas de proyectos */}

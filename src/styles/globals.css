@@ -142,6 +142,20 @@ ol {
   will-change: transform;
 }
 
+/* ── Lenis smooth scroll — clases inyectadas por la lib ── */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
 /* ── FASE 6 — Responsive mobile — SRS §5.4 ────────────── */
 
 /* Hero: 1 columna en mobile — 3D canvas oculto */

@@ -4,10 +4,12 @@
 // buenas-practicas §3: useGSAP para animaciones; useEffect para body scroll lock
 
 import { useRef, useState, useEffect } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { useNavbarBehavior } from '../../hooks/useNavbarBehavior';
+import { usePageTransition } from '../../context/PageTransitionContext';
+import { lenis } from '../../lib/lenis';
 
 const NAV_LINKS = [
   { label: 'Proyectos', href: '/work' },
@@ -21,6 +23,7 @@ export function Navbar() {
   const menuRef = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const { isVisible, isAtTop } = useNavbarBehavior();
+  const { transitionTo } = usePageTransition();
 
   // Animar visibilidad con GSAP en scroll
   useGSAP(
@@ -66,15 +69,29 @@ export function Navbar() {
     { dependencies: [menuOpen] }
   );
 
-  // Lock scroll del body cuando menu abierto (side-effect, no GSAP → useEffect OK)
+  // Lock scroll cuando menu abierto — lenis.stop/start + overflow fallback
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? 'hidden' : '';
+    if (menuOpen) {
+      document.body.style.overflow = 'hidden';
+      lenis?.stop();
+    } else {
+      document.body.style.overflow = '';
+      lenis?.start();
+    }
     return () => {
       document.body.style.overflow = '';
+      lenis?.start();
     };
   }, [menuOpen]);
 
   const closeMenu = () => setMenuOpen(false);
+
+  const handleNavClick = (e, href) => {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    closeMenu();
+    transitionTo(href);
+  };
 
   return (
     <>
@@ -101,9 +118,9 @@ export function Navbar() {
         }}
       >
         {/* Brand */}
-        <Link
-          to="/"
-          onClick={closeMenu}
+        <a
+          href="/"
+          onClick={(e) => handleNavClick(e, '/')}
           aria-label="Inicio — Leandro De Los Santos Aboy"
           style={{
             fontFamily: 'var(--font-mono)',
@@ -118,7 +135,7 @@ export function Navbar() {
           }}
         >
           LDS
-        </Link>
+        </a>
 
         {/* Nav links — desktop (ocultos en mobile via .nav__links CSS) */}
         <nav aria-label="Navegación principal" className="nav__links">
@@ -136,6 +153,7 @@ export function Navbar() {
               <li key={href}>
                 <NavLink
                   to={href}
+                  onClick={(e) => handleNavClick(e, href)}
                   style={({ isActive }) => ({
                     fontFamily: 'var(--font-ui)',
                     fontSize: 'var(--type-label)',
@@ -244,7 +262,7 @@ export function Navbar() {
             >
               <NavLink
                 to={href}
-                onClick={closeMenu}
+                onClick={(e) => handleNavClick(e, href)}
                 style={({ isActive }) => ({
                   fontFamily: 'var(--font-display)',
                   fontSize: 'clamp(32px, 9vw, 64px)',

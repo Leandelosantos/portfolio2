@@ -3,7 +3,7 @@
 // Animaciones gestionadas por el padre (SelectedWork / WorkList)
 // buenas-practicas: solo presentación — sin lógica GSAP aquí
 
-import { Link } from 'react-router-dom';
+import { TransitionLink } from './TransitionLink';
 
 export function ProjectRow({ project, index, onMouseEnter, onMouseLeave }) {
   const indexStr = String(index + 1).padStart(2, '0');
@@ -24,7 +24,7 @@ export function ProjectRow({ project, index, onMouseEnter, onMouseLeave }) {
         }}
       />
 
-      <Link
+      <TransitionLink
         to={`/work/${project.id}`}
         className="project-row__link"
         style={{
@@ -117,7 +117,7 @@ export function ProjectRow({ project, index, onMouseEnter, onMouseLeave }) {
             </span>
           ))}
         </div>
-      </Link>
+      </TransitionLink>
     </article>
   );
 }
