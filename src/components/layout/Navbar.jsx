@@ -117,7 +117,7 @@ export function Navbar() {
           willChange: 'transform',
         }}
       >
-        {/* Brand */}
+        {/* Brand — LDS: caja 1px estilo estudio, tamaño original */}
         <a
           href="/"
           onClick={(e) => handleNavClick(e, '/')}
@@ -128,10 +128,22 @@ export function Navbar() {
             fontWeight: 500,
             color: 'var(--color-text-primary)',
             textDecoration: 'none',
-            letterSpacing: 'var(--ls-mono)',
+            letterSpacing: '0.22em',
             textTransform: 'uppercase',
             position: 'relative',
             zIndex: 1001,
+            lineHeight: 1,
+            padding: '5px 9px',
+            border: '1px solid rgba(255,255,255,0.28)',
+            transition: 'border-color 0.3s ease, color 0.3s ease',
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.borderColor = 'rgba(200,240,77,0.55)';
+            e.currentTarget.style.color = 'var(--color-accent-hot)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.28)';
+            e.currentTarget.style.color = 'var(--color-text-primary)';
           }}
         >
           LDS

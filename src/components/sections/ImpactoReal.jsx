@@ -13,15 +13,15 @@ const SERVICES = [
     number: '01',
     title: 'Ingeniería Web',
     description:
-      'Aplicaciones React con performance real. Code splitting, animaciones GSAP y arquitectura escalable que resiste el tiempo.',
+      'Aplicaciones React con performance real. Arquitectura escalable que resiste el tiempo. SaaS personalizados hasta en el mas minimo detalle del cliente.',
     tags: ['React', 'GSAP', 'Vite'],
   },
   {
     id: 'sistemas-diseno',
     number: '02',
-    title: 'Sistemas de Diseño',
+    title: 'Diseño que impacta',
     description:
-      'Tokens, componentes y documentación. Del Figma al código sin fricción ni deuda técnica acumulada.',
+      'El diseño no es decoración, es el primer argumento de venta del producto. Lo primero que se ve, lo último que se olvida',
     tags: ['Figma', 'CSS Variables', 'MUI'],
   },
   {

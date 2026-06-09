@@ -31,10 +31,10 @@ export function HeroObject() {
         wireframe: true para estética editorial/técnica.
       */}
       <meshBasicMaterial
-        color="#8A8680"
+        color="#C8F04D"
         wireframe
         transparent
-        opacity={0.35}
+        opacity={0.12}
       />
     </mesh>
   );
