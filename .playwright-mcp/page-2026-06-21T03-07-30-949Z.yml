@@ -1,0 +1,128 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "000"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - navigation "Navegación principal" [ref=e10]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Proyectos" [ref=e13]:
+            - /url: /work
+        - listitem [ref=e14]:
+          - link "IA" [ref=e15]:
+            - /url: /ia
+        - listitem [ref=e16]:
+          - link "Exhibiciones" [ref=e17]:
+            - /url: /exhibiciones
+        - listitem [ref=e18]:
+          - link "Sobre mí" [ref=e19]:
+            - /url: /sobre-mi
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /exhibiciones
+          - text: Exhibiciones
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - heading "Proyectos" [level=1] [ref=e22]
+      - navigation "Filtrar proyectos" [ref=e23]:
+        - button "All" [pressed] [ref=e24]
+        - button "Web" [ref=e25]
+        - button "Development" [ref=e26]
+        - button "Design" [ref=e27]
+        - button "3D" [ref=e28]
+        - button "AI" [ref=e29]
+    - generic [ref=e30]:
+      - 'link "Ver caso de estudio: Huevos Point" [ref=e32]':
+        - /url: /work/huevos-point
+        - generic [ref=e36]:
+          - text: Web
+          - heading "Huevos Point" [level=3] [ref=e37]
+          - paragraph [ref=e38]: Sitio web a medida con identidad visual propia, animaciones GSAP y un elemento 3D (Three.js) para darle al negocio una presencia digital distintiva y profesional, en lugar de una landing genérica de plantilla.
+      - 'link "Ver caso de estudio: DiamondRose Sanctuary" [ref=e40]':
+        - /url: /work/diamondrose-sanctuary
+        - generic [ref=e43]:
+          - text: Web
+          - heading "DiamondRose Sanctuary" [level=3] [ref=e44]
+          - paragraph [ref=e45]: Placeholder — solución implementada.
+      - 'link "Ver caso de estudio: Vital Stats App" [ref=e47]':
+        - /url: /work/vital-stats-app
+        - generic [ref=e50]:
+          - text: Development
+          - heading "Vital Stats App" [level=3] [ref=e51]
+          - paragraph [ref=e52]: Placeholder — solución implementada.
+      - 'link "Ver caso de estudio: Sistema de Diseño" [ref=e54]':
+        - /url: /work/sistema-de-diseno
+        - generic [ref=e57]:
+          - text: Design
+          - heading "Sistema de Diseño" [level=3] [ref=e58]
+          - paragraph [ref=e59]: Tokens & Componentes — sistema escalable.
+      - 'link "Ver caso de estudio: Bold Flavor" [ref=e61]':
+        - /url: /work/bold-flavor
+        - generic [ref=e64]:
+          - text: Web
+          - heading "Bold Flavor" [level=3] [ref=e65]
+          - paragraph [ref=e66]: E-commerce backend con gestión de inventario.
+      - 'link "Ver caso de estudio: Semantic Search Engine" [ref=e68]':
+        - /url: /work/semantic-search-engine
+        - generic [ref=e71]:
+          - text: Development
+          - heading "Semantic Search Engine" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Motor de búsqueda contextual con embeddings vectoriales y Claude 3 Haiku.
+      - 'link "Ver caso de estudio: Autonomous Code Reviewer" [ref=e75]':
+        - /url: /work/autonomous-code-reviewer
+        - generic [ref=e78]:
+          - text: Development
+          - heading "Autonomous Code Reviewer" [level=3] [ref=e79]
+          - paragraph [ref=e80]: Sistema automatizado en CI/CD que analiza PRs e identifica vulnerabilidades lógicas.
+  - contentinfo [ref=e81]:
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - paragraph [ref=e84]: Leandro De Los Santos Aboy
+        - paragraph [ref=e85]: Software Developer & Project Manager
+      - 'generic "Hora local: 00:07 ART" [ref=e86]':
+        - generic [ref=e87]: HORA LOCAL
+        - time [ref=e88]: 00:07 ART
+    - generic [ref=e89]:
+      - navigation "Navegación footer" [ref=e90]:
+        - list [ref=e91]:
+          - listitem [ref=e92]:
+            - link "Proyectos" [ref=e93]:
+              - /url: /work
+          - listitem [ref=e94]:
+            - link "IA" [ref=e95]:
+              - /url: /ia
+          - listitem [ref=e96]:
+            - link "Sobre mí" [ref=e97]:
+              - /url: /sobre-mi
+      - generic [ref=e98]:
+        - link "GitHub — abre en nueva pestaña" [ref=e99]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e100]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e101]: © 2026

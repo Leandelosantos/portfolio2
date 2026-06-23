@@ -1,0 +1,28 @@
+# Graphify ignore — portfolio2.0
+# Excluir todo lo que no es código/docs del proyecto real
+
+# Dependencias y build
+node_modules/
+dist/
+
+# Git internals
+.git/
+
+# El grafo mismo (evita recursión)
+graphify-out/
+
+# Skill libs vendored — ~230 archivos, ruído puro para este proyecto
+.claude/skills/
+.agents/skills/
+
+# Cache live de impeccable
+.impeccable/
+
+# Archivos sensibles
+.env
+.env.*
+.env.local
+.env.production
+
+# Assets estáticos sin semántica de código
+public/

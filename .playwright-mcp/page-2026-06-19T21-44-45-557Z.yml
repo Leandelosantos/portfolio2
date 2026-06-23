@@ -1,0 +1,75 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "000"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - navigation "Navegación principal" [ref=e10]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Proyectos" [ref=e13]:
+            - /url: /work
+        - listitem [ref=e14]:
+          - link "IA" [ref=e15]:
+            - /url: /ia
+        - listitem [ref=e16]:
+          - link "Exhibiciones" [ref=e17]:
+            - /url: /exhibiciones
+        - listitem [ref=e18]:
+          - link "Sobre mí" [ref=e19]:
+            - /url: /sobre-mi
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /exhibiciones
+          - text: Exhibiciones
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - contentinfo [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Leandro De Los Santos Aboy
+        - paragraph [ref=e24]: Software Developer & Project Manager
+      - 'generic "Hora local: 18:44 ART" [ref=e25]':
+        - generic [ref=e26]: HORA LOCAL
+        - time [ref=e27]: 18:44 ART
+    - generic [ref=e28]:
+      - navigation "Navegación footer" [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Proyectos" [ref=e32]:
+              - /url: /work
+          - listitem [ref=e33]:
+            - link "IA" [ref=e34]:
+              - /url: /ia
+          - listitem [ref=e35]:
+            - link "Sobre mí" [ref=e36]:
+              - /url: /sobre-mi
+      - generic [ref=e37]:
+        - link "GitHub — abre en nueva pestaña" [ref=e38]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e39]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e40]: © 2026

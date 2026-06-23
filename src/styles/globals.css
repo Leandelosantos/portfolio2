@@ -178,13 +178,40 @@ html.lenis body {
   .nav__burger { display: flex !important; }
 }
 
-/* ProjectRow: ocultar año y tags en mobile — solo índice + título */
+/* ── ProjectBentoCard — Home + /work (rediseño bento) ──── */
+.bento-card__media-img,
+.bento-card__media-video {
+  transition: transform 0.5s ease;
+}
+.bento-card__media-video {
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.5s ease;
+}
+.bento-card__desc {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.bento-card:hover .bento-card__media-img,
+.bento-card:focus-visible .bento-card__media-img,
+.bento-card:hover .bento-card__media-video,
+.bento-card:focus-visible .bento-card__media-video {
+  transform: scale(1.04);
+}
+.bento-card:hover .bento-card__media-video,
+.bento-card:focus-visible .bento-card__media-video {
+  opacity: 1;
+}
+.bento-card:hover .bento-card__desc,
+.bento-card:focus-visible .bento-card__desc {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mobile: sin hover real — la descripción queda siempre visible */
 @media (max-width: 767px) {
-  .project-row__link {
-    grid-template-columns: 3rem 1fr !important;
-    gap: 1rem !important;
-  }
-  .project-row__meta {
-    display: none !important;
+  .bento-card__desc {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }

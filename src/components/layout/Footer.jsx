@@ -37,7 +37,7 @@ export function Footer() {
     <footer
       style={{
         borderTop: '1px solid var(--color-border)',
-        padding: 'clamp(48px, 8vw, 120px) clamp(24px, 6vw, 80px) clamp(32px, 4vw, 48px)',
+        padding: 'clamp(48px, 8vw, 120px) clamp(14.4px, 3.6vw, 48px) clamp(32px, 4vw, 48px)',
         backgroundColor: 'var(--color-bg)',
       }}
     >

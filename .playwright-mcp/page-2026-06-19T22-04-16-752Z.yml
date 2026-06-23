@@ -1,0 +1,104 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "001"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - button "Abrir menú" [ref=e10]
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /exhibiciones
+          - text: Exhibiciones
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - heading "Proyectos" [level=1] [ref=e16]
+      - navigation "Filtrar proyectos" [ref=e17]:
+        - button "All" [pressed] [ref=e18]
+        - button "Web" [ref=e19]
+        - button "Development" [ref=e20]
+        - button "Design" [ref=e21]
+        - button "3D" [ref=e22]
+        - button "AI" [ref=e23]
+    - generic [ref=e24]:
+      - 'button "Ver caso de estudio: Huevos Point" [ref=e26]':
+        - generic [ref=e29]:
+          - generic [ref=e30]: Huevos Point
+          - generic [ref=e31]: —
+      - 'button "Ver caso de estudio: DiamondRose Sanctuary" [ref=e33]':
+        - generic [ref=e36]:
+          - generic [ref=e37]: DiamondRose Sanctuary
+          - generic [ref=e38]: "2024"
+      - 'button "Ver caso de estudio: Vital Stats App" [ref=e40]':
+        - generic [ref=e43]:
+          - generic [ref=e44]: Vital Stats App
+          - generic [ref=e45]: "2024"
+      - 'button "Ver caso de estudio: Sistema de Diseño" [ref=e47]':
+        - generic [ref=e50]:
+          - generic [ref=e51]: Sistema de Diseño
+          - generic [ref=e52]: "2024"
+      - 'button "Ver caso de estudio: Bold Flavor" [ref=e54]':
+        - generic [ref=e57]:
+          - generic [ref=e58]: Bold Flavor
+          - generic [ref=e59]: "2024"
+      - 'button "Ver caso de estudio: Semantic Search Engine" [ref=e61]':
+        - generic [ref=e64]:
+          - generic [ref=e65]: Semantic Search Engine
+          - generic [ref=e66]: "2024"
+      - 'button "Ver caso de estudio: Autonomous Code Reviewer" [ref=e68]':
+        - generic [ref=e71]:
+          - generic [ref=e72]: Autonomous Code Reviewer
+          - generic [ref=e73]: "2024"
+  - contentinfo [ref=e74]:
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - paragraph [ref=e77]: Leandro De Los Santos Aboy
+        - paragraph [ref=e78]: Software Developer & Project Manager
+      - 'generic "Hora local: 19:04 ART" [ref=e79]':
+        - generic [ref=e80]: HORA LOCAL
+        - time [ref=e81]: 19:04 ART
+    - generic [ref=e82]:
+      - navigation "Navegación footer" [ref=e83]:
+        - list [ref=e84]:
+          - listitem [ref=e85]:
+            - link "Proyectos" [ref=e86]:
+              - /url: /work
+          - listitem [ref=e87]:
+            - link "IA" [ref=e88]:
+              - /url: /ia
+          - listitem [ref=e89]:
+            - link "Sobre mí" [ref=e90]:
+              - /url: /sobre-mi
+      - generic [ref=e91]:
+        - link "GitHub — abre en nueva pestaña" [ref=e92]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e93]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e94]: © 2026
+  - link "Escribir por WhatsApp" [ref=e95]:
+    - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+    - img [ref=e96]

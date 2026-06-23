@@ -3,42 +3,42 @@
 // GSAP: stagger reveal al entrar en viewport
 // buenas-practicas §3: useGSAP, solo transform + opacity
 
-import { useRef } from 'react';
-import { useGSAP } from '@gsap/react';
-import { gsap } from 'gsap';
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
 
 const SERVICES = [
   {
-    id: 'ingenieria-web',
-    number: '01',
-    title: 'Ingeniería Web',
+    id: "ingenieria-web",
+    number: "01",
+    title: "Ingeniería Web",
     description:
-      'Aplicaciones React con performance real. Arquitectura escalable que resiste el tiempo. SaaS personalizados hasta en el mas minimo detalle del cliente.',
-    tags: ['React', 'GSAP', 'Vite'],
+      "Aplicaciones React con performance real. Arquitectura escalable que resiste el tiempo. SaaS personalizados hasta en el mas minimo detalle del cliente.",
+    tags: ["React", "GSAP", "Vite"],
   },
   {
-    id: 'sistemas-diseno',
-    number: '02',
-    title: 'Diseño que impacta',
+    id: "sistemas-diseno",
+    number: "02",
+    title: "Diseño que impacta",
     description:
-      'El diseño no es decoración, es el primer argumento de venta del producto. Lo primero que se ve, lo último que se olvida',
-    tags: ['Figma', 'CSS Variables', 'MUI'],
+      "El diseño no es decoración, es el primer argumento de venta del producto. Lo primero que se ve, lo último que se olvida",
+    tags: ["Figma", "CSS Variables", "MUI"],
   },
   {
-    id: 'experiencias-3d',
-    number: '03',
-    title: 'Experiencias 3D',
+    id: "experiencias-3d",
+    number: "03",
+    title: "Experiencias 3D",
     description:
-      'WebGL con Three.js y React Three Fiber. Escenas interactivas que convierten visitantes en clientes.',
-    tags: ['Three.js', 'R3F', 'WebGL'],
+      "WebGL con Three.js y React Three Fiber. Escenas interactivas que convierten visitantes en clientes.",
+    tags: ["Three.js", "R3F", "WebGL"],
   },
   {
-    id: 'optimizacion-ia',
-    number: '04',
-    title: 'Optimización IA',
+    id: "optimizacion-ia",
+    number: "04",
+    title: "Optimización IA",
     description:
-      'Integración de LLMs en flujos de trabajo. Búsqueda semántica, revisión autónoma de código y automatización de decisiones.',
-    tags: ['Claude API', 'Python', 'CI/CD'],
+      "Integración de LLMs en flujos de trabajo. Búsqueda semántica, revisión autónoma de código y automatización de decisiones.",
+    tags: ["Claude API", "Python", "CI/CD"],
   },
 ];
 
@@ -47,32 +47,32 @@ export function ImpactoReal() {
 
   useGSAP(
     () => {
-      gsap.from('.impacto__headline', {
+      gsap.from(".impacto__headline", {
         opacity: 0,
         y: 32,
         duration: 0.7,
-        ease: 'power3.out',
+        ease: "power3.out",
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: 'top 80%',
+          start: "top 80%",
           once: true,
         },
       });
 
-      gsap.from('.impacto__tile', {
+      gsap.from(".impacto__tile", {
         opacity: 0,
         y: 40,
         duration: 0.7,
-        ease: 'power3.out',
+        ease: "power3.out",
         stagger: 0.12,
         scrollTrigger: {
-          trigger: '.impacto__grid',
-          start: 'top 78%',
+          trigger: ".impacto__grid",
+          start: "top 78%",
           once: true,
         },
       });
     },
-    { scope: sectionRef }
+    { scope: sectionRef },
   );
 
   return (
@@ -80,28 +80,28 @@ export function ImpactoReal() {
       ref={sectionRef}
       aria-label="Servicios — Impacto Real"
       style={{
-        padding: 'clamp(80px, 12vh, 140px) clamp(24px, 6vw, 80px)',
-        backgroundColor: 'var(--color-bg-subtle)',
+        padding: "clamp(80px, 12vh, 140px) clamp(14.4px, 3.6vw, 48px)",
+        backgroundColor: "var(--color-bg-subtle)",
       }}
     >
       {/* Encabezado */}
       <div
         className="impacto__headline"
         style={{
-          marginBottom: 'clamp(3rem, 6vh, 5rem)',
-          display: 'flex',
-          alignItems: 'flex-end',
-          justifyContent: 'space-between',
-          flexWrap: 'wrap',
-          gap: '1rem',
+          marginBottom: "clamp(3rem, 6vh, 5rem)",
+          display: "flex",
+          alignItems: "flex-end",
+          justifyContent: "space-between",
+          flexWrap: "wrap",
+          gap: "1rem",
         }}
       >
         <h2
           style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'var(--type-headline)',
+            fontFamily: "var(--font-display)",
+            fontSize: "var(--type-display)",
             fontWeight: 700,
-            color: 'var(--color-text-primary)',
+            color: "var(--color-text-primary)",
             margin: 0,
             lineHeight: 1.1,
           }}
@@ -110,14 +110,14 @@ export function ImpactoReal() {
         </h2>
         <p
           style={{
-            fontFamily: 'var(--font-ui)',
-            fontSize: 'var(--type-body)',
+            fontFamily: "var(--font-ui)",
+            fontSize: "var(--type-body)",
             fontWeight: 300,
-            color: 'var(--color-text-secondary)',
+            color: "var(--color-text-secondary)",
             margin: 0,
-            maxWidth: '36ch',
+            maxWidth: "36ch",
             lineHeight: 1.6,
-            textAlign: 'right',
+            textAlign: "right",
           }}
         >
           Disciplinas que convergen en resultados medibles para cada proyecto.
@@ -128,10 +128,11 @@ export function ImpactoReal() {
       <div
         className="impacto__grid"
         style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))',
-          gap: '1px',
-          backgroundColor: 'var(--color-border)',
+          display: "grid",
+          gridTemplateColumns:
+            "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
+          gap: "1px",
+          backgroundColor: "var(--color-border)",
         }}
       >
         {SERVICES.map((service) => (
@@ -147,26 +148,26 @@ function ServiceTile({ service }) {
     <div
       className="impacto__tile"
       style={{
-        backgroundColor: 'var(--color-bg-subtle)',
-        padding: 'clamp(2rem, 4vw, 3rem)',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '1.5rem',
-        transition: 'background-color 0.3s ease',
+        backgroundColor: "var(--color-bg-subtle)",
+        padding: "clamp(2rem, 4vw, 3rem)",
+        display: "flex",
+        flexDirection: "column",
+        gap: "1.5rem",
+        transition: "background-color 0.3s ease",
       }}
       onMouseEnter={(e) =>
-        (e.currentTarget.style.backgroundColor = 'var(--color-bg-elevated)')
+        (e.currentTarget.style.backgroundColor = "var(--color-bg-elevated)")
       }
       onMouseLeave={(e) =>
-        (e.currentTarget.style.backgroundColor = 'var(--color-bg-subtle)')
+        (e.currentTarget.style.backgroundColor = "var(--color-bg-subtle)")
       }
     >
       <span
         style={{
-          fontFamily: 'var(--font-mono)',
-          fontSize: 'var(--type-mono)',
-          color: 'var(--color-accent-hot)',
-          letterSpacing: 'var(--ls-mono)',
+          fontFamily: "var(--font-mono)",
+          fontSize: "var(--type-mono)",
+          color: "var(--color-accent-hot)",
+          letterSpacing: "var(--ls-mono)",
         }}
       >
         {service.number}
@@ -174,10 +175,10 @@ function ServiceTile({ service }) {
 
       <h3
         style={{
-          fontFamily: 'var(--font-display)',
-          fontSize: 'var(--type-project)',
+          fontFamily: "var(--font-display)",
+          fontSize: "var(--type-project)",
           fontWeight: 700,
-          color: 'var(--color-text-primary)',
+          color: "var(--color-text-primary)",
           margin: 0,
           lineHeight: 1.2,
         }}
@@ -187,10 +188,10 @@ function ServiceTile({ service }) {
 
       <p
         style={{
-          fontFamily: 'var(--font-ui)',
-          fontSize: 'var(--type-body)',
+          fontFamily: "var(--font-ui)",
+          fontSize: "var(--type-body)",
           fontWeight: 300,
-          color: 'var(--color-text-secondary)',
+          color: "var(--color-text-secondary)",
           margin: 0,
           lineHeight: 1.7,
           flex: 1,
@@ -199,18 +200,18 @@ function ServiceTile({ service }) {
         {service.description}
       </p>
 
-      <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
+      <div style={{ display: "flex", gap: "0.4rem", flexWrap: "wrap" }}>
         {service.tags.map((tag) => (
           <span
             key={tag}
             style={{
-              fontFamily: 'var(--font-mono)',
-              fontSize: '11px',
-              color: 'var(--color-accent-hot)',
-              letterSpacing: 'var(--ls-mono)',
-              textTransform: 'uppercase',
-              border: '1px solid var(--color-accent-hot)',
-              padding: '2px 8px',
+              fontFamily: "var(--font-mono)",
+              fontSize: "11px",
+              color: "var(--color-accent-hot)",
+              letterSpacing: "var(--ls-mono)",
+              textTransform: "uppercase",
+              border: "1px solid var(--color-accent-hot)",
+              padding: "2px 8px",
             }}
           >
             {tag}

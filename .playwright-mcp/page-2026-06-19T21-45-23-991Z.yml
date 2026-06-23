@@ -1,0 +1,101 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "100"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - navigation "Navegación principal" [ref=e10]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Proyectos" [ref=e13]:
+            - /url: /work
+        - listitem [ref=e14]:
+          - link "IA" [ref=e15]:
+            - /url: /ia
+        - listitem [ref=e16]:
+          - link "Exhibiciones" [ref=e17]:
+            - /url: /exhibiciones
+        - listitem [ref=e18]:
+          - link "Sobre mí" [ref=e19]:
+            - /url: /sobre-mi
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /exhibiciones
+          - text: Exhibiciones
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - main [ref=e91]:
+    - link "← Volver a proyectos" [ref=e92]:
+      - /url: /work
+    - generic [ref=e93]:
+      - heading "Huevos Point" [level=1] [ref=e94]
+      - paragraph [ref=e95]: Huevos Point · Diseño & Desarrollo Full-Stack
+    - generic [ref=e97]:
+      - generic [ref=e98]: Contexto
+      - paragraph [ref=e99]: Negocio de venta de huevos sin presencia digital — operaba de forma local, sin canal online para mostrar catálogo, horarios o generar contacto con nuevos clientes.
+    - generic [ref=e100]:
+      - generic [ref=e101]: Problema
+      - paragraph [ref=e102]: Sin sitio web, el negocio dependía exclusivamente del boca en boca y no tenía forma de transmitir profesionalismo ni diferenciarse frente a otros proveedores con presencia genérica o nula en internet.
+    - generic [ref=e103]:
+      - generic [ref=e104]: Solución
+      - paragraph [ref=e105]: Sitio web a medida con identidad visual propia, animaciones GSAP y un elemento 3D (Three.js) para darle al negocio una presencia digital distintiva y profesional, en lugar de una landing genérica de plantilla.
+    - generic [ref=e106]:
+      - generic [ref=e107]: Resultados
+      - list [ref=e108]:
+        - listitem [ref=e109]: Presencia digital profesional con identidad de marca propia
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]: React
+        - generic [ref=e113]: GSAP
+        - generic [ref=e114]: Three.js
+      - link "Visitar sitio →" [ref=e115]:
+        - /url: https://huevos-point-web.vercel.app/
+  - contentinfo [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Leandro De Los Santos Aboy
+        - paragraph [ref=e24]: Software Developer & Project Manager
+      - 'generic "Hora local: 18:44 ART" [ref=e25]':
+        - generic [ref=e26]: HORA LOCAL
+        - time [ref=e27]: 18:44 ART
+    - generic [ref=e28]:
+      - navigation "Navegación footer" [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Proyectos" [ref=e32]:
+              - /url: /work
+          - listitem [ref=e33]:
+            - link "IA" [ref=e34]:
+              - /url: /ia
+          - listitem [ref=e35]:
+            - link "Sobre mí" [ref=e36]:
+              - /url: /sobre-mi
+      - generic [ref=e37]:
+        - link "GitHub — abre en nueva pestaña" [ref=e38]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e39]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e40]: © 2026

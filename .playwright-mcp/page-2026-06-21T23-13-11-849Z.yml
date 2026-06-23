@@ -1,0 +1,118 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "000"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - button "Abrir menú" [ref=e10]
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /exhibiciones
+          - text: Exhibiciones
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - heading "Proyectos" [level=1] [ref=e16]
+      - navigation "Filtrar proyectos" [ref=e17]:
+        - button "All" [pressed] [ref=e18]
+        - button "Web" [ref=e19]
+        - button "Development" [ref=e20]
+        - button "Design" [ref=e21]
+        - button "3D" [ref=e22]
+        - button "AI" [ref=e23]
+    - generic [ref=e24]:
+      - 'link "Ver caso de estudio: Huevos Point" [ref=e26]':
+        - /url: /work/huevos-point
+        - generic [ref=e30]:
+          - text: Web
+          - heading "Huevos Point" [level=3] [ref=e31]
+          - paragraph [ref=e32]: Sitio web a medida con identidad visual propia, animaciones GSAP y un elemento 3D (Three.js) para darle al negocio una presencia digital distintiva y profesional, en lugar de una landing genérica de plantilla.
+      - 'link "Ver caso de estudio: Sistema Huevos Point ERP-SaaS" [ref=e34]':
+        - /url: /work/huevos-point-erp
+        - generic [ref=e38]:
+          - text: Web
+          - heading "Sistema Huevos Point ERP-SaaS" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Sistema POS web multi-tenant con ventas, stock, egresos y métricas en tiempo real desde un único panel, con cobros integrados vía MercadoPago Point.
+      - 'link "Ver caso de estudio: Cecilia Brook" [ref=e42]':
+        - /url: /work/cecilia-brook
+        - generic [ref=e46]:
+          - text: Web
+          - heading "Cecilia Brook" [level=3] [ref=e47]
+          - paragraph [ref=e48]: Sitio a medida en Next.js con animaciones GSAP scroll-driven y elementos 3D en Three.js, llevando la experiencia digital al mismo nivel artístico que su obra.
+      - 'link "Ver caso de estudio: Sistema de Diseño" [ref=e50]':
+        - /url: /work/sistema-de-diseno
+        - generic [ref=e53]:
+          - text: Design
+          - heading "Sistema de Diseño" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Tokens & Componentes — sistema escalable.
+      - 'link "Ver caso de estudio: Bold Flavor" [ref=e57]':
+        - /url: /work/bold-flavor
+        - generic [ref=e60]:
+          - text: Web
+          - heading "Bold Flavor" [level=3] [ref=e61]
+          - paragraph [ref=e62]: E-commerce backend con gestión de inventario.
+      - 'link "Ver caso de estudio: Semantic Search Engine" [ref=e64]':
+        - /url: /work/semantic-search-engine
+        - generic [ref=e67]:
+          - text: Development
+          - heading "Semantic Search Engine" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Motor de búsqueda contextual con embeddings vectoriales y Claude 3 Haiku.
+      - 'link "Ver caso de estudio: Autonomous Code Reviewer" [ref=e71]':
+        - /url: /work/autonomous-code-reviewer
+        - generic [ref=e74]:
+          - text: Development
+          - heading "Autonomous Code Reviewer" [level=3] [ref=e75]
+          - paragraph [ref=e76]: Sistema automatizado en CI/CD que analiza PRs e identifica vulnerabilidades lógicas.
+  - contentinfo [ref=e77]:
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - paragraph [ref=e80]: Leandro De Los Santos Aboy
+        - paragraph [ref=e81]: Software Developer & Project Manager
+      - 'generic "Hora local: 20:13 ART" [ref=e82]':
+        - generic [ref=e83]: HORA LOCAL
+        - time [ref=e84]: 20:13 ART
+    - generic [ref=e85]:
+      - navigation "Navegación footer" [ref=e86]:
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - link "Proyectos" [ref=e89]:
+              - /url: /work
+          - listitem [ref=e90]:
+            - link "IA" [ref=e91]:
+              - /url: /ia
+          - listitem [ref=e92]:
+            - link "Sobre mí" [ref=e93]:
+              - /url: /sobre-mi
+      - generic [ref=e94]:
+        - link "GitHub — abre en nueva pestaña" [ref=e95]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e96]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e97]: © 2026
+  - link "Escribir por WhatsApp" [ref=e98]:
+    - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+    - img [ref=e99]

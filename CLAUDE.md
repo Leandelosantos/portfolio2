@@ -1,5 +1,6 @@
 # CLAUDE.md — Portfolio Personal
 > Fuente de verdad operativa para este proyecto. Leer completo antes de ejecutar cualquier acción.
+> Instalación de skills + rationale histórico → `SKILLS_SETUP.md` (no cargar salvo reinstalar/entender el por qué).
 
 ---
 
@@ -15,32 +16,20 @@
 
 ---
 
-## 2. Recursos de diseño
+## 2. Figma MCP — proyecto "portfolio2.0"
 
-### Figma MCP — proyecto "portfolio2.0"
-
-**Instalación:**
-```bash
-claude plugin install figma@claude-plugins-official
-# Luego en Claude Code — autenticación manual obligatoria:
-/mcp → seleccionar "figma" → Authenticate → Allow Access (browser)
-```
-
-**Qué provee:** acceso directo a componentes, variables de diseño, layout, tokens visuales y specs del proyecto Figma "portfolio2.0". Claude Code puede leer el diseño sin necesidad de describírselo.
+**Qué provee:** acceso directo a componentes, variables de diseño, layout, tokens visuales y specs del proyecto Figma "portfolio2.0".
 
 **Cuándo usar:**
 | Momento | Acción |
 |---|---|
-| PROMPT_01 (planificación) | Leer "portfolio2.0" para comparar diseño vs SRS_portfolio.md — identificar divergencias antes de planificar |
-| Paso 3b (personalizar skills) | Extraer tokens reales de Figma para personalizar skills con valores exactos del diseño |
-| Fase 2 (base visual) | Referencia visual para globals.css y muiTheme.js |
-| Fase 5 (secciones) | Referencia por componente — leer frame específico antes de implementar |
+| Planificación | Leer "portfolio2.0" para comparar diseño vs SRS_portfolio.md — identificar divergencias antes de planificar |
+| Personalizar skills | Extraer tokens reales de Figma para personalizar skills con valores exactos del diseño |
+| Base visual | Referencia visual para globals.css y muiTheme.js |
+| Secciones | Referencia por componente — leer frame específico antes de implementar |
 | Antes de `/impeccable audit` | Comparar implementación vs diseño original |
 
-**Comando de integración con Impeccable:**
-```
-/impeccable distill   → extrae el design system del proyecto Figma activo
-```
+`/impeccable distill` → extrae el design system del proyecto Figma activo.
 
 **Regla:** Ante divergencia entre Figma y SRS_portfolio.md → pausar y consultar. No asumir cuál es la versión correcta.
 
@@ -57,103 +46,32 @@ API compatible: `new SplitType('.selector', { types: 'chars,words' })` → `.cha
 
 ---
 
-## 4. Skills instaladas
+## 4. Skills instaladas — triggers activos
 
-### 3.1 freshtechbro/claudedesignskills
-
-Instalación:
-```bash
-/plugin marketplace add freshtechbro/claudedesignskills
-/plugin install threejs-webgl
-/plugin install gsap-scrolltrigger
-/plugin install react-three-fiber
-```
-
----
-
-#### `threejs-webgl`
-**Qué hace:** Conocimiento profundo de Three.js r165 + WebGL — geometrías, materiales, shaders, BufferGeometry, instancing, post-processing, performance budgets.
-
-**Cuándo activar:**
-- Todo archivo dentro de `src/components/three/`
-- Partículas hero (`ParticleField.jsx`)
-- Objeto 3D central (`HeroObject.jsx`)
-- Transición page wipe (`PageTransition.jsx`)
-- Cualquier shader custom (fragment/vertex)
-
-**Cómo usar:** Activación automática al tocar archivos Three.js. Si no activa, invocar: "Usa la skill threejs-webgl para esta tarea."
-
-**Por qué:** `webgpu-claude-skill` original es para WebGPU — este proyecto usa WebGL (Three.js r165). Esta skill tiene contexto específico de WebGL, performance budgets y patterns R3F.
-
+### `threejs-webgl`
+**Cuándo activar:** todo archivo en `src/components/three/`, partículas hero, objeto 3D central, transición page wipe, cualquier shader custom.
 **Reglas del SRS a respetar siempre:**
 - `renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5))` — siempre
-- Máx. 50k tris en escena hero
-- Máx. 10 draw calls/frame
+- Máx. 50k tris en escena hero | Máx. 10 draw calls/frame
 - Three.js: siempre lazy load vía `React.lazy()`
 - `<Canvas dpr={[1, 1.5]} gl={{ antialias: false }}>` en hero
 
----
-
-#### `gsap-scrolltrigger`
-**Qué hace:** GSAP 3.12 completo — timelines, tweens, ScrollTrigger, Flip, TextPlugin. Patterns de scroll-driven animation, pinning, scrubbing, parallax.
-
-**Cuándo activar:**
-- Loader sequence (`main.jsx` / `Loader` component)
-- Hero parallax y SplitType reveal
-- Scroll animations de todas las secciones (Work rows, About, Contact)
-- Custom cursor (`CustomCursor.jsx`)
-- Navbar hide-on-scroll
-- Magnetic buttons, card hovers
-- Cualquier archivo que use `gsap.*` o `ScrollTrigger.*`
-
-**Cómo usar:** Activación automática. Siempre combinar con `react-three-fiber` skill para animaciones que afecten la escena 3D.
-
-**Por qué:** Mismo ecosistema que `threejs-webgl` — documentación de integración entre ambas skills. La skill de greensock/gsap-skills tiene estructura diferente, no compatible con este marketplace.
-
+### `gsap-scrolltrigger`
+**Cuándo activar:** loader sequence, hero parallax/SplitType reveal, scroll animations de secciones, custom cursor, navbar hide-on-scroll, magnetic buttons, cualquier archivo con `gsap.*`/`ScrollTrigger.*`. Combinar siempre con `react-three-fiber` si afecta la escena 3D.
 **Reglas del SRS a respetar siempre:**
-- NUNCA usar `useEffect` directo para GSAP — SIEMPRE `useGSAP` hook de `@gsap/react`
+- NUNCA `useEffect` directo para GSAP — SIEMPRE `useGSAP` hook de `@gsap/react`
 - `gsap.registerPlugin(ScrollTrigger, Flip, TextPlugin)` en `main.jsx` — una sola vez
 - `ScrollTrigger.config({ limitCallbacks: true, ignoreMobileResize: true })` — global
-- Animar SOLO: `transform` (x, y, scale, rotation), `opacity`
-- NUNCA animar: `width`, `height`, `top`, `left`, `margin`, `padding`
+- Animar SOLO: `transform` (x, y, scale, rotation), `opacity`. NUNCA: `width`, `height`, `top`, `left`, `margin`, `padding`
 - `prefers-reduced-motion`: `gsap.globalTimeline.timeScale(0)` cuando detectado
 - Mobile (< 768px): desactivar parallax multi-layer con `ScrollTrigger.matchMedia`
 
----
+### `react-three-fiber`
+**Cuándo activar:** `HeroCanvas.jsx`, `ParticleField.jsx`, `HeroObject.jsx`, cualquier componente con `<Canvas>`/`useFrame`/`useThree`. Siempre junto a `threejs-webgl`. Conflicto de patterns → preferir R3F declarativo en componentes React.
 
-#### `react-three-fiber`
-**Qué hace:** R3F + Drei — integración React/Three.js, hooks (`useFrame`, `useThree`), componentes declarativos, performance con `@react-three/drei` helpers.
-
-**Cuándo activar:**
-- `HeroCanvas.jsx` — componente Canvas principal
-- `ParticleField.jsx` — campo de partículas
-- `HeroObject.jsx` — objeto 3D central
-- Cualquier componente que use `<Canvas>`, `useFrame`, `useThree`
-
-**Cómo usar:** Siempre en conjunto con `threejs-webgl`. Si hay conflicto de patterns entre R3F y Three.js imperativo → preferir R3F en componentes React.
-
-**Por qué:** El SRS especifica `@react-three/fiber` + `@react-three/drei` como stack 3D. R3F maneja el loop de render y lifecycle de React — sin esta skill Claude mezcla patterns imperativos y declarativos incorrectamente.
-
----
-
-### 3.2 pbakaus/impeccable
-
-Instalación:
-```bash
-npx impeccable skills install   # instala en .claude/skills/ automáticamente
-# Luego en Claude Code:
-/impeccable init                 # OBLIGATORIO — primer uso, carga contexto del proyecto
-```
-
-**Qué hace:** Design language system con 23 comandos. Detecta y corrige AI slop (Inter para todo, gradientes purple-blue, cards anidadas, grey text on color). Opera en modo **brand** para este proyecto (portfolio = marketing/editorial, no producto SaaS).
-
-**Cuándo activar:**
-- Al completar cualquier componente visual antes de considerar terminado
-- Al implementar cualquier sección nueva
-- Antes de cada fase de revisión
-- Cuando el diseño se "siente genérico"
-
-**Comandos clave para este proyecto:**
+### `impeccable` (modo brand — portfolio = editorial, no SaaS)
+**Cuándo activar:** al completar cualquier componente visual, al implementar sección nueva, antes de cada fase de revisión, cuando el diseño "se siente genérico".
+**Comandos clave:**
 ```
 /impeccable polish     → refinamiento post-implementación (espaciado, tipografía, color)
 /impeccable audit      → detecta anti-patterns en el componente actual
@@ -162,66 +80,26 @@ npx impeccable skills install   # instala en .claude/skills/ automáticamente
 /impeccable animate    → revisa que las animaciones GSAP no sean "AI genéricas"
 /impeccable critique   → feedback editorial del componente
 ```
-
-**Por qué:** Previene que el output de Claude caiga en los mismos patrones genéricos de AI. La paleta del SRS (lima `#C8F04D`, crema `#E8E0D4`, fondo `#0A0A0A`) ya resuelve el problema de color — Impeccable complementa con tipografía, espaciado y motion.
-
-**Modo brand vs product:** Este portfolio es BRAND. Impeccable ajusta sus reglas al modo editorial/portfolio automáticamente tras `/impeccable init`.
-
 **Regla:** Correr `/impeccable audit` en cada componente antes de marcar como terminado.
 
----
+### `senior-architect`
+**Cuándo:** FASE 1 únicamente — setup, estructura de archivos, decisiones técnicas, vite.config.js, MUI theme, routing. Desactivar implícitamente al salir de Fase 1.
 
-### 3.3 claude-code-templates
+### `frontend-design`
+**Cuándo:** toda implementación de componentes React — layout, CSS variables, MUI overrides. Skill base de frontend; usar junto a `impeccable` para refinamiento.
 
-Instalación:
-```bash
-npx claude-code-templates@latest --skill development/senior-architect
-npx claude-code-templates@latest --skill creative-design/frontend-design
-npx claude-code-templates@latest --skill creative-design/mobile-design
-npx claude-code-templates@latest --skill development/code-reviewer
-npx claude-code-templates@latest --skill development/clean-code
-npx claude-code-templates@latest --skill development/senior-qa
-```
-
----
-
-#### `senior-architect`
-**Cuándo:** FASE 1 únicamente — setup, estructura de archivos, decisiones técnicas, vite.config.js, MUI theme, routing, arquitectura de carpetas.
-**Desactivar implícitamente** al salir de Fase 1. No aplicar a componentes individuales.
-
----
-
-#### `frontend-design`
-**Cuándo:** Toda la implementación de componentes React — layout, CSS variables, MUI overrides, componentes UI. Es la skill base de frontend.
-**Nota:** Esta skill originó Impeccable. Usarlas en conjunto: `frontend-design` para estructura/implementación, Impeccable para refinamiento y anti-patterns.
-
----
-
-#### `mobile-design`
-**Cuándo:** Al implementar cualquier breakpoint < 768px. Activar junto a `frontend-design` para trabajo responsive.
+### `mobile-design`
+**Cuándo:** cualquier breakpoint < 768px, junto a `frontend-design`.
 **Reglas del SRS:**
 - Three.js hero → imagen estática en mobile (< 768px)
 - Partículas: reducir de 2000 a 500
 - Hover previews → tap-to-reveal
 - WhatsApp button → sticky bottom-right en mobile
 
----
-
-### 3.4 Skills de revisión (Fase Review)
-
-> Activar en orden secuencial al completar cada fase de implementación.
-
-#### `code-reviewer`
-**Cuándo:** Al completar cada fase. Revisar consistencia, posibles bugs, patterns incorrectos.
-**Output esperado:** Lista de issues ordenados por severidad.
-
-#### `clean-code`
-**Cuándo:** Después de `code-reviewer`. Aplicar en componentes marcados con issues.
-**Foco:** Naming, funciones puras, separación de responsabilidades, comentarios del SRS en cada componente.
-
-#### `senior-qa`
-**Cuándo:** Última instancia antes de considerar una fase completa.
-**Checklist mínimo:** CWV targets del SRS §5.5 | a11y §5.3 | responsive breakpoints | animaciones con `prefers-reduced-motion`.
+### Skills de revisión (Fase Review) — activar en orden secuencial
+- **`code-reviewer`**: al completar cada fase. Output = lista de issues por severidad.
+- **`clean-code`**: después de `code-reviewer`. Foco: naming, funciones puras, separación de responsabilidades, comentarios del SRS en cada componente.
+- **`senior-qa`**: última instancia antes de cerrar una fase. Checklist mínimo: CWV targets SRS §5.5 | a11y §5.3 | responsive breakpoints | animaciones con `prefers-reduced-motion`.
 
 ---
 
@@ -349,15 +227,48 @@ Cuando el usuario escriba **"actualizar memoria"**, ejecutar estas acciones en o
 
 ---
 
-## 8. Información del proyecto (completar antes de iniciar)
+## 8. Información del proyecto
 
 ```
-NOMBRE_COMPLETO:     [Leandro De Los Santos Aboy]
-WHATSAPP:            [formato: +5491168116492]
-EMAILJS_SERVICE_ID:  [Pendiente]
-EMAILJS_TEMPLATE_ID: [Pendiente]
-EMAILJS_PUBLIC_KEY:  [Pendiente]
-DOMINIO_DEPLOY:      [https://portfolioleandro.vercel.app/]
-GITHUB_URL:          [https://github.com/Leandelosantos]
-LINKEDIN_URL:        [https://www.linkedin.com/in/leandrodelossantosaboy/]
+NOMBRE_COMPLETO:     Leandro De Los Santos Aboy
+WHATSAPP:            +5491168116492
+EMAILJS_SERVICE_ID:  Pendiente
+EMAILJS_TEMPLATE_ID: Pendiente
+EMAILJS_PUBLIC_KEY:  Pendiente
+DOMINIO_DEPLOY:      https://portfolioleandro.vercel.app/
+GITHUB_URL:          https://github.com/Leandelosantos
+LINKEDIN_URL:        https://www.linkedin.com/in/leandrodelossantosaboy/
 ```
+
+## 9. Graphify — Mapa de conocimiento del proyecto
+
+El grafo vive en `graphify-out/` (graph.json · graph.html · GRAPH_REPORT.md).
+
+### Regla de exploración OBLIGATORIA
+
+**NUNCA usar `grep`, `find`, ni leer archivos a ciegas para entender el código.**
+Siempre usar graphify primero:
+
+| Pregunta | Comando |
+|---|---|
+| ¿Cómo funciona X? / ¿Dónde está Y? | `graphify query "<pregunta>"` |
+| ¿Qué relación hay entre A y B? | `graphify path "<A>" "<B>"` |
+| ¿Qué hace este concepto/componente? | `graphify explain "<concepto>"` |
+
+Solo leer archivos fuente después de que graphify haya orientado el contexto, o para editar líneas específicas ya identificadas.
+
+Esta regla aplica también a subagentes — incluirla en todo prompt de exploración.
+
+### MCP server
+
+`graphify-mcp` expone: `query_graph`, `get_node`, `shortest_path` — usar cuando el servidor MCP esté activo.
+
+### Mantenimiento del grafo
+
+- **Automático en cada commit:** `.git/hooks/post-commit` ya instalado — tras CUALQUIER commit, rebuild AST en background (sin bloquear el commit, sin costo de API). No requiere acción manual ni de Claude.
+- Verificar que sigue instalado: `cat .git/hooks/post-commit | grep graphify-hook-start` — si no aparece, reinstalar con `graphify hook install`.
+- Log del último rebuild: `~/.cache/graphify-rebuild.log`
+- Rebuild completo (cambios de arquitectura grandes): `/graphify` (re-extracción semántica con subagentes)
+- `.graphifyignore` en raíz controla qué se indexa (excluye node_modules, skills vendored, dist, .env)
+
+**Regla para Claude:** Nunca asumir que el grafo está desactualizado tras un commit propio — el hook ya lo actualiza. Si el hook falla o no existe, avisar al usuario antes de continuar con cualquier exploración basada en graphify.

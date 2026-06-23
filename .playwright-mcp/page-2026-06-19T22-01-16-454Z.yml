@@ -1,0 +1,94 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "100"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - navigation "Navegación principal" [ref=e10]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Proyectos" [ref=e13]:
+            - /url: /work
+        - listitem [ref=e14]:
+          - link "IA" [ref=e15]:
+            - /url: /ia
+        - listitem [ref=e16]:
+          - link "Exhibiciones" [ref=e17]:
+            - /url: /exhibiciones
+        - listitem [ref=e18]:
+          - link "Sobre mí" [ref=e19]:
+            - /url: /sobre-mi
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /exhibiciones
+          - text: Exhibiciones
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - heading "Proyectos" [level=1] [ref=e22]
+      - navigation "Filtrar proyectos" [ref=e23]:
+        - button "All" [ref=e24]
+        - button "Web" [ref=e25]
+        - button "Development" [ref=e26]
+        - button "Design" [ref=e27]
+        - button "3D" [ref=e28]
+        - button "AI" [active] [pressed] [ref=e29]
+    - generic:
+      - 'button "Ver caso de estudio: Semantic Search Engine" [ref=e67]':
+        - generic [ref=e70]:
+          - generic [ref=e71]: Semantic Search Engine
+          - generic [ref=e72]: "2024"
+      - 'button "Ver caso de estudio: Autonomous Code Reviewer" [ref=e74]':
+        - generic [ref=e77]:
+          - generic [ref=e78]: Autonomous Code Reviewer
+          - generic [ref=e79]: "2024"
+  - contentinfo [ref=e80]:
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - paragraph [ref=e83]: Leandro De Los Santos Aboy
+        - paragraph [ref=e84]: Software Developer & Project Manager
+      - 'generic "Hora local: 19:01 ART" [ref=e85]':
+        - generic [ref=e86]: HORA LOCAL
+        - time [ref=e87]: 19:01 ART
+    - generic [ref=e88]:
+      - navigation "Navegación footer" [ref=e89]:
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link "Proyectos" [ref=e92]:
+              - /url: /work
+          - listitem [ref=e93]:
+            - link "IA" [ref=e94]:
+              - /url: /ia
+          - listitem [ref=e95]:
+            - link "Sobre mí" [ref=e96]:
+              - /url: /sobre-mi
+      - generic [ref=e97]:
+        - link "GitHub — abre en nueva pestaña" [ref=e98]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e99]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e100]: © 2026

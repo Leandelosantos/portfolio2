@@ -1,0 +1,114 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "100"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - navigation "Navegación principal" [ref=e10]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Proyectos" [ref=e13]:
+            - /url: /work
+        - listitem [ref=e14]:
+          - link "IA" [ref=e15]:
+            - /url: /ia
+        - listitem [ref=e16]:
+          - link "Exhibiciones" [ref=e17]:
+            - /url: /exhibiciones
+        - listitem [ref=e18]:
+          - link "Sobre mí" [ref=e19]:
+            - /url: /sobre-mi
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /exhibiciones
+          - text: Exhibiciones
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - heading "Proyectos" [level=1] [ref=e50]
+      - navigation "Filtrar proyectos" [ref=e41]:
+        - button "All" [active] [pressed] [ref=e42]
+        - button "Web" [ref=e43]
+        - button "Development" [ref=e44]
+        - button "Design" [ref=e45]
+        - button "3D" [ref=e46]
+        - button "AI" [ref=e47]
+    - generic [ref=e63]:
+      - 'button "Ver caso de estudio: Huevos Point" [ref=e67]':
+        - generic [ref=e70]:
+          - generic [ref=e71]: Huevos Point
+          - generic [ref=e72]: —
+      - 'button "Ver caso de estudio: DiamondRose Sanctuary" [ref=e74]':
+        - generic [ref=e77]:
+          - generic [ref=e78]: DiamondRose Sanctuary
+          - generic [ref=e79]: "2024"
+      - 'button "Ver caso de estudio: Vital Stats App" [ref=e81]':
+        - generic [ref=e84]:
+          - generic [ref=e85]: Vital Stats App
+          - generic [ref=e86]: "2024"
+      - 'button "Ver caso de estudio: Sistema de Diseño" [ref=e88]':
+        - generic [ref=e91]:
+          - generic [ref=e92]: Sistema de Diseño
+          - generic [ref=e93]: "2024"
+      - 'button "Ver caso de estudio: Bold Flavor" [ref=e95]':
+        - generic [ref=e98]:
+          - generic [ref=e99]: Bold Flavor
+          - generic [ref=e100]: "2024"
+      - 'button "Ver caso de estudio: Semantic Search Engine" [ref=e51]':
+        - generic [ref=e54]:
+          - generic [ref=e55]: Semantic Search Engine
+          - generic [ref=e56]: "2024"
+      - 'button "Ver caso de estudio: Autonomous Code Reviewer" [ref=e57]':
+        - generic [ref=e60]:
+          - generic [ref=e61]: Autonomous Code Reviewer
+          - generic [ref=e62]: "2024"
+  - contentinfo [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Leandro De Los Santos Aboy
+        - paragraph [ref=e24]: Software Developer & Project Manager
+      - 'generic "Hora local: 19:03 ART" [ref=e25]':
+        - generic [ref=e26]: HORA LOCAL
+        - time [ref=e27]: 19:03 ART
+    - generic [ref=e28]:
+      - navigation "Navegación footer" [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Proyectos" [ref=e32]:
+              - /url: /work
+          - listitem [ref=e33]:
+            - link "IA" [ref=e34]:
+              - /url: /ia
+          - listitem [ref=e35]:
+            - link "Sobre mí" [ref=e36]:
+              - /url: /sobre-mi
+      - generic [ref=e37]:
+        - link "GitHub — abre en nueva pestaña" [ref=e38]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e39]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e40]: © 2026

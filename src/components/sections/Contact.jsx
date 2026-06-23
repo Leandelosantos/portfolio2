@@ -5,57 +5,57 @@
 // GSAP: entrance dramático — yPercent 100 clip para headline
 // buenas-practicas §3: useGSAP, solo transform + opacity; gsap.to en handlers OK
 
-import { useRef, useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { useGSAP } from '@gsap/react';
-import { gsap } from 'gsap';
-import emailjs from '@emailjs/browser';
-import { TextField, Button } from '@mui/material';
+import { useRef, useState } from "react";
+import { useForm } from "react-hook-form";
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
+import emailjs from "@emailjs/browser";
+import { TextField, Button } from "@mui/material";
 
 const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-const WA_NUMBER = '5491168116492';
+const WA_NUMBER = "5491168116492";
 const WA_MSG = encodeURIComponent(
-  'Hola! Vi tu portfolio y me gustaría hablar de un proyecto.'
+  "Hola! Vi tu portfolio y me gustaría hablar de un proyecto.",
 );
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=${WA_MSG}`;
 
 // TextField sx — override completo, sin estilos MUI por defecto
 const textFieldSx = {
-  '& .MuiOutlinedInput-root': {
+  "& .MuiOutlinedInput-root": {
     borderRadius: 0,
-    fontFamily: 'var(--font-ui)',
-    fontSize: 'var(--type-body)',
+    fontFamily: "var(--font-ui)",
+    fontSize: "var(--type-body)",
     fontWeight: 300,
-    color: 'var(--color-text-primary)',
-    backgroundColor: 'transparent',
-    '& fieldset': { borderColor: 'var(--color-border)' },
-    '&:hover fieldset': { borderColor: 'var(--color-border-hover)' },
-    '&.Mui-focused fieldset': {
-      borderColor: 'var(--color-accent-hot)',
-      borderWidth: '1px',
+    color: "var(--color-text-primary)",
+    backgroundColor: "transparent",
+    "& fieldset": { borderColor: "var(--color-border)" },
+    "&:hover fieldset": { borderColor: "var(--color-border-hover)" },
+    "&.Mui-focused fieldset": {
+      borderColor: "var(--color-accent-hot)",
+      borderWidth: "1px",
     },
   },
-  '& .MuiInputLabel-root': {
-    fontFamily: 'var(--font-mono)',
-    fontSize: '13px',
-    letterSpacing: 'var(--ls-mono)',
-    color: 'var(--color-text-secondary)',
-    '&.Mui-focused': { color: 'var(--color-accent-hot)' },
+  "& .MuiInputLabel-root": {
+    fontFamily: "var(--font-mono)",
+    fontSize: "13px",
+    letterSpacing: "var(--ls-mono)",
+    color: "var(--color-text-secondary)",
+    "&.Mui-focused": { color: "var(--color-accent-hot)" },
   },
-  '& .MuiFormHelperText-root': {
-    fontFamily: 'var(--font-mono)',
-    fontSize: '11px',
-    letterSpacing: 'var(--ls-mono)',
+  "& .MuiFormHelperText-root": {
+    fontFamily: "var(--font-mono)",
+    fontSize: "11px",
+    letterSpacing: "var(--ls-mono)",
   },
 };
 
 export function Contact() {
   const sectionRef = useRef(null);
   const formRef = useRef(null);
-  const [status, setStatus] = useState('idle'); // idle | sending | success | error
+  const [status, setStatus] = useState("idle"); // idle | sending | success | error
 
   const {
     register,
@@ -69,28 +69,28 @@ export function Contact() {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: 'top 60%',
+          start: "top 60%",
           once: true,
         },
       });
 
-      tl.from('.contact__big-text', {
+      tl.from(".contact__big-text", {
         yPercent: 100,
         duration: 1,
-        ease: 'expo.out',
+        ease: "expo.out",
       })
         .from(
-          '.contact__form-wrap',
+          ".contact__form-wrap",
           { opacity: 0, y: 40, duration: 0.6 },
-          '-=0.4'
+          "-=0.4",
         )
         .from(
-          '.contact__wa-block',
-          { opacity: 0, scale: 0.95, duration: 0.5, ease: 'back.out(1.7)' },
-          '-=0.3'
+          ".contact__wa-block",
+          { opacity: 0, scale: 0.95, duration: 0.5, ease: "back.out(1.7)" },
+          "-=0.3",
         );
     },
-    { scope: sectionRef }
+    { scope: sectionRef },
   );
 
   const onSubmit = async (data) => {
@@ -99,13 +99,13 @@ export function Contact() {
       gsap.to(formRef.current, {
         keyframes: { x: [-8, 8, -6, 6, -3, 3, 0] },
         duration: 0.5,
-        ease: 'power2.inOut',
+        ease: "power2.inOut",
       });
-      setStatus('error');
+      setStatus("error");
       return;
     }
 
-    setStatus('sending');
+    setStatus("sending");
 
     try {
       await emailjs.send(
@@ -116,16 +116,16 @@ export function Contact() {
           from_email: data.email,
           message: data.message,
         },
-        EMAILJS_PUBLIC_KEY
+        EMAILJS_PUBLIC_KEY,
       );
-      setStatus('success');
+      setStatus("success");
       reset();
     } catch {
-      setStatus('error');
+      setStatus("error");
       gsap.to(formRef.current, {
         keyframes: { x: [-8, 8, -6, 6, -3, 3, 0] },
         duration: 0.5,
-        ease: 'power2.inOut',
+        ease: "power2.inOut",
       });
     }
   };
@@ -136,22 +136,24 @@ export function Contact() {
       id="contacto"
       aria-label="Contacto"
       style={{
-        padding: 'clamp(80px, 12vh, 140px) clamp(24px, 6vw, 80px)',
-        backgroundColor: 'var(--color-bg-subtle)',
-        overflow: 'hidden',
+        padding: "clamp(80px, 12vh, 140px) clamp(14.4px, 3.6vw, 48px)",
+        backgroundColor: "var(--color-bg-subtle)",
+        overflow: "hidden",
       }}
     >
       {/* Headline — overflow:hidden en padre para el clip de yPercent */}
-      <div style={{ overflow: 'hidden', marginBottom: 'clamp(3rem, 6vh, 5rem)' }}>
+      <div
+        style={{ overflow: "hidden", marginBottom: "clamp(3rem, 6vh, 5rem)" }}
+      >
         <h2
           className="contact__big-text"
           style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(36px, 6.5vw, 96px)',
+            fontFamily: "var(--font-display)",
+            fontSize: "clamp(36px, 6.5vw, 96px)",
             fontWeight: 900,
-            color: 'var(--color-text-primary)',
+            color: "var(--color-text-primary)",
             margin: 0,
-            lineHeight: 1.0,
+            //lineHeight: 1.0,
           }}
         >
           Iniciemos el diálogo.
@@ -161,10 +163,11 @@ export function Contact() {
       {/* Dos columnas */}
       <div
         style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))',
-          gap: 'clamp(3rem, 6vw, 6rem)',
-          alignItems: 'start',
+          display: "grid",
+          gridTemplateColumns:
+            "repeat(auto-fit, minmax(min(100%, 340px), 1fr))",
+          gap: "clamp(3rem, 6vw, 6rem)",
+          alignItems: "start",
         }}
       >
         {/* Canal 1 — Formulario */}
@@ -172,7 +175,13 @@ export function Contact() {
           <p style={channelLabelStyle}>01 — Formulario</p>
 
           <form ref={formRef} onSubmit={handleSubmit(onSubmit)} noValidate>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "1.25rem",
+              }}
+            >
               <TextField
                 label="Nombre"
                 fullWidth
@@ -180,7 +189,7 @@ export function Contact() {
                 error={!!errors.name}
                 helperText={errors.name?.message}
                 sx={textFieldSx}
-                {...register('name', { required: 'Nombre requerido' })}
+                {...register("name", { required: "Nombre requerido" })}
               />
               <TextField
                 label="Email"
@@ -190,11 +199,11 @@ export function Contact() {
                 error={!!errors.email}
                 helperText={errors.email?.message}
                 sx={textFieldSx}
-                {...register('email', {
-                  required: 'Email requerido',
+                {...register("email", {
+                  required: "Email requerido",
                   pattern: {
                     value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                    message: 'Email inválido',
+                    message: "Email inválido",
                   },
                 })}
               />
@@ -207,9 +216,9 @@ export function Contact() {
                 error={!!errors.message}
                 helperText={errors.message?.message}
                 sx={textFieldSx}
-                {...register('message', {
-                  required: 'Mensaje requerido',
-                  minLength: { value: 10, message: 'Mínimo 10 caracteres' },
+                {...register("message", {
+                  required: "Mensaje requerido",
+                  minLength: { value: 10, message: "Mínimo 10 caracteres" },
                 })}
               />
 
@@ -217,33 +226,36 @@ export function Contact() {
                 type="submit"
                 variant="contained"
                 disableElevation
-                disabled={status === 'sending'}
+                disabled={status === "sending"}
                 sx={{
-                  fontFamily: 'var(--font-mono)',
-                  fontSize: 'var(--type-mono)',
-                  letterSpacing: 'var(--ls-mono)',
-                  textTransform: 'uppercase',
+                  fontFamily: "var(--font-mono)",
+                  fontSize: "var(--type-mono)",
+                  letterSpacing: "var(--ls-mono)",
+                  textTransform: "uppercase",
                   borderRadius: 0,
                   px: 3,
                   py: 1.5,
-                  alignSelf: 'flex-start',
-                  '&:focus-visible': {
-                    outline: '2px solid var(--color-accent-hot)',
-                    outlineOffset: '2px',
+                  alignSelf: "flex-start",
+                  "&:focus-visible": {
+                    outline: "2px solid var(--color-accent-hot)",
+                    outlineOffset: "2px",
                   },
                 }}
               >
-                {status === 'sending' ? 'Enviando...' : 'Enviar'}
+                {status === "sending" ? "Enviando..." : "Enviar"}
               </Button>
 
-              {status === 'success' && (
-                <p role="alert" style={{ ...feedbackStyle, color: 'var(--color-accent-hot)' }}>
+              {status === "success" && (
+                <p
+                  role="alert"
+                  style={{ ...feedbackStyle, color: "var(--color-accent-hot)" }}
+                >
                   ✓ Mensaje enviado. Te respondo pronto.
                 </p>
               )}
-              {status === 'error' && (
+              {status === "error" && (
                 // #FF6B6B: rojo de error — excepción justificada, no está en paleta SRS
-                <p role="alert" style={{ ...feedbackStyle, color: '#FF6B6B' }}>
+                <p role="alert" style={{ ...feedbackStyle, color: "#FF6B6B" }}>
                   Error al enviar. Escribime por WhatsApp.
                 </p>
               )}
@@ -260,21 +272,22 @@ export function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '1rem',
-              padding: 'clamp(1.25rem, 3vw, 2rem) clamp(1.5rem, 4vw, 2.5rem)',
-              border: '1px solid var(--color-border)',
-              textDecoration: 'none',
-              transition: 'border-color 0.3s ease, background-color 0.3s ease',
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "1rem",
+              padding: "clamp(1.25rem, 3vw, 2rem) clamp(1.5rem, 4vw, 2.5rem)",
+              border: "1px solid var(--color-border)",
+              textDecoration: "none",
+              transition: "border-color 0.3s ease, background-color 0.3s ease",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderColor = 'var(--color-border-hover)';
-              e.currentTarget.style.backgroundColor = 'var(--color-bg-elevated)';
+              e.currentTarget.style.borderColor = "var(--color-border-hover)";
+              e.currentTarget.style.backgroundColor =
+                "var(--color-bg-elevated)";
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.borderColor = 'var(--color-border)';
-              e.currentTarget.style.backgroundColor = 'transparent';
+              e.currentTarget.style.borderColor = "var(--color-border)";
+              e.currentTarget.style.backgroundColor = "transparent";
             }}
           >
             <svg
@@ -290,10 +303,10 @@ export function Contact() {
             <div>
               <p
                 style={{
-                  fontFamily: 'var(--font-ui)',
-                  fontSize: 'var(--type-body)',
+                  fontFamily: "var(--font-ui)",
+                  fontSize: "var(--type-body)",
                   fontWeight: 500,
-                  color: 'var(--color-text-primary)',
+                  color: "var(--color-text-primary)",
                   margin: 0,
                   lineHeight: 1.2,
                 }}
@@ -302,11 +315,11 @@ export function Contact() {
               </p>
               <p
                 style={{
-                  fontFamily: 'var(--font-mono)',
-                  fontSize: '11px',
-                  color: 'var(--color-text-secondary)',
-                  margin: '4px 0 0',
-                  letterSpacing: 'var(--ls-mono)',
+                  fontFamily: "var(--font-mono)",
+                  fontSize: "11px",
+                  color: "var(--color-text-secondary)",
+                  margin: "4px 0 0",
+                  letterSpacing: "var(--ls-mono)",
                 }}
               >
                 Respuesta en &lt; 24h
@@ -316,16 +329,17 @@ export function Contact() {
 
           <p
             style={{
-              fontFamily: 'var(--font-ui)',
-              fontSize: 'var(--type-body)',
+              fontFamily: "var(--font-ui)",
+              fontSize: "var(--type-body)",
               fontWeight: 300,
-              color: 'var(--color-text-secondary)',
+              color: "var(--color-text-secondary)",
               lineHeight: 1.7,
-              margin: '2rem 0 0',
-              maxWidth: '38ch',
+              margin: "2rem 0 0",
+              maxWidth: "38ch",
             }}
           >
-            Proyectos, consultas, colaboraciones — cualquier conversación que valga la pena iniciar.
+            Proyectos, consultas, colaboraciones — cualquier conversación que
+            valga la pena iniciar.
           </p>
         </div>
       </div>
@@ -334,17 +348,17 @@ export function Contact() {
 }
 
 const channelLabelStyle = {
-  fontFamily: 'var(--font-mono)',
-  fontSize: 'var(--type-mono)',
-  color: 'var(--color-text-secondary)',
-  letterSpacing: 'var(--ls-mono)',
-  textTransform: 'uppercase',
-  margin: '0 0 2rem',
+  fontFamily: "var(--font-mono)",
+  fontSize: "var(--type-mono)",
+  color: "var(--color-text-secondary)",
+  letterSpacing: "var(--ls-mono)",
+  textTransform: "uppercase",
+  margin: "0 0 2rem",
 };
 
 const feedbackStyle = {
-  fontFamily: 'var(--font-mono)',
-  fontSize: 'var(--type-mono)',
+  fontFamily: "var(--font-mono)",
+  fontSize: "var(--type-mono)",
   margin: 0,
-  letterSpacing: 'var(--ls-mono)',
+  letterSpacing: "var(--ls-mono)",
 };

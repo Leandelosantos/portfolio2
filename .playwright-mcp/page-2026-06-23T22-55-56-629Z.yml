@@ -1,0 +1,128 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "001"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - navigation "Navegación principal" [ref=e10]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Proyectos" [ref=e13]:
+            - /url: /work
+        - listitem [ref=e14]:
+          - link "IA" [ref=e15]:
+            - /url: /ia
+        - listitem [ref=e16]:
+          - link "Exhibiciones" [ref=e17]:
+            - /url: /exhibiciones
+        - listitem [ref=e18]:
+          - link "Sobre mí" [ref=e19]:
+            - /url: /sobre-mi
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /exhibiciones
+          - text: Exhibiciones
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - heading "Proyectos" [level=1] [ref=e22]
+      - navigation "Filtrar proyectos" [ref=e23]:
+        - button "All" [pressed] [ref=e24]
+        - button "Web" [ref=e25]
+        - button "Development" [ref=e26]
+        - button "Design" [ref=e27]
+        - button "3D" [ref=e28]
+        - button "AI" [ref=e29]
+    - generic [ref=e30]:
+      - 'link "Ver caso de estudio: Huevos Point Web" [ref=e32]':
+        - /url: /work/huevos-point
+        - generic [ref=e36]:
+          - text: Web
+          - heading "Huevos Point Web" [level=3] [ref=e37]
+          - paragraph [ref=e38]: Sitio web a medida con identidad visual propia, animaciones GSAP y un elemento 3D (Three.js) para darle al negocio una presencia digital distintiva y profesional, en lugar de una landing genérica de plantilla.
+      - 'link "Ver caso de estudio: Sistema Huevos Point ERP-SaaS" [ref=e40]':
+        - /url: /work/huevos-point-erp
+        - generic [ref=e44]:
+          - text: Web
+          - heading "Sistema Huevos Point ERP-SaaS" [level=3] [ref=e45]
+          - paragraph [ref=e46]: Sistema POS web multi-tenant con ventas, stock, egresos y métricas en tiempo real desde un único panel, con cobros integrados vía MercadoPago Point.
+      - 'link "Ver caso de estudio: Cecilia Brook" [ref=e48]':
+        - /url: /work/cecilia-brook
+        - generic [ref=e52]:
+          - text: Web
+          - heading "Cecilia Brook" [level=3] [ref=e53]
+          - paragraph [ref=e54]: Sitio a medida en Next.js con animaciones GSAP scroll-driven y elementos 3D en Three.js, llevando la experiencia digital al mismo nivel artístico que su obra.
+      - 'link "Ver caso de estudio: Sistema de Diseño" [ref=e56]':
+        - /url: /work/sistema-de-diseno
+        - generic [ref=e59]:
+          - text: Design
+          - heading "Sistema de Diseño" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Tokens & Componentes — sistema escalable.
+      - 'link "Ver caso de estudio: Bold Flavor" [ref=e63]':
+        - /url: /work/bold-flavor
+        - generic [ref=e66]:
+          - text: Web
+          - heading "Bold Flavor" [level=3] [ref=e67]
+          - paragraph [ref=e68]: E-commerce backend con gestión de inventario.
+      - 'link "Ver caso de estudio: Semantic Search Engine" [ref=e70]':
+        - /url: /work/semantic-search-engine
+        - generic [ref=e73]:
+          - text: Development
+          - heading "Semantic Search Engine" [level=3] [ref=e74]
+          - paragraph [ref=e75]: Motor de búsqueda contextual con embeddings vectoriales y Claude 3 Haiku.
+      - 'link "Ver caso de estudio: Autonomous Code Reviewer" [ref=e77]':
+        - /url: /work/autonomous-code-reviewer
+        - generic [ref=e80]:
+          - text: Development
+          - heading "Autonomous Code Reviewer" [level=3] [ref=e81]
+          - paragraph [ref=e82]: Sistema automatizado en CI/CD que analiza PRs e identifica vulnerabilidades lógicas.
+  - contentinfo [ref=e83]:
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - paragraph [ref=e86]: Leandro De Los Santos Aboy
+        - paragraph [ref=e87]: Software Developer & Project Manager
+      - 'generic "Hora local: 19:55 ART" [ref=e88]':
+        - generic [ref=e89]: HORA LOCAL
+        - time [ref=e90]: 19:55 ART
+    - generic [ref=e91]:
+      - navigation "Navegación footer" [ref=e92]:
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "Proyectos" [ref=e95]:
+              - /url: /work
+          - listitem [ref=e96]:
+            - link "IA" [ref=e97]:
+              - /url: /ia
+          - listitem [ref=e98]:
+            - link "Sobre mí" [ref=e99]:
+              - /url: /sobre-mi
+      - generic [ref=e100]:
+        - link "GitHub — abre en nueva pestaña" [ref=e101]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e102]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e103]: © 2026
