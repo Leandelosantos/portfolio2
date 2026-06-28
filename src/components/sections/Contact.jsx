@@ -143,7 +143,10 @@ export function Contact() {
     >
       {/* Headline — overflow:hidden en padre para el clip de yPercent */}
       <div
-        style={{ overflow: "hidden", marginBottom: "clamp(3rem, 6vh, 5rem)" }}
+        style={{
+          overflow: "hidden",
+          marginBottom: "clamp(3rem, 6vh, 5rem)",
+        }}
       >
         <h2
           className="contact__big-text"

@@ -31,7 +31,6 @@ const WorkList  = lazy(() => import('./pages/WorkList').catch(() => ({ default: 
 const CaseStudy = lazy(() => import('./pages/CaseStudy').catch(() => ({ default: () => <PagePlaceholder label="Case Study" /> })));
 const IAPage    = lazy(() => import('./pages/IAPage').catch(() => ({ default: () => <PagePlaceholder label="IA & Ecosistema" /> })));
 const AboutPage = lazy(() => import('./pages/AboutPage').catch(() => ({ default: () => <PagePlaceholder label="Sobre mí" /> })));
-const ExhibicionesPage = lazy(() => import('./pages/ExhibicionesPage').catch(() => ({ default: () => <PagePlaceholder label="Exhibiciones" /> })));
 
 const PagePlaceholder = ({ label }) => (
   <main
@@ -81,7 +80,6 @@ function App() {
                   <Route path="/work/:slug"  element={<CaseStudy />} />
                   <Route path="/ia"          element={<IAPage />} />
                   <Route path="/sobre-mi"    element={<AboutPage />} />
-                  <Route path="/exhibiciones" element={<ExhibicionesPage />} />
                 </Routes>
               </Suspense>
 

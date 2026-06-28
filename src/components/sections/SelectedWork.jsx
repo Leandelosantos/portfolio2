@@ -3,13 +3,19 @@
 // /work sigue con el bento asimétrico de ProjectBento.jsx, sin cambios.
 // buenas-practicas §3: useGSAP, ScrollTrigger once
 
-import { useRef } from "react";
+import { useRef, lazy, Suspense } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ProjectGridHome } from "./ProjectGridHome";
 import { projects } from "../../data/projects";
 
 const FEATURED = projects.slice(0, 4);
+
+// Lazy loaded — solo desktop descarga el chunk Three.js
+const isMobile = window.matchMedia("(max-width: 767px)").matches;
+const ParticlesCanvas = !isMobile
+  ? lazy(() => import("../three/ParticlesCanvas"))
+  : null;
 
 export function SelectedWork() {
   const sectionRef = useRef(null);
@@ -40,28 +46,39 @@ export function SelectedWork() {
         position: "relative",
       }}
     >
-      {/* Encabezado — link "Ver todos" vive debajo del grid (ProjectGridHome) */}
-      <div
-        className="selectedwork__header"
-        style={{
-          marginBottom: "clamp(2rem, 5vh, 4rem)",
-        }}
-      >
-        <h2
+      {/* Fondo — partículas R3F, igual que el hero pero menos densas */}
+      {ParticlesCanvas && (
+        <Suspense fallback={null}>
+          <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
+            <ParticlesCanvas />
+          </div>
+        </Suspense>
+      )}
+
+      <div style={{ position: "relative", zIndex: 1 }}>
+        {/* Encabezado — link "Ver todos" vive debajo del grid (ProjectGridHome) */}
+        <div
+          className="selectedwork__header"
           style={{
-            fontFamily: "var(--font-display)",
-            fontSize: "var(--type-display)",
-            fontWeight: 700,
-            color: "var(--color-text-primary)",
-            margin: 0,
-            lineHeight: 1.1,
+            marginBottom: "clamp(2rem, 5vh, 4rem)",
           }}
         >
-          Proyectos
-        </h2>
-      </div>
+          <h2
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "var(--type-display)",
+              fontWeight: 700,
+              color: "var(--color-text-primary)",
+              margin: 0,
+              lineHeight: 1.1,
+            }}
+          >
+            Proyectos
+          </h2>
+        </div>
 
-      <ProjectGridHome projects={FEATURED} viewAllHref="/work" />
+        <ProjectGridHome projects={FEATURED} viewAllHref="/work" />
+      </div>
     </section>
   );
 }

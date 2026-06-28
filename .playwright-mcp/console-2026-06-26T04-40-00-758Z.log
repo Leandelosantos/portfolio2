@@ -1,0 +1,921 @@
+[     163ms] [INFO] %c[HyperFrames]%c Anonymous studio usage analytics enabled. Disable: localStorage.setItem('hyperframes-studio:telemetryDisabled','1') (then reload). color:#7c3aed;font-weight:bold color:inherit @ http://localhost:3002/assets/index-e4xyxg7-.js:48
+[    2493ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/demo-page-scroll-spotlight.html:0
+[    2552ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/motion-graphics/samples/asset-fusion/_ref-circle-highlight.html:0
+[    2556ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/metric-video-text-pivot.html:0
+[    7605ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/coral/caption-skin.html:0
+[    7641ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/hook-counter-burst.html:0
+[    7655ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/comparison-split-cards.html:0
+[    7717ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/pin-and-paper/caption-skin.html:0
+[    7721ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/3d-card-flip/index.html:0
+[    7775ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/references/example-renders/champion.html:0
+[    7799ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/proof-logo-chain.html:0
+[    7985ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/memory-wall/template.html:0
+[    8013ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/memory-wall/template.html:1027
+[    8013ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/memory-wall/template.html:1027
+[    8023ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/capsule/caption-skin.html:0
+[    8061ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/braam-punch/index.html:0
+[    8114ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/problem-mockup-overwhelm.html:0
+[    8154ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/bg-flow-field/index.html:0
+[    8242ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:0
+[    8268ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:1027
+[    8268ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:1027
+[    8277ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/blue-professional/caption-skin.html:0
+[    8314ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/takeover-ticker-displace.html:0
+[    8482ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/binary-decrypt/index.html:0
+[    8518ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/broadside/caption-skin.html:0
+[    8558ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/capsule/caption-skin.html:0
+[    8600ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/cobalt-grid/caption-skin.html:0
+[    8605ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/counting-punch/index.html:0
+[    8673ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/portrait-header/template.html:0
+[    8702ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/portrait-header/template.html:1027
+[    8702ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/portrait-header/template.html:1027
+[    8709ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/directional-fill/index.html:0
+[    8745ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/engine.html:0
+[    8753ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/claude/caption-skin.html:0
+[    8786ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/engine.html:1027
+[    8786ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/engine.html:1027
+[    8799ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/block-frame/caption-skin.html:0
+[    8827ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/crash-zoom-in/index.html:0
+[    8914ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/gooey-metaball/index.html:0
+[    8999ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/chrome-sweep/index.html:0
+[    9055ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/cartesian/caption-skin.html:0
+[    9094ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/concept-demo-decode-pan.html:0
+[    9130ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/cta-morph-press.html:0
+[    9196ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/datamosh-smear/index.html:0
+[    9296ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/scatterbrain/caption-skin.html:0
+[    9339ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/daisy-days/caption-skin.html:0
+[    9421ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/cta-orbit-collapse.html:0
+[    9457ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/references/example-renders/memory-wall.html:0
+[    9589ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/cinematic-cream/template.html:0
+[    9625ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/cinematic-cream/template.html:1159
+[    9625ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/cinematic-cream/template.html:1159
+[    9633ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/claude/caption-skin.html:0
+[    9729ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/hard-cut/index.html:0
+[    9820ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/editorial-forest/caption-skin.html:0
+[    9860ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/chromatic-split/index.html:0
+[    9952ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/blockframe/caption-skin.html:0
+[    9988ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/hypercut-whip/index.html:0
+[   10072ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/dolly-zoom/index.html:0
+[   10125ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/workflow-approve-press.html:0
+[   10180ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/blur-resolve/index.html:0
+[   10253ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/bold-poster/caption-skin.html:0
+[   10292ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/electric-arc/index.html:0
+[   10326ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/creative-mode/caption-skin.html:0
+[   10363ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/kinetic-letter-in/index.html:0
+[   10396ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/flash-cut/index.html:0
+[   10457ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/iris-open/index.html:0
+[   10618ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview?__hf_shader_capture_scale=1&__hf_shader_loading=player&_t=1782448801692:0
+[   10665ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/shot.png:0
+[   10827ms] Unexpected token '{'
+[   11310ms] Unexpected token '{'
+[   11312ms] Unexpected token '{'
+[   11312ms] Unexpected token '{'
+[   11262ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11262ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/biennale-yellow/caption-skin.html:0
+[   11338ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11339ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/messaging-multi-phrase.html:0
+[   11465ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11499ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11501ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11883ms] Unexpected token '{'
+[   11532ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11582ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11586ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11613ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11618ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11625ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11625ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11628ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11642ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11677ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11681ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11684ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11684ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11684ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11685ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11706ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11706ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11707ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11745ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   11745ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   15994ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/brand-reveal-assemble-zoom.html:0
+[   21381ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/liquid-morph/index.html:0
+[   21384ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/mosaic-pack/index.html:0
+[   21475ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/mask-reveal/index.html:0
+[   21478ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/outline-to-fill/index.html:0
+[   21494ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/neon-flicker/index.html:0
+[   21563ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/particle-burst/index.html:0
+[   21725ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/pixel-dissolve/index.html:0
+[   21736ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/palette-flip/index.html:0
+[   21869ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/slot-machine-reveal/index.html:0
+[   21873ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/screen-shake/index.html:0
+[   21910ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/radial-burst-lines/index.html:0
+[   21913ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/spotlight-sweep/index.html:0
+[   22176ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/text-spectral-rays/index.html:0
+[   22236ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/typewriter-reveal/index.html:0
+[   22239ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/staggered-exit/index.html:0
+[   22256ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/tile-mosaic/index.html:0
+[   22430ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/card-flyby/index.html:0
+[   22434ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/text-wave-distort/index.html:0
+[   22447ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/held-message-living-field/index.html:0
+[   22459ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/word-grid-burst/index.html:0
+[   22498ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/logo-split-lockup-pulse/index.html:0
+[   22926ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/split-anchor-word-slot/index.html:0
+[   23521ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/fredoka-700.woff2:0
+[   23521ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/roll-flipbook-word-cycle/index.html:0
+[   23524ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/poster-tile-mosaic/index.html:0
+[   23891ms] A network error occurred.
+[   23839ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/held-text-strobe-burst/index.html:0
+[   23912ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/intro-kinetic-cascade/index.html:0
+[   24192ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/tiles-138.png:0
+[   24204ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/paving-stones-150.png:0
+[   24204ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/metal-041-a.png:0
+[   24204ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/lava.png:0
+[   24204ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/ground-080.png:0
+[   24204ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/bricks-075-a.png:0
+[   24204ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/onyx.png:0
+[   24231ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/tiles-138.png:0
+[   24232ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/paving-stones-150.png:0
+[   24232ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/metal-041-a.png:0
+[   24232ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/lava.png:0
+[   24232ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/ground-080.png:0
+[   24232ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/bricks-075-a.png:0
+[   24232ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/onyx.png:0
+[   25850ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/scatterbrain/caption-skin.html:0
+[   25854ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/index.html:0
+[   25923ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/claude/caption-skin.html:0
+[   25961ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/typewriter-phrase-keyword-shuffle/index.html:0
+[   26006ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/capsule/caption-skin.html:0
+[   26043ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/hf-src/index.html:0
+[   26087ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/remotion-to-hyperframes/assets/test-corpus/tier-1-title-card/hf-src/index.html:0
+[   26091ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/square.png:0
+[   26099ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/block-frame/caption-skin.html:0
+[   26178ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/pin-and-paper/caption-skin.html:0
+[   26182ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/remotion-to-hyperframes/assets/test-corpus/tier-3-data-driven/hf-src/index.html:0
+[   26354ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/music.wav:0
+[   26366ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/music.wav:0
+[   33091ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   34231ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   34978ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   39028ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/block-frame/caption-skin.html:0
+[   39031ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/brand-reveal-assemble-zoom.html:0
+[   39034ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/comparison-split-cards.html:0
+[   39037ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:0
+[   39040ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/creative-mode/caption-skin.html:0
+[   39043ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/concept-demo-decode-pan.html:0
+[   39046ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/cartesian/caption-skin.html:0
+[   39049ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/braam-punch/index.html:0
+[   39090ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/dolly-zoom/index.html:0
+[   39094ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/cobalt-grid/caption-skin.html:0
+[   39097ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/bold-poster/caption-skin.html:0
+[   39100ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/datamosh-smear/index.html:0
+[   39104ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/messaging-multi-phrase.html:0
+[   39107ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/counting-punch/index.html:0
+[   39112ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/pin-and-paper/caption-skin.html:0
+[   39116ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/electric-arc/index.html:0
+[   39119ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/memory-wall/template.html:0
+[   39163ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/hook-counter-burst.html:0
+[   39166ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/hypercut-whip/index.html:0
+[   39169ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/bg-flow-field/index.html:0
+[   39175ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/chromatic-split/index.html:0
+[   39178ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/cinematic-cream/template.html:0
+[   39182ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/hard-cut/index.html:0
+[   39185ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/proof-logo-chain.html:0
+[   39188ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/references/example-renders/memory-wall.html:0
+[   39191ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/cta-morph-press.html:0
+[   39194ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/gooey-metaball/index.html:0
+[   39197ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/capsule/caption-skin.html:0
+[   39200ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/blue-professional/caption-skin.html:0
+[   39204ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/blur-resolve/index.html:0
+[   39207ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/capsule/caption-skin.html:0
+[   39210ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/broadside/caption-skin.html:0
+[   39289ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/cta-orbit-collapse.html:0
+[   39293ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/kinetic-letter-in/index.html:0
+[   39297ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/chrome-sweep/index.html:0
+[   39339ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/takeover-ticker-displace.html:0
+[   39343ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/problem-mockup-overwhelm.html:0
+[   39346ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/iris-open/index.html:0
+[   39365ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/flash-cut/index.html:0
+[   39371ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/biennale-yellow/caption-skin.html:0
+[   39374ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/portrait-header/template.html:0
+[   39443ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:1027
+[   39443ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:1027
+[   39451ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/workflow-approve-press.html:0
+[   39457ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/claude/caption-skin.html:0
+[   39460ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/3d-card-flip/index.html:0
+[   39465ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/references/example-renders/champion.html:0
+[   39468ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/binary-decrypt/index.html:0
+[   39471ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/editorial-forest/caption-skin.html:0
+[   39475ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/crash-zoom-in/index.html:0
+[   39556ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/.media/manifest.jsonl:0
+[   47588ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/chrome-sweep/index.html:0
+[   47591ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/brand-reveal-assemble-zoom.html:0
+[   47639ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/proof-logo-chain.html:0
+[   47642ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/comparison-split-cards.html:0
+[   47645ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/references/example-renders/memory-wall.html:0
+[   47648ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/braam-punch/index.html:0
+[   47651ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/references/example-renders/champion.html:0
+[   47654ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/cartesian/caption-skin.html:0
+[   47673ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/bg-flow-field/index.html:0
+[   47677ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/blue-professional/caption-skin.html:0
+[   47681ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/pin-and-paper/caption-skin.html:0
+[   47684ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/takeover-ticker-displace.html:0
+[   47687ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/engine.html:0
+[   47690ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/flash-cut/index.html:0
+[   47696ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/cobalt-grid/caption-skin.html:0
+[   47699ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/daisy-days/caption-skin.html:0
+[   47703ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/claude/caption-skin.html:0
+[   47706ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/counting-punch/index.html:0
+[   47709ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/portrait-header/template.html:0
+[   47712ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/iris-open/index.html:0
+[   47714ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/editorial-forest/caption-skin.html:0
+[   47717ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/broadside/caption-skin.html:0
+[   47745ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/hard-cut/index.html:0
+[   47748ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/capsule/caption-skin.html:0
+[   47751ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/blur-resolve/index.html:0
+[   47754ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/cta-orbit-collapse.html:0
+[   47760ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/kinetic-letter-in/index.html:0
+[   47763ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/chromatic-split/index.html:0
+[   47786ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/electric-arc/index.html:0
+[   47789ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/hook-counter-burst.html:0
+[   47792ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/memory-wall/template.html:0
+[   47795ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/binary-decrypt/index.html:0
+[   47798ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/workflow-approve-press.html:0
+[   47801ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/datamosh-smear/index.html:0
+[   47804ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/block-frame/caption-skin.html:0
+[   47810ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/messaging-multi-phrase.html:0
+[   47813ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/creative-mode/caption-skin.html:0
+[   47816ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/capsule/caption-skin.html:0
+[   47819ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/problem-mockup-overwhelm.html:0
+[   47822ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/hypercut-whip/index.html:0
+[   47825ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/crash-zoom-in/index.html:0
+[   47830ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/scatterbrain/caption-skin.html:0
+[   47833ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/cinematic-cream/template.html:0
+[   47836ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/concept-demo-decode-pan.html:0
+[   47840ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/cta-morph-press.html:0
+[   47843ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/biennale-yellow/caption-skin.html:0
+[   47846ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/dolly-zoom/index.html:0
+[   47849ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/gooey-metaball/index.html:0
+[   47852ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/bold-poster/caption-skin.html:0
+[   47855ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/faceless-explainer/phases/design-system/style-presets/claude/caption-skin.html:0
+[   47858ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/blockframe/caption-skin.html:0
+[   47865ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/3d-card-flip/index.html:0
+[   47868ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:0
+[   47871ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/directional-fill/index.html:0
+[   50670ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/demo-page-scroll-spotlight.html:0
+[   50731ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/motion-graphics/samples/asset-fusion/_ref-circle-highlight.html:0
+[   50734ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/metric-video-text-pivot.html:0
+[   50737ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/coral/caption-skin.html:0
+[   50895ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/palette-flip/index.html:0
+[   50898ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/staggered-exit/index.html:0
+[   50918ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/slot-machine-reveal/index.html:0
+[   50922ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/pixel-dissolve/index.html:0
+[   50925ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/radial-burst-lines/index.html:0
+[   50928ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/liquid-morph/index.html:0
+[   50959ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/neon-flicker/index.html:0
+[   50963ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/mosaic-pack/index.html:0
+[   50965ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/outline-to-fill/index.html:0
+[   50979ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/spotlight-sweep/index.html:0
+[   50982ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/screen-shake/index.html:0
+[   50985ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/mask-reveal/index.html:0
+[   50988ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/particle-burst/index.html:0
+[   51262ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/engine.html:1027
+[   51262ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/engine.html:1027
+[   51458ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/text-spectral-rays/index.html:0
+[   51461ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/typewriter-reveal/index.html:0
+[   51464ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/tile-mosaic/index.html:0
+[   51467ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/text-wave-distort/index.html:0
+[   51470ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/word-grid-burst/index.html:0
+[   51474ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/card-flyby/index.html:0
+[   51478ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/held-message-living-field/index.html:0
+[   51636ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/portrait-header/template.html:1027
+[   51636ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/portrait-header/template.html:1027
+[   51981ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/held-text-strobe-burst/index.html:0
+[   51984ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/logo-split-lockup-pulse/index.html:0
+[   51987ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/intro-kinetic-cascade/index.html:0
+[   51991ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/poster-tile-mosaic/index.html:0
+[   51994ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/roll-flipbook-word-cycle/index.html:0
+[   51997ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/split-anchor-word-slot/index.html:0
+[   52000ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/capsule/caption-skin.html:0
+[   52003ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/typewriter-phrase-keyword-shuffle/index.html:0
+[   52006ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/block-frame/caption-skin.html:0
+[   52010ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/claude/caption-skin.html:0
+[   52013ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/pin-and-paper/caption-skin.html:0
+[   52016ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/pr-to-video/phases/design-system/style-presets/scatterbrain/caption-skin.html:0
+[   52080ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/memory-wall/template.html:1027
+[   52080ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/memory-wall/template.html:1027
+[   52452ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/cinematic-cream/template.html:1159
+[   52452ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/cinematic-cream/template.html:1159
+[   52696ms] [WARNING] The value "{{width}}" for key "width" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:1027
+[   52696ms] [WARNING] The value "{{height}}" for key "height" is invalid, and has been ignored. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/modes/cinematic/_archive/champion/template.html:1027
+[   52809ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/remotion-to-hyperframes/assets/test-corpus/tier-1-title-card/hf-src/index.html:0
+[   52813ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/hf-src/index.html:0
+[   52816ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/index.html:0
+[   52823ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/remotion-to-hyperframes/assets/test-corpus/tier-3-data-driven/hf-src/index.html:0
+[   53269ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   53924ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   53935ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54254ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54670ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/square.png:0
+[   54843ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54845ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54846ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54851ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54854ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54855ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54868ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54868ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54872ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/tiles-138.png:0
+[   54873ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/paving-stones-150.png:0
+[   54873ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/metal-041-a.png:0
+[   54882ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/lava.png:0
+[   54882ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/ground-080.png:0
+[   54882ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/bricks-075-a.png:0
+[   54882ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/onyx.png:0
+[   54884ms] Unexpected token '{'
+[   54885ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54895ms] Unexpected token '{'
+[   54912ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   54918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/tiles-138.png:0
+[   54918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/paving-stones-150.png:0
+[   54918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/metal-041-a.png:0
+[   54918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/lava.png:0
+[   54921ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/ground-080.png:0
+[   54921ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/bricks-075-a.png:0
+[   54921ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/texture-mask-text/masks/onyx.png:0
+[   54930ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55125ms] Unexpected token '{'
+[   54992ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55014ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55286ms] Unexpected token '{'
+[   55028ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55344ms] Unexpected token '{'
+[   55057ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55069ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/fredoka-700.woff2:0
+[   55398ms] A network error occurred.
+[   55114ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55139ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55181ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/music.wav:0
+[   55206ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55211ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55243ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55261ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/capsule/caption-skin.html:0
+[   55261ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/daisy-days/caption-skin.html:0
+[   55261ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/messaging-multi-phrase.html:0
+[   55261ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/creative-mode/caption-skin.html:0
+[   55261ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/spotlight-sweep/index.html:0
+[   55262ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/biennale-yellow/caption-skin.html:0
+[   55262ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/bold-poster/caption-skin.html:0
+[   55262ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/blockframe/caption-skin.html:0
+[   55274ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/mask-reveal/index.html:0
+[   55281ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-creative/frame-presets/coral/caption-skin.html:0
+[   55321ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/dolly-zoom/index.html:0
+[   55337ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/flash-cut/index.html:0
+[   55337ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/electric-arc/index.html:0
+[   55349ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/outline-to-fill/index.html:0
+[   55390ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/remotion-to-hyperframes/assets/test-corpus/tier-2-multi-scene/hf-src/index.html:0
+[   55390ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/music.wav:0
+[   55402ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/held-message-living-field/index.html:0
+[   55403ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/chromatic-split/index.html:0
+[   55408ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/palette-flip/index.html:0
+[   55418ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/text-wave-distort/index.html:0
+[   55419ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/3d-card-flip/index.html:0
+[   55441ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/split-anchor-word-slot/index.html:0
+[   55443ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/kinetic-letter-in/index.html:0
+[   55453ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/slot-machine-reveal/index.html:0
+[   55453ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/binary-decrypt/index.html:0
+[   55469ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/assets/shot.png:0
+[   55499ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/datamosh-smear/index.html:0
+[   55525ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/directional-fill/index.html:0
+[   55583ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/motion-graphics/samples/asset-fusion/_ref-circle-highlight.html:0
+[   55615ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/templates/intro-kinetic-cascade/index.html:0
+[   55616ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/gooey-metaball/index.html:0
+[   55627ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/staggered-exit/index.html:0
+[   55643ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/concept-demo-decode-pan.html:0
+[   55684ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/typewriter-reveal/index.html:0
+[   55723ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/brand-reveal-assemble-zoom.html:0
+[   55764ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/takeover-ticker-displace.html:0
+[   55815ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/music-to-video/references/motion-primitives/word-grid-burst/index.html:0
+[   55856ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/cta-morph-press.html:0
+[   55856ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/remotion-to-hyperframes/assets/test-corpus/tier-3-data-driven/hf-src/index.html:0
+[   55909ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/metric-video-text-pivot.html:0
+[   55936ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   55967ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/hook-counter-burst.html:0
+[   56026ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   56027ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/embedded-captions/references/example-renders/champion.html:0
+[   56027ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/api/projects/creador-contenido-onda/preview/source.mp4:0
+[   56062ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/workflow-approve-press.html:0
+[   56109ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/problem-mockup-overwhelm.html:0
+[   56110ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/demo-page-scroll-spotlight.html:0
+[   56110ms] [ERROR] The AudioContext encountered an error from the audio device or the WebAudio renderer. @ http://localhost:3002/api/projects/creador-contenido-onda/preview/comp/agent/skills/hyperframes-animation/examples/cta-orbit-collapse.html:0
+[  238454ms] [ERROR] Failed to load resource: net::ERR_INCOMPLETE_CHUNKED_ENCODING @ http://localhost:3002/api/events:0
+[  241457ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  244459ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  247461ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  250463ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  253464ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  256465ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  259467ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  262469ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  265471ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  268474ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  271479ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  274480ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  277481ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  280490ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  283492ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  286498ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  289500ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  292502ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  295503ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  298509ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  301515ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  304517ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  307518ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  310525ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  313526ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  316529ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  319530ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  322539ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  325545ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  328546ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  331549ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  334550ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  337558ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  340559ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  343560ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  346562ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  349563ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  352564ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  355566ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  358567ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  361569ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  364574ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  367576ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  370579ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  373581ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  376583ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  379586ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  382587ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  385589ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  388590ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  391591ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  394594ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  397598ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  400600ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  403604ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  406606ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  409608ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  412610ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  415611ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  418613ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  421614ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  424619ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  427621ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  430622ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  433630ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  436632ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  439634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  442641ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  445642ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  448644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  451646ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  454648ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  457657ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  460658ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  463660ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  466666ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  469668ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  472670ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  475678ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  478681ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  481689ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  484690ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  487692ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  490698ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  493699ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  496701ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  499709ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  502711ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  505712ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  508713ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  511715ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  514719ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  517721ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  520723ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  523732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  526734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  529735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  532742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  535744ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  538746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  541747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  544749ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  547750ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  550752ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  553760ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  556761ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  559764ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  562766ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  565770ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  568772ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  571774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  574777ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  577779ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  580779ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  583780ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  586782ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  589787ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  592789ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  595790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  598792ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  601797ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  604799ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  607800ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  610801ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  613802ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  616804ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  619805ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  622807ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  625808ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  628809ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  631811ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  634819ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  637821ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  640829ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  643831ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  646833ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  649835ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  652838ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  655845ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  658849ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  661851ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  664852ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  667853ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  670861ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  673862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  676864ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  679871ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  682875ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  685877ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  688879ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  691881ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  694883ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  697889ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  700890ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  703892ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  706893ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  709896ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  712898ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  715900ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  718902ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  721910ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  724914ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  727915ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  730917ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  733919ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  736920ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  739922ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  742924ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  745926ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  748927ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  751929ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  754930ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  757932ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  760934ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  763936ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  766938ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  769940ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  772945ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  775946ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  778954ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  781956ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  784958ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  787960ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  790962ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  793964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  796971ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  799973ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  802974ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  805975ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  808978ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  811986ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  814988ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  817989ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  820995ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  823997ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  826997ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  829999ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  833001ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  836003ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  839005ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  842006ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  845013ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  848015ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  851016ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  854018ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  857020ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  860022ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  863031ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  866037ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  869040ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  872042ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  875044ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  878045ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  881047ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  884051ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  887052ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  890061ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  893062ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  896064ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  899072ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  902073ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  905080ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  908082ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  911090ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  914098ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  917100ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  920101ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  923103ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  926110ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  929111ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  932113ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  935120ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  938122ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  941124ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  944125ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  947127ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  950129ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  953136ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  956138ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  959146ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  962148ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  965150ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  968152ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  971155ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  974161ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  977163ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  980164ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  983169ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  986171ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  989180ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  992182ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  995183ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[  998188ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1001190ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1004192ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1007200ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1010201ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1013202ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1016210ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1019212ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1022214ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1025216ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1028218ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1031219ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1034221ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1037223ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1040224ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1043226ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1046228ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1049233ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1052236ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1055244ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1058245ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1061247ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1064248ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1067255ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1070257ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1073258ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1076267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1079268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1082270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1085272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1088279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1091280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1094282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1097287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1100290ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1103292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1106297ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1109298ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1112305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1115308ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1118309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1121313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1124321ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1127327ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1130334ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1133339ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1136346ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1139350ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1142354ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1145358ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1148367ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1151375ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1154378ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1157380ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1160382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1163384ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1166386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1169388ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1172396ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1175397ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1178399ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1181402ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1184404ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1187406ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1190411ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1193413ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1196414ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1199416ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1202417ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1205419ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1208426ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1211428ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1214429ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1217433ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1220435ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1223437ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1226439ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1229440ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1232441ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1235443ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1238445ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1241447ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1244449ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1247451ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1250454ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1253456ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1256462ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1259463ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1262468ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1265472ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1268473ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1271476ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1274478ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1277479ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1280482ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1283489ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1286491ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1289493ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1292496ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1295497ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1298506ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1301507ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1304508ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1307511ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1310513ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1313515ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1316522ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1319523ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1322525ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1325526ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1328528ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1331529ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1334530ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1337533ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1340534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1343541ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1346543ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1349544ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1352551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1355552ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1358553ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1361557ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1364558ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1367560ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1370563ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1373571ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1376572ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1379574ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1382576ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1385577ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1388579ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1391581ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1394583ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1397584ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1400589ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1403591ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1406592ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1409594ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1412596ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1415598ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1418600ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1421602ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1424604ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1427605ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1430609ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1433611ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1436614ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1439616ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1442618ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1445620ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1448622ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1451625ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1454627ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1457632ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1460635ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1463637ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1466639ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1469641ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1472644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1475646ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1478648ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1481651ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1484653ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1487654ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1490656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1493657ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1496659ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1499663ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1502666ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1505673ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1508681ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1511683ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1514687ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1517689ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1520690ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1523695ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1526697ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1529699ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1532707ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1535714ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1538715ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1541718ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1544721ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1547723ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1550730ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1553732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1556739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1559742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1562743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1565747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1568749ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1571752ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1574754ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1577756ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1580757ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1583766ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1586768ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1589771ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1592773ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1595775ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1598777ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1601781ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1604783ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1607784ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1610788ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1613790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1616792ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1619798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1622799ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1625801ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1628802ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1631810ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1634811ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1637813ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1640815ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1643823ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1646825ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1649829ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1652835ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1655836ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1658838ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1661840ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1664848ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1667850ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1670855ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1673857ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1676860ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1679862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1682869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1685871ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1688872ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1691873ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1694875ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1697876ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1700879ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1703886ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1706889ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1709891ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1712893ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1715895ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1718897ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1721899ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1724904ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1727906ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1730909ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1733911ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1736916ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1739918ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1742919ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1745925ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1748928ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1751930ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1754931ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1757933ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1760942ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1763943ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0
+[ 1766950ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3002/api/events:0

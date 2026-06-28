@@ -32,9 +32,20 @@
   --margin-x: clamp(24px, 6vw, 120px);
 
   /* Fuentes — SRS §2.2 */
-  --font-display: 'Playfair Display', Georgia, serif;
+  /* TEST: Oswald reemplaza Playfair Display como --font-display (a pedido, no es spec final) */
+  --font-display: 'Oswald', Arial, sans-serif;
   --font-ui:      'DM Sans', system-ui, sans-serif;
   --font-mono:    'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* Oswald — variable font local, reemplazo de prueba de Playfair Display */
+@font-face {
+  font-family: 'Oswald';
+  src: url('/fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype-variations'),
+       url('/fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* ── RESET ────────────────────────────────────────────── */

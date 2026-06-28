@@ -14,7 +14,6 @@ import { lenis } from '../../lib/lenis';
 const NAV_LINKS = [
   { label: 'Proyectos', href: '/work' },
   { label: 'IA', href: '/ia' },
-  { label: 'Exhibiciones', href: '/exhibiciones' },
   { label: 'Sobre mí', href: '/sobre-mi' },
 ];
 
