@@ -1,16 +1,16 @@
-# Graph Report - portfolio2.0  (2026-06-23)
+# Graph Report - portfolio2.0  (2026-06-28)
 
 ## Corpus Check
-- 63 files · ~83,815 words
+- 63 files · ~91,265 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 4287 nodes · 8559 edges · 282 communities (234 shown, 48 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 203 edges (avg confidence: 0.79)
+- 4281 nodes · 8542 edges · 283 communities (232 shown, 51 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 199 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `867ce03b`
+- Built from commit: `4f2062da`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -248,6 +248,7 @@
 - [[_COMMUNITY_Community 236|Community 236]]
 - [[_COMMUNITY_Community 237|Community 237]]
 - [[_COMMUNITY_Community 239|Community 239]]
+- [[_COMMUNITY_Community 240|Community 240]]
 - [[_COMMUNITY_Community 241|Community 241]]
 - [[_COMMUNITY_Community 242|Community 242]]
 - [[_COMMUNITY_Community 243|Community 243]]
@@ -286,6 +287,7 @@
 - [[_COMMUNITY_Community 278|Community 278]]
 - [[_COMMUNITY_Community 279|Community 279]]
 - [[_COMMUNITY_Community 280|Community 280]]
+- [[_COMMUNITY_Community 282|Community 282]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `handleClick()` - 26 edges
@@ -354,7 +356,7 @@
 - **Home page composes Hero, ImpactoReal, SelectedWork, and Contact sections into a single scroll page** —  [EXTRACTED 1.00]
 - **projects data array, CATEGORIES, and filterProjects are shared by WorkList and IAPage for listing/filtering project rows** —  [INFERRED 0.85]
 
-## Communities (282 total, 48 thin omitted)
+## Communities (283 total, 51 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.04
@@ -369,8 +371,8 @@ Cohesion: 0.09
 Nodes (66): assessCoverage(), buildColor(), CANONICAL_SECTIONS, collectBullets(), collectColorValues(), collectParagraphs(), detectFormat(), extractColors() (+58 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.13
-Nodes (30): acceptCli(), argVal(), buildCarbonizeReplacement(), decodeHtmlAttr(), deindentContent(), detectCommentSyntax(), escapeRegExp(), expandReplaceRange() (+22 more)
+Cohesion: 0.05
+Nodes (72): acceptCli(), argVal(), buildCarbonizeReplacement(), decodeHtmlAttr(), deindentContent(), detectCommentSyntax(), escapeRegExp(), expandReplaceRange() (+64 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.04
@@ -378,7 +380,7 @@ Nodes (62): addOpToManualApplyChunk(), annotRoot, APPLY_EVENT_HARD_TIMEOUT_MS, A
 
 ### Community 5 - "Community 5"
 Cohesion: 0.05
-Nodes (74): borderWidthsFromStyle(), checkBorders(), checkClippedOverflow(), checkCreamPalette(), checkElementAIPaletteDOM(), checkElementBorders(), checkElementBordersDOM(), checkElementClippedOverflow() (+66 more)
+Nodes (72): borderWidthsFromStyle(), checkBorders(), checkClippedOverflow(), checkCreamPalette(), checkElementBorders(), checkElementBordersDOM(), checkElementClippedOverflow(), checkElementClippedOverflowDOM() (+64 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.05
@@ -426,7 +428,7 @@ Nodes (51): ae(), be(), bt(), Ce(), Ct(), de(), dt(), _e() (+43 more)
 
 ### Community 17 - "Community 17"
 Cohesion: 0.09
-Nodes (49): allEntryIds(), argVal(), buildRepairBatch(), candidatesForEntry(), changedFilesSinceSnapshot(), clearAppliedEntries(), collectApplyOwnedFiles(), collectRollbackFiles() (+41 more)
+Nodes (50): allEntryIds(), argVal(), buildRepairBatch(), candidatesForEntry(), changedFilesSinceSnapshot(), collectApplyOwnedFiles(), collectRollbackFiles(), commitManualEdits() (+42 more)
 
 ### Community 18 - "Community 18"
 Cohesion: 0.09
@@ -469,12 +471,12 @@ Cohesion: 0.08
 Nodes (29): buildSelectorSegment(), checkBorders(), checkElementBorders(), checkElementBordersDOM(), checkElementItalicSerif(), checkElementItalicSerifDOM(), checkElementMotion(), checkElementMotionDOM() (+21 more)
 
 ### Community 28 - "Community 28"
-Cohesion: 0.09
-Nodes (23): CustomCursor, HelmetCanvas, SceneContent, HelmetFallback, easeOutBack, HelmetObject, HeroCanvas, HeroObject (+15 more)
+Cohesion: 0.07
+Nodes (31): CustomCursor, HelmetCanvas, SceneContent, HelmetFallback, easeOutBack, HelmetObject, Hero, HeroCanvas (+23 more)
 
 ### Community 29 - "Community 29"
-Cohesion: 0.16
-Nodes (16): __dirname, findHarnessDirs(), generatePinnedSkill(), HARNESS_DIRS, loadCommandMetadata(), pin(), root, unpin() (+8 more)
+Cohesion: 0.08
+Nodes (28): LIVE_COMMANDS, VISUAL_ACTIONS, __dirname, findHarnessDirs(), generatePinnedSkill(), HARNESS_DIRS, loadCommandMetadata(), pin() (+20 more)
 
 ### Community 30 - "Community 30"
 Cohesion: 0.06
@@ -494,15 +496,15 @@ Nodes (31): applyMockWrites(), buildCopyEditBatchPrompt(), checkFrameworkSourceS
 
 ### Community 34 - "Community 34"
 Cohesion: 0.10
-Nodes (27): args, buffer, cwd, pageUrlFilter, remaining, createRequestHandler(), getManualEditStatus(), summarizePendingManualEditBatch() (+19 more)
+Nodes (27): clearAppliedEntries(), args, buffer, cwd, pageUrlFilter, remaining, createRequestHandler(), summarizePendingManualEditBatch() (+19 more)
 
 ### Community 35 - "Community 35"
-Cohesion: 0.11
-Nodes (18): CATEGORIES, filterProjects(), getProjectById(), projects, useReducedMotion(), CaseStudy(), WorkList(), DEFAULT_SLOTS (+10 more)
+Cohesion: 0.15
+Nodes (12): useReducedMotion(), DEFAULT_SLOTS, getBlocks(), ProjectBento(), SLOT_ANCHOR, SLOT_SIZE, ProjectGridHome(), FEATURED (+4 more)
 
 ### Community 36 - "Community 36"
-Cohesion: 0.12
-Nodes (29): checkColors(), checkGlow(), checkTypography(), checks.mjs (antipattern rule implementations), BORDER_SAFE_TAGS, BRAND_FONT_DOMAINS, GENERIC_FONTS, GITHUB_DOMAINS (+21 more)
+Cohesion: 0.13
+Nodes (26): checkColors(), checkElementAIPaletteDOM(), checkElementGlow(), checkGlow(), checks.mjs (antipattern rule implementations), BORDER_SAFE_TAGS, GENERIC_FONTS, GITHUB_DOMAINS (+18 more)
 
 ### Community 37 - "Community 37"
 Cohesion: 0.16
@@ -577,8 +579,8 @@ Cohesion: 0.11
 Nodes (10): canCreateInsert(), clampPlaceholderSize(), computeInsertPosition(), groupSiblingRows(), hitSiblingInsertGap(), horizontalOverlap(), insertCreateDisabledReason(), insertLineCoords() (+2 more)
 
 ### Community 55 - "Community 55"
-Cohesion: 0.11
-Nodes (15): PageTransitionProvider(), usePageTransition(), useNavbarBehavior(), NAV_LINKS, Navbar(), AboutPage, App(), CaseStudy (+7 more)
+Cohesion: 0.12
+Nodes (14): PageTransitionProvider(), usePageTransition(), useNavbarBehavior(), NAV_LINKS, Navbar(), AboutPage, App(), CaseStudy (+6 more)
 
 ### Community 56 - "Community 56"
 Cohesion: 0.14
@@ -589,7 +591,7 @@ Cohesion: 0.15
 Nodes (19): appendOriginToDirective(), buildTagBlock(), commentClose(), commentOpen(), CONFIG_PATH, __dirname, ensureLiveGitIgnores(), escapeRegExp() (+11 more)
 
 ### Community 58 - "Community 58"
-Cohesion: 0.16
+Cohesion: 0.14
 Nodes (10): MouseContext, MouseProvider(), useMouse(), CustomCursor(), useMousePosition(), HelmetCanvas(), HelmetFallback(), HelmetObject() (+2 more)
 
 ### Community 59 - "Community 59"
@@ -630,27 +632,27 @@ Nodes (17): buildUpdateDirective(), cli(), compareSemver(), computeUpdateDirecti
 
 ### Community 68 - "Community 68"
 Cohesion: 0.13
-Nodes (17): candidates, detectorPath, __dirname, FRAMEWORK_CONFIGS, detect-antipatterns.mjs (public API facade), createBrowserDetector, buildImportGraph, detectFrameworkConfig (+9 more)
+Nodes (17): candidates, detectorPath, __dirname, FRAMEWORK_CONFIGS, detect-antipatterns.mjs (public API facade), buildImportGraph, detectFrameworkConfig, isPortListening (+9 more)
 
 ### Community 69 - "Community 69"
 Cohesion: 0.16
 Nodes (19): analyzeVisualContrastCandidate(), blendRgba(), clampByte(), contrastRatio(), firstCssUrl(), getLayerValue(), loadVisualContrastImage(), parseObjectPosition() (+11 more)
 
 ### Community 70 - "Community 70"
-Cohesion: 0.20
-Nodes (11): checkHtmlPatterns, buildStaticWindow, StaticDocument, unwrapCssAtLayer, checkCreamPalette, checkHtmlPatterns, checkPageLayout, checkPageQualityFromDoc (+3 more)
+Cohesion: 0.13
+Nodes (19): checkHtmlPatterns, collectStaticCssRules, collectStaticCssText, makeStaticStyle, engines/static-html/css-cascade.mjs, buildStaticStyleMap, buildStaticWindow, StaticDocument (+11 more)
 
 ### Community 71 - "Community 71"
 Cohesion: 0.16
 Nodes (19): analyzeVisualContrastCandidate(), blendRgba(), clampByte(), contrastRatio(), firstCssUrl(), getLayerValue(), loadVisualContrastImage(), parseObjectPosition() (+11 more)
 
 ### Community 72 - "Community 72"
-Cohesion: 0.24
-Nodes (11): TEXT_CONTENT_ANALYZER_IDS, REGEX_ANALYZERS, extractCSSinJS, detectText, extractStyleBlocks, REGEX_ANALYZERS registry, REGEX_MATCHERS registry, runRegexMatchers (+3 more)
+Cohesion: 0.16
+Nodes (18): TEXT_CONTENT_ANALYZER_IDS, GATED_PROVIDERS set, getRulesForCategory, ANTIPATTERNS registry, filterByProviders, getAntipattern, REGEX_ANALYZERS, extractCSSinJS (+10 more)
 
 ### Community 73 - "Community 73"
-Cohesion: 0.16
-Nodes (12): Home, Decision: @emailjs/browser@^4 replaces emailjs-com@^3.2.0, Home(), channelLabelStyle, Contact(), feedbackStyle, textFieldSx, WA_MSG (+4 more)
+Cohesion: 0.29
+Nodes (6): CATEGORIES, filterProjects(), getProjectById(), projects, CaseStudy(), WorkList()
 
 ### Community 74 - "Community 74"
 Cohesion: 0.16
@@ -665,8 +667,8 @@ Cohesion: 0.16
 Nodes (17): applyPlaceholderDimensions(), beginEditPin(), cancelEditingPin(), clampPlaceholderSize(), finalizeEditingPin(), localCoords(), materializePlaceholderWidth(), onAnnotDown() (+9 more)
 
 ### Community 77 - "Community 77"
-Cohesion: 0.18
-Nodes (9): LoaderContext, LoaderProvider(), useLoader(), useParallax(), Decision: Figma wins over SRS for Hero (tagline + 3D right), Hero(), Loader(), splitChars() (+1 more)
+Cohesion: 0.09
+Nodes (21): LoaderContext, LoaderProvider(), useLoader(), Home, useParallax(), Decision: @emailjs/browser@^4 replaces emailjs-com@^3.2.0, Decision: Figma wins over SRS for Hero (tagline + 3D right), Home() (+13 more)
 
 ### Community 78 - "Community 78"
 Cohesion: 0.12
@@ -681,16 +683,16 @@ Cohesion: 0.17
 Nodes (15): argVal(), buildInsertWrapperLines(), computeInsertLine(), INSERT_POSITIONS, insertCli(), isInsertPosition(), resolveElementMatch(), buildPropContract (+7 more)
 
 ### Community 81 - "Community 81"
-Cohesion: 0.28
-Nodes (14): kebab(), listSnapshotsForSlug(), main(), nowFilenameStamp(), parseFrontmatter(), readLatestSnapshot(), readTrend(), serializeFrontmatter() (+6 more)
+Cohesion: 0.24
+Nodes (16): latestCritique(), kebab(), listSnapshotsForSlug(), main(), nowFilenameStamp(), parseFrontmatter(), readLatestSnapshot(), readTrend() (+8 more)
 
 ### Community 82 - "Community 82"
 Cohesion: 0.15
 Nodes (16): browserFindingsFromMap(), checkClippedOverflow(), checkCreamPalette(), checkElementClippedOverflow(), checkElementClippedOverflowDOM(), checkElementTextOverflowDOM(), checkHtmlPatterns(), checkPageQualityDOM() (+8 more)
 
 ### Community 83 - "Community 83"
-Cohesion: 0.13
-Nodes (30): acceptCli(), argVal(), buildCarbonizeReplacement(), decodeHtmlAttr(), deindentContent(), detectCommentSyntax(), escapeRegExp(), expandReplaceRange() (+22 more)
+Cohesion: 0.24
+Nodes (10): LIVE_IGNORE_PATTERNS, buildTagBlock, ensureLiveGitIgnores, findCspMetaTags, insertTag, removeTag, revertCspMeta, injectCli (+2 more)
 
 ### Community 84 - "Community 84"
 Cohesion: 0.09
@@ -701,8 +703,8 @@ Cohesion: 0.10
 Nodes (25): CWV: CLS ≤ 0.1, CWV: INP ≤ 100ms, CWV: LCP ≤ 2.5s, EmailJS — Client-side email delivery (no backend), GSAP Flip — layout-change animation plugin, GSAP TextPlugin — text animation plugin, JS bundle < 150kb gzipped (excluding lazy Three.js), Lighthouse targets: Perf>=90, A11y>=95, BP>=90, SEO>=95 (+17 more)
 
 ### Community 86 - "Community 86"
-Cohesion: 0.14
-Nodes (20): live-accept.mjs CLI, completionAckForAcceptResult, completionTypeForAcceptResult, fetchServerStatus, isEventPending, postReply, printPollEvent, requiresAgentReply (+12 more)
+Cohesion: 0.17
+Nodes (18): live-accept.mjs CLI, completeCli, completeThroughServer, completionAckForAcceptResult, completionTypeForAcceptResult, postReply, printPollEvent, requiresAgentReply (+10 more)
 
 ### Community 87 - "Community 87"
 Cohesion: 0.17
@@ -713,24 +715,24 @@ Cohesion: 0.26
 Nodes (14): applySvelteKitLiveAdapter(), buildSvelteLiveRootComponent(), defaultSvelteLayout(), detectSvelteKitProject(), ensureSvelteLiveRootComponent(), escapeRegExp(), fileIncludes(), findSvelteKitAppHtml() (+6 more)
 
 ### Community 89 - "Community 89"
-Cohesion: 0.16
-Nodes (14): GATED_PROVIDERS set, getRuleEngineSupport, getRulesForCategory, ANTIPATTERNS registry, filterByProviders, getAntipattern, RULE_ENGINE_SUPPORT map, finding() (+6 more)
+Cohesion: 0.17
+Nodes (14): getRuleEngineSupport, RULE_ENGINE_SUPPORT map, detect-antipatterns-browser.js (bundled, generated), finding(), getAP(), window.impeccableDetect (global entry), createBrowserDetector, detectUrl (+6 more)
 
 ### Community 90 - "Community 90"
 Cohesion: 0.26
 Nodes (14): applySvelteKitLiveAdapter(), buildSvelteLiveRootComponent(), defaultSvelteLayout(), detectSvelteKitProject(), ensureSvelteLiveRootComponent(), escapeRegExp(), fileIncludes(), findSvelteKitAppHtml() (+6 more)
 
 ### Community 91 - "Community 91"
-Cohesion: 0.13
-Nodes (12): createScrollReveal, Decision: split-type replaces SplitText (no GSAP Club license), splitAll, splitChars, splitCharsWords, splitLines, splitWords, FASE 2 - Base visual (Loader, Cursor, Navbar, Footer, hooks, utils) (+4 more)
+Cohesion: 0.12
+Nodes (13): createScrollReveal, Decision: split-type replaces SplitText (no GSAP Club license), main.jsx React root render setup, splitAll, splitChars, splitCharsWords, splitLines, splitWords (+5 more)
 
 ### Community 92 - "Community 92"
 Cohesion: 0.16
 Nodes (15): createLiveBrowserSessionState, window.__IMPECCABLE_LIVE_SESSION__, changedFilesSinceSnapshot, clearAppliedEntries, collectApplyOwnedFiles, commitManualEdits, main, repairPostApplyValidation (+7 more)
 
 ### Community 93 - "Community 93"
-Cohesion: 0.19
-Nodes (13): cli(), cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals(), hasCode(), latestCritique() (+5 more)
+Cohesion: 0.27
+Nodes (9): cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals(), hasCode(), SCANNABLE_EXT, scanTargets() (+1 more)
 
 ### Community 94 - "Community 94"
 Cohesion: 0.18
@@ -741,8 +743,8 @@ Cohesion: 0.23
 Nodes (14): acceptCli, buildCarbonizeReplacement, deindentContent, detectCommentSyntax, extractInnerByAttr, extractOriginal, extractVariant, findMarkerBlock (+6 more)
 
 ### Community 96 - "Community 96"
-Cohesion: 0.27
-Nodes (10): COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals(), hasCode(), latestCritique(), probePort(), SCANNABLE_EXT (+2 more)
+Cohesion: 0.26
+Nodes (11): cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals(), hasCode(), latestCritique(), probePort() (+3 more)
 
 ### Community 97 - "Community 97"
 Cohesion: 0.18
@@ -825,16 +827,16 @@ Cohesion: 0.18
 Nodes (12): GSAP critical-error checklist (useGSAP, plugins, animatable props), Always use useGSAP, never useEffect for GSAP, About section word reveal (SRS §3.3), Contact entrance animation (SRS §3.3), Hero parallax animations (SRS §3.3), Loader animation sequence (SRS §3.2), Magnetic button CTA behavior (SRS §3.4), Navbar hide-on-scroll (SRS §3.4) (+4 more)
 
 ### Community 117 - "Community 117"
-Cohesion: 0.15
-Nodes (13): Aircenter Pattern 1 — Oversized letters as 3D container, buenas-practicas.md — Code quality rules, #E8E0D4 — Crema accent (hover states), #C8F04D — Lima accent (CTA + cursor dot only), CustomCursor.jsx — 8px lima dot + 40px ring, GSAP quickTo, useGSAP hook (@gsap/react) — mandatory GSAP pattern, HeroCanvas.jsx — R3F Canvas (lazy loaded, dpr=[1,1.5]), Navbar.jsx — Fixed, hide/show on scroll, LDS logo, GSAP yPercent (+5 more)
+Cohesion: 0.14
+Nodes (14): Aircenter Pattern 1 — Oversized letters as 3D container, Aircenter Pattern 2 — Layered-slice 3D object (accordion), Aircenter Pattern 3 — Metallic gyroscope sphere (About/Skills), Aircenter Pattern 4 — Multi-layer photographic parallax, Aircenter Pattern 5 — Split headline at viewport edges, Aircenter Pattern 6 — Color scheme inversion at footer, BRIEF_ANIMACIONES_AIRCENTER.md — Animation reference brief, #E8E0D4 — Crema accent (hover states) (+6 more)
 
 ### Community 118 - "Community 118"
 Cohesion: 0.17
 Nodes (12): Per-component checklist before closing (Portfolio), CSS animation rules (animate only transform/opacity), CustomCursor.jsx custom cursor spec, frontend-design Apache 2.0 LICENSE, Portfolio CSS palette variables (SRS §2.1), frontend-design PROJECT_CONTEXT (Portfolio aesthetic direction), frontend-design SKILL, split-type replaces SplitText (GSAP Club requirement) (+4 more)
 
 ### Community 119 - "Community 119"
-Cohesion: 0.08
-Nodes (29): LIVE_IGNORE_PATTERNS, buildTagBlock, ensureLiveGitIgnores, findCspMetaTags, insertTag, removeTag, revertCspMeta, applySvelteKitLiveAdapter (+21 more)
+Cohesion: 0.15
+Nodes (14): applySvelteKitLiveAdapter, buildSvelteLiveRootComponent, detectSvelteKitProject, ensureSvelteLiveRootComponent, escapeRegExp, fileIncludes, findSvelteKitAppHtml, findSvelteKitLayout (+6 more)
 
 ### Community 120 - "Community 120"
 Cohesion: 0.20
@@ -885,8 +887,8 @@ Cohesion: 0.25
 Nodes (9): __dirname, findHarnessDirs(), generatePinnedSkill(), HARNESS_DIRS, loadCommandMetadata(), pin(), root, unpin() (+1 more)
 
 ### Community 132 - "Community 132"
-Cohesion: 0.24
-Nodes (10): #4D7CFF — Electric blue (active links), #0A0A0A — Global background (near-black), #F0EDE8 — Primary text (warm white), DESIGN.md — Design system tokens, DM Sans — UI/body font (wt 300-500), JetBrains Mono — Mono font (tech labels, CTAs), Playfair Display — Display/headline font (wt 900), .impeccable/live/config.json — Impeccable config (framework: vite) (+2 more)
+Cohesion: 0.14
+Nodes (16): buenas-practicas.md — Code quality rules, #C8F04D — Lima accent (CTA + cursor dot only), #4D7CFF — Electric blue (active links), #0A0A0A — Global background (near-black), #F0EDE8 — Primary text (warm white), CustomCursor.jsx — 8px lima dot + 40px ring, GSAP quickTo, DESIGN.md — Design system tokens, DM Sans — UI/body font (wt 300-500) (+8 more)
 
 ### Community 133 - "Community 133"
 Cohesion: 0.11
@@ -917,8 +919,8 @@ Cohesion: 0.36
 Nodes (8): __dirname, ensureServerRunning(), liveCli(), runScript(), safeParse(), scanForDrift(), globToRegex, resolveFiles
 
 ### Community 140 - "Community 140"
-Cohesion: 0.10
-Nodes (25): fetchServerStatus(), findPendingManualApply(), readServerInfo(), statusCli(), fetchServerStatus(), findPendingManualApply(), readServerInfo(), statusCli() (+17 more)
+Cohesion: 0.27
+Nodes (9): fetchServerStatus(), findPendingManualApply(), readServerInfo(), statusCli(), manualApplyReplyCommand, summarizeManualApplyEvent, collectManualApplyFiles, manualApplyResumeHint (+1 more)
 
 ### Community 141 - "Community 141"
 Cohesion: 0.29
@@ -946,11 +948,7 @@ Nodes (4): contrastRatio(), parseGradientColors(), parseRgb(), relativeLuminance
 
 ### Community 147 - "Community 147"
 Cohesion: 0.29
-Nodes (7): Aircenter Pattern 2 — Layered-slice 3D object (accordion), Aircenter Pattern 3 — Metallic gyroscope sphere (About/Skills), Aircenter Pattern 4 — Multi-layer photographic parallax, Aircenter Pattern 5 — Split headline at viewport edges, Aircenter Pattern 6 — Color scheme inversion at footer, BRIEF_ANIMACIONES_AIRCENTER.md — Animation reference brief, ScrollTrigger — scroll-driven animation plugin
-
-### Community 148 - "Community 148"
-Cohesion: 0.18
-Nodes (15): App, ScrollRefresh, Hero, Loader, LoaderProvider, useLoader, main.jsx React root render setup, MouseProvider (+7 more)
+Nodes (8): getLegacyLiveSessionsDir, live-server.mjs (local HTTP/SSE server for Impeccable live mode), rebuildSnapshotFromJournal, applyEvent, baseSnapshot, createLiveSessionStore, toPendingEvent, writeSnapshot
 
 ### Community 149 - "Community 149"
 Cohesion: 0.25
@@ -969,8 +967,8 @@ Cohesion: 0.28
 Nodes (9): buildManualApplyAgentAction(), collectManualApplyFiles(), compactManualApplyBatch(), compactManualApplyCandidates(), manualApplyReplyCommand(), pushApplyEventAndWait(), snapshotApplyEventFiles(), summarizeManualApplyEvent() (+1 more)
 
 ### Community 153 - "Community 153"
-Cohesion: 0.28
-Nodes (9): getLegacyLiveServerPath, getLiveServerPath, isLiveServerPidReachable, readLiveServerInfo, removeLiveServerInfo, writeLiveServerInfo, completeCli, completeThroughServer (+1 more)
+Cohesion: 0.33
+Nodes (7): getLegacyLiveServerPath, getLiveServerPath, isLiveServerPidReachable, readLiveServerInfo, removeLiveServerInfo, writeLiveServerInfo, readServerInfo
 
 ### Community 154 - "Community 154"
 Cohesion: 0.25
@@ -1005,20 +1003,20 @@ Cohesion: 0.22
 Nodes (10): PageTransitionContext, createLoaderCounter, lenis (Lenis singleton instance), Pattern: always use useGSAP from @gsap/react, never useEffect, GSAP plugin registration (ScrollTrigger, Flip, TextPlugin, useGSAP), Lenis + GSAP ticker sync, FASE 1 - Setup base (mostly complete), useParallax (+2 more)
 
 ### Community 162 - "Community 162"
-Cohesion: 0.21
-Nodes (14): detect-antipatterns-browser.js (bundled, generated), collectStaticCssRules, collectStaticCssText, makeStaticStyle, engines/static-html/css-cascade.mjs, buildStaticStyleMap, window.impeccableDetect (global entry), detectUrl (+6 more)
+Cohesion: 0.25
+Nodes (8): fetchServerStatus, isEventPending, waitForEventAck, /status endpoint handler, fetchServerStatus, findPendingManualApply, readServerInfo, statusCli
 
 ### Community 163 - "Community 163"
-Cohesion: 0.22
-Nodes (10): appendStyleToLiveUiRoot(), appendToLiveUiRoot(), escapeCssIdent(), getLiveUiElementById(), LIVE_CHROME_MOUNT_CONTRACT, LIVE_UI_COMPONENT_IDS, LIVE_UI_SURFACES, resolveLiveUiRoot() (+2 more)
+Cohesion: 0.70
+Nodes (4): fetchServerStatus(), findPendingManualApply(), readServerInfo(), statusCli()
 
 ### Community 164 - "Community 164"
 Cohesion: 0.29
 Nodes (8): hasGeneratedHeader, isGeneratedFile, isGitIgnored, collectRollbackFiles, scanRollbackDir, snapshotRollbackFiles, analyzeSourceHint, collectSearchFiles
 
 ### Community 165 - "Community 165"
-Cohesion: 0.21
-Nodes (12): applyLegacyDeferredAcceptsOnStartup(), applyDeferredSvelteComponentAccepts, readDeferredAccepts, readManifest, removeAllSvelteComponentSessions, resolveSourceFile, substitutePropsWithExprs, findSvelteComponentManifest (+4 more)
+Cohesion: 0.40
+Nodes (5): appendStyleToLiveUiRoot, appendToLiveUiRoot, escapeCssIdent, getLiveUiElementById, resolveLiveUiRoot
 
 ### Community 166 - "Community 166"
 Cohesion: 0.29
@@ -1041,8 +1039,8 @@ Cohesion: 0.33
 Nodes (7): decodeHtmlAttr, escapeRegExp (live-accept), expandReplaceRange, hasVariantWrapperAttr, isVariantEndMarkerLine, readHtmlAttr, readSourceShadowPreviewMeta
 
 ### Community 171 - "Community 171"
-Cohesion: 0.22
-Nodes (10): LIVE_COMMANDS, VISUAL_ACTIONS, validateAnnotationFields, validateEvent, validateInsertGenerate, validateManualEditText, validateReplaceGenerate, manual_edits event handler (+2 more)
+Cohesion: 0.38
+Nodes (7): validateAnnotationFields, validateEvent, validateInsertGenerate, validateManualEditText, validateReplaceGenerate, validateManualEditEvent, VISUAL_ACTIONS (re-export)
 
 ### Community 172 - "Community 172"
 Cohesion: 0.30
@@ -1137,8 +1135,8 @@ Cohesion: 0.40
 Nodes (5): manualApplyEvidenceDir(), normalizeManualApplyEvidencePath(), pruneStaleManualApplyEvidence(), referencedManualApplyEvidencePaths(), writeManualApplyEvidence()
 
 ### Community 195 - "Community 195"
-Cohesion: 0.29
-Nodes (9): DEPRECATED_NAMES (v2-v3 skill consolidation list), command-metadata.json (slash command catalog), command-metadata.json — Impeccable command catalog, Document command (DESIGN.md generation), Init command (PRODUCT.md/DESIGN.md setup), Polish command (final pass), Quieter (reduce visual intensity), Shape (design brief before code) (+1 more)
+Cohesion: 0.25
+Nodes (10): DEPRECATED_NAMES (v2-v3 skill consolidation list), command-metadata.json (slash command catalog), command-metadata.json — Impeccable command catalog, Document command (DESIGN.md generation), Init command (PRODUCT.md/DESIGN.md setup), Live mode (interactive variants), Polish command (final pass), Quieter (reduce visual intensity) (+2 more)
 
 ### Community 196 - "Community 196"
 Cohesion: 0.24
@@ -1244,9 +1242,9 @@ Nodes (5): useLocalTime(), Footer(), FOOTER_LINKS, monoLinkStyle, SOCIAL_LINKS
 Cohesion: 0.40
 Nodes (6): checkRepeatedSectionKickers(), checkRepeatedSectionKickersDOM(), checkRepeatedSectionKickersFromDoc(), cleanInlineText(), collectRepeatedSectionKickerCandidates(), isRepeatedKickerCandidate()
 
-### Community 246 - "Community 246"
-Cohesion: 0.67
-Nodes (3): AboutPage, ExhibicionesPage, Decision: Nav structure Proyectos / IA / Exhibiciones / Sobre mí
+### Community 240 - "Community 240"
+Cohesion: 0.50
+Nodes (4): checkTypography(), BRAND_FONT_DOMAINS, BRAND_FONT_DOMAINS map, isBrandFontOnOwnDomain
 
 ## Ambiguous Edges - Review These
 - `Contact()` → `useLocalTime`  [AMBIGUOUS]
@@ -1265,15 +1263,13 @@ Nodes (3): AboutPage, ExhibicionesPage, Decision: Nav structure Proyectos / IA /
   .claude/skills/impeccable/scripts/live-browser-session.js · relation: semantically_similar_to
 - `validateInsertGenerate` → `VISUAL_ACTIONS (re-export)`  [AMBIGUOUS]
   .claude/skills/impeccable/scripts/live-event-validation.mjs · relation: uses
-- `App` → `useNavbarBehavior`  [AMBIGUOUS]
-  src/hooks/useNavbarBehavior.js · relation: used_by
 - `useReducedMotion` → `main.jsx React root render setup`  [AMBIGUOUS]
   src/hooks/useReducedMotion.js · relation: complements
 
 ## Knowledge Gaps
-- **607 isolated node(s):** `1. Documentos de referencia`, `2. Figma MCP — proyecto "portfolio2.0"`, `3. Stack técnico`, ``threejs-webgl``, ``gsap-scrolltrigger`` (+602 more)
+- **609 isolated node(s):** `WorkList`, `CaseStudy`, `IAPage`, `AboutPage`, `NAV_LINKS` (+604 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **48 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **51 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

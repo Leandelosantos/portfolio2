@@ -3,9 +3,15 @@
 // GSAP: stagger reveal al entrar en viewport
 // buenas-practicas §3: useGSAP, solo transform + opacity
 
-import { useRef } from "react";
+import { useRef, lazy, Suspense } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
+
+// Lazy loaded — solo desktop descarga el chunk Three.js
+const isMobile = window.matchMedia("(max-width: 767px)").matches;
+const ParticlesCanvas = !isMobile
+  ? lazy(() => import("../three/ParticlesCanvas"))
+  : null;
 
 const SERVICES = [
   {
@@ -81,9 +87,20 @@ export function ImpactoReal() {
       aria-label="Servicios — Impacto Real"
       style={{
         padding: "clamp(80px, 12vh, 140px) clamp(14.4px, 3.6vw, 48px)",
-        backgroundColor: "var(--color-bg-subtle)",
+        backgroundColor: "var(--color-bg)",
+        position: "relative",
       }}
     >
+      {/* Fondo — partículas R3F, igual que SelectedWork */}
+      {ParticlesCanvas && (
+        <Suspense fallback={null}>
+          <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
+            <ParticlesCanvas />
+          </div>
+        </Suspense>
+      )}
+
+      <div style={{ position: "relative", zIndex: 1 }}>
       {/* Encabezado */}
       <div
         className="impacto__headline"
@@ -138,6 +155,7 @@ export function ImpactoReal() {
         {SERVICES.map((service) => (
           <ServiceTile key={service.id} service={service} />
         ))}
+      </div>
       </div>
     </section>
   );

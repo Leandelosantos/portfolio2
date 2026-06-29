@@ -5,7 +5,7 @@
 // GSAP: entrance dramático — yPercent 100 clip para headline
 // buenas-practicas §3: useGSAP, solo transform + opacity; gsap.to en handlers OK
 
-import { useRef, useState } from "react";
+import { useRef, useState, lazy, Suspense } from "react";
 import { useForm } from "react-hook-form";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
@@ -15,6 +15,12 @@ import { TextField, Button } from "@mui/material";
 const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+// Lazy loaded — solo desktop descarga el chunk Three.js
+const isMobile = window.matchMedia("(max-width: 767px)").matches;
+const ParticlesCanvas = !isMobile
+  ? lazy(() => import("../three/ParticlesCanvas"))
+  : null;
 
 const WA_NUMBER = "5491168116492";
 const WA_MSG = encodeURIComponent(
@@ -137,10 +143,21 @@ export function Contact() {
       aria-label="Contacto"
       style={{
         padding: "clamp(80px, 12vh, 140px) clamp(14.4px, 3.6vw, 48px)",
-        backgroundColor: "var(--color-bg-subtle)",
+        backgroundColor: "var(--color-bg)",
         overflow: "hidden",
+        position: "relative",
       }}
     >
+      {/* Fondo — partículas R3F, igual que SelectedWork */}
+      {ParticlesCanvas && (
+        <Suspense fallback={null}>
+          <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
+            <ParticlesCanvas />
+          </div>
+        </Suspense>
+      )}
+
+      <div style={{ position: "relative", zIndex: 1 }}>
       {/* Headline — overflow:hidden en padre para el clip de yPercent */}
       <div
         style={{
@@ -345,6 +362,7 @@ export function Contact() {
             valga la pena iniciar.
           </p>
         </div>
+      </div>
       </div>
     </section>
   );

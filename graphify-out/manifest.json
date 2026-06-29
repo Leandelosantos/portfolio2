@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "src/App.jsx": {
-    "mtime": 1780860274.419829,
-    "ast_hash": "a28c3b35ffa8eba6b49bbb28a9fa7c70",
+    "mtime": 1782335182.4317462,
+    "ast_hash": "de6355cd5950826d7f0b0258b382a68e",
     "semantic_hash": ""
   },
   "src/components/cursor/CustomCursor.jsx": {
@@ -35,13 +35,13 @@
     "semantic_hash": ""
   },
   "src/components/layout/Navbar.jsx": {
-    "mtime": 1780969211.4254887,
-    "ast_hash": "62574c7dbf372f48461b583a63db1f21",
+    "mtime": 1782335192.8557258,
+    "ast_hash": "34ced4da1113237b8e9885c2b0d7650f",
     "semantic_hash": ""
   },
   "src/components/sections/Contact.jsx": {
-    "mtime": 1782256825.082198,
-    "ast_hash": "24b1b5b03e5bee8ca82714ae4f47209a",
+    "mtime": 1782689035.025727,
+    "ast_hash": "ad243f5d256e0ec4105b238d6d3b601d",
     "semantic_hash": ""
   },
   "src/components/sections/Hero.jsx": {
@@ -50,7 +50,7 @@
     "semantic_hash": ""
   },
   "src/components/sections/ImpactoReal.jsx": {
-    "mtime": 1782244855.6679745,
+    "mtime": 1782688997.275805,
     "ast_hash": "620b4ed53627fe4605175ecb4f89f84d",
     "semantic_hash": ""
   },
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "src/components/sections/SelectedWork.jsx": {
-    "mtime": 1782244867.6341534,
-    "ast_hash": "66c4f28ccf5a0c403655fd9ebb4d3b6f",
+    "mtime": 1782413127.3281689,
+    "ast_hash": "95e9b269d9da328f5de08eddd7d7dfe6",
     "semantic_hash": ""
   },
   "src/components/three/HelmetCanvas.jsx": {
@@ -212,11 +212,6 @@
   "src/pages/CaseStudy.jsx": {
     "mtime": 1782253432.4056437,
     "ast_hash": "8a484e0e78a88f37cc81ff7cfc49e5e6",
-    "semantic_hash": ""
-  },
-  "src/pages/ExhibicionesPage.jsx": {
-    "mtime": 1780790440.1541946,
-    "ast_hash": "78712d57cbee53204b3e0827d81bfca7",
     "semantic_hash": ""
   },
   "src/pages/Home.jsx": {
@@ -767,6 +762,56 @@
   "tasks/todo.md": {
     "mtime": 1780785040.3672404,
     "ast_hash": "195aed98327ab18290f9006de181aa2f",
+    "semantic_hash": ""
+  },
+  "src/components/three/ParticlesCanvas.jsx": {
+    "mtime": 1782413109.545399,
+    "ast_hash": "8490a4c2e0447f18dbbd83323648cbb1",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-25T18-40-49-755Z.yml": {
+    "mtime": 1782412849.7562304,
+    "ast_hash": "4a91dd149f432b2d1eb126f65fc360fa",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-25T18-41-54-905Z.yml": {
+    "mtime": 1782412914.9063797,
+    "ast_hash": "3684a823e8c424334d274743a8d83f67",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-25T18-45-39-883Z.yml": {
+    "mtime": 1782413139.8841448,
+    "ast_hash": "e62b17b6d526ffbd2c75065ff204e748",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-25T18-45-50-086Z.yml": {
+    "mtime": 1782413150.0868263,
+    "ast_hash": "5fe2688cbe75ea081110e1633d725110",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-25T19-40-50-235Z.yml": {
+    "mtime": 1782416450.2355497,
+    "ast_hash": "5d97cb441e0b394abe649727f6d2305d",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-28T23-33-46-344Z.yml": {
+    "mtime": 1782689626.3457508,
+    "ast_hash": "a35bde4546680232ce9d054b3735ccab",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-28T23-34-19-000Z.yml": {
+    "mtime": 1782689659.00165,
+    "ast_hash": "4ae2a38c695c44bf5ee9cc45a0b4fc72",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-28T23-36-26-027Z.yml": {
+    "mtime": 1782689786.0281222,
+    "ast_hash": "21a4d692fd9d9af97523247a046621f6",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-28T23-36-45-650Z.yml": {
+    "mtime": 1782689805.6513991,
+    "ast_hash": "ad2d200e7b4dc7e54950cdb23ea1aef0",
     "semantic_hash": ""
   }
 }

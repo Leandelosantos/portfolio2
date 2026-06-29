@@ -82,6 +82,9 @@ export const projects = [
     liveUrl: null,
     images: [],
   },
+  // Comentados — contenido ficticio/placeholder, portfolio ya en producción.
+  // Completar con datos reales y descomentar.
+  /*
   {
     id: "sistema-de-diseno",
     title: "Sistema de Diseño",
@@ -156,6 +159,7 @@ export const projects = [
     liveUrl: null,
     images: ["/assets/projects/autonomous-code-reviewer/01.webp"],
   },
+  */
 ];
 
 // Categorías disponibles para el filtro Flip (SRS §4.3)
