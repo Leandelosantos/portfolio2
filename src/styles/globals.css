@@ -440,6 +440,7 @@ html.lenis body {
   }
   .about__photo {
     max-width: 280px;
+    margin: 0 auto;
   }
 }
 

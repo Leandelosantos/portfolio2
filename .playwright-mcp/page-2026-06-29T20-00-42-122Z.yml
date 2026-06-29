@@ -1,0 +1,61 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "000"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - button "Abrir menú" [ref=e10]
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - contentinfo [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Leandro De Los Santos Aboy
+        - paragraph [ref=e18]: Software Developer & Project Manager
+      - 'generic "Hora local: 17:00 ART" [ref=e19]':
+        - generic [ref=e20]: HORA LOCAL
+        - time [ref=e21]: 17:00 ART
+    - generic [ref=e22]:
+      - navigation "Navegación footer" [ref=e23]:
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Proyectos" [ref=e26]:
+              - /url: /work
+          - listitem [ref=e27]:
+            - link "IA" [ref=e28]:
+              - /url: /ia
+          - listitem [ref=e29]:
+            - link "Sobre mí" [ref=e30]:
+              - /url: /sobre-mi
+      - generic [ref=e31]:
+        - link "GitHub — abre en nueva pestaña" [ref=e32]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e33]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e34]: © 2026
+  - link "Escribir por WhatsApp" [ref=e35]:
+    - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+    - img [ref=e36]

@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "src/components/sections/Hero.jsx": {
-    "mtime": 1782761068.8925712,
-    "ast_hash": "f5e82db76d8ef388109f1aa44eb3fb29",
+    "mtime": 1782762777.358208,
+    "ast_hash": "00969a7238c708d4cf88ef807e110fbf",
     "semantic_hash": ""
   },
   "src/components/sections/ImpactoReal.jsx": {
@@ -1072,6 +1072,31 @@
   ".playwright-mcp/page-2026-06-29T19-44-42-552Z.yml": {
     "mtime": 1782762282.5529437,
     "ast_hash": "c3f3f566e3d6641dd0ed447fa9e40eff",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T19-54-08-829Z.yml": {
+    "mtime": 1782762848.8306987,
+    "ast_hash": "e9f741e583f0854b91497766b96e2835",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T19-55-01-500Z.yml": {
+    "mtime": 1782762901.5014224,
+    "ast_hash": "fd90bd7607e34b38ebec49d676c40aec",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T19-55-48-861Z.yml": {
+    "mtime": 1782762948.8620102,
+    "ast_hash": "fd90bd7607e34b38ebec49d676c40aec",
+    "semantic_hash": ""
+  },
+  "hero-mobile-scrim-final.png": {
+    "mtime": 1782762977.397817,
+    "ast_hash": "ed170eaad220cc82c9af231969acb28a",
+    "semantic_hash": ""
+  },
+  "hero-mobile-scrim.png": {
+    "mtime": 1782762859.9807773,
+    "ast_hash": "ee6af01925a9cafb3b4881ce726cfe89",
     "semantic_hash": ""
   }
 }

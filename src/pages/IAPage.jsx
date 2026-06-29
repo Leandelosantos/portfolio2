@@ -197,7 +197,9 @@ export default function IAPage() {
           display: "grid",
           gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr",
           alignItems: "center",
-          minHeight: "clamp(500px, 70vh, 820px)",
+          // minHeight existe para igualar el alto del canvas 3D (desktop) —
+          // en mobile no hay canvas, dejar que el contenido defina el alto
+          minHeight: isMobile ? "auto" : "clamp(500px, 70vh, 820px)",
           padding:
             "clamp(100px, 14vh, 150px) clamp(24px, 6vw, 80px) clamp(60px, 8vh, 100px)",
           gap: "clamp(2rem, 4vw, 5rem)",
@@ -244,18 +246,22 @@ export default function IAPage() {
           </p>
         </div>
 
-        {/* Columna canvas — desktop: Three.js; mobile: imagen estática vía HelmetCanvas */}
-        <div
-          aria-hidden="true"
-          style={{
-            height: "clamp(360px, 55vh, 660px)",
-            position: "relative",
-          }}
-        >
-          <Suspense fallback={null}>
-            <HelmetCanvas />
-          </Suspense>
-        </div>
+        {/* Columna canvas — solo desktop. HelmetCanvas retorna null en mobile
+            (SRS: Three.js hero → sin canvas en mobile), así que el wrapper
+            tampoco se monta ahí; si no, su height fijo deja hueco vacío. */}
+        {!isMobile && (
+          <div
+            aria-hidden="true"
+            style={{
+              height: "clamp(360px, 55vh, 660px)",
+              position: "relative",
+            }}
+          >
+            <Suspense fallback={null}>
+              <HelmetCanvas />
+            </Suspense>
+          </div>
+        )}
       </section>
 
       {/* ── MANIFIESTO 2-COL ─────────────────────────────────── */}
