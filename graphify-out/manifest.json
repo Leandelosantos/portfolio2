@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "src/components/ui/ProjectGridCard.jsx": {
-    "mtime": 1782257009.907088,
-    "ast_hash": "c9da4a29183f4509ee6f0bac4eb6a29d",
+    "mtime": 1782762271.3578424,
+    "ast_hash": "0d25e42f5882df8bf426c4536708e81a",
     "semantic_hash": ""
   },
   "src/components/ui/SkipLink.jsx": {
@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "src/pages/AboutPage.jsx": {
-    "mtime": 1782761784.0446315,
-    "ast_hash": "2673a98cb46136f1b6b80bc302039f54",
+    "mtime": 1782762101.7237632,
+    "ast_hash": "b8d40ece6ce73b8805c82bea72e32230",
     "semantic_hash": ""
   },
   "src/pages/CaseStudy.jsx": {
@@ -1062,6 +1062,16 @@
   ".playwright-mcp/page-2026-06-29T19-36-29-191Z.yml": {
     "mtime": 1782761789.191773,
     "ast_hash": "167c9597f5df4e140f8c50240949765c",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T19-41-46-530Z.yml": {
+    "mtime": 1782762106.5309405,
+    "ast_hash": "e54848f7a1c84fadb46016a0369f5496",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T19-44-42-552Z.yml": {
+    "mtime": 1782762282.5529437,
+    "ast_hash": "c3f3f566e3d6641dd0ed447fa9e40eff",
     "semantic_hash": ""
   }
 }

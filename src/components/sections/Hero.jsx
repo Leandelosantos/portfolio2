@@ -239,6 +239,21 @@ export function Hero() {
         <source src="/assets/video-mobile.mp4" type="video/mp4" />
       </video>
 
+      {/* Scrim — apaga el video para que el texto gris (label/descripción)
+          mantenga contraste AA; el contenido ocupa casi todo el alto del
+          stack mobile, así que es un velo plano, no un vignette. */}
+      <div
+        aria-hidden="true"
+        className="hero__video-scrim"
+        style={{
+          position: "absolute",
+          inset: 0,
+          zIndex: 1,
+          backgroundColor: "var(--color-bg)",
+          opacity: 0,
+        }}
+      />
+
       {/* ── Contenido — sobre el canvas, por esquinas ────────────────── */}
 
       {/* Label — centrado arriba, cerca del navbar */}

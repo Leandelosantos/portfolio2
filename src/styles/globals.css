@@ -207,6 +207,9 @@ html.lenis body {
   .hero__video-mobile {
     display: block !important;
   }
+  .hero__video-scrim {
+    opacity: 0.8 !important;
+  }
 
   .hero__name-left,
   .hero__name-right {
