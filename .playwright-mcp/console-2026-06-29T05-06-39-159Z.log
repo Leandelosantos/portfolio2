@@ -1,0 +1,357 @@
+[      71ms] [LOG] %c Console Ninja extension is connected to Vite, background: rgb(30,30,30); color: rgb(255,213,92) see https://tinyurl.com/2vt8jxzw for more info. @ :0
+[     106ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:21550
+[     136ms] [LOG] [DEBUG] Hero useGSAP effect ejecutado, isLoaded=false @ http://localhost:5173/src/components/sections/Hero.jsx?t=1782709377128:58
+[     140ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6e2a7132:4426
+[     140ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6e2a7132:4426
+[     141ms] [LOG] [DEBUG] Hero useGSAP effect ejecutado, isLoaded=false @ http://localhost:5173/src/components/sections/Hero.jsx?t=1782709377128:58
+[    1380ms] [LOG] [DEBUG] Hero useGSAP effect ejecutado, isLoaded=true @ http://localhost:5173/src/components/sections/Hero.jsx?t=1782709377128:58
+[    3165ms] [WARNING] The resource http://localhost:5173/fonts/playfair-900.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[    3165ms] [WARNING] The resource http://localhost:5173/fonts/dm-sans-400.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[   36752ms] ReferenceError: runId is not defined
+    at Tween2.onStart (http://localhost:5173/src/components/sections/Loader.jsx?t=1782709634606:59:86)
+    at _callback2 (http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:748:62)
+    at Tween2.render3 [as render] (http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:2392:9)
+    at Timeline2.render3 [as render] (http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:1593:19)
+    at Timeline2.render3 [as render] (http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:1593:19)
+    at _lazySafeRender2 (http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:171:13)
+    at Array.updateRoot (http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:1899:7)
+    at _tick2 (http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:965:24)
+[   38473ms] [WARNING] The resource http://localhost:5173/fonts/playfair-900.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[   38473ms] [WARNING] The resource http://localhost:5173/fonts/dm-sans-400.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[   56543ms] [WARNING] The resource http://localhost:5173/fonts/playfair-900.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[   56543ms] [WARNING] The resource http://localhost:5173/fonts/dm-sans-400.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[   72662ms] ReferenceError: useDebugOpacitySampler is not defined
+    at Hero (http://localhost:5173/src/components/sections/Hero.jsx?t=1782709671770:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19198:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19137:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19116:15)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:18874:28)
+    at flushSyncCallbacks (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:9119:30)
+    at flushSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:18959:15)
+    at Object.scheduleRefresh (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:20004:13)
+    at http://localhost:5173/@react-refresh:228:17
+    at Set.forEach (<anonymous>)
+    at performReactRefresh (http://localhost:5173/@react-refresh:217:26)
+    at http://localhost:5173/@react-refresh:608:3
+[   72665ms] ReferenceError: useDebugOpacitySampler is not defined
+    at Hero (http://localhost:5173/src/components/sections/Hero.jsx?t=1782709671770:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:3699:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:3733:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19765:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19198:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19137:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19116:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:18736:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:18879:28)
+    at flushSyncCallbacks (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:9119:30)
+    at flushSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:18959:15)
+    at Object.scheduleRefresh (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:20004:13)
+    at http://localhost:5173/@react-refresh:228:17
+    at Set.forEach (<anonymous>)
+    at performReactRefresh (http://localhost:5173/@react-refresh:217:26)
+    at http://localhost:5173/@react-refresh:608:3
+[   72671ms] [ERROR] The above error occurred in the <Hero> component:
+
+    at Hero (http://localhost:5173/src/components/sections/Hero.jsx?t=1782709671770:28:24)
+    at main
+    at Home
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6e2a7132:4122:5)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6e2a7132:4592:5)
+    at Suspense
+    at PageTransitionProvider (http://localhost:5173/src/context/PageTransitionContext.jsx:23:42)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6e2a7132:4535:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6e2a7132:5273:5)
+    at MouseProvider (http://localhost:5173/src/context/MouseContext.jsx:21:33)
+    at LoaderProvider (http://localhost:5173/src/context/LoaderContext.jsx:20:34)
+    at DefaultPropsProvider (http://localhost:5173/node_modules/.vite/deps/@mui_material.js?v=6e2a7132:8734:3)
+    at RtlProvider (http://localhost:5173/node_modules/.vite/deps/@mui_material.js?v=6e2a7132:8712:5)
+    at ThemeProvider2 (http://localhost:5173/node_modules/.vite/deps/@mui_material.js?v=6e2a7132:8664:15)
+    at ThemeProvider3 (http://localhost:5173/node_modules/.vite/deps/@mui_material.js?v=6e2a7132:8858:15)
+    at ThemeProvider4 (http://localhost:5173/node_modules/.vite/deps/@mui_material.js?v=6e2a7132:11547:12)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ :0
+[   72675ms] ReferenceError: useDebugOpacitySampler is not defined
+    at Hero (http://localhost:5173/src/components/sections/Hero.jsx?t=1782709671770:33:3)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:11548:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:14926:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:15914:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19753:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19198:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19137:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:19116:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:18736:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:18879:28)
+    at flushSyncCallbacks (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:9119:30)
+    at flushSync (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:18959:15)
+    at Object.scheduleRefresh (http://localhost:5173/node_modules/.vite/deps/chunk-334SA7H6.js?v=6e2a7132:20004:13)
+    at http://localhost:5173/@react-refresh:228:17
+    at Set.forEach (<anonymous>)
+    at performReactRefresh (http://localhost:5173/@react-refresh:217:26)
+    at http://localhost:5173/@react-refresh:608:3
+[   73178ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:5173/node_modules/.vite/deps/chunk-AIMFXXY4.js?v=6e2a7132:32989
+[   73178ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:5173/node_modules/.vite/deps/chunk-AIMFXXY4.js?v=6e2a7132:32989
+[   73178ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:5173/node_modules/.vite/deps/chunk-AIMFXXY4.js?v=6e2a7132:32989
+[   73178ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:5173/node_modules/.vite/deps/chunk-AIMFXXY4.js?v=6e2a7132:32989
+[   75643ms] [WARNING] The resource http://localhost:5173/fonts/playfair-900.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[   75643ms] [WARNING] The resource http://localhost:5173/fonts/dm-sans-400.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[   81985ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81985ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81986ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81986ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81987ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81987ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81988ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81988ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81988ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81988ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81989ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81989ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81999ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81999ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   81999ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82000ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82000ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82002ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82002ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82003ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82004ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82004ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82004ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82005ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82005ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82006ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82006ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82007ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82008ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82008ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82014ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82014ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82014ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82015ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82015ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82016ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82016ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82038ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82038ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82046ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82046ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82089ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82089ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82110ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82110ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82116ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82116ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82126ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82126ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82134ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82134ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82142ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82142ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82151ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82151ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82159ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82159ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82167ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82167ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82175ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82176ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82184ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82184ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82192ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82192ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82200ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82200ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82208ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82208ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82214ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82214ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82223ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82223ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82231ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82231ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82238ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82238ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82247ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82247ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82255ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82255ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82263ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82263ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82271ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82272ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82280ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82280ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82288ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82288ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82297ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82297ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82305ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82305ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82313ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82313ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82319ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82319ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82328ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82328ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82335ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82335ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82343ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82343ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82351ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82351ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82359ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82359ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82367ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82367ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82375ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82375ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82384ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82384ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82392ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82393ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82401ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82401ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82408ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82408ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82418ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82418ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82425ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82425ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82434ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82434ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82440ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82440ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82448ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82448ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82455ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82455ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82464ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82464ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82472ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82472ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82480ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82480ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82488ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82488ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82497ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82497ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82505ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82505ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82513ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82514ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82522ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82522ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82530ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82530ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82539ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82539ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82547ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82547ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82556ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82556ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82564ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82565ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82572ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82572ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82581ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82581ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82588ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82589ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82597ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82597ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82605ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82606ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82614ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82614ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82622ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82623ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82631ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82631ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82639ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82639ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82648ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82648ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82655ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82655ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82664ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82664ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82672ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82673ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82680ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82680ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82689ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82689ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82698ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82698ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82705ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82705ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82714ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82714ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82722ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82722ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82730ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82730ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82738ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82738ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82746ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82746ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82756ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82756ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82764ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82764ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82772ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82772ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82780ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82781ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82792ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82792ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82795ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82795ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82803ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82803ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82810ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82811ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82819ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82819ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82826ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82827ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82836ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82836ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82845ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82845ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82860ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82860ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82868ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82869ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82877ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82877ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82885ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82885ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82901ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82901ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82910ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82910ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82934ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82934ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82942ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   82943ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   83241ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   83241ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   83241ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   83241ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   83242ms] [WARNING] Invalid scope @ http://localhost:5173/node_modules/.vite/deps/chunk-UTTC4PWC.js?v=6e2a7132:86
+[   85019ms] [WARNING] The resource http://localhost:5173/fonts/playfair-900.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0
+[   85019ms] [WARNING] The resource http://localhost:5173/fonts/dm-sans-400.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:5173/:0

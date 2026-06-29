@@ -16,9 +16,7 @@ export function Loader() {
 
   useGSAP(
     () => {
-      const tl = gsap.timeline({
-        onComplete: () => setIsLoaded(true),
-      });
+      const tl = gsap.timeline();
 
       // ── Fase 1: Counter 0 → 100 (0 - 1.0s) ─────────────────
       const proxy = { value: 0 };
@@ -44,6 +42,9 @@ export function Loader() {
       }, '-=0.2');
 
       // ── Fase 3: Wipe out del loader (1.4 - 1.8s) ────────────
+      // setIsLoaded dispara al EMPEZAR el wipe (no en onComplete del timeline completo):
+      // así el Hero ya está revelándose mientras la cortina sale, sin el "pop"
+      // visible de opacity 1→0→1 que pasaba cuando esperaba al wipe terminado.
       tl.to(
         containerRef.current,
         {
@@ -51,6 +52,7 @@ export function Loader() {
           duration: 0.7,
           ease: 'power3.inOut',
           delay: 0.15,
+          onStart: () => setIsLoaded(true),
         },
         '+=0.1'
       );
