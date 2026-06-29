@@ -1,6 +1,6 @@
 # PROJECT_MEMORY.md — Portfolio Personal
-**Última actualización:** 2026-06-23 (continuación sesión 10)
-**Sesión:** 10
+**Última actualización:** 2026-06-29 (sesión 11)
+**Sesión:** 11
 
 ---
 
@@ -23,6 +23,8 @@
 | Contenido Cecilia Brook (sesión 8) | ✅ Completo | Tercera card del bento — case study completo + video propio (web artista plástica, Next.js+GSAP+Three.js) |
 | Thumbnails Huevos Point ERP + Cecilia Brook (sesión 8) | ✅ Completo | Frames mal elegidos en sesión 7/8 inicial (intro cortada / pantalla de login poco representativa) — reextraídos en timestamps que muestran contenido real |
 | Grid 2 columnas + reveal lateral en Home (sesión 9) | ✅ Completo | **Reemplaza el bento solo en Home** (`SelectedWork.jsx`). `/work` sigue 100% con `ProjectBento.jsx`/`ProjectBentoCard.jsx`, sin cambios. Verificado con Playwright. |
+| Fondo de partículas R3F en ImpactoReal + Contact (sesión 11) | ✅ Completo | Mismo `ParticlesCanvas` lazy que `SelectedWork`, fondo `var(--color-bg)` (negro puro, igual que Proyectos) en vez de `--color-bg-subtle`. Commiteado por el usuario (`fd278c1`) |
+| Sección "Sobre mí" / `/sobre-mi` (sesión 11) | 🔄 En progreso | Headline + bio justificada (Kinetic Text) + stack tecnológico en Marquee. Foto y background de sección **pendientes** (usuario los va a compartir) |
 
 ---
 
@@ -38,6 +40,8 @@
 | WorkList | src/pages/WorkList.jsx | Sesión 5/7 | Filtro por categoría con Flip + `<ProjectBento>` |
 | SelectedWork | src/components/sections/SelectedWork.jsx | Sesión 9 | Home: `<ProjectGridHome projects={FEATURED} viewAllHref="/work">` (antes `ProjectBento`, cambiado en sesión 9) |
 | ProjectCard / ProjectShowcase / ProjectCaseSummary / useCardTilt | src/components/ui+sections/ + hooks/ | Sesión 6 | **Solo `/ia`** — intacto, no migrado al bento ni al grid nuevo |
+| AboutPage | src/pages/AboutPage.jsx | Sesión 11 | `/sobre-mi`. Headline + grid 2 col (foto placeholder izq / bio+stack der). Bio: Kinetic Text (Magic UI portado sin Tailwind) vía `split-type` (`tagName:'span'`) + CSS `:has()` — ventana ±3 chars, pesos reales DM Sans 300/400/500/600/700 (sin font-synthesis). `marginLeft:auto` + `maxWidth:70ch` empuja el bloque hacia el margen derecho. Accesibilidad: bio visual `aria-hidden`, copia `.sr-only` paralela para lectores de pantalla (SplitType fragmenta el texto en spans por letra). Cue de "pasar el cursor" **eliminado** a pedido explícito — no reintroducir |
+| Marquee | src/components/ui/Marquee.jsx | Sesión 11 | Magic UI "Marquee" portado sin Tailwind — N pistas duplicadas (`repeat`, default 4) animadas en sync vía `@keyframes marquee-scroll` (globals.css). Usado en AboutPage: Tecnologías `reverse` (mueve a la derecha), Servicios sin reverse (izquierda). Hover de sus chips usa `--color-accent-hot` — **única excepción** a la regla de restricción de ese color (CTA+cursor), por pedido explícito del usuario |
 
 ### Datos cargados en sesión 8
 - `src/data/projects.js`: tercer entry real `cecilia-brook` reemplaza placeholder `vital-stats-app` (mismo criterio que sesión 7 con `diamondrose-sanctuary`→`huevos-point-erp`: reemplazar placeholder en orden, no insertar/reordenar)
@@ -154,6 +158,31 @@
 | `ProjectGridCard.jsx`: lógica de video (`videoRef`, `<video>`, swap opacity) **eliminada del código**, no solo dejada dormiente con `project.video` truthy | Tras reactivar `video` en los 3 proyectos para `/work`/CaseStudy, el hover en Home volvía a mostrar video (mismo campo compartido) — usuario corrigió de nuevo: "en el home no deben mostrar los videos al hacer hover, solo un zoom leve". Como el campo `video` ahora SÍ está poblado, dejar la rama `{project.video && <video>}` viva la había vuelto a activar — había que sacarla del componente, no alcanzaba con el campo vacío | Volver a poner `video: null` en `projects.js` (rompería el pedido explícito de mantener video en `/work` y CaseStudy con los mismos 3 proyectos) |
 | `.mov` originales (HP-web.mov 168MB, HP-ERP.mov 19.6MB, CBROOK-WEB.mov 151MB) comprimidos a `preview.mp4` (h264, scale 1280, crf28, sin audio) vía `ffmpeg` — resultado 3.4MB / 637KB / 2.4MB | Mismo criterio CWV ya aplicado a thumbnails — servir un `.mov` de 150MB+ como video de hover es inviable | Usar el `.mov` directo (formato poco soportado en `<video>` web + tamaño prohibitivo) |
 
+## Decisiones arquitectónicas — sesión 11 (Sobre mí, Kinetic Text, Marquee, placeholders)
+
+| Decisión | Motivo | Alternativa descartada |
+|---|---|---|
+| `InteractiveGridPattern` (Magic UI) probado como fondo de ImpactoReal/Proyectos/Contacto y **revertido por completo** | Usuario: "no me gusta como queda, revierte todos los cambios" — feedback directo, sin ambigüedad | Iterar sobre el mismo componente (descartado, pedido explícito de revertir) |
+| 4 proyectos placeholder (`sistema-de-diseno`, `bold-flavor`, `semantic-search-engine`, `autonomous-code-reviewer`) **comentados** en `projects.js`, no borrados | Portfolio ya en producción — usuario no quiere contenido ficticio visible, pero va a completarlos con datos reales más adelante | Borrar las entradas (perdería el esquema ya armado) / dejarlas visibles |
+| Kinetic Text (Magic UI) portado a CSS plano + `split-type` en vez de Tailwind | Proyecto no usa Tailwind/shadcn (confirmado en `package.json`) — todo componente de Magic UI que se traiga vía MCP se porta a CSS-vars + inline styles, mismo patrón que el resto del proyecto | Instalar Tailwind solo para este componente |
+| Pesos DM Sans 600 y 700 agregados al link de Google Fonts (`index.html`) | El efecto Kinetic Text necesita pesos reales para evitar font-synthesis (negrita falsa) — antes solo 300/400/500 | Dejar que el browser sintetice los pesos faltantes (se ve peor, especialmente en pantallas no-retina) |
+| Ventana del Kinetic Text ampliada ±2→±3 chars + padding/stroke +50% | Pedido explícito: "aumenta el efecto... para que se luzca más" | Solo subir el peso máximo (imposible sin sintetizar — DM Sans no tiene 900 como static file) |
+| Bio + cue alineados a la derecha vía `marginLeft:auto` + `maxWidth:70ch` (no cambiar el grid de columnas) | Pedido explícito: "lleva el texto hacia el margen derecho" — el grid foto/contenido se mantiene, solo el bloque de texto se empuja dentro de su columna | Cambiar `gridTemplateColumns` (innecesario, rompía la relación con la foto) |
+| Marquee (Magic UI) portado sin Tailwind — chips con hover en `--color-accent-hot`, tamaño +70% | Pedido explícito del usuario, incluida la excepción al lima reservado (ver fila en tabla de componentes) | Mantener los chips estáticos en flex-wrap (versión previa, reemplazada) |
+| Cue "Pasá el cursor sobre el texto" (icono + label + pulso GSAP) eliminado del todo | Pedido explícito: "elimina la referencia... no lo utilizaremos más" | Ocultarlo con CSS (`display:none`) sin sacar el código — descartado, el usuario pidió eliminar la referencia, no solo ocultarla |
+| Fondo de sección ImpactoReal/Contact: `--color-bg-subtle` → `--color-bg` (negro puro, igual que Proyectos) | Pedido explícito — igualar el negro de fondo detrás de las partículas en las 3 secciones | Mantener `--color-bg-subtle` (rompía la consistencia visual entre secciones con partículas) |
+
+## Problemas resueltos — sesión 11
+
+| Problema | Causa | Solución |
+|---|---|---|
+| Bio de AboutPage invisible en viewports anchos (~2000px) pese a `opacity:1` confirmado por DOM | `.marquee` (flex + `overflow:hidden`) es item de CSS Grid en una columna `1fr`. `overflow:hidden` clipea visualmente pero NO reduce el ancho mínimo intrínseco usado por Grid para auto-medir la columna — el contenido sin wrap de los chips (`flex-shrink:0`) infló la columna a ~5130px, empujando el bloque de bio (con `marginLeft:auto`) muy afuera del viewport visible | `min-width:0` en `.marquee` (globals.css) y en el div de la columna "Contenido" en `AboutPage.jsx` — gotcha clásico de flex/grid, **recordar para cualquier marquee/carousel futuro dentro de un grid** |
+| Screenshot de Playwright timeoutea ("waiting for fonts to load") en páginas con animación CSS/GSAP infinita | El harness de screenshot espera que las animaciones "se asienten" antes de capturar; una animación `repeat:-1`/`infinite` nunca lo hace | No es bug del código — verificar funcionalmente vía `browser_evaluate` (computed styles) en vez de insistir con `take_screenshot` cuando hay animación infinita en la página |
+| `rm -rf .playwright-mcp/` borró ~175 archivos de log/screenshot **versionados en git** | Carpeta `.playwright-mcp` está trackeada en el repo (no en `.gitignore`) | `git checkout -- .playwright-mcp/` restaura — **verificar `git status` antes de cualquier `rm -rf` en este proyecto**, esta carpeta es un punto ciego conocido |
+| Usuario reportó "no veo el texto" sin más detalle | Múltiples causas posibles (server stale, no deployado, bug real) | Antes de asumir, preguntar dónde mira (local/producción) — en este caso era bug real (ver fila de arriba), pero la pregunta acotó la búsqueda rápido |
+
+---
+
 ## Problemas resueltos — sesión 10
 
 | Problema | Causa | Solución |
@@ -171,6 +200,9 @@ Usuario compartió link de Figma (clon vía html.to.design de `madeinuxstudio.co
 
 ## Pendientes no bloqueantes
 
+- AboutPage (`/sobre-mi`): falta foto del usuario (placeholder marcado "Foto — próximamente") y background de la sección (usuario lo va a compartir) — ambos quedaron pendientes explícitamente, no son bugs
+- AboutPage + `index.html` + `globals.css` + `Marquee.jsx` de sesión 11 **sin commitear** al cierre de la sesión
+- 4 proyectos placeholder en `projects.js` siguen comentados (`sistema-de-diseno`, `bold-flavor`, `semantic-search-engine`, `autonomous-code-reviewer`) — completar con datos reales y descomentar cuando estén listos
 - EmailJS: configurar VITE_EMAILJS_SERVICE_ID / TEMPLATE_ID / PUBLIC_KEY en Vercel Dashboard
 - Contenido real de proyectos restantes (`diamondrose-sanctuary`→`huevos-point-erp` y `vital-stats-app`→`cecilia-brook` ya reemplazados; quedan `sistema-de-diseno`, `bold-flavor`, `semantic-search-engine`, `autonomous-code-reviewer` con placeholders)
 - Videos/thumbnails reales para esos proyectos placeholder
@@ -193,9 +225,14 @@ Ver `graphify-out/GRAPH_REPORT.md` para el detalle completo (god nodes, comunida
 
 ## Próxima sesión — continuar en
 
-- Fase actual: Carga de contenido real de proyectos restantes (4 placeholders quedan), o FASE 8 — Deploy si el usuario prefiere cerrar eso primero
-- Próximo: cargar el siguiente proyecto real con el esquema ya validado (businessContext/role/accentColor/video) — o `vercel deploy` + configurar EmailJS env vars en Vercel Dashboard
-- Bloqueantes: ninguno técnico. EmailJS keys pendientes solo si se decide avanzar con deploy
+- Fase actual: terminar AboutPage (`/sobre-mi`) — falta foto + background de sección, ambos a la espera de assets del usuario
+- Próximo: integrar foto/background de AboutPage cuando el usuario los comparta; luego, carga de contenido real de los 4 proyectos placeholder restantes, o FASE 8 — Deploy
+- Bloqueantes: ninguno técnico. Assets de AboutPage y EmailJS keys pendientes del lado del usuario
+- Nota técnica (sesión 11): `min-width:0` es obligatorio en cualquier contenedor flex/marquee con `overflow:hidden` que viva dentro de una columna de CSS Grid (`1fr`/`auto`) — sin esto el contenido sin-wrap infla la columna y puede empujar otro contenido fuera del viewport. Ver `.marquee` en `globals.css` y el div "Contenido" en `AboutPage.jsx`
+- Nota técnica (sesión 11): `.playwright-mcp/` está trackeada en git en este repo — nunca `rm -rf` esa carpeta sin `git status` antes; si se borra por error, `git checkout -- .playwright-mcp/` la restaura
+- Nota técnica (sesión 11): screenshots de Playwright timeoutean en páginas con animación infinita (CSS o GSAP `repeat:-1`) — usar `browser_evaluate` con `getComputedStyle` para verificar funcionalmente en su lugar, no es indicador de bug
+- Nota de diseño (sesión 11): `--color-accent-hot` (lima) sigue reservado a CTA+cursor en todo el sitio, **excepto** los chips del Marquee de AboutPage (excepción explícita del usuario, no extender a otros componentes sin pedido nuevo)
+- Nota de diseño (sesión 11): cue de "pasar el cursor sobre el texto" en AboutPage fue eliminado a pedido explícito — no reintroducir sin que se pida de nuevo
 - Nota técnica: `ffmpeg` instalado (Homebrew) — reusar sin pedir instalación de nuevo para futuros videos de proyectos
 - Nota técnica: al elegir thumbnail de un video nuevo, extraer 4-5 frames candidatos en distintos timestamps y revisarlos antes de fijar uno — no asumir que un timestamp fijo (ej. 2s) funciona para todo video (lección de sesión 8)
 - Nota de diseño: Home usa `ProjectGridHome` (grid 2 col + reveal lateral, sesión 9), `/work` sigue con `ProjectBento` (asimétrico, sesión 7) — **layouts deliberadamente distintos entre Home y /work**, no es inconsistencia, es decisión del usuario

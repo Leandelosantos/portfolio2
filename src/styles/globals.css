@@ -3,27 +3,31 @@
 /* ── CSS VARIABLES ────────────────────────────────────── */
 :root {
   /* Base */
-  --color-bg:           #0A0A0A;   /* Negro profundo — fondo global */
-  --color-bg-elevated:  #111111;   /* Cards y overlays */
-  --color-bg-subtle:    #161616;   /* Secciones alternadas */
+  --color-bg: #0a0a0a; /* Negro profundo — fondo global */
+  --color-bg-elevated: #111111; /* Cards y overlays */
+  --color-bg-subtle: #161616; /* Secciones alternadas */
 
   /* Texto */
-  --color-text-primary:   #F0EDE8; /* Blanco roto — jerarquía principal */
-  --color-text-secondary: #8A8680; /* Gris cálido — metadata, labels */
-  --color-text-muted:     #3D3B38; /* Muy sutil — separadores, placeholders */
+  --color-text-primary: #f0ede8; /* Blanco roto — jerarquía principal */
+  --color-text-secondary: #8a8680; /* Gris cálido — metadata, labels */
+  --color-text-muted: #3d3b38; /* Muy sutil — separadores, placeholders */
 
   /* Acento */
-  --color-accent:         #E8E0D4; /* Crema — hover states, subrayados */
-  --color-accent-hot:     #C8F04D; /* Lima eléctrico — CTA único, cursor dot */
-  --color-accent-mid:     #4D7CFF; /* Azul eléctrico — links activos */
+  --color-accent: #e8e0d4; /* Crema — hover states, subrayados */
+  --color-accent-hot: #c8f04d; /* Lima eléctrico — CTA único, cursor dot */
+  --color-accent-mid: #4d7cff; /* Azul eléctrico — links activos */
 
   /* Borders */
-  --color-border:         rgba(240, 237, 232, 0.08);
-  --color-border-hover:   rgba(240, 237, 232, 0.20);
+  --color-border: rgba(240, 237, 232, 0.08);
+  --color-border-hover: rgba(240, 237, 232, 0.2);
 
   /* Gradientes funcionales */
-  --gradient-hero:    radial-gradient(ellipse 80% 50% at 50% -10%, #1a1a2e 0%, transparent 60%);
-  --gradient-fade-b:  linear-gradient(to bottom, transparent, #0A0A0A);
+  --gradient-hero: radial-gradient(
+    ellipse 80% 50% at 50% -10%,
+    #1a1a2e 0%,
+    transparent 60%
+  );
+  --gradient-fade-b: linear-gradient(to bottom, transparent, #0a0a0a);
 
   /* Layout — SRS §2.3 */
   --grid-columns: 12;
@@ -33,16 +37,18 @@
 
   /* Fuentes — SRS §2.2 */
   /* TEST: Oswald reemplaza Playfair Display como --font-display (a pedido, no es spec final) */
-  --font-display: 'Oswald', Arial, sans-serif;
-  --font-ui:      'DM Sans', system-ui, sans-serif;
-  --font-mono:    'JetBrains Mono', 'Courier New', monospace;
+  --font-display: "Oswald", Arial, sans-serif;
+  --font-ui: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
 }
 
 /* Oswald — variable font local, reemplazo de prueba de Playfair Display */
 @font-face {
-  font-family: 'Oswald';
-  src: url('/fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype-variations'),
-       url('/fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+  font-family: "Oswald";
+  src:
+    url("/fonts/Oswald/Oswald-VariableFont_wght.ttf")
+      format("truetype-variations"),
+    url("/fonts/Oswald/Oswald-VariableFont_wght.ttf") format("truetype");
   font-weight: 200 700;
   font-style: normal;
   font-display: swap;
@@ -105,6 +111,19 @@ body {
 
 .skip-link:focus {
   top: 1rem;
+}
+
+/* Visualmente oculto, accesible para lectores de pantalla — SRS §5.3 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* Elementos base */
@@ -181,12 +200,20 @@ html.lenis body {
 }
 
 /* Navbar: ocultar links horizontales, mostrar hamburger */
-.nav__links  { display: flex; }
-.nav__burger { display: none; }
+.nav__links {
+  display: flex;
+}
+.nav__burger {
+  display: none;
+}
 
 @media (max-width: 767px) {
-  .nav__links  { display: none !important; }
-  .nav__burger { display: flex !important; }
+  .nav__links {
+    display: none !important;
+  }
+  .nav__burger {
+    display: flex !important;
+  }
 }
 
 /* ── ProjectBentoCard — Home + /work (rediseño bento) ──── */
@@ -196,12 +223,16 @@ html.lenis body {
 }
 .bento-card__media-video {
   opacity: 0;
-  transition: opacity 0.3s ease, transform 0.5s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.5s ease;
 }
 .bento-card__desc {
   opacity: 0;
   transform: translateY(8px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 .bento-card:hover .bento-card__media-img,
 .bento-card:focus-visible .bento-card__media-img,
@@ -224,5 +255,171 @@ html.lenis body {
   .bento-card__desc {
     opacity: 1 !important;
     transform: none !important;
+  }
+}
+
+/* ── AboutPage — Kinetic Text (Magic UI, portado sin Tailwind) ────────
+   Cada .char (split-type) interpola peso real de DM Sans (300/400/500/600/700,
+   sin síntesis) en una ventana de 7 caracteres centrada en el hover — efecto
+   ampliado +50% (ventana ±2→±3, padding/stroke +50%) a pedido.
+   buenas-practicas: solo CSS — la entrada de los chars la anima GSAP aparte */
+.about__bio .char {
+  --kinetic-pad: 0.075em;
+  font-weight: 300;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 0;
+  transition:
+    font-weight 0.4s ease,
+    -webkit-text-stroke-color 0.4s ease,
+    padding 0.4s ease;
+}
+
+.about__bio .char:hover {
+  padding-inline: var(--kinetic-pad);
+  font-weight: 700;
+  -webkit-text-stroke-color: currentColor;
+  -webkit-text-stroke-width: 0.6px;
+}
+
+.about__bio .char:hover + .char,
+.about__bio .char:has(+ .char:hover) {
+  padding-inline: var(--kinetic-pad);
+  font-weight: 600;
+}
+
+.about__bio .char:hover + .char + .char,
+.about__bio .char:has(+ .char + .char:hover) {
+  padding-inline: var(--kinetic-pad);
+  font-weight: 500;
+}
+
+.about__bio .char:hover + .char + .char + .char,
+.about__bio .char:has(+ .char + .char + .char:hover) {
+  font-weight: 400;
+}
+
+/* Mobile: sin hover real — texto permanece a peso base, sin sumar listeners inútiles */
+@media (max-width: 767px) {
+  .about__bio .char:hover,
+  .about__bio .char:hover + .char,
+  .about__bio .char:hover + .char + .char,
+  .about__bio .char:hover + .char + .char + .char,
+  .about__bio .char:has(+ .char:hover),
+  .about__bio .char:has(+ .char + .char:hover),
+  .about__bio .char:has(+ .char + .char + .char:hover) {
+    font-weight: 300;
+    padding-inline: 0;
+    -webkit-text-stroke-width: 0;
+  }
+}
+
+/* ── AboutPage — Marquee (Magic UI, portado sin Tailwind) ──────────────
+   Duplica el contenido en N pistas (.marquee__track) sincronizadas por la
+   misma animación — truco estándar para loop infinito sin salto visible. */
+.marquee {
+  display: flex;
+  min-width: 0; /* sin esto, el contenido sin wrap de las pistas infla el track 1fr del grid padre */
+  width: 100%;
+  gap: var(--marquee-gap, 2rem);
+  overflow: hidden;
+  padding: 0.5rem 0;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 6%,
+    black 94%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 6%,
+    black 94%,
+    transparent
+  );
+}
+
+.marquee__track {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--marquee-gap, 2rem);
+  animation: marquee-scroll var(--marquee-duration, 32s) linear infinite;
+  will-change: transform;
+}
+
+.marquee__track--reverse {
+  animation-direction: reverse;
+}
+
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--marquee-gap, 2rem)));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track {
+    animation-play-state: paused;
+  }
+}
+
+/* ── AboutPage — grid foto + contenido ─────────────────────────────── */
+@media (max-width: 767px) {
+  .about__grid {
+    grid-template-columns: 1fr !important;
+  }
+  .about__photo {
+    max-width: 280px;
+  }
+}
+
+/* ── ImpactoReal — fallback bento grid vertical (mobile + reduced-motion) ──
+   Default inline (JSX) = desktop con pin horizontal. Acá se revierte a la
+   grilla bento original, sin pin — mismo look que antes del scroll lateral. */
+@media (max-width: 767px), (prefers-reduced-motion: reduce) {
+  .impacto__pinwrap {
+    height: auto !important;
+  }
+  .impacto__trackpad {
+    height: auto !important;
+    padding-left: clamp(14.4px, 3.6vw, 48px) !important;
+    padding-right: clamp(14.4px, 3.6vw, 48px) !important;
+  }
+  .impacto__track {
+    height: auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)) !important;
+  }
+  .impacto__panel {
+    height: auto !important;
+    flex: initial !important;
+    justify-content: flex-start !important;
+    gap: 1.5rem !important;
+  }
+  .impacto__panel-number {
+    font-family: var(--font-mono) !important;
+    font-weight: 400 !important;
+    font-size: var(--type-mono) !important;
+    letter-spacing: var(--ls-mono) !important;
+  }
+  .impacto__panel-title {
+    font-size: var(--type-project) !important;
+  }
+  .impacto__panel-body {
+    max-width: none !important;
+  }
+  .impacto__panel-desc {
+    font-size: var(--type-body) !important;
+  }
+  .impacto__hud {
+    display: none !important;
   }
 }
