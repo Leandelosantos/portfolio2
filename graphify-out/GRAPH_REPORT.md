@@ -1,16 +1,16 @@
 # Graph Report - portfolio2.0  (2026-06-29)
 
 ## Corpus Check
-- 66 files · ~128,961 words
+- 66 files · ~134,073 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 4293 nodes · 8551 edges · 291 communities (237 shown, 54 thin omitted)
+- 4292 nodes · 8551 edges · 290 communities (237 shown, 53 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 196 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `36af58ab`
+- Built from commit: `5555d1be`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -288,7 +288,6 @@
 - [[_COMMUNITY_Community 278|Community 278]]
 - [[_COMMUNITY_Community 279|Community 279]]
 - [[_COMMUNITY_Community 280|Community 280]]
-- [[_COMMUNITY_Community 282|Community 282]]
 - [[_COMMUNITY_Community 283|Community 283]]
 - [[_COMMUNITY_Community 284|Community 284]]
 - [[_COMMUNITY_Community 285|Community 285]]
@@ -365,7 +364,7 @@
 - **Home page composes Hero, ImpactoReal, SelectedWork, and Contact sections into a single scroll page** —  [EXTRACTED 1.00]
 - **projects data array, CATEGORIES, and filterProjects are shared by WorkList and IAPage for listing/filtering project rows** —  [INFERRED 0.85]
 
-## Communities (291 total, 54 thin omitted)
+## Communities (290 total, 53 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.04
@@ -1300,9 +1299,9 @@ Nodes (3): extractCss, stripJsxTemplateLines, stripJsxTemplateWrap
   src/hooks/useReducedMotion.js · relation: complements
 
 ## Knowledge Gaps
-- **620 isolated node(s):** `1. Documentos de referencia`, `2. Figma MCP — proyecto "portfolio2.0"`, `3. Stack técnico`, ``threejs-webgl``, ``gsap-scrolltrigger`` (+615 more)
+- **619 isolated node(s):** `WA_MSG`, `1. Documentos de referencia`, `2. Figma MCP — proyecto "portfolio2.0"`, `3. Stack técnico`, ``threejs-webgl`` (+614 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **54 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **53 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

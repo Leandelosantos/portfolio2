@@ -550,306 +550,6 @@
   },
   "nodes": [
     {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude",
-      "community": 128,
-      "norm_label": "claude.md"
-    },
-    {
-      "label": "CLAUDE.md \u2014 Portfolio Personal",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude_claude_md_portfolio_personal",
-      "community": 128,
-      "norm_label": "claude.md \u2014 portfolio personal"
-    },
-    {
-      "label": "1. Documentos de referencia",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "claude_1_documentos_de_referencia",
-      "community": 128,
-      "norm_label": "1. documentos de referencia"
-    },
-    {
-      "label": "2. Figma MCP \u2014 proyecto \"portfolio2.0\"",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "claude_2_figma_mcp_proyecto_portfolio2_0",
-      "community": 128,
-      "norm_label": "2. figma mcp \u2014 proyecto \"portfolio2.0\""
-    },
-    {
-      "label": "3. Stack t\u00e9cnico",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L38",
-      "_origin": "ast",
-      "id": "claude_3_stack_t\u00e9cnico",
-      "community": 128,
-      "norm_label": "3. stack tecnico"
-    },
-    {
-      "label": "4. Skills instaladas \u2014 triggers activos",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "claude_4_skills_instaladas_triggers_activos",
-      "community": 128,
-      "norm_label": "4. skills instaladas \u2014 triggers activos"
-    },
-    {
-      "label": "`threejs-webgl`",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L51",
-      "_origin": "ast",
-      "id": "claude_threejs_webgl",
-      "community": 128,
-      "norm_label": "`threejs-webgl`"
-    },
-    {
-      "label": "`gsap-scrolltrigger`",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "claude_gsap_scrolltrigger",
-      "community": 128,
-      "norm_label": "`gsap-scrolltrigger`"
-    },
-    {
-      "label": "`react-three-fiber`",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L69",
-      "_origin": "ast",
-      "id": "claude_react_three_fiber",
-      "community": 128,
-      "norm_label": "`react-three-fiber`"
-    },
-    {
-      "label": "`impeccable` (modo brand \u2014 portfolio = editorial, no SaaS)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L72",
-      "_origin": "ast",
-      "id": "claude_impeccable_modo_brand_portfolio_editorial_no_saas",
-      "community": 128,
-      "norm_label": "`impeccable` (modo brand \u2014 portfolio = editorial, no saas)"
-    },
-    {
-      "label": "`senior-architect`",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L85",
-      "_origin": "ast",
-      "id": "claude_senior_architect",
-      "community": 128,
-      "norm_label": "`senior-architect`"
-    },
-    {
-      "label": "`frontend-design`",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L88",
-      "_origin": "ast",
-      "id": "claude_frontend_design",
-      "community": 128,
-      "norm_label": "`frontend-design`"
-    },
-    {
-      "label": "`mobile-design`",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L91",
-      "_origin": "ast",
-      "id": "claude_mobile_design",
-      "community": 128,
-      "norm_label": "`mobile-design`"
-    },
-    {
-      "label": "Skills de revisi\u00f3n (Fase Review) \u2014 activar en orden secuencial",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L99",
-      "_origin": "ast",
-      "id": "claude_skills_de_revisi\u00f3n_fase_review_activar_en_orden_secuencial",
-      "community": 128,
-      "norm_label": "skills de revision (fase review) \u2014 activar en orden secuencial"
-    },
-    {
-      "label": "5. Fases de desarrollo",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L106",
-      "_origin": "ast",
-      "id": "claude_5_fases_de_desarrollo",
-      "community": 128,
-      "norm_label": "5. fases de desarrollo"
-    },
-    {
-      "label": "6. Reglas operativas globales",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L123",
-      "_origin": "ast",
-      "id": "claude_6_reglas_operativas_globales",
-      "community": 128,
-      "norm_label": "6. reglas operativas globales"
-    },
-    {
-      "label": "7. Sistema de memoria persistente",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L140",
-      "_origin": "ast",
-      "id": "claude_7_sistema_de_memoria_persistente",
-      "community": 128,
-      "norm_label": "7. sistema de memoria persistente"
-    },
-    {
-      "label": "Archivo: `PROJECT_MEMORY.md`",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L142",
-      "_origin": "ast",
-      "id": "claude_archivo_project_memory_md",
-      "community": 128,
-      "norm_label": "archivo: `project_memory.md`"
-    },
-    {
-      "label": "Comando: \"actualizar memoria\"",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L150",
-      "_origin": "ast",
-      "id": "claude_comando_actualizar_memoria",
-      "community": 128,
-      "norm_label": "comando: \"actualizar memoria\""
-    },
-    {
-      "label": "Regla de uso",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L224",
-      "_origin": "ast",
-      "id": "claude_regla_de_uso",
-      "community": 128,
-      "norm_label": "regla de uso"
-    },
-    {
-      "label": "8. Informaci\u00f3n del proyecto",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L231",
-      "_origin": "ast",
-      "id": "claude_8_informaci\u00f3n_del_proyecto",
-      "community": 128,
-      "norm_label": "8. informacion del proyecto"
-    },
-    {
-      "label": "9. Graphify \u2014 Mapa de conocimiento del proyecto",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L244",
-      "_origin": "ast",
-      "id": "claude_9_graphify_mapa_de_conocimiento_del_proyecto",
-      "community": 128,
-      "norm_label": "9. graphify \u2014 mapa de conocimiento del proyecto"
-    },
-    {
-      "label": "Regla de exploraci\u00f3n OBLIGATORIA",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L248",
-      "_origin": "ast",
-      "id": "claude_regla_de_exploraci\u00f3n_obligatoria",
-      "community": 128,
-      "norm_label": "regla de exploracion obligatoria"
-    },
-    {
-      "label": "MCP server",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L263",
-      "_origin": "ast",
-      "id": "claude_mcp_server",
-      "community": 128,
-      "norm_label": "mcp server"
-    },
-    {
-      "label": "Mantenimiento del grafo",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L267",
-      "_origin": "ast",
-      "id": "claude_mantenimiento_del_grafo",
-      "community": 128,
-      "norm_label": "mantenimiento del grafo"
-    },
-    {
-      "label": "CustomCursor.jsx",
-      "file_type": "code",
-      "source_file": "src/components/cursor/CustomCursor.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "cursor_customcursor",
-      "community": 58,
-      "norm_label": "customcursor.jsx"
-    },
-    {
-      "label": "CORNERS",
-      "file_type": "code",
-      "source_file": "src/components/cursor/CustomCursor.jsx",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "cursor_customcursor_corners",
-      "community": 58,
-      "norm_label": "corners"
-    },
-    {
-      "label": "idleRect()",
-      "file_type": "code",
-      "source_file": "src/components/cursor/CustomCursor.jsx",
-      "source_location": "L50",
-      "_origin": "ast",
-      "id": "cursor_customcursor_idlerect",
-      "community": 58,
-      "norm_label": "idlerect()"
-    },
-    {
-      "label": "targetRect()",
-      "file_type": "code",
-      "source_file": "src/components/cursor/CustomCursor.jsx",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "cursor_customcursor_targetrect",
-      "community": 58,
-      "norm_label": "targetrect()"
-    },
-    {
-      "label": "CustomCursor()",
-      "file_type": "code",
-      "source_file": "src/components/cursor/CustomCursor.jsx",
-      "source_location": "L69",
-      "_origin": "ast",
-      "id": "cursor_customcursor_customcursor",
-      "community": 58,
-      "norm_label": "customcursor()"
-    },
-    {
       "label": "Hero.jsx",
       "file_type": "code",
       "source_file": "src/components/sections/Hero.jsx",
@@ -870,14 +570,344 @@
       "norm_label": "hero()"
     },
     {
+      "label": "WhatsAppButton.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/WhatsAppButton.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "ui_whatsappbutton",
+      "community": 55,
+      "norm_label": "whatsappbutton.jsx"
+    },
+    {
+      "label": "WA_MSG",
+      "file_type": "code",
+      "source_file": "src/components/ui/WhatsAppButton.jsx",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "ui_whatsappbutton_wa_msg",
+      "community": 55,
+      "norm_label": "wa_msg"
+    },
+    {
+      "label": "WhatsAppButton()",
+      "file_type": "code",
+      "source_file": "src/components/ui/WhatsAppButton.jsx",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "ui_whatsappbutton_whatsappbutton",
+      "community": 55,
+      "norm_label": "whatsappbutton()"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "claude.md",
+      "id": "claude"
+    },
+    {
+      "label": "CLAUDE.md \u2014 Portfolio Personal",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "claude.md \u2014 portfolio personal",
+      "id": "claude_claude_md_portfolio_personal"
+    },
+    {
+      "label": "1. Documentos de referencia",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "1. documentos de referencia",
+      "id": "claude_1_documentos_de_referencia"
+    },
+    {
+      "label": "2. Figma MCP \u2014 proyecto \"portfolio2.0\"",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "2. figma mcp \u2014 proyecto \"portfolio2.0\"",
+      "id": "claude_2_figma_mcp_proyecto_portfolio2_0"
+    },
+    {
+      "label": "3. Stack t\u00e9cnico",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "3. stack tecnico",
+      "id": "claude_3_stack_t\u00e9cnico"
+    },
+    {
+      "label": "4. Skills instaladas \u2014 triggers activos",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "4. skills instaladas \u2014 triggers activos",
+      "id": "claude_4_skills_instaladas_triggers_activos"
+    },
+    {
+      "label": "`threejs-webgl`",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "`threejs-webgl`",
+      "id": "claude_threejs_webgl"
+    },
+    {
+      "label": "`gsap-scrolltrigger`",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "`gsap-scrolltrigger`",
+      "id": "claude_gsap_scrolltrigger"
+    },
+    {
+      "label": "`react-three-fiber`",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "`react-three-fiber`",
+      "id": "claude_react_three_fiber"
+    },
+    {
+      "label": "`impeccable` (modo brand \u2014 portfolio = editorial, no SaaS)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "`impeccable` (modo brand \u2014 portfolio = editorial, no saas)",
+      "id": "claude_impeccable_modo_brand_portfolio_editorial_no_saas"
+    },
+    {
+      "label": "`senior-architect`",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "`senior-architect`",
+      "id": "claude_senior_architect"
+    },
+    {
+      "label": "`frontend-design`",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "`frontend-design`",
+      "id": "claude_frontend_design"
+    },
+    {
+      "label": "`mobile-design`",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L91",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "`mobile-design`",
+      "id": "claude_mobile_design"
+    },
+    {
+      "label": "Skills de revisi\u00f3n (Fase Review) \u2014 activar en orden secuencial",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "skills de revision (fase review) \u2014 activar en orden secuencial",
+      "id": "claude_skills_de_revisi\u00f3n_fase_review_activar_en_orden_secuencial"
+    },
+    {
+      "label": "5. Fases de desarrollo",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "5. fases de desarrollo",
+      "id": "claude_5_fases_de_desarrollo"
+    },
+    {
+      "label": "6. Reglas operativas globales",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L123",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "6. reglas operativas globales",
+      "id": "claude_6_reglas_operativas_globales"
+    },
+    {
+      "label": "7. Sistema de memoria persistente",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L140",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "7. sistema de memoria persistente",
+      "id": "claude_7_sistema_de_memoria_persistente"
+    },
+    {
+      "label": "Archivo: `PROJECT_MEMORY.md`",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L142",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "archivo: `project_memory.md`",
+      "id": "claude_archivo_project_memory_md"
+    },
+    {
+      "label": "Comando: \"actualizar memoria\"",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L150",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "comando: \"actualizar memoria\"",
+      "id": "claude_comando_actualizar_memoria"
+    },
+    {
+      "label": "Regla de uso",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L224",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "regla de uso",
+      "id": "claude_regla_de_uso"
+    },
+    {
+      "label": "8. Informaci\u00f3n del proyecto",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L231",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "8. informacion del proyecto",
+      "id": "claude_8_informaci\u00f3n_del_proyecto"
+    },
+    {
+      "label": "9. Graphify \u2014 Mapa de conocimiento del proyecto",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L244",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "9. graphify \u2014 mapa de conocimiento del proyecto",
+      "id": "claude_9_graphify_mapa_de_conocimiento_del_proyecto"
+    },
+    {
+      "label": "Regla de exploraci\u00f3n OBLIGATORIA",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L248",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "regla de exploracion obligatoria",
+      "id": "claude_regla_de_exploraci\u00f3n_obligatoria"
+    },
+    {
+      "label": "MCP server",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L263",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "mcp server",
+      "id": "claude_mcp_server"
+    },
+    {
+      "label": "Mantenimiento del grafo",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L267",
+      "_origin": "ast",
+      "community": 128,
+      "norm_label": "mantenimiento del grafo",
+      "id": "claude_mantenimiento_del_grafo"
+    },
+    {
+      "label": "CustomCursor.jsx",
+      "file_type": "code",
+      "source_file": "src/components/cursor/CustomCursor.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 58,
+      "norm_label": "customcursor.jsx",
+      "id": "cursor_customcursor"
+    },
+    {
+      "label": "CORNERS",
+      "file_type": "code",
+      "source_file": "src/components/cursor/CustomCursor.jsx",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 58,
+      "norm_label": "corners",
+      "id": "cursor_customcursor_corners"
+    },
+    {
+      "label": "idleRect()",
+      "file_type": "code",
+      "source_file": "src/components/cursor/CustomCursor.jsx",
+      "source_location": "L50",
+      "_origin": "ast",
+      "community": 58,
+      "norm_label": "idlerect()",
+      "id": "cursor_customcursor_idlerect"
+    },
+    {
+      "label": "targetRect()",
+      "file_type": "code",
+      "source_file": "src/components/cursor/CustomCursor.jsx",
+      "source_location": "L59",
+      "_origin": "ast",
+      "community": 58,
+      "norm_label": "targetrect()",
+      "id": "cursor_customcursor_targetrect"
+    },
+    {
+      "label": "CustomCursor()",
+      "file_type": "code",
+      "source_file": "src/components/cursor/CustomCursor.jsx",
+      "source_location": "L69",
+      "_origin": "ast",
+      "community": 58,
+      "norm_label": "customcursor()",
+      "id": "cursor_customcursor_customcursor"
+    },
+    {
       "label": "MagicCard.jsx",
       "file_type": "code",
       "source_file": "src/components/ui/MagicCard.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "ui_magiccard",
       "community": 142,
-      "norm_label": "magiccard.jsx"
+      "norm_label": "magiccard.jsx",
+      "id": "ui_magiccard"
     },
     {
       "label": "MagicCard()",
@@ -885,9 +915,9 @@
       "source_file": "src/components/ui/MagicCard.jsx",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "ui_magiccard_magiccard",
       "community": 142,
-      "norm_label": "magiccard()"
+      "norm_label": "magiccard()",
+      "id": "ui_magiccard_magiccard"
     },
     {
       "label": "IAPage.jsx",
@@ -895,9 +925,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_iapage",
       "community": 142,
-      "norm_label": "iapage.jsx"
+      "norm_label": "iapage.jsx",
+      "id": "pages_iapage"
     },
     {
       "label": "MANIFESTO_PARAGRAPHS",
@@ -905,9 +935,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "pages_iapage_manifesto_paragraphs",
       "community": 142,
-      "norm_label": "manifesto_paragraphs"
+      "norm_label": "manifesto_paragraphs",
+      "id": "pages_iapage_manifesto_paragraphs"
     },
     {
       "label": "HelmetCanvas",
@@ -915,9 +945,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "pages_iapage_helmetcanvas",
       "community": 142,
-      "norm_label": "helmetcanvas"
+      "norm_label": "helmetcanvas",
+      "id": "pages_iapage_helmetcanvas"
     },
     {
       "label": "AI_PROJECTS",
@@ -925,9 +955,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "pages_iapage_ai_projects",
       "community": 142,
-      "norm_label": "ai_projects"
+      "norm_label": "ai_projects",
+      "id": "pages_iapage_ai_projects"
     },
     {
       "label": "TOOLS",
@@ -935,9 +965,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "pages_iapage_tools",
       "community": 142,
-      "norm_label": "tools"
+      "norm_label": "tools",
+      "id": "pages_iapage_tools"
     },
     {
       "label": "TERMINAL_LINES",
@@ -945,9 +975,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "pages_iapage_terminal_lines",
       "community": 142,
-      "norm_label": "terminal_lines"
+      "norm_label": "terminal_lines",
+      "id": "pages_iapage_terminal_lines"
     },
     {
       "label": "IAPage()",
@@ -955,9 +985,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "pages_iapage_iapage",
       "community": 142,
-      "norm_label": "iapage()"
+      "norm_label": "iapage()",
+      "id": "pages_iapage_iapage"
     },
     {
       "label": "ToolItem()",
@@ -965,9 +995,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L517",
       "_origin": "ast",
-      "id": "pages_iapage_toolitem",
       "community": 142,
-      "norm_label": "toolitem()"
+      "norm_label": "toolitem()",
+      "id": "pages_iapage_toolitem"
     },
     {
       "label": "Loader.jsx",
@@ -34810,36 +34840,6 @@
       "id": "ui_transitionlink_transitionlink"
     },
     {
-      "label": "WhatsAppButton.jsx",
-      "file_type": "code",
-      "source_file": "src/components/ui/WhatsAppButton.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 55,
-      "norm_label": "whatsappbutton.jsx",
-      "id": "ui_whatsappbutton"
-    },
-    {
-      "label": "WA_MSG",
-      "file_type": "code",
-      "source_file": "src/components/ui/WhatsAppButton.jsx",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 55,
-      "norm_label": "wa_msg",
-      "id": "ui_whatsappbutton_wa_msg"
-    },
-    {
-      "label": "WhatsAppButton()",
-      "file_type": "code",
-      "source_file": "src/components/ui/WhatsAppButton.jsx",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 55,
-      "norm_label": "whatsappbutton()",
-      "id": "ui_whatsappbutton_whatsappbutton"
-    },
-    {
       "label": "LoaderContext.jsx",
       "file_type": "code",
       "source_file": "src/context/LoaderContext.jsx",
@@ -45471,19 +45471,6 @@
       "id": "transitionlink_transitionlink"
     },
     {
-      "label": "WhatsAppButton",
-      "file_type": "code",
-      "source_file": "src/components/ui/WhatsAppButton.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 282,
-      "norm_label": "whatsappbutton",
-      "id": "whatsappbutton_whatsappbutton"
-    },
-    {
       "label": "LoaderProvider",
       "file_type": "code",
       "source_file": "src/context/LoaderContext.jsx",
@@ -45954,6 +45941,188 @@
   ],
   "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_home",
+      "target": "sections_hero"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "context_loadercontext"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "context_loadercontext_useloader"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "hooks_useparallax"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "hooks_useparallax_useparallax"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "sections_hero_hero"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "utils_splittexthelpers"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_hero",
+      "target": "utils_splittexthelpers_splitcharswords"
+    },
+    {
+      "relation": "renders",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Home.jsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_home",
+      "target": "sections_hero_hero"
+    },
+    {
+      "relation": "applies_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tasks/lessons.md",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "lessons_figma_hero_decision",
+      "target": "sections_hero_hero"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_home",
+      "target": "sections_hero_hero"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "sections_hero_hero",
+      "target": "context_loadercontext_useloader"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/sections/Hero.jsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "sections_hero_hero",
+      "target": "hooks_useparallax_useparallax"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "ui_whatsappbutton"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/WhatsAppButton.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_whatsappbutton",
+      "target": "ui_whatsappbutton_wa_msg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/WhatsAppButton.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_whatsappbutton",
+      "target": "ui_whatsappbutton_whatsappbutton"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "ui_whatsappbutton_whatsappbutton"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
@@ -46221,9 +46390,9 @@
       "source_file": "src/components/cursor/CustomCursor.jsx",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cursor_customcursor",
-      "target": "cursor_customcursor_corners",
-      "confidence_score": 1.0
+      "target": "cursor_customcursor_corners"
     },
     {
       "relation": "contains",
@@ -46241,9 +46410,9 @@
       "source_file": "src/components/cursor/CustomCursor.jsx",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cursor_customcursor",
-      "target": "cursor_customcursor_idlerect",
-      "confidence_score": 1.0
+      "target": "cursor_customcursor_idlerect"
     },
     {
       "relation": "contains",
@@ -46251,9 +46420,9 @@
       "source_file": "src/components/cursor/CustomCursor.jsx",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cursor_customcursor",
-      "target": "cursor_customcursor_targetrect",
-      "confidence_score": 1.0
+      "target": "cursor_customcursor_targetrect"
     },
     {
       "relation": "imports_from",
@@ -46292,152 +46461,12 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/pages/Home.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_home",
-      "target": "sections_hero"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "context_loadercontext"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "context_loadercontext_useloader"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "hooks_useparallax"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "hooks_useparallax_useparallax"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "sections_hero_hero"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "utils_splittexthelpers"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_hero",
-      "target": "utils_splittexthelpers_splitcharswords"
-    },
-    {
-      "relation": "renders",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/pages/Home.jsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "home_home",
-      "target": "sections_hero_hero"
-    },
-    {
-      "relation": "applies_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "tasks/lessons.md",
-      "source_location": null,
-      "weight": 0.8,
-      "source": "lessons_figma_hero_decision",
-      "target": "sections_hero_hero"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Home.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_home",
-      "target": "sections_hero_hero"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "sections_hero_hero",
-      "target": "context_loadercontext_useloader"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/sections/Hero.jsx",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "sections_hero_hero",
-      "target": "hooks_useparallax_useparallax"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_iapage",
-      "target": "ui_magiccard",
-      "confidence_score": 1.0
+      "target": "ui_magiccard"
     },
     {
       "relation": "contains",
@@ -46445,9 +46474,9 @@
       "source_file": "src/components/ui/MagicCard.jsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_magiccard",
-      "target": "ui_magiccard_magiccard",
-      "confidence_score": 1.0
+      "target": "ui_magiccard_magiccard"
     },
     {
       "relation": "imports",
@@ -46456,9 +46485,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_iapage",
-      "target": "ui_magiccard_magiccard",
-      "confidence_score": 1.0
+      "target": "ui_magiccard_magiccard"
     },
     {
       "relation": "imports_from",
@@ -46518,9 +46547,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_iapage",
-      "target": "pages_iapage_manifesto_paragraphs",
-      "confidence_score": 1.0
+      "target": "pages_iapage_manifesto_paragraphs"
     },
     {
       "relation": "contains",
@@ -46581,9 +46610,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_iapage",
-      "target": "utils_splittexthelpers_splitcharswords",
-      "confidence_score": 1.0
+      "target": "utils_splittexthelpers_splitcharswords"
     },
     {
       "relation": "imports_from",
@@ -47886,28 +47915,6 @@
       "confidence_score": 1.0,
       "source": "src_app",
       "target": "ui_skiplink_skiplink"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "ui_whatsappbutton"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "ui_whatsappbutton_whatsappbutton"
     },
     {
       "relation": "imports_from",
@@ -125205,26 +125212,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/ui/WhatsAppButton.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_whatsappbutton",
-      "target": "ui_whatsappbutton_wa_msg"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/ui/WhatsAppButton.jsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_whatsappbutton",
-      "target": "ui_whatsappbutton_whatsappbutton"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/context/LoaderContext.jsx",
       "source_location": "L6",
       "weight": 1.0,
@@ -136133,5 +136120,5 @@
       "source_location": null
     }
   ],
-  "built_at_commit": "36af58ab92613efbafdc0ca6e740d02117f99190"
+  "built_at_commit": "5555d1be3e1e3c55ed440fabcec0d38877fb21ba"
 }

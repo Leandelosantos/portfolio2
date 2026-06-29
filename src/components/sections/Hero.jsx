@@ -218,6 +218,27 @@ export function Hero() {
         )}
       </div>
 
+      {/* ── Video background mobile — oculto en desktop ────────────────── */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-hidden="true"
+        style={{
+          position: "absolute",
+          inset: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          zIndex: 0,
+          display: "none",
+        }}
+        className="hero__video-mobile"
+      >
+        <source src="/assets/video-mobile.mp4" type="video/mp4" />
+      </video>
+
       {/* ── Contenido — sobre el canvas, por esquinas ────────────────── */}
 
       {/* Label — centrado arriba, cerca del navbar */}

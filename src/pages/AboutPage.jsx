@@ -1,7 +1,6 @@
 // AboutPage.jsx — SRS §4.5 — Sobre mí
 // Bio justificada con Kinetic Text (Magic UI, portado sin Tailwind) — peso de cada
-// char interpola al pasar el cursor. Foto (izquierda) y fondo de sección: pendientes,
-// se integran cuando el usuario comparta los assets.
+// char interpola al pasar el cursor. Foto: public/assets/image-sobremi.png.
 // buenas-practicas §3: useGSAP, split.revert() en cleanup, solo transform + opacity
 
 import { useRef } from "react";
@@ -145,31 +144,27 @@ export default function AboutPage() {
           alignItems: "start",
         }}
       >
-        {/* Foto — placeholder hasta recibir el asset */}
+        {/* Foto */}
         <div
           className="about__photo"
-          aria-hidden="true"
           style={{
             position: "relative",
             aspectRatio: "4 / 5",
             border: "1px solid var(--color-border)",
             backgroundColor: "var(--color-bg-elevated)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            overflow: "hidden",
           }}
         >
-          <span
+          <img
+            src="/assets/image-sobremi.png"
+            alt="Leandro De Los Santos Aboy"
             style={{
-              fontFamily: "var(--font-mono)",
-              fontSize: "11px",
-              color: "var(--color-text-muted)",
-              letterSpacing: "var(--ls-mono)",
-              textTransform: "uppercase",
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              display: "block",
             }}
-          >
-            Foto — próximamente
-          </span>
+          />
         </div>
 
         {/* Contenido — bio + stack. minWidth:0 — item de grid con marquee adentro;

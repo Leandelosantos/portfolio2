@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "src/components/sections/Hero.jsx": {
-    "mtime": 1782750391.5247695,
-    "ast_hash": "034b4370510e6216d2508f207947a621",
+    "mtime": 1782754742.3274848,
+    "ast_hash": "9ec08de43b7e0f2e0a44141b5963653d",
     "semantic_hash": ""
   },
   "src/components/sections/ImpactoReal.jsx": {
@@ -140,8 +140,8 @@
     "semantic_hash": ""
   },
   "src/components/ui/WhatsAppButton.jsx": {
-    "mtime": 1780799788.9607282,
-    "ast_hash": "e04f23634ad81d556ae5712b4baf5d96",
+    "mtime": 1782754691.3241541,
+    "ast_hash": "b00c9ea9630b7ec2abf7c3a6c9d065c2",
     "semantic_hash": ""
   },
   "src/context/LoaderContext.jsx": {
@@ -1017,6 +1017,36 @@
   "hero-mobile-final.png": {
     "mtime": 1782749563.4520662,
     "ast_hash": "52647389eb6c00d2df61732e4e5d275e",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T17-38-27-570Z.yml": {
+    "mtime": 1782754707.570823,
+    "ast_hash": "7d6db5004414f0af8eb7858f8406ba0e",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T17-39-08-295Z.yml": {
+    "mtime": 1782754748.296006,
+    "ast_hash": "6081fef335c57fa56473af6f817b6b18",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T17-39-42-875Z.yml": {
+    "mtime": 1782754782.87647,
+    "ast_hash": "6081fef335c57fa56473af6f817b6b18",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T17-40-06-180Z.yml": {
+    "mtime": 1782754806.181119,
+    "ast_hash": "3185f7cbc91d6562608b0a9eed31d0ff",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T17-40-33-581Z.yml": {
+    "mtime": 1782754833.5820763,
+    "ast_hash": "3185f7cbc91d6562608b0a9eed31d0ff",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T17-41-18-142Z.yml": {
+    "mtime": 1782754878.1429718,
+    "ast_hash": "45275aae0e96e2863eff599ffaf05e78",
     "semantic_hash": ""
   }
 }
