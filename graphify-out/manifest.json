@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "src/components/sections/Hero.jsx": {
-    "mtime": 1782754742.3274848,
-    "ast_hash": "9ec08de43b7e0f2e0a44141b5963653d",
+    "mtime": 1782761068.8925712,
+    "ast_hash": "f5e82db76d8ef388109f1aa44eb3fb29",
     "semantic_hash": ""
   },
   "src/components/sections/ImpactoReal.jsx": {
@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "src/pages/AboutPage.jsx": {
-    "mtime": 1782703618.901441,
-    "ast_hash": "d98cf4ebe992d87422286193ffa689bc",
+    "mtime": 1782761784.0446315,
+    "ast_hash": "2673a98cb46136f1b6b80bc302039f54",
     "semantic_hash": ""
   },
   "src/pages/CaseStudy.jsx": {
@@ -1047,6 +1047,21 @@
   ".playwright-mcp/page-2026-06-29T17-41-18-142Z.yml": {
     "mtime": 1782754878.1429718,
     "ast_hash": "45275aae0e96e2863eff599ffaf05e78",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T19-24-57-759Z.yml": {
+    "mtime": 1782761097.759747,
+    "ast_hash": "8e424373b54ae23b705a7c499fed0699",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T19-25-12-008Z.yml": {
+    "mtime": 1782761112.0093124,
+    "ast_hash": "2a85a7c519f075b8f68167db1ff9ef36",
+    "semantic_hash": ""
+  },
+  ".playwright-mcp/page-2026-06-29T19-36-29-191Z.yml": {
+    "mtime": 1782761789.191773,
+    "ast_hash": "167c9597f5df4e140f8c50240949765c",
     "semantic_hash": ""
   }
 }

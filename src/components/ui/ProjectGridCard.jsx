@@ -41,7 +41,6 @@ export function ProjectGridCard({ project }) {
           overflow: "hidden",
           backgroundColor: "var(--color-bg-elevated)",
           border: "1px solid var(--color-border)",
-          borderRadius: "14px", // excepción puntual al borderRadius:0 del SRS, confirmada con el usuario
         }}
       >
         {/* Fondo generado — patrón técnico en el accentColor, tapado si hay foto/video */}

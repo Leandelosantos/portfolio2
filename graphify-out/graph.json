@@ -570,14 +570,104 @@
       "norm_label": "hero()"
     },
     {
+      "label": "AboutPage.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_aboutpage",
+      "community": 238,
+      "norm_label": "aboutpage.jsx"
+    },
+    {
+      "label": "BIO_PARAGRAPHS",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "pages_aboutpage_bio_paragraphs",
+      "community": 238,
+      "norm_label": "bio_paragraphs"
+    },
+    {
+      "label": "TECH_STACK",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "pages_aboutpage_tech_stack",
+      "community": 238,
+      "norm_label": "tech_stack"
+    },
+    {
+      "label": "SERVICES",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "pages_aboutpage_services",
+      "community": 238,
+      "norm_label": "services"
+    },
+    {
+      "label": "marqueeChipStyle",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "pages_aboutpage_marqueechipstyle",
+      "community": 238,
+      "norm_label": "marqueechipstyle"
+    },
+    {
+      "label": "onChipHoverLime()",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "pages_aboutpage_onchiphoverlime",
+      "community": 238,
+      "norm_label": "onchiphoverlime()"
+    },
+    {
+      "label": "onChipHoverLeave()",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "pages_aboutpage_onchiphoverleave",
+      "community": 238,
+      "norm_label": "onchiphoverleave()"
+    },
+    {
+      "label": "labelStyle",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "pages_aboutpage_labelstyle",
+      "community": 238,
+      "norm_label": "labelstyle"
+    },
+    {
+      "label": "AboutPage()",
+      "file_type": "code",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "pages_aboutpage_aboutpage",
+      "community": 238,
+      "norm_label": "aboutpage()"
+    },
+    {
       "label": "WhatsAppButton.jsx",
       "file_type": "code",
       "source_file": "src/components/ui/WhatsAppButton.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "ui_whatsappbutton",
       "community": 55,
-      "norm_label": "whatsappbutton.jsx"
+      "norm_label": "whatsappbutton.jsx",
+      "id": "ui_whatsappbutton"
     },
     {
       "label": "WA_MSG",
@@ -585,9 +675,9 @@
       "source_file": "src/components/ui/WhatsAppButton.jsx",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "ui_whatsappbutton_wa_msg",
       "community": 55,
-      "norm_label": "wa_msg"
+      "norm_label": "wa_msg",
+      "id": "ui_whatsappbutton_wa_msg"
     },
     {
       "label": "WhatsAppButton()",
@@ -595,9 +685,9 @@
       "source_file": "src/components/ui/WhatsAppButton.jsx",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "ui_whatsappbutton_whatsappbutton",
       "community": 55,
-      "norm_label": "whatsappbutton()"
+      "norm_label": "whatsappbutton()",
+      "id": "ui_whatsappbutton_whatsappbutton"
     },
     {
       "label": "CLAUDE.md",
@@ -1278,96 +1368,6 @@
       "community": 238,
       "norm_label": "marquee()",
       "id": "ui_marquee_marquee"
-    },
-    {
-      "label": "AboutPage.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "aboutpage.jsx",
-      "id": "pages_aboutpage"
-    },
-    {
-      "label": "BIO_PARAGRAPHS",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "bio_paragraphs",
-      "id": "pages_aboutpage_bio_paragraphs"
-    },
-    {
-      "label": "TECH_STACK",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L36",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "tech_stack",
-      "id": "pages_aboutpage_tech_stack"
-    },
-    {
-      "label": "SERVICES",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L49",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "services",
-      "id": "pages_aboutpage_services"
-    },
-    {
-      "label": "marqueeChipStyle",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L52",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "marqueechipstyle",
-      "id": "pages_aboutpage_marqueechipstyle"
-    },
-    {
-      "label": "onChipHoverLime()",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L64",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "onchiphoverlime()",
-      "id": "pages_aboutpage_onchiphoverlime"
-    },
-    {
-      "label": "onChipHoverLeave()",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L69",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "onchiphoverleave()",
-      "id": "pages_aboutpage_onchiphoverleave"
-    },
-    {
-      "label": "labelStyle",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L74",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "labelstyle",
-      "id": "pages_aboutpage_labelstyle"
-    },
-    {
-      "label": "AboutPage()",
-      "file_type": "code",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L83",
-      "_origin": "ast",
-      "community": 238,
-      "norm_label": "aboutpage()",
-      "id": "pages_aboutpage_aboutpage"
     },
     {
       "label": "package.json",
@@ -46081,6 +46081,119 @@
       "target": "hooks_useparallax_useparallax"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "pages_aboutpage_aboutpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "pages_aboutpage_bio_paragraphs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "pages_aboutpage_labelstyle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "pages_aboutpage_marqueechipstyle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "pages_aboutpage_onchiphoverleave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "pages_aboutpage_onchiphoverlime"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "pages_aboutpage_services"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "pages_aboutpage_tech_stack"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "ui_marquee"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "ui_marquee_marquee"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_aboutpage",
+      "target": "utils_splittexthelpers_splitcharswords"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -46954,17 +47067,6 @@
       "target": "sections_impactoreal_impactoreal"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "ui_marquee"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/ui/Marquee.jsx",
@@ -46973,108 +47075,6 @@
       "confidence_score": 1.0,
       "source": "ui_marquee",
       "target": "ui_marquee_marquee"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "ui_marquee_marquee"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "pages_aboutpage_aboutpage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "pages_aboutpage_bio_paragraphs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L74",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "pages_aboutpage_labelstyle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "pages_aboutpage_marqueechipstyle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "pages_aboutpage_onchiphoverleave"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L64",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "pages_aboutpage_onchiphoverlime"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "pages_aboutpage_services"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "pages_aboutpage_tech_stack"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AboutPage.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_aboutpage",
-      "target": "utils_splittexthelpers_splitcharswords"
     },
     {
       "relation": "provides_dependency_react_three_drei",
@@ -136120,5 +136120,5 @@
       "source_location": null
     }
   ],
-  "built_at_commit": "5555d1be3e1e3c55ed440fabcec0d38877fb21ba"
+  "built_at_commit": "57f8034c1bd7e949842abba5a4e44aecb256ca1e"
 }

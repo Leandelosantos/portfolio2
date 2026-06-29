@@ -1,0 +1,68 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "000"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - navigation "Navegación principal" [ref=e10]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Proyectos" [ref=e13]:
+            - /url: /work
+        - listitem [ref=e14]:
+          - link "IA" [ref=e15]:
+            - /url: /ia
+        - listitem [ref=e16]:
+          - link "Sobre mí" [ref=e17]:
+            - /url: /sobre-mi
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - contentinfo [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: Leandro De Los Santos Aboy
+        - paragraph [ref=e22]: Software Developer & Project Manager
+      - 'generic "Hora local: 16:41 ART" [ref=e23]':
+        - generic [ref=e24]: HORA LOCAL
+        - time [ref=e25]: 16:41 ART
+    - generic [ref=e26]:
+      - navigation "Navegación footer" [ref=e27]:
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - link "Proyectos" [ref=e30]:
+              - /url: /work
+          - listitem [ref=e31]:
+            - link "IA" [ref=e32]:
+              - /url: /ia
+          - listitem [ref=e33]:
+            - link "Sobre mí" [ref=e34]:
+              - /url: /sobre-mi
+      - generic [ref=e35]:
+        - link "GitHub — abre en nueva pestaña" [ref=e36]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e37]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e38]: © 2026

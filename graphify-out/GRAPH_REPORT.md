@@ -1,7 +1,7 @@
 # Graph Report - portfolio2.0  (2026-06-29)
 
 ## Corpus Check
-- 66 files · ~134,073 words
+- 66 files · ~140,836 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5555d1be`
+- Built from commit: `57f8034c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -1299,7 +1299,7 @@ Nodes (3): extractCss, stripJsxTemplateLines, stripJsxTemplateWrap
   src/hooks/useReducedMotion.js · relation: complements
 
 ## Knowledge Gaps
-- **619 isolated node(s):** `WA_MSG`, `1. Documentos de referencia`, `2. Figma MCP — proyecto "portfolio2.0"`, `3. Stack técnico`, ``threejs-webgl`` (+614 more)
+- **619 isolated node(s):** `BIO_PARAGRAPHS`, `TECH_STACK`, `SERVICES`, `marqueeChipStyle`, `labelStyle` (+614 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **53 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 

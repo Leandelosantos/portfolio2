@@ -139,7 +139,7 @@ export default function AboutPage() {
         style={{
           padding: "0 clamp(24px, 6vw, 80px) clamp(100px, 14vh, 160px)",
           display: "grid",
-          gridTemplateColumns: "minmax(240px, 360px) 1fr",
+          gridTemplateColumns: "minmax(300px, 440px) 1fr",
           gap: "clamp(3rem, 6vw, 6rem)",
           alignItems: "start",
         }}
@@ -149,7 +149,7 @@ export default function AboutPage() {
           className="about__photo"
           style={{
             position: "relative",
-            aspectRatio: "4 / 5",
+            aspectRatio: "1536 / 2730",
             border: "1px solid var(--color-border)",
             backgroundColor: "var(--color-bg-elevated)",
             overflow: "hidden",
