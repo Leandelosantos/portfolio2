@@ -188,14 +188,28 @@ html.lenis body {
 
 /* ── FASE 6 — Responsive mobile — SRS §5.4 ────────────── */
 
-/* Hero: 1 columna en mobile — 3D canvas oculto */
+/* Hero: nombre combinado 1 línea abajo-centro (en vez de las 2 esquinas
+   desktop), tagline reposicionado arriba del nombre, edge un poco más
+   arriba del centro. Canvas/partículas: sin cambios — ya quedan ocultos
+   en mobile vía HeroCanvas = null (ver Hero.jsx), no hay nada que tapar acá. */
 @media (max-width: 767px) {
-  .hero__grid {
-    grid-template-columns: 1fr !important;
-    padding-top: clamp(80px, 10vh, 120px) !important;
-  }
-  .hero__canvas-col {
+  .hero__name-left,
+  .hero__name-right {
     display: none !important;
+  }
+  .hero__name-mobile {
+    display: block !important;
+    /* despegado del borde — el scroll indicator vive en el borde mismo,
+       verificado en vivo que sin esto se pisan (Playwright, viewport 390×844) */
+    bottom: clamp(95px, 13vh, 120px) !important;
+  }
+  .hero__corner-text {
+    bottom: clamp(150px, 24vh, 190px) !important;
+  }
+  .hero__edge {
+    /* 37% y no 42% — el corner-text creció al sumarle el scroll indicator
+       adentro, con 42% pisaba ~16px. Verificado en vivo (Playwright). */
+    top: 37% !important;
   }
 }
 
@@ -258,12 +272,14 @@ html.lenis body {
   }
 }
 
-/* ── AboutPage — Kinetic Text (Magic UI, portado sin Tailwind) ────────
+/* ── Kinetic Text (Magic UI, portado sin Tailwind) ─────────────────────
+   Usado en AboutPage (.about__bio) e IAPage (.ia-manifesto__bio) — mismo efecto.
    Cada .char (split-type) interpola peso real de DM Sans (300/400/500/600/700,
    sin síntesis) en una ventana de 7 caracteres centrada en el hover — efecto
    ampliado +50% (ventana ±2→±3, padding/stroke +50%) a pedido.
    buenas-practicas: solo CSS — la entrada de los chars la anima GSAP aparte */
-.about__bio .char {
+.about__bio .char,
+.ia-manifesto__bio .char {
   --kinetic-pad: 0.075em;
   font-weight: 300;
   -webkit-text-stroke-color: transparent;
@@ -274,7 +290,8 @@ html.lenis body {
     padding 0.4s ease;
 }
 
-.about__bio .char:hover {
+.about__bio .char:hover,
+.ia-manifesto__bio .char:hover {
   padding-inline: var(--kinetic-pad);
   font-weight: 700;
   -webkit-text-stroke-color: currentColor;
@@ -282,19 +299,25 @@ html.lenis body {
 }
 
 .about__bio .char:hover + .char,
-.about__bio .char:has(+ .char:hover) {
+.about__bio .char:has(+ .char:hover),
+.ia-manifesto__bio .char:hover + .char,
+.ia-manifesto__bio .char:has(+ .char:hover) {
   padding-inline: var(--kinetic-pad);
   font-weight: 600;
 }
 
 .about__bio .char:hover + .char + .char,
-.about__bio .char:has(+ .char + .char:hover) {
+.about__bio .char:has(+ .char + .char:hover),
+.ia-manifesto__bio .char:hover + .char + .char,
+.ia-manifesto__bio .char:has(+ .char + .char:hover) {
   padding-inline: var(--kinetic-pad);
   font-weight: 500;
 }
 
 .about__bio .char:hover + .char + .char + .char,
-.about__bio .char:has(+ .char + .char + .char:hover) {
+.about__bio .char:has(+ .char + .char + .char:hover),
+.ia-manifesto__bio .char:hover + .char + .char + .char,
+.ia-manifesto__bio .char:has(+ .char + .char + .char:hover) {
   font-weight: 400;
 }
 
@@ -306,7 +329,14 @@ html.lenis body {
   .about__bio .char:hover + .char + .char + .char,
   .about__bio .char:has(+ .char:hover),
   .about__bio .char:has(+ .char + .char:hover),
-  .about__bio .char:has(+ .char + .char + .char:hover) {
+  .about__bio .char:has(+ .char + .char + .char:hover),
+  .ia-manifesto__bio .char:hover,
+  .ia-manifesto__bio .char:hover + .char,
+  .ia-manifesto__bio .char:hover + .char + .char,
+  .ia-manifesto__bio .char:hover + .char + .char + .char,
+  .ia-manifesto__bio .char:has(+ .char:hover),
+  .ia-manifesto__bio .char:has(+ .char + .char:hover),
+  .ia-manifesto__bio .char:has(+ .char + .char + .char:hover) {
     font-weight: 300;
     padding-inline: 0;
     -webkit-text-stroke-width: 0;
@@ -378,6 +408,71 @@ html.lenis body {
   }
   .about__photo {
     max-width: 280px;
+  }
+}
+
+/* ── MagicCard (Magic UI, portado sin Tailwind/framer-motion) ─────────────
+   Spotlight + glow de borde que sigue el puntero (gsap.quickTo anima --mx/--my).
+   Truco de borde-gradiente: fondo dual (padding-box sólido + border-box con el
+   radial-gradient) + capa __mask inset 1px que tapa el centro, dejando ver el
+   gradiente solo en el anillo de 1px. __spotlight es una segunda capa, encima
+   de __mask, con el glow suave que cubre toda la card.
+   Borde: --color-accent-hot al hover (a pedido) — único uso fuera de CTA/cursor.
+   Spotlight interno: neutro, sin cambios. */
+.magic-card {
+  --mx: -9999px;
+  --my: -9999px;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid transparent;
+  background:
+    linear-gradient(var(--color-bg) 0 0) padding-box,
+    radial-gradient(
+        var(--magic-gradient-size) circle at var(--mx) var(--my),
+        var(--color-accent-hot),
+        var(--color-border) 100%
+      )
+      border-box;
+}
+
+.magic-card__mask {
+  position: absolute;
+  inset: 1px;
+  z-index: 1;
+  background: var(--color-bg);
+  transition: background-color 0.2s ease;
+}
+
+.magic-card:hover .magic-card__mask {
+  background: var(--color-bg-elevated);
+}
+
+.magic-card__spotlight {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: radial-gradient(
+    var(--magic-gradient-size) circle at var(--mx) var(--my),
+    rgba(240, 237, 232, 0.06),
+    transparent 100%
+  );
+}
+
+.magic-card:hover .magic-card__spotlight {
+  opacity: 1;
+}
+
+.magic-card__content {
+  position: relative;
+  z-index: 3;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .magic-card__spotlight {
+    display: none;
   }
 }
 

@@ -132,6 +132,7 @@ FASE 8 — Deploy         → senior-qa (Lighthouse check)
 ✓ split-type en lugar de SplitText en todos los componentes
 ✓ /impeccable audit antes de marcar cualquier componente como terminado
 ✓ Al finalizar fase: reportar árbol modificado + errores encontrados
+✓ No usar Playwright/MCP de browser para verificar cambios salvo pedido explícito del usuario
 ```
 
 ---

@@ -550,14 +550,34 @@
   },
   "nodes": [
     {
+      "label": "Loader.jsx",
+      "file_type": "code",
+      "source_file": "src/components/sections/Loader.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "sections_loader",
+      "community": 77,
+      "norm_label": "loader.jsx"
+    },
+    {
+      "label": "Loader()",
+      "file_type": "code",
+      "source_file": "src/components/sections/Loader.jsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "sections_loader_loader",
+      "community": 77,
+      "norm_label": "loader()"
+    },
+    {
       "label": "PROJECT_MEMORY.md",
       "file_type": "document",
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "project_memory",
       "community": 133,
-      "norm_label": "project_memory.md"
+      "norm_label": "project_memory.md",
+      "id": "project_memory"
     },
     {
       "label": "PROJECT_MEMORY.md \u2014 Portfolio Personal",
@@ -565,9 +585,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "project_memory_project_memory_md_portfolio_personal",
       "community": 133,
-      "norm_label": "project_memory.md \u2014 portfolio personal"
+      "norm_label": "project_memory.md \u2014 portfolio personal",
+      "id": "project_memory_project_memory_md_portfolio_personal"
     },
     {
       "label": "Estado de fases",
@@ -575,9 +595,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "project_memory_estado_de_fases",
       "community": 133,
-      "norm_label": "estado de fases"
+      "norm_label": "estado de fases",
+      "id": "project_memory_estado_de_fases"
     },
     {
       "label": "Componentes completados \u2014 vigentes (sesi\u00f3n 9)",
@@ -585,9 +605,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "project_memory_componentes_completados_vigentes_sesi\u00f3n_9",
       "community": 133,
-      "norm_label": "componentes completados \u2014 vigentes (sesion 9)"
+      "norm_label": "componentes completados \u2014 vigentes (sesion 9)",
+      "id": "project_memory_componentes_completados_vigentes_sesi\u00f3n_9"
     },
     {
       "label": "Datos cargados en sesi\u00f3n 8",
@@ -595,9 +615,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L46",
       "_origin": "ast",
-      "id": "project_memory_datos_cargados_en_sesi\u00f3n_8",
       "community": 133,
-      "norm_label": "datos cargados en sesion 8"
+      "norm_label": "datos cargados en sesion 8",
+      "id": "project_memory_datos_cargados_en_sesi\u00f3n_8"
     },
     {
       "label": "Eliminados en sesi\u00f3n 7 (reemplazados por bento)",
@@ -605,9 +625,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "project_memory_eliminados_en_sesi\u00f3n_7_reemplazados_por_bento",
       "community": 133,
-      "norm_label": "eliminados en sesion 7 (reemplazados por bento)"
+      "norm_label": "eliminados en sesion 7 (reemplazados por bento)",
+      "id": "project_memory_eliminados_en_sesi\u00f3n_7_reemplazados_por_bento"
     },
     {
       "label": "Datos del proyecto confirmados",
@@ -615,9 +635,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "project_memory_datos_del_proyecto_confirmados",
       "community": 133,
-      "norm_label": "datos del proyecto confirmados"
+      "norm_label": "datos del proyecto confirmados",
+      "id": "project_memory_datos_del_proyecto_confirmados"
     },
     {
       "label": "Decisiones arquitect\u00f3nicas \u2014 sesi\u00f3n 7 (redise\u00f1o bento + fix hover-grow)",
@@ -625,9 +645,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_7_redise\u00f1o_bento_fix_hover_grow",
       "community": 133,
-      "norm_label": "decisiones arquitectonicas \u2014 sesion 7 (rediseno bento + fix hover-grow)"
+      "norm_label": "decisiones arquitectonicas \u2014 sesion 7 (rediseno bento + fix hover-grow)",
+      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_7_redise\u00f1o_bento_fix_hover_grow"
     },
     {
       "label": "Decisiones arquitect\u00f3nicas \u2014 sesi\u00f3n 8 (tercer proyecto + fix thumbnails + research Figma)",
@@ -635,9 +655,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L91",
       "_origin": "ast",
-      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_8_tercer_proyecto_fix_thumbnails_research_figma",
       "community": 133,
-      "norm_label": "decisiones arquitectonicas \u2014 sesion 8 (tercer proyecto + fix thumbnails + research figma)"
+      "norm_label": "decisiones arquitectonicas \u2014 sesion 8 (tercer proyecto + fix thumbnails + research figma)",
+      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_8_tercer_proyecto_fix_thumbnails_research_figma"
     },
     {
       "label": "Decisiones arquitect\u00f3nicas \u2014 sesiones 1-6 (vigentes, sin cambios)",
@@ -645,9 +665,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L101",
       "_origin": "ast",
-      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesiones_1_6_vigentes_sin_cambios",
       "community": 133,
-      "norm_label": "decisiones arquitectonicas \u2014 sesiones 1-6 (vigentes, sin cambios)"
+      "norm_label": "decisiones arquitectonicas \u2014 sesiones 1-6 (vigentes, sin cambios)",
+      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesiones_1_6_vigentes_sin_cambios"
     },
     {
       "label": "Problemas resueltos \u2014 sesi\u00f3n 7",
@@ -655,9 +675,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L119",
       "_origin": "ast",
-      "id": "project_memory_problemas_resueltos_sesi\u00f3n_7",
       "community": 133,
-      "norm_label": "problemas resueltos \u2014 sesion 7"
+      "norm_label": "problemas resueltos \u2014 sesion 7",
+      "id": "project_memory_problemas_resueltos_sesi\u00f3n_7"
     },
     {
       "label": "Decisiones arquitect\u00f3nicas \u2014 sesi\u00f3n 9 (grid 2 columnas Home, separaci\u00f3n de Home y /work)",
@@ -665,9 +685,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L133",
       "_origin": "ast",
-      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_9_grid_2_columnas_home_separaci\u00f3n_de_home_y_work",
       "community": 133,
-      "norm_label": "decisiones arquitectonicas \u2014 sesion 9 (grid 2 columnas home, separacion de home y /work)"
+      "norm_label": "decisiones arquitectonicas \u2014 sesion 9 (grid 2 columnas home, separacion de home y /work)",
+      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_9_grid_2_columnas_home_separaci\u00f3n_de_home_y_work"
     },
     {
       "label": "Decisiones arquitect\u00f3nicas \u2014 sesi\u00f3n 10 (ajustes visuales cards Home + video en CaseStudy)",
@@ -675,9 +695,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L145",
       "_origin": "ast",
-      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_10_ajustes_visuales_cards_home_video_en_casestudy",
       "community": 133,
-      "norm_label": "decisiones arquitectonicas \u2014 sesion 10 (ajustes visuales cards home + video en casestudy)"
+      "norm_label": "decisiones arquitectonicas \u2014 sesion 10 (ajustes visuales cards home + video en casestudy)",
+      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_10_ajustes_visuales_cards_home_video_en_casestudy"
     },
     {
       "label": "Decisiones arquitect\u00f3nicas \u2014 sesi\u00f3n 11 (Sobre m\u00ed, Kinetic Text, Marquee, placeholders)",
@@ -685,9 +705,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L161",
       "_origin": "ast",
-      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_11_sobre_m\u00ed_kinetic_text_marquee_placeholders",
       "community": 133,
-      "norm_label": "decisiones arquitectonicas \u2014 sesion 11 (sobre mi, kinetic text, marquee, placeholders)"
+      "norm_label": "decisiones arquitectonicas \u2014 sesion 11 (sobre mi, kinetic text, marquee, placeholders)",
+      "id": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_11_sobre_m\u00ed_kinetic_text_marquee_placeholders"
     },
     {
       "label": "Problemas resueltos \u2014 sesi\u00f3n 11",
@@ -695,9 +715,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L175",
       "_origin": "ast",
-      "id": "project_memory_problemas_resueltos_sesi\u00f3n_11",
       "community": 133,
-      "norm_label": "problemas resueltos \u2014 sesion 11"
+      "norm_label": "problemas resueltos \u2014 sesion 11",
+      "id": "project_memory_problemas_resueltos_sesi\u00f3n_11"
     },
     {
       "label": "Problemas resueltos \u2014 sesi\u00f3n 10",
@@ -705,9 +725,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L186",
       "_origin": "ast",
-      "id": "project_memory_problemas_resueltos_sesi\u00f3n_10",
       "community": 133,
-      "norm_label": "problemas resueltos \u2014 sesion 10"
+      "norm_label": "problemas resueltos \u2014 sesion 10",
+      "id": "project_memory_problemas_resueltos_sesi\u00f3n_10"
     },
     {
       "label": "Research \u2014 sesi\u00f3n 8 (sin cambios de c\u00f3digo)",
@@ -715,9 +735,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L195",
       "_origin": "ast",
-      "id": "project_memory_research_sesi\u00f3n_8_sin_cambios_de_c\u00f3digo",
       "community": 133,
-      "norm_label": "research \u2014 sesion 8 (sin cambios de codigo)"
+      "norm_label": "research \u2014 sesion 8 (sin cambios de codigo)",
+      "id": "project_memory_research_sesi\u00f3n_8_sin_cambios_de_c\u00f3digo"
     },
     {
       "label": "Pendientes no bloqueantes",
@@ -725,9 +745,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L201",
       "_origin": "ast",
-      "id": "project_memory_pendientes_no_bloqueantes",
       "community": 133,
-      "norm_label": "pendientes no bloqueantes"
+      "norm_label": "pendientes no bloqueantes",
+      "id": "project_memory_pendientes_no_bloqueantes"
     },
     {
       "label": "Graphify \u2014 Mapa de conocimiento",
@@ -735,9 +755,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L220",
       "_origin": "ast",
-      "id": "project_memory_graphify_mapa_de_conocimiento",
       "community": 133,
-      "norm_label": "graphify \u2014 mapa de conocimiento"
+      "norm_label": "graphify \u2014 mapa de conocimiento",
+      "id": "project_memory_graphify_mapa_de_conocimiento"
     },
     {
       "label": "Pr\u00f3xima sesi\u00f3n \u2014 continuar en",
@@ -745,9 +765,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L226",
       "_origin": "ast",
-      "id": "project_memory_pr\u00f3xima_sesi\u00f3n_continuar_en",
       "community": 133,
-      "norm_label": "proxima sesion \u2014 continuar en"
+      "norm_label": "proxima sesion \u2014 continuar en",
+      "id": "project_memory_pr\u00f3xima_sesi\u00f3n_continuar_en"
     },
     {
       "label": "Hero.jsx",
@@ -755,9 +775,9 @@
       "source_file": "src/components/sections/Hero.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "sections_hero",
       "community": 77,
-      "norm_label": "hero.jsx"
+      "norm_label": "hero.jsx",
+      "id": "sections_hero"
     },
     {
       "label": "Hero()",
@@ -765,9 +785,9 @@
       "source_file": "src/components/sections/Hero.jsx",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "sections_hero_hero",
       "community": 77,
-      "norm_label": "hero()"
+      "norm_label": "hero()",
+      "id": "sections_hero_hero"
     },
     {
       "label": "ImpactoReal.jsx",
@@ -775,9 +795,9 @@
       "source_file": "src/components/sections/ImpactoReal.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "sections_impactoreal",
       "community": 73,
-      "norm_label": "impactoreal.jsx"
+      "norm_label": "impactoreal.jsx",
+      "id": "sections_impactoreal"
     },
     {
       "label": "SERVICES",
@@ -785,9 +805,9 @@
       "source_file": "src/components/sections/ImpactoReal.jsx",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "sections_impactoreal_services",
       "community": 73,
-      "norm_label": "services"
+      "norm_label": "services",
+      "id": "sections_impactoreal_services"
     },
     {
       "label": "ImpactoReal()",
@@ -795,9 +815,9 @@
       "source_file": "src/components/sections/ImpactoReal.jsx",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "sections_impactoreal_impactoreal",
       "community": 73,
-      "norm_label": "impactoreal()"
+      "norm_label": "impactoreal()",
+      "id": "sections_impactoreal_impactoreal"
     },
     {
       "label": "ServiceTile()",
@@ -805,9 +825,9 @@
       "source_file": "src/components/sections/ImpactoReal.jsx",
       "source_location": "L297",
       "_origin": "ast",
-      "id": "sections_impactoreal_servicetile",
       "community": 73,
-      "norm_label": "servicetile()"
+      "norm_label": "servicetile()",
+      "id": "sections_impactoreal_servicetile"
     },
     {
       "label": "Marquee.jsx",
@@ -815,9 +835,9 @@
       "source_file": "src/components/ui/Marquee.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "ui_marquee",
       "community": 238,
-      "norm_label": "marquee.jsx"
+      "norm_label": "marquee.jsx",
+      "id": "ui_marquee"
     },
     {
       "label": "Marquee()",
@@ -825,9 +845,9 @@
       "source_file": "src/components/ui/Marquee.jsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "ui_marquee_marquee",
       "community": 238,
-      "norm_label": "marquee()"
+      "norm_label": "marquee()",
+      "id": "ui_marquee_marquee"
     },
     {
       "label": "AboutPage.jsx",
@@ -835,9 +855,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_aboutpage",
       "community": 238,
-      "norm_label": "aboutpage.jsx"
+      "norm_label": "aboutpage.jsx",
+      "id": "pages_aboutpage"
     },
     {
       "label": "BIO_PARAGRAPHS",
@@ -845,9 +865,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "pages_aboutpage_bio_paragraphs",
       "community": 238,
-      "norm_label": "bio_paragraphs"
+      "norm_label": "bio_paragraphs",
+      "id": "pages_aboutpage_bio_paragraphs"
     },
     {
       "label": "TECH_STACK",
@@ -855,9 +875,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "pages_aboutpage_tech_stack",
       "community": 238,
-      "norm_label": "tech_stack"
+      "norm_label": "tech_stack",
+      "id": "pages_aboutpage_tech_stack"
     },
     {
       "label": "SERVICES",
@@ -865,9 +885,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "pages_aboutpage_services",
       "community": 238,
-      "norm_label": "services"
+      "norm_label": "services",
+      "id": "pages_aboutpage_services"
     },
     {
       "label": "marqueeChipStyle",
@@ -875,9 +895,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "pages_aboutpage_marqueechipstyle",
       "community": 238,
-      "norm_label": "marqueechipstyle"
+      "norm_label": "marqueechipstyle",
+      "id": "pages_aboutpage_marqueechipstyle"
     },
     {
       "label": "onChipHoverLime()",
@@ -885,9 +905,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "pages_aboutpage_onchiphoverlime",
       "community": 238,
-      "norm_label": "onchiphoverlime()"
+      "norm_label": "onchiphoverlime()",
+      "id": "pages_aboutpage_onchiphoverlime"
     },
     {
       "label": "onChipHoverLeave()",
@@ -895,9 +915,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L69",
       "_origin": "ast",
-      "id": "pages_aboutpage_onchiphoverleave",
       "community": 238,
-      "norm_label": "onchiphoverleave()"
+      "norm_label": "onchiphoverleave()",
+      "id": "pages_aboutpage_onchiphoverleave"
     },
     {
       "label": "labelStyle",
@@ -905,9 +925,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "pages_aboutpage_labelstyle",
       "community": 238,
-      "norm_label": "labelstyle"
+      "norm_label": "labelstyle",
+      "id": "pages_aboutpage_labelstyle"
     },
     {
       "label": "AboutPage()",
@@ -915,9 +935,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L83",
       "_origin": "ast",
-      "id": "pages_aboutpage_aboutpage",
       "community": 238,
-      "norm_label": "aboutpage()"
+      "norm_label": "aboutpage()",
+      "id": "pages_aboutpage_aboutpage"
     },
     {
       "label": "package.json",
@@ -15845,7 +15865,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 284,
+      "community": 140,
       "norm_label": "live-status.mjs",
       "id": "agents_skills_impeccable_scripts_live_status_mjs_scripts_live_status"
     },
@@ -15855,7 +15875,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 284,
+      "community": 140,
       "norm_label": "readserverinfo()",
       "id": "agents_skills_impeccable_scripts_live_status_mjs_scripts_live_status_readserverinfo"
     },
@@ -15865,7 +15885,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 284,
+      "community": 140,
       "norm_label": "fetchserverstatus()",
       "id": "agents_skills_impeccable_scripts_live_status_mjs_scripts_live_status_fetchserverstatus"
     },
@@ -15875,7 +15895,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 284,
+      "community": 140,
       "norm_label": "statuscli()",
       "id": "agents_skills_impeccable_scripts_live_status_mjs_scripts_live_status_statuscli"
     },
@@ -15885,7 +15905,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 284,
+      "community": 140,
       "norm_label": "findpendingmanualapply()",
       "id": "agents_skills_impeccable_scripts_live_status_mjs_scripts_live_status_findpendingmanualapply"
     },
@@ -18295,7 +18315,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context-signals.mjs",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 81,
+      "community": 93,
       "norm_label": "latestcritique()",
       "id": "claude_skills_impeccable_scripts_context_signals_mjs_scripts_context_signals_latestcritique"
     },
@@ -31725,7 +31745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 140,
+      "community": 285,
       "norm_label": "live-status.mjs",
       "id": "claude_skills_impeccable_scripts_live_status_mjs_scripts_live_status"
     },
@@ -31735,7 +31755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 140,
+      "community": 285,
       "norm_label": "readserverinfo()",
       "id": "claude_skills_impeccable_scripts_live_status_mjs_scripts_live_status_readserverinfo"
     },
@@ -31745,7 +31765,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 140,
+      "community": 285,
       "norm_label": "fetchserverstatus()",
       "id": "claude_skills_impeccable_scripts_live_status_mjs_scripts_live_status_fetchserverstatus"
     },
@@ -31755,7 +31775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 140,
+      "community": 285,
       "norm_label": "statuscli()",
       "id": "claude_skills_impeccable_scripts_live_status_mjs_scripts_live_status_statuscli"
     },
@@ -31765,7 +31785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-status.mjs",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 140,
+      "community": 285,
       "norm_label": "findpendingmanualapply()",
       "id": "claude_skills_impeccable_scripts_live_status_mjs_scripts_live_status_findpendingmanualapply"
     },
@@ -34510,26 +34530,6 @@
       "id": "cursor_customcursor_customcursor"
     },
     {
-      "label": "Loader.jsx",
-      "file_type": "code",
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 77,
-      "norm_label": "loader.jsx",
-      "id": "sections_loader"
-    },
-    {
-      "label": "Loader()",
-      "file_type": "code",
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 77,
-      "norm_label": "loader()",
-      "id": "sections_loader_loader"
-    },
-    {
       "label": "HelmetCanvas.jsx",
       "file_type": "code",
       "source_file": "src/components/three/HelmetCanvas.jsx",
@@ -36482,7 +36482,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 81,
+      "community": 93,
       "norm_label": "getcritiquedir() (impeccable-paths.mjs)",
       "id": "impeccable_paths_getcritiquedir"
     },
@@ -39358,7 +39358,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 181,
+      "community": 286,
       "norm_label": "getimpeccabledir",
       "id": "impeccable_paths_getimpeccabledir"
     },
@@ -39371,7 +39371,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 181,
+      "community": 286,
       "norm_label": "getdesignsidecarpath",
       "id": "impeccable_paths_getdesignsidecarpath"
     },
@@ -39384,7 +39384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 181,
+      "community": 286,
       "norm_label": "getdesignsidecarcandidates",
       "id": "impeccable_paths_getdesignsidecarcandidates"
     },
@@ -39397,7 +39397,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 181,
+      "community": 286,
       "norm_label": "resolvedesignsidecarpath",
       "id": "impeccable_paths_resolvedesignsidecarpath"
     },
@@ -39553,7 +39553,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 181,
+      "community": 286,
       "norm_label": "firstexisting",
       "id": "impeccable_paths_firstexisting"
     },
@@ -39748,7 +39748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 284,
       "norm_label": "readsourceshadowpreviewmeta",
       "id": "live_accept_readsourceshadowpreviewmeta"
     },
@@ -39761,7 +39761,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 284,
       "norm_label": "readhtmlattr",
       "id": "live_accept_readhtmlattr"
     },
@@ -39774,7 +39774,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 284,
       "norm_label": "decodehtmlattr",
       "id": "live_accept_decodehtmlattr"
     },
@@ -39800,7 +39800,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 284,
       "norm_label": "expandreplacerange",
       "id": "live_accept_expandreplacerange"
     },
@@ -39813,7 +39813,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 284,
       "norm_label": "isvariantendmarkerline",
       "id": "live_accept_isvariantendmarkerline"
     },
@@ -39826,7 +39826,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 284,
       "norm_label": "hasvariantwrapperattr",
       "id": "live_accept_hasvariantwrapperattr"
     },
@@ -39891,7 +39891,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 290,
       "norm_label": "extractcss",
       "id": "live_accept_extractcss"
     },
@@ -39904,7 +39904,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 290,
       "norm_label": "stripjsxtemplatelines",
       "id": "live_accept_stripjsxtemplatelines"
     },
@@ -39917,7 +39917,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 290,
       "norm_label": "stripjsxtemplatewrap",
       "id": "live_accept_stripjsxtemplatewrap"
     },
@@ -39995,7 +39995,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 95,
+      "community": 284,
       "norm_label": "escaperegexp (live-accept)",
       "id": "live_accept_escaperegexp"
     },
@@ -40073,7 +40073,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 164,
+      "community": 135,
       "norm_label": "verifyentriesafterrepair",
       "id": "live_commit_manual_edits_verifyentriesafterrepair"
     },
@@ -40294,7 +40294,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 164,
+      "community": 135,
       "norm_label": "normalizeprojectsourcepath",
       "id": "live_commit_manual_edits_normalizeprojectsourcepath"
     },
@@ -40437,7 +40437,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 285,
+      "community": 92,
       "norm_label": "runcopyeditpostapplychecks",
       "id": "live_copy_edit_agent_runcopyeditpostapplychecks"
     },
@@ -40450,7 +40450,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 285,
+      "community": 92,
       "norm_label": "checkframeworksourcesyntax",
       "id": "live_copy_edit_agent_checkframeworksourcesyntax"
     },
@@ -40463,7 +40463,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 285,
+      "community": 92,
       "norm_label": "findleftoverimpeccablemarker",
       "id": "live_copy_edit_agent_findleftoverimpeccablemarker"
     },
@@ -40476,7 +40476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 285,
+      "community": 92,
       "norm_label": "runmanualeditvalidationscript",
       "id": "live_copy_edit_agent_runmanualeditvalidationscript"
     },
@@ -40541,7 +40541,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 286,
+      "community": 87,
       "norm_label": "choosecopyeditagent",
       "id": "live_copy_edit_agent_choosecopyeditagent"
     },
@@ -40593,7 +40593,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 286,
+      "community": 87,
       "norm_label": "describenoprovidererror",
       "id": "live_copy_edit_agent_describenoproviderror"
     },
@@ -40619,7 +40619,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 286,
+      "community": 87,
       "norm_label": "commandauthed",
       "id": "live_copy_edit_agent_commandauthed"
     },
@@ -40632,7 +40632,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 286,
+      "community": 87,
       "norm_label": "computecommandauthed",
       "id": "live_copy_edit_agent_computecommandauthed"
     },
@@ -40645,7 +40645,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 286,
+      "community": 87,
       "norm_label": "commandexists",
       "id": "live_copy_edit_agent_commandexists"
     },
@@ -41373,7 +41373,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 285,
+      "community": 92,
       "norm_label": "manual_edit_apply orchestration",
       "id": "live_server_manualeditapplyendpoint"
     },
@@ -45294,19 +45294,6 @@
       "id": "customcursor_customcursor"
     },
     {
-      "label": "Loader",
-      "file_type": "code",
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 288,
-      "norm_label": "loader",
-      "id": "loader_loader"
-    },
-    {
       "label": "HelmetCanvas",
       "file_type": "code",
       "source_file": "src/components/three/HelmetCanvas.jsx",
@@ -45471,7 +45458,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 288,
+      "community": 291,
       "norm_label": "useloader",
       "id": "loadercontext_useloader"
     },
@@ -45920,6 +45907,93 @@
   ],
   "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Loader.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_loader",
+      "target": "context_loadercontext"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Loader.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_loader",
+      "target": "context_loadercontext_useloader"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Loader.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_loader",
+      "target": "sections_loader_loader"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Loader.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_loader",
+      "target": "utils_splittexthelpers"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Loader.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_loader",
+      "target": "utils_splittexthelpers_splitchars"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "sections_loader"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/sections/Loader.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "sections_loader_loader",
+      "target": "context_loadercontext_useloader"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "sections_loader_loader"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "PROJECT_MEMORY.md",
@@ -45975,9 +46049,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L161",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "project_memory_project_memory_md_portfolio_personal",
-      "target": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_11_sobre_m\u00ed_kinetic_text_marquee_placeholders",
-      "confidence_score": 1.0
+      "target": "project_memory_decisiones_arquitect\u00f3nicas_sesi\u00f3n_11_sobre_m\u00ed_kinetic_text_marquee_placeholders"
     },
     {
       "relation": "contains",
@@ -46055,9 +46129,9 @@
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "L175",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "project_memory_project_memory_md_portfolio_personal",
-      "target": "project_memory_problemas_resueltos_sesi\u00f3n_11",
-      "confidence_score": 1.0
+      "target": "project_memory_problemas_resueltos_sesi\u00f3n_11"
     },
     {
       "relation": "contains",
@@ -46318,9 +46392,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "ui_marquee",
-      "confidence_score": 1.0
+      "target": "ui_marquee"
     },
     {
       "relation": "contains",
@@ -46328,9 +46402,9 @@
       "source_file": "src/components/ui/Marquee.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_marquee",
-      "target": "ui_marquee_marquee",
-      "confidence_score": 1.0
+      "target": "ui_marquee_marquee"
     },
     {
       "relation": "imports",
@@ -46339,9 +46413,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "ui_marquee_marquee",
-      "confidence_score": 1.0
+      "target": "ui_marquee_marquee"
     },
     {
       "relation": "contains",
@@ -46359,9 +46433,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "pages_aboutpage_bio_paragraphs",
-      "confidence_score": 1.0
+      "target": "pages_aboutpage_bio_paragraphs"
     },
     {
       "relation": "contains",
@@ -46369,9 +46443,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "pages_aboutpage_labelstyle",
-      "confidence_score": 1.0
+      "target": "pages_aboutpage_labelstyle"
     },
     {
       "relation": "contains",
@@ -46379,9 +46453,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "pages_aboutpage_marqueechipstyle",
-      "confidence_score": 1.0
+      "target": "pages_aboutpage_marqueechipstyle"
     },
     {
       "relation": "contains",
@@ -46389,9 +46463,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "pages_aboutpage_onchiphoverleave",
-      "confidence_score": 1.0
+      "target": "pages_aboutpage_onchiphoverleave"
     },
     {
       "relation": "contains",
@@ -46399,9 +46473,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "pages_aboutpage_onchiphoverlime",
-      "confidence_score": 1.0
+      "target": "pages_aboutpage_onchiphoverlime"
     },
     {
       "relation": "contains",
@@ -46409,9 +46483,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "pages_aboutpage_services",
-      "confidence_score": 1.0
+      "target": "pages_aboutpage_services"
     },
     {
       "relation": "contains",
@@ -46419,9 +46493,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "pages_aboutpage_tech_stack",
-      "confidence_score": 1.0
+      "target": "pages_aboutpage_tech_stack"
     },
     {
       "relation": "imports",
@@ -46430,9 +46504,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_aboutpage",
-      "target": "utils_splittexthelpers_splitcharswords",
-      "confidence_score": 1.0
+      "target": "utils_splittexthelpers_splitcharswords"
     },
     {
       "relation": "provides_dependency_gsap_react",
@@ -47213,28 +47287,6 @@
       "confidence_score": 1.0,
       "source": "src_app",
       "target": "pages_home_home"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "sections_loader"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "sections_loader_loader"
     },
     {
       "relation": "contains",
@@ -124641,71 +124693,6 @@
       "target": "context_mousecontext_usemouse"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_loader",
-      "target": "context_loadercontext"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_loader",
-      "target": "context_loadercontext_useloader"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_loader",
-      "target": "sections_loader_loader"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_loader",
-      "target": "utils_splittexthelpers"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_loader",
-      "target": "utils_splittexthelpers_splitchars"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "sections_loader_loader",
-      "target": "context_loadercontext_useloader"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/three/HelmetCanvas.jsx",
@@ -135171,26 +135158,6 @@
       "target": "mousecontext_usemouse"
     },
     {
-      "relation": "triggers_state_update",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "loader_loader",
-      "target": "loadercontext_loaderprovider"
-    },
-    {
-      "relation": "consumes_context",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/sections/Loader.jsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "loader_loader",
-      "target": "loadercontext_useloader"
-    },
-    {
       "relation": "renders",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -136056,5 +136023,5 @@
       "source_location": null
     }
   ],
-  "built_at_commit": "548b667fd9b6ad35783ddeffcf32d1fe111bf345"
+  "built_at_commit": "36290e3b269732a77b177ac1f93387bd71589f0d"
 }

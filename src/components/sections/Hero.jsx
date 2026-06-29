@@ -1,7 +1,16 @@
 // Hero.jsx — SRS §4.2 — Hero Section
-// Layout nuevo: label centrado arriba → headline full-width con 3D inline → nombre → descripción
-// Canvas full-bleed como fondo (partículas + HeroObject)
-// El spacer transparente en el h1 actúa como "ventana" sobre el objeto 3D centrado
+// Layout editorial por esquinas (ref: markashton.framer.website) — nombre partido
+// en dos extremos (LEANDRO arriba-izq / DE LOS SANTOS ABOY abajo-der), tagline +
+// descripción abajo-izq, "2026 / línea / ./ PORTFOLIO" en el borde lateral.
+// Canvas full-bleed (partículas + HeroObject) intacto — no se toca.
+// Scroll (desktop + sin reduced-motion, ver gsap.matchMedia abajo):
+//   - edge: sale para arriba, tagline: sale para abajo — cinta transportadora,
+//     recorrido corto (140px) así desaparecen enseguida con el primer scroll
+//   - LEANDRO: desciende hasta la fila de DE LOS SANTOS ABOY — termina al 45%
+//     del alto de la sección (no al final, ahí ya quedaría fuera de pantalla),
+//     formando el nombre completo todavía visible, y quedan pegados el resto
+//     del scroll (scrub mantiene el valor final tras el end)
+// Mobile: layout propio — nombre combinado 1 línea abajo-centro, sin scroll-jack.
 // buenas-practicas §3: useGSAP, split-type con revert en onComplete
 
 import { useRef, Suspense, lazy } from "react";
@@ -15,11 +24,16 @@ import { useParallax } from "../../hooks/useParallax";
 const isMobile = window.matchMedia("(max-width: 767px)").matches;
 const HeroCanvas = !isMobile ? lazy(() => import("../three/HeroCanvas")) : null;
 
+const EDGE = "clamp(24px, 6vw, 80px)";
+const NAME_SIZE = "clamp(2.4rem, 7vw, 6.5rem)";
+
 export function Hero() {
   const { isLoaded } = useLoader();
   const sectionRef = useRef(null);
   const canvasRef = useRef(null);
   const taglineRef = useRef(null);
+  const leandroRef = useRef(null);
+  const dlsaRef = useRef(null);
 
   // Parallax sutil en el canvas de fondo
   useParallax(canvasRef, { speed: 0.06, triggerRef: sectionRef });
@@ -38,44 +52,44 @@ export function Hero() {
         ease: "power1.out",
       });
 
-      // Label: fade + y
+      // Label + borde lateral: fade + y
       tl.from(
-        ".hero__label",
+        ".hero__label, .hero__edge",
         {
           opacity: 0,
           y: 16,
           duration: 0.5,
           ease: "power2.out",
+          stagger: 0.1,
         },
         "-=0.9",
       );
 
-      // Tagline: chars desde abajo en ambos spans
-      const splitL = splitCharsWords(
-        taglineRef.current.querySelector(".hero__tagline-left"),
-      );
-      const splitR = splitCharsWords(
-        taglineRef.current.querySelector(".hero__tagline-right"),
-      );
+      // Tagline: chars desde abajo
+      const split = splitCharsWords(taglineRef.current);
       tl.from(
-        [...splitL.chars, ...splitR.chars],
+        split.chars,
         {
           opacity: 0,
           yPercent: 110,
           duration: 0.7,
           ease: "power3.out",
           stagger: 0.022,
-          onComplete: () => {
-            splitL.revert();
-            splitR.revert();
-          },
+          onComplete: () => split.revert(),
         },
         "-=0.3",
       );
 
-      // Nombre + descripción
+      // Descripción
       tl.from(
-        ".hero__sub, .hero__desc",
+        ".hero__desc",
+        { opacity: 0, y: 20, duration: 0.6, ease: "power2.out" },
+        "-=0.3",
+      );
+
+      // Nombre — LEANDRO / DE LOS SANTOS ABOY / combinado mobile
+      tl.from(
+        ".hero__name-left, .hero__name-right, .hero__name-mobile",
         {
           opacity: 0,
           y: 20,
@@ -84,6 +98,94 @@ export function Hero() {
           stagger: 0.14,
         },
         "-=0.35",
+      );
+
+      // ── Scroll — solo desktop, sin reduced-motion ──────────────
+      gsap.matchMedia().add(
+        "(min-width: 768px) and (prefers-reduced-motion: no-preference)",
+        () => {
+          // Edge + tagline: cinta transportadora — recorrido corto (140px de
+          // scroll) y desplazamiento grande, así con apenas tocar el scroll ya
+          // desaparecieron. Direcciones opuestas: edge sube, tagline baja.
+          // fromTo con start explícito (1/0) — gsap.to() capturaría el valor
+          // actual al crear el tween, que puede ser 0 todavía por el
+          // immediateRender de la entrada (.from()), dejando el elemento
+          // forzado a opacity 0 apenas hay scroll. fromTo no depende de eso.
+          const exitTweenEdge = gsap.fromTo(
+            ".hero__edge",
+            { opacity: 1, y: 0 },
+            {
+              opacity: 0,
+              y: -160,
+              ease: "power1.out",
+              scrollTrigger: {
+                trigger: sectionRef.current,
+                start: "top top",
+                end: "+=140",
+                scrub: true,
+              },
+            },
+          );
+
+          const exitTweenCorner = gsap.fromTo(
+            ".hero__corner-text",
+            { opacity: 1, y: 0 },
+            {
+              opacity: 0,
+              y: 160,
+              ease: "power1.out",
+              scrollTrigger: {
+                trigger: sectionRef.current,
+                start: "top top",
+                end: "+=140",
+                scrub: true,
+              },
+            },
+          );
+
+          // LEANDRO desciende hasta la fila de DE LOS SANTOS ABOY — termina al
+          // 45% del alto de la sección, NO al final ("bottom top"): a esa altura
+          // DLSA ya scrolleó arriba del viewport (su fila vive cerca del borde
+          // inferior de la sección), con "bottom top" el cruce pasaba off-screen
+          // y nunca se llegaba a ver. Al 45% el destino sigue visible en pantalla,
+          // y como scrub mantiene el valor final tras el end, quedan juntos y
+          // se van scrolleando pegados el resto del recorrido.
+          // Delta calculado con getComputedStyle (top estático, no afectado por
+          // el transform del propio scrub) + getBoundingClientRect de DLSA
+          // (nunca se mueve) — robusto a refresh/resize en cualquier punto del
+          // scroll. fromTo con y:0 explícito por el mismo motivo que arriba.
+          const leandroEl = leandroRef.current;
+          const dlsaEl = dlsaRef.current;
+          const getOffsetY = () => {
+            const leandroTop = parseFloat(getComputedStyle(leandroEl).top);
+            const dlsaRect = dlsaEl.getBoundingClientRect();
+            const sectionRect = sectionRef.current.getBoundingClientRect();
+            const dlsaTopRelative = dlsaRect.top - sectionRect.top;
+            return dlsaTopRelative - leandroTop;
+          };
+
+          const descendTween = gsap.fromTo(
+            leandroEl,
+            { y: 0 },
+            {
+              y: getOffsetY,
+              ease: "none",
+              scrollTrigger: {
+                trigger: sectionRef.current,
+                start: "top top",
+                end: () => "+=" + sectionRef.current.offsetHeight * 0.45,
+                scrub: true,
+                invalidateOnRefresh: true,
+              },
+            },
+          );
+
+          return () => {
+            exitTweenEdge.scrollTrigger?.kill();
+            exitTweenCorner.scrollTrigger?.kill();
+            descendTween.scrollTrigger?.kill();
+          };
+        },
       );
     },
     { scope: sectionRef, dependencies: [isLoaded] },
@@ -96,17 +198,10 @@ export function Hero() {
       style={{
         position: "relative",
         minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
         overflow: "hidden",
-        paddingTop: "clamp(80px, 10vh, 120px)",
-        paddingBottom: "clamp(60px, 8vh, 100px)",
-        gap: "clamp(1.2rem, 2.5vh, 2rem)",
       }}
     >
-      {/* ── Canvas full-bleed: partículas + HeroObject ───────── */}
+      {/* ── Canvas full-bleed: partículas + HeroObject — sin tocar ───── */}
       <div
         ref={canvasRef}
         aria-hidden="true"
@@ -123,9 +218,9 @@ export function Hero() {
         )}
       </div>
 
-      {/* ── Contenido — sobre el canvas ──────────────────────── */}
+      {/* ── Contenido — sobre el canvas, por esquinas ────────────────── */}
 
-      {/* Label — posicionado cerca del navbar, fuera del flujo flex */}
+      {/* Label — centrado arriba, cerca del navbar */}
       <span
         className="hero__label"
         style={{
@@ -134,7 +229,7 @@ export function Hero() {
           left: "50%",
           transform: "translateX(-50%)",
           whiteSpace: "nowrap",
-          zIndex: 2,
+          zIndex: 1,
           fontFamily: "var(--font-mono)",
           fontSize: "var(--type-mono)",
           fontWeight: 500,
@@ -147,128 +242,198 @@ export function Hero() {
         Software Developer &amp; Project Manager
       </span>
 
-      {/* Headline: "Ingeniería — [ventana 3D] — como Arte" */}
-      <h1
-        ref={taglineRef}
-        aria-label="Ingeniería como Arte"
+      {/* Nombre — desktop: arriba-izquierda. Oculto en mobile (ver globals.css) */}
+      <span
+        ref={leandroRef}
+        className="hero__name-left"
         style={{
-          position: "relative",
+          position: "absolute",
+          top: "clamp(96px, 11vh, 130px)",
+          left: EDGE,
           zIndex: 1,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: "clamp(0.75rem, 2vw, 2rem)",
           fontFamily: "var(--font-display)",
-          fontSize: "clamp(2.2rem, 7vw, 8rem)",
+          fontSize: NAME_SIZE,
           fontWeight: 900,
           color: "var(--color-text-primary)",
-          lineHeight: 2,
+          lineHeight: 1,
+          letterSpacing: "-0.01em",
           margin: 0,
-          padding: "0 clamp(16px, 4vw, 48px)",
-          width: "100%",
         }}
       >
-        <span
-          className="hero__tagline-left"
-          style={{ overflow: "hidden", display: "block" }}
-        >
-          Ingeniería
-        </span>
+        LEANDRO
+      </span>
 
-        {/* Spacer transparente: "ventana" sobre el HeroObject centrado en canvas */}
-        {!isMobile && (
+      {/* Nombre — desktop: abajo-derecha, una sola línea, mismo tamaño que LEANDRO.
+          Oculto en mobile (ver globals.css) */}
+      <span
+        ref={dlsaRef}
+        className="hero__name-right"
+        style={{
+          position: "absolute",
+          bottom: EDGE,
+          right: EDGE,
+          zIndex: 1,
+          whiteSpace: "nowrap",
+          fontFamily: "var(--font-display)",
+          fontSize: NAME_SIZE,
+          fontWeight: 900,
+          color: "var(--color-text-primary)",
+          lineHeight: 1,
+          letterSpacing: "-0.01em",
+          textAlign: "right",
+          margin: 0,
+        }}
+      >
+        DE LOS SANTOS ABOY
+      </span>
+
+      {/* Nombre — mobile: combinado, una sola línea, abajo centrado.
+          display:none por default, mostrado en mobile (ver globals.css) */}
+      <span
+        className="hero__name-mobile"
+        style={{
+          display: "none",
+          position: "absolute",
+          bottom: EDGE,
+          left: "50%",
+          transform: "translateX(-50%)",
+          zIndex: 1,
+          whiteSpace: "nowrap",
+          textAlign: "center",
+          fontFamily: "var(--font-display)",
+          fontSize: "clamp(0.95rem, 5.2vw, 1.3rem)",
+          fontWeight: 900,
+          color: "var(--color-text-primary)",
+          lineHeight: 1,
+          letterSpacing: "-0.01em",
+          margin: 0,
+        }}
+      >
+        LEANDRO DE LOS SANTOS ABOY
+      </span>
+
+      {/* Tagline + descripción — abajo-izquierda (desktop). Reposicionado en
+          mobile, por encima del nombre combinado (ver globals.css) */}
+      <div
+        className="hero__corner-text"
+        style={{
+          position: "absolute",
+          bottom: EDGE,
+          left: EDGE,
+          zIndex: 1,
+          maxWidth: "min(80vw, 420px)",
+        }}
+      >
+        <h1
+          ref={taglineRef}
+          style={{
+            fontFamily: "var(--font-display)",
+            fontSize: "clamp(1.5rem, 3.2vw, 2.75rem)",
+            fontWeight: 900,
+            color: "var(--color-text-primary)",
+            lineHeight: 1.05,
+            letterSpacing: "-0.01em",
+            margin: "0 0 0.75rem",
+          }}
+        >
+          Ingeniería como Arte
+        </h1>
+        <p
+          className="hero__desc"
+          style={{
+            fontFamily: "var(--font-ui)",
+            fontSize: "var(--type-body)",
+            fontWeight: 500,
+            color: "rgba(255,255,255,0.72)",
+            margin: 0,
+            lineHeight: 1.6,
+          }}
+        >
+          Construyo experiencias digitales donde la precisión técnica y la
+          dirección de arte convergen.
+        </p>
+
+        {/* Scroll indicator — debajo del tagline. TODO: reemplazar por SVG animado */}
+        <div
+          aria-hidden="true"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+            gap: "0.5rem",
+            marginTop: "1.5rem",
+          }}
+        >
           <span
-            aria-hidden="true"
             style={{
-              display: "inline-block",
-              flexShrink: 0,
-              width: "clamp(160px, 20vw, 360px)",
-              height: "clamp(160px, 20vw, 360px)",
-              pointerEvents: "none",
+              display: "block",
+              width: 1,
+              height: 36,
+              backgroundColor: "var(--color-text-muted)",
             }}
           />
-        )}
+          <span
+            style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: "var(--type-mono)",
+              color: "var(--color-text-muted)",
+              letterSpacing: "var(--ls-mono)",
+              textTransform: "uppercase",
+            }}
+          >
+            Scroll
+          </span>
+        </div>
+      </div>
 
-        <span
-          className="hero__tagline-right"
-          style={{ overflow: "hidden", display: "block" }}
-        >
-          como Arte
-        </span>
-      </h1>
-
-      {/* Nombre */}
-      <p
-        className="hero__sub"
-        style={{
-          position: "relative",
-          zIndex: 1,
-          fontFamily: "var(--font-display)",
-          fontSize: "clamp(1rem, 2.5vw, var(--type-project))",
-          fontWeight: 400,
-          fontStyle: "italic",
-          color: "var(--color-text-primary)",
-          margin: 0,
-          textAlign: "center",
-          lineHeight: 1.2,
-        }}
-      >
-        Leandro De Los Santos Aboy
-      </p>
-
-      {/* Descripción */}
-      <p
-        className="hero__desc"
-        style={{
-          position: "relative",
-          zIndex: 1,
-          fontFamily: "var(--font-ui)",
-          fontSize: "var(--type-body)",
-          fontWeight: 500,
-          color: "rgba(255,255,255,0.72)",
-          margin: 0,
-          maxWidth: "44ch",
-          textAlign: "center",
-          lineHeight: 1.6,
-        }}
-      >
-        Construyo experiencias digitales donde la precisión técnica y la
-        dirección de arte convergen. Buenos Aires.
-      </p>
-
-      {/* ── Scroll indicator ─────────────────────────────────── */}
+      {/* Borde lateral izquierdo — 2026 / línea / ./ PORTFOLIO (vertical).
+          Tipografía +30% sobre --type-mono. Reposicionado en mobile (ver globals.css) */}
       <div
+        className="hero__edge"
         aria-hidden="true"
         style={{
           position: "absolute",
-          bottom: "clamp(2rem, 4vh, 3rem)",
-          left: "50%",
-          transform: "translateX(-50%)",
+          left: "clamp(20px, 4vw, 48px)",
+          top: "50%",
+          transform: "translateY(-50%)",
+          zIndex: 1,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          gap: "0.5rem",
-          zIndex: 1,
+          gap: "1rem",
         }}
       >
         <span
           style={{
+            fontFamily: "var(--font-mono)",
+            fontSize: "calc(var(--type-mono) * 1.3)",
+            color: "var(--color-text-secondary)",
+            letterSpacing: "var(--ls-mono)",
+            whiteSpace: "nowrap",
+          }}
+        >
+          2026
+        </span>
+        <span
+          style={{
             display: "block",
             width: 1,
-            height: 36,
+            height: 48,
             backgroundColor: "var(--color-text-muted)",
           }}
         />
         <span
           style={{
             fontFamily: "var(--font-mono)",
-            fontSize: "var(--type-mono)",
-            color: "var(--color-text-muted)",
+            fontSize: "calc(var(--type-mono) * 1.3)",
+            color: "var(--color-text-secondary)",
             letterSpacing: "var(--ls-mono)",
-            textTransform: "uppercase",
+            writingMode: "vertical-rl",
+            transform: "rotate(180deg)",
+            whiteSpace: "nowrap",
           }}
         >
-          Scroll
+          ./ PORTFOLIO
         </span>
       </div>
     </section>

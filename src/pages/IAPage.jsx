@@ -8,8 +8,22 @@ import { useRef, lazy, Suspense } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import SplitType from "split-type";
+import { splitCharsWords } from "../utils/splitTextHelpers";
 import { ProjectShowcase } from "../components/sections/ProjectShowcase";
+import { MagicCard } from "../components/ui/MagicCard";
 import { projects } from "../data/projects";
+
+const MANIFESTO_PARAGRAPHS = [
+  `Escribir instrucciones precisas no es escribir más texto. Es definir
+  contexto, restricciones y formato de salida con la misma disciplina
+  que una especificación de software.`,
+  `Uso Claude Code como par de trabajo permanente: revisión de
+  arquitectura, generación de tests y detección de regresiones. El
+  resultado es código que pasa review al primer intento.`,
+  `Cada entrega incluye análisis semántico de accesibilidad, revisión
+  OWASP y validación de contratos de API. El cliente recibe un
+  producto más seguro sin pagar el costo de auditorías manuales.`,
+].map((p) => p.replace(/\s+/g, " ").trim());
 
 // Lazy: Three.js chunk solo descarga cuando se visita /ia en desktop
 const isMobile = window.innerWidth < 768;
@@ -42,6 +56,7 @@ const TERMINAL_LINES = [
 
 export default function IAPage() {
   const pageRef = useRef(null);
+  const manifestoBioRef = useRef(null);
 
   useGSAP(
     () => {
@@ -60,18 +75,24 @@ export default function IAPage() {
         "-=0.35",
       );
 
-      // ── Manifiesto: 2 bloques fade-up ───────────────────
-      gsap.from(".ia-manifesto__left", {
+      // ── Manifiesto: bio kinetic text (mismo efecto que AboutPage .about__bio) ──
+      const manifestoSplit = splitCharsWords(manifestoBioRef.current, {
+        tagName: "span",
+      });
+      gsap.from(manifestoSplit.chars, {
         opacity: 0,
-        y: 40,
-        duration: 0.8,
-        ease: "power3.out",
+        y: 14,
+        duration: 0.5,
+        ease: "power2.out",
+        stagger: 0.004,
         scrollTrigger: {
-          trigger: ".ia-manifesto",
-          start: "top 80%",
+          trigger: manifestoBioRef.current,
+          start: "top 82%",
           once: true,
         },
       });
+
+      // ── Manifiesto: terminal fade-up ─────────────────────
       gsap.from(".ia-manifesto__terminal", {
         opacity: 0,
         y: 40,
@@ -158,7 +179,12 @@ export default function IAPage() {
           );
       });
 
-      return () => split.revert();
+      // split.revert() solo al desmontar — los chars deben sobrevivir
+      // mientras la página esté montada para que el hover kinetic funcione
+      return () => {
+        split.revert();
+        manifestoSplit.revert();
+      };
     },
     { scope: pageRef },
   );
@@ -245,53 +271,59 @@ export default function IAPage() {
           borderBottom: "1px solid var(--color-border)",
         }}
       >
-        {/* Columna izquierda — filosofía editorial */}
+        {/* Columna izquierda — filosofía editorial. Kinetic text: mismo
+            efecto que AboutPage .about__bio (peso de char interactivo al hover).
+            aria-hidden porque split-type fragmenta el texto en spans por letra;
+            la copia accesible para lectores de pantalla vive en .sr-only abajo. */}
         <div className="ia-manifesto__left">
-          <p
-            style={{
-              fontFamily: "var(--font-ui)",
-              fontSize: "clamp(17px, 1.5vw, 22px)",
-              fontWeight: 300,
-              color: "var(--color-text-primary)",
-              lineHeight: 1.75,
-              margin: "0 0 clamp(1.5rem, 3vh, 2.5rem)",
-              maxWidth: "44ch",
-            }}
-          >
-            Escribir instrucciones precisas no es escribir más texto. Es definir
-            contexto, restricciones y formato de salida con la misma disciplina
-            que una especificación de software.
-          </p>
-          <p
-            style={{
-              fontFamily: "var(--font-ui)",
-              fontSize: "var(--type-body)",
-              fontWeight: 300,
-              color: "var(--color-text-secondary)",
-              lineHeight: 1.75,
-              margin: "0 0 clamp(1.5rem, 3vh, 2rem)",
-              maxWidth: "44ch",
-            }}
-          >
-            Uso Claude Code como par de trabajo permanente: revisión de
-            arquitectura, generación de tests y detección de regresiones. El
-            resultado es código que pasa review al primer intento.
-          </p>
-          <p
-            style={{
-              fontFamily: "var(--font-ui)",
-              fontSize: "var(--type-body)",
-              fontWeight: 300,
-              color: "var(--color-text-secondary)",
-              lineHeight: 1.75,
-              margin: 0,
-              maxWidth: "44ch",
-            }}
-          >
-            Cada entrega incluye análisis semántico de accesibilidad, revisión
-            OWASP y validación de contratos de API. El cliente recibe un
-            producto más seguro sin pagar el costo de auditorías manuales.
-          </p>
+          <div ref={manifestoBioRef} className="ia-manifesto__bio" aria-hidden="true">
+            <p
+              style={{
+                fontFamily: "var(--font-ui)",
+                fontSize: "clamp(17px, 1.5vw, 22px)",
+                fontWeight: 300,
+                color: "var(--color-text-primary)",
+                lineHeight: 1.75,
+                margin: "0 0 clamp(1.5rem, 3vh, 2.5rem)",
+                maxWidth: "44ch",
+              }}
+            >
+              {MANIFESTO_PARAGRAPHS[0]}
+            </p>
+            <p
+              style={{
+                fontFamily: "var(--font-ui)",
+                fontSize: "var(--type-body)",
+                fontWeight: 300,
+                color: "var(--color-text-secondary)",
+                lineHeight: 1.75,
+                margin: "0 0 clamp(1.5rem, 3vh, 2rem)",
+                maxWidth: "44ch",
+              }}
+            >
+              {MANIFESTO_PARAGRAPHS[1]}
+            </p>
+            <p
+              style={{
+                fontFamily: "var(--font-ui)",
+                fontSize: "var(--type-body)",
+                fontWeight: 300,
+                color: "var(--color-text-secondary)",
+                lineHeight: 1.75,
+                margin: 0,
+                maxWidth: "44ch",
+              }}
+            >
+              {MANIFESTO_PARAGRAPHS[2]}
+            </p>
+          </div>
+
+          {/* Copia accesible — mismo texto, sin fragmentar, para lectores de pantalla */}
+          <div className="sr-only">
+            {MANIFESTO_PARAGRAPHS.map((text, i) => (
+              <p key={i}>{text}</p>
+            ))}
+          </div>
         </div>
 
         {/* Columna derecha — terminal con prompt real */}
@@ -419,8 +451,8 @@ export default function IAPage() {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            borderTop: "1px solid var(--color-border)",
-            borderLeft: "1px solid var(--color-border)",
+            gap: "1px",
+            backgroundColor: "var(--color-border)",
           }}
         >
           {TOOLS.map((tool) => (
@@ -484,23 +516,14 @@ export default function IAPage() {
 
 function ToolItem({ tool }) {
   return (
-    <div
+    <MagicCard
       className="ia-tool"
       role="listitem"
       style={{
-        borderBottom: "1px solid var(--color-border)",
-        borderRight: "1px solid var(--color-border)",
         padding: "clamp(1.25rem, 2.5vw, 2rem) clamp(1.5rem, 3vw, 2.5rem)",
         flex: "1 1 clamp(200px, 28%, 320px)",
-        transition: "background-color 0.2s ease",
         cursor: "default",
       }}
-      onMouseEnter={(e) =>
-        (e.currentTarget.style.backgroundColor = "var(--color-bg-elevated)")
-      }
-      onMouseLeave={(e) =>
-        (e.currentTarget.style.backgroundColor = "transparent")
-      }
     >
       <span
         style={{
@@ -526,6 +549,6 @@ function ToolItem({ tool }) {
       >
         {tool.role}
       </span>
-    </div>
+    </MagicCard>
   );
 }

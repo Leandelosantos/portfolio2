@@ -1,16 +1,16 @@
 # Graph Report - portfolio2.0  (2026-06-29)
 
 ## Corpus Check
-- 65 files · ~102,127 words
+- 65 files · ~105,741 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 4289 nodes · 8547 edges · 290 communities (238 shown, 52 thin omitted)
+- 4288 nodes · 8545 edges · 292 communities (238 shown, 54 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 197 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `548b667f`
+- Built from commit: `36290e3b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -296,6 +296,8 @@
 - [[_COMMUNITY_Community 287|Community 287]]
 - [[_COMMUNITY_Community 288|Community 288]]
 - [[_COMMUNITY_Community 289|Community 289]]
+- [[_COMMUNITY_Community 290|Community 290]]
+- [[_COMMUNITY_Community 291|Community 291]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `handleClick()` - 26 edges
@@ -364,7 +366,7 @@
 - **Home page composes Hero, ImpactoReal, SelectedWork, and Contact sections into a single scroll page** —  [EXTRACTED 1.00]
 - **projects data array, CATEGORIES, and filterProjects are shared by WorkList and IAPage for listing/filtering project rows** —  [INFERRED 0.85]
 
-## Communities (290 total, 52 thin omitted)
+## Communities (292 total, 54 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.04
@@ -691,8 +693,8 @@ Cohesion: 0.17
 Nodes (15): argVal(), buildInsertWrapperLines(), computeInsertLine(), INSERT_POSITIONS, insertCli(), isInsertPosition(), resolveElementMatch(), buildPropContract (+7 more)
 
 ### Community 81 - "Community 81"
-Cohesion: 0.24
-Nodes (16): latestCritique(), kebab(), listSnapshotsForSlug(), main(), nowFilenameStamp(), parseFrontmatter(), readLatestSnapshot(), readTrend() (+8 more)
+Cohesion: 0.28
+Nodes (14): kebab(), listSnapshotsForSlug(), main(), nowFilenameStamp(), parseFrontmatter(), readLatestSnapshot(), readTrend(), serializeFrontmatter() (+6 more)
 
 ### Community 82 - "Community 82"
 Cohesion: 0.15
@@ -715,8 +717,8 @@ Cohesion: 0.19
 Nodes (16): live-accept.mjs CLI, completionAckForAcceptResult, completionTypeForAcceptResult, postReply, printPollEvent, requiresAgentReply, runPollOnce, runPollStream (+8 more)
 
 ### Community 87 - "Community 87"
-Cohesion: 0.24
-Nodes (11): applyMockWrites, buildCopyEditBatchPrompt, extractRunnerErrorMessage, mockBatchResult, normalizeBatchResult, parseCopyEditAgentResult, parseCopyEditBatchResult, runAgentProcess (+3 more)
+Cohesion: 0.17
+Nodes (16): applyMockWrites, buildCopyEditBatchPrompt, chooseCopyEditAgent, commandAuthed, commandExists, computeCommandAuthed, describeNoProviderError, extractRunnerErrorMessage (+8 more)
 
 ### Community 88 - "Community 88"
 Cohesion: 0.26
@@ -735,20 +737,20 @@ Cohesion: 0.12
 Nodes (13): createScrollReveal, Decision: split-type replaces SplitText (no GSAP Club license), main.jsx React root render setup, splitAll, splitChars, splitCharsWords, splitLines, splitWords (+5 more)
 
 ### Community 92 - "Community 92"
-Cohesion: 0.24
-Nodes (10): createLiveBrowserSessionState, window.__IMPECCABLE_LIVE_SESSION__, changedFilesSinceSnapshot, clearAppliedEntries, collectApplyOwnedFiles, commitManualEdits, main, repairPostApplyValidation (+2 more)
+Cohesion: 0.16
+Nodes (15): createLiveBrowserSessionState, window.__IMPECCABLE_LIVE_SESSION__, changedFilesSinceSnapshot, clearAppliedEntries, collectApplyOwnedFiles, commitManualEdits, main, repairPostApplyValidation (+7 more)
 
 ### Community 93 - "Community 93"
-Cohesion: 0.27
-Nodes (9): cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals(), hasCode(), SCANNABLE_EXT, scanTargets() (+1 more)
+Cohesion: 0.23
+Nodes (11): cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals(), hasCode(), latestCritique(), SCANNABLE_EXT (+3 more)
 
 ### Community 94 - "Community 94"
 Cohesion: 0.18
 Nodes (7): CSS_IN_JS_EXTENSIONS, detectText(), extractCSSinJS(), extractStyleBlocks(), REGEX_MATCHERS, runRegexMatchers(), TEXT_CONTENT_ANALYZER_IDS
 
 ### Community 95 - "Community 95"
-Cohesion: 0.13
-Nodes (24): acceptCli, buildCarbonizeReplacement, decodeHtmlAttr, deindentContent, detectCommentSyntax, escapeRegExp (live-accept), expandReplaceRange, extractCss (+16 more)
+Cohesion: 0.23
+Nodes (14): acceptCli, buildCarbonizeReplacement, deindentContent, detectCommentSyntax, extractInnerByAttr, extractOriginal, extractVariant, findMarkerBlock (+6 more)
 
 ### Community 96 - "Community 96"
 Cohesion: 0.26
@@ -907,8 +909,8 @@ Cohesion: 0.14
 Nodes (16): brand.md (referenced for font selection procedure), command-metadata.json: shape entry, command-metadata.json: typeset entry, live.md (referenced for live params contract), Color Strategy Options (Restrained/Committed/Full palette/Drenched), Phase 2: Design Brief, Phase 1: Discovery Interview, shape.md — UX/UI Design Brief Command (+8 more)
 
 ### Community 135 - "Community 135"
-Cohesion: 0.25
-Nodes (9): coupledObjectKeyFailuresForOp, findUnappliedEntrySourceChanges, lineShowsAppliedOp, objectKeyMatchStillUsesOriginal, verificationTargetPasses, verificationTargetPassesLines, verificationTargetsForOp, verifyAppliedEntry (+1 more)
+Cohesion: 0.20
+Nodes (11): coupledObjectKeyFailuresForOp, findUnappliedEntrySourceChanges, lineShowsAppliedOp, normalizeProjectSourcePath, objectKeyMatchStillUsesOriginal, verificationTargetPasses, verificationTargetPassesLines, verificationTargetsForOp (+3 more)
 
 ### Community 136 - "Community 136"
 Cohesion: 0.22
@@ -1019,8 +1021,8 @@ Cohesion: 0.35
 Nodes (10): FORBIDDEN_MANUAL_EDIT_TEXT_CHARS, INSERT_POSITIONS, isValidId(), isValidVariantId(), validateAnnotationFields(), validateEvent(), validateInsertGenerate(), validateManualEditEvent() (+2 more)
 
 ### Community 164 - "Community 164"
-Cohesion: 0.22
-Nodes (10): hasGeneratedHeader, isGeneratedFile, isGitIgnored, collectRollbackFiles, normalizeProjectSourcePath, scanRollbackDir, snapshotRollbackFiles, verifyEntriesAfterRepair (+2 more)
+Cohesion: 0.29
+Nodes (8): hasGeneratedHeader, isGeneratedFile, isGitIgnored, collectRollbackFiles, scanRollbackDir, snapshotRollbackFiles, analyzeSourceHint, collectSearchFiles
 
 ### Community 165 - "Community 165"
 Cohesion: 0.40
@@ -1087,8 +1089,8 @@ Cohesion: 0.40
 Nodes (6): clippedByInset(), clippedByRect(), expandBoxShorthand(), firstMetricLengthPx(), isScreenReaderOnlyTextStyle(), metricLengthPx()
 
 ### Community 181 - "Community 181"
-Cohesion: 0.18
-Nodes (11): firstExisting, getDesignSidecarCandidates, getDesignSidecarPath, getImpeccableDir, getLegacyLiveConfigPath, getLiveAnnotationsDir, getLiveConfigPath, getLiveDir (+3 more)
+Cohesion: 0.33
+Nodes (6): getLegacyLiveConfigPath, getLiveAnnotationsDir, getLiveConfigPath, getLiveDir, getLiveSessionsDir, resolveLiveConfigPath
 
 ### Community 182 - "Community 182"
 Cohesion: 0.40
@@ -1263,24 +1265,24 @@ Cohesion: 0.31
 Nodes (8): appendStyleToLiveUiRoot(), appendToLiveUiRoot(), escapeCssIdent(), getLiveUiElementById(), LIVE_CHROME_MOUNT_CONTRACT, LIVE_UI_COMPONENT_IDS, LIVE_UI_SURFACES, resolveLiveUiRoot()
 
 ### Community 284 - "Community 284"
+Cohesion: 0.33
+Nodes (7): decodeHtmlAttr, escapeRegExp (live-accept), expandReplaceRange, hasVariantWrapperAttr, isVariantEndMarkerLine, readHtmlAttr, readSourceShadowPreviewMeta
+
+### Community 285 - "Community 285"
 Cohesion: 0.70
 Nodes (4): fetchServerStatus(), findPendingManualApply(), readServerInfo(), statusCli()
 
-### Community 285 - "Community 285"
-Cohesion: 0.40
-Nodes (5): checkFrameworkSourceSyntax, findLeftoverImpeccableMarker, runCopyEditPostApplyChecks, runManualEditValidationScript, manual_edit_apply orchestration
-
 ### Community 286 - "Community 286"
-Cohesion: 0.60
-Nodes (5): chooseCopyEditAgent, commandAuthed, commandExists, computeCommandAuthed, describeNoProviderError
+Cohesion: 0.40
+Nodes (5): firstExisting, getDesignSidecarCandidates, getDesignSidecarPath, getImpeccableDir, resolveDesignSidecarPath
 
 ### Community 287 - "Community 287"
 Cohesion: 0.50
 Nodes (4): checkTypography(), BRAND_FONT_DOMAINS, BRAND_FONT_DOMAINS map, isBrandFontOnOwnDomain
 
-### Community 288 - "Community 288"
-Cohesion: 0.67
-Nodes (3): Loader, LoaderProvider, useLoader
+### Community 290 - "Community 290"
+Cohesion: 1.00
+Nodes (3): extractCss, stripJsxTemplateLines, stripJsxTemplateWrap
 
 ## Ambiguous Edges - Review These
 - `Contact()` → `useLocalTime`  [AMBIGUOUS]
@@ -1305,7 +1307,7 @@ Nodes (3): Loader, LoaderProvider, useLoader
 ## Knowledge Gaps
 - **618 isolated node(s):** `Estado de fases`, `Datos cargados en sesión 8`, `Eliminados en sesión 7 (reemplazados por bento)`, `Datos del proyecto confirmados`, `Decisiones arquitectónicas — sesión 7 (rediseño bento + fix hover-grow)` (+613 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **52 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **54 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
