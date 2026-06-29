@@ -287,153 +287,157 @@ export function Hero() {
         DE LOS SANTOS ABOY
       </span>
 
-      {/* Nombre — mobile: combinado, una sola línea, abajo centrado.
-          display:none por default, mostrado en mobile (ver globals.css) */}
-      <span
-        className="hero__name-mobile"
-        style={{
-          display: "none",
-          position: "absolute",
-          bottom: EDGE,
-          left: "50%",
-          transform: "translateX(-50%)",
-          zIndex: 1,
-          whiteSpace: "nowrap",
-          textAlign: "center",
-          fontFamily: "var(--font-display)",
-          fontSize: "clamp(0.95rem, 5.2vw, 1.3rem)",
-          fontWeight: 900,
-          color: "var(--color-text-primary)",
-          lineHeight: 1,
-          letterSpacing: "-0.01em",
-          margin: 0,
-        }}
-      >
-        LEANDRO DE LOS SANTOS ABOY
-      </span>
-
-      {/* Tagline + descripción — abajo-izquierda (desktop). Reposicionado en
-          mobile, por encima del nombre combinado (ver globals.css) */}
-      <div
-        className="hero__corner-text"
-        style={{
-          position: "absolute",
-          bottom: EDGE,
-          left: EDGE,
-          zIndex: 1,
-          maxWidth: "min(80vw, 420px)",
-        }}
-      >
-        <h1
-          ref={taglineRef}
-          style={{
-            fontFamily: "var(--font-display)",
-            fontSize: "clamp(1.5rem, 3.2vw, 2.75rem)",
-            fontWeight: 900,
-            color: "var(--color-text-primary)",
-            lineHeight: 1.05,
-            letterSpacing: "-0.01em",
-            margin: "0 0 0.75rem",
-          }}
-        >
-          Ingeniería como Arte
-        </h1>
-        <p
-          className="hero__desc"
-          style={{
-            fontFamily: "var(--font-ui)",
-            fontSize: "var(--type-body)",
-            fontWeight: 500,
-            color: "rgba(255,255,255,0.72)",
-            margin: 0,
-            lineHeight: 1.6,
-          }}
-        >
-          Construyo experiencias digitales donde la precisión técnica y la
-          dirección de arte convergen.
-        </p>
-
-        {/* Scroll indicator — debajo del tagline. TODO: reemplazar por SVG animado */}
+      {/* Wrapper mobile — agrupa edge + tagline + nombre, los distribuye con
+          flexbox (space-between) para que nunca se pisen sin importar el alto
+          del viewport (causa real del choque anterior: posicionaba con % de
+          altura sobre bloques de alto fijo — a menor altura, menos margen).
+          display:contents en desktop = no hace nada, cada hijo sigue
+          posicionado independiente con su propio position:absolute de siempre. */}
+      <div className="hero__mobile-stack">
+        {/* Borde lateral izquierdo — 2026 / línea / ./ PORTFOLIO (vertical).
+            Tipografía +30% sobre --type-mono. */}
         <div
+          className="hero__edge"
           aria-hidden="true"
           style={{
+            position: "absolute",
+            left: "clamp(20px, 4vw, 48px)",
+            top: "50%",
+            transform: "translateY(-50%)",
+            zIndex: 1,
             display: "flex",
             flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "0.5rem",
-            marginTop: "1.5rem",
+            alignItems: "center",
+            gap: "1rem",
           }}
         >
           <span
             style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: "calc(var(--type-mono) * 1.3)",
+              color: "var(--color-text-secondary)",
+              letterSpacing: "var(--ls-mono)",
+              whiteSpace: "nowrap",
+            }}
+          >
+            2026
+          </span>
+          <span
+            style={{
               display: "block",
               width: 1,
-              height: 36,
+              height: 48,
               backgroundColor: "var(--color-text-muted)",
             }}
           />
           <span
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: "var(--type-mono)",
-              color: "var(--color-text-muted)",
+              fontSize: "calc(var(--type-mono) * 1.3)",
+              color: "var(--color-text-secondary)",
               letterSpacing: "var(--ls-mono)",
-              textTransform: "uppercase",
+              writingMode: "vertical-rl",
+              transform: "rotate(180deg)",
+              whiteSpace: "nowrap",
             }}
           >
-            Scroll
+            ./ PORTFOLIO
           </span>
         </div>
-      </div>
 
-      {/* Borde lateral izquierdo — 2026 / línea / ./ PORTFOLIO (vertical).
-          Tipografía +30% sobre --type-mono. Reposicionado en mobile (ver globals.css) */}
-      <div
-        className="hero__edge"
-        aria-hidden="true"
-        style={{
-          position: "absolute",
-          left: "clamp(20px, 4vw, 48px)",
-          top: "50%",
-          transform: "translateY(-50%)",
-          zIndex: 1,
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: "1rem",
-        }}
-      >
-        <span
+        {/* Tagline + descripción — abajo-izquierda (desktop) */}
+        <div
+          className="hero__corner-text"
           style={{
-            fontFamily: "var(--font-mono)",
-            fontSize: "calc(var(--type-mono) * 1.3)",
-            color: "var(--color-text-secondary)",
-            letterSpacing: "var(--ls-mono)",
-            whiteSpace: "nowrap",
+            position: "absolute",
+            bottom: EDGE,
+            left: EDGE,
+            zIndex: 1,
+            maxWidth: "min(80vw, 420px)",
           }}
         >
-          2026
-        </span>
+          <h1
+            ref={taglineRef}
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "clamp(1.5rem, 3.2vw, 2.75rem)",
+              fontWeight: 900,
+              color: "var(--color-text-primary)",
+              lineHeight: 1.05,
+              letterSpacing: "-0.01em",
+              margin: "0 0 0.75rem",
+            }}
+          >
+            Ingeniería como Arte
+          </h1>
+          <p
+            className="hero__desc"
+            style={{
+              fontFamily: "var(--font-ui)",
+              fontSize: "var(--type-body)",
+              fontWeight: 500,
+              color: "rgba(255,255,255,0.72)",
+              margin: 0,
+              lineHeight: 1.6,
+            }}
+          >
+            Construyo experiencias digitales donde la precisión técnica y la
+            dirección de arte convergen.
+          </p>
+
+          {/* Scroll indicator — debajo del tagline. TODO: reemplazar por SVG animado */}
+          <div
+            aria-hidden="true"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "0.5rem",
+              marginTop: "1.5rem",
+            }}
+          >
+            <span
+              style={{
+                display: "block",
+                width: 1,
+                height: 36,
+                backgroundColor: "var(--color-text-muted)",
+              }}
+            />
+            <span
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: "var(--type-mono)",
+                color: "var(--color-text-muted)",
+                letterSpacing: "var(--ls-mono)",
+                textTransform: "uppercase",
+              }}
+            >
+              Scroll
+            </span>
+          </div>
+        </div>
+
+        {/* Nombre — mobile: combinado, una sola línea, ocupando casi todo el
+            ancho (6.2vw escala con el viewport, no es un tamaño fijo).
+            display:none por default, mostrado en mobile (ver globals.css) */}
         <span
+          className="hero__name-mobile"
           style={{
-            display: "block",
-            width: 1,
-            height: 48,
-            backgroundColor: "var(--color-text-muted)",
-          }}
-        />
-        <span
-          style={{
-            fontFamily: "var(--font-mono)",
-            fontSize: "calc(var(--type-mono) * 1.3)",
-            color: "var(--color-text-secondary)",
-            letterSpacing: "var(--ls-mono)",
-            writingMode: "vertical-rl",
-            transform: "rotate(180deg)",
+            display: "none",
+            zIndex: 1,
             whiteSpace: "nowrap",
+            textAlign: "center",
+            fontFamily: "var(--font-display)",
+            fontSize: "clamp(1.2rem, 7.4vw, 2.6rem)",
+            fontWeight: 900,
+            color: "var(--color-text-primary)",
+            lineHeight: 1,
+            letterSpacing: "-0.01em",
+            margin: 0,
           }}
         >
-          ./ PORTFOLIO
+          LEANDRO DE LOS SANTOS ABOY
         </span>
       </div>
     </section>

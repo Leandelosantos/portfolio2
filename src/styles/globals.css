@@ -188,28 +188,48 @@ html.lenis body {
 
 /* ── FASE 6 — Responsive mobile — SRS §5.4 ────────────── */
 
-/* Hero: nombre combinado 1 línea abajo-centro (en vez de las 2 esquinas
-   desktop), tagline reposicionado arriba del nombre, edge un poco más
-   arriba del centro. Canvas/partículas: sin cambios — ya quedan ocultos
-   en mobile vía HeroCanvas = null (ver Hero.jsx), no hay nada que tapar acá. */
+/* Hero mobile — .hero__mobile-stack agrupa edge + tagline + nombre y los
+   distribuye con flexbox (space-between), no con % de altura fijos sobre
+   bloques de alto fijo (eso fue lo que chocaba antes: a menor altura de
+   viewport, menos margen, terminaba pisándose — /impeccable adapt: "la
+   adaptación es repensar para el contexto nuevo, no escalar píxeles").
+   display:contents en desktop = no hace nada, cada hijo sigue posicionado
+   independiente con su position:absolute de siempre (ver Hero.jsx). */
+.hero__mobile-stack {
+  display: contents;
+}
+
 @media (max-width: 767px) {
   .hero__name-left,
   .hero__name-right {
     display: none !important;
   }
-  .hero__name-mobile {
-    display: block !important;
-    /* despegado del borde — el scroll indicator vive en el borde mismo,
-       verificado en vivo que sin esto se pisan (Playwright, viewport 390×844) */
-    bottom: clamp(95px, 13vh, 120px) !important;
-  }
-  .hero__corner-text {
-    bottom: clamp(150px, 24vh, 190px) !important;
+  .hero__mobile-stack {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    position: absolute !important;
+    top: clamp(150px, 20vh, 190px) !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: clamp(60px, 8vh, 90px) !important;
   }
   .hero__edge {
-    /* 37% y no 42% — el corner-text creció al sumarle el scroll indicator
-       adentro, con 42% pisaba ~16px. Verificado en vivo (Playwright). */
-    top: 37% !important;
+    position: static !important;
+    transform: none !important;
+    align-self: flex-start !important;
+    margin-left: clamp(20px, 4vw, 48px) !important;
+  }
+  .hero__corner-text {
+    position: static !important;
+    align-self: flex-start !important;
+    margin-left: clamp(24px, 6vw, 80px) !important;
+  }
+  .hero__name-mobile {
+    display: block !important;
+    position: static !important;
+    align-self: center !important;
+    transform: none !important;
   }
 }
 

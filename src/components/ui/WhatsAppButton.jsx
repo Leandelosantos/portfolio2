@@ -1,6 +1,15 @@
 // WhatsAppButton.jsx — SRS §5.4 — Botón WhatsApp sticky (solo mobile)
 // Visible únicamente en < 768px — posición fixed bottom-right
 // #25D366: verde WhatsApp — excepción justificada al sistema de colores (brand mark externo)
+// En Home: oculto mientras el Hero está en pantalla, aparece al llegar a la
+// 3ra sección (Proyectos/SelectedWork) — así el Hero "se luce" sin el botón
+// flotando encima. En páginas sin ese flujo de secciones (esa aria-label no
+// existe en el DOM) se queda visible siempre, comportamiento normal.
+
+import { useRef } from 'react';
+import { useGSAP } from '@gsap/react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const WA_NUMBER = '5491168116492';
 const WA_MSG = encodeURIComponent(
@@ -13,10 +22,38 @@ const isMobile =
   window.matchMedia('(max-width: 767px)').matches;
 
 export function WhatsAppButton() {
+  const linkRef = useRef(null);
+
+  useGSAP(() => {
+    if (!isMobile || !linkRef.current) return;
+
+    const projectsSection = document.querySelector(
+      '[aria-label="Proyectos Seleccionados"]',
+    );
+    if (!projectsSection) return; // página sin Hero/flujo Home — visible siempre
+
+    const prefersReducedMotion = window.matchMedia(
+      '(prefers-reduced-motion: reduce)',
+    ).matches;
+    const duration = prefersReducedMotion ? 0 : 0.35;
+
+    gsap.set(linkRef.current, { autoAlpha: 0 });
+
+    const trigger = ScrollTrigger.create({
+      trigger: projectsSection,
+      start: 'top bottom',
+      onEnter: () => gsap.to(linkRef.current, { autoAlpha: 1, duration, ease: 'power2.out' }),
+      onLeaveBack: () => gsap.to(linkRef.current, { autoAlpha: 0, duration, ease: 'power2.out' }),
+    });
+
+    return () => trigger.kill();
+  }, []);
+
   if (!isMobile) return null;
 
   return (
     <a
+      ref={linkRef}
       href={WA_URL}
       target="_blank"
       rel="noopener noreferrer"

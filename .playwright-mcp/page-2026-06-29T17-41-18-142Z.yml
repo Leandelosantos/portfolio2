@@ -1,0 +1,182 @@
+- generic [ref=e2]:
+  - link "Saltar al contenido" [ref=e3]:
+    - /url: "#main-content"
+  - status "Cargando" [ref=e4]:
+    - generic [ref=e5]: "000"
+    - generic [ref=e6]: Leandro De Los Santos Aboy
+    - generic [ref=e7]: SOFTWARE DEVELOPER & PROJECT MANAGER
+  - banner [ref=e8]:
+    - link "Inicio — Leandro De Los Santos Aboy" [ref=e9]:
+      - /url: /
+      - text: LDS
+    - navigation "Navegación principal" [ref=e10]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Proyectos" [ref=e13]:
+            - /url: /work
+        - listitem [ref=e14]:
+          - link "IA" [ref=e15]:
+            - /url: /ia
+        - listitem [ref=e16]:
+          - link "Sobre mí" [ref=e17]:
+            - /url: /sobre-mi
+  - generic:
+    - list:
+      - listitem:
+        - link:
+          - /url: /work
+          - text: Proyectos
+      - listitem:
+        - link:
+          - /url: /ia
+          - text: IA
+      - listitem:
+        - link:
+          - /url: /sobre-mi
+          - text: Sobre mí
+    - generic:
+      - link:
+        - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+        - text: WhatsApp ↗
+  - main [ref=e18]:
+    - region "Hero — Ingeniería como Arte" [ref=e19]:
+      - generic [ref=e21]: Software Developer & Project Manager
+      - generic [ref=e22]: LEANDRO
+      - generic [ref=e23]: DE LOS SANTOS ABOY
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: "2026"
+          - generic [ref=e28]: ./ PORTFOLIO
+        - generic [ref=e29]:
+          - heading "Ingeniería como Arte" [level=1] [ref=e30]
+          - paragraph [ref=e31]: Construyo experiencias digitales donde la precisión técnica y la dirección de arte convergen.
+          - generic [ref=e34]: Scroll
+    - region "Servicios — Impacto Real" [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Impacto Real" [level=2] [ref=e38]
+          - paragraph [ref=e39]: Disciplinas que convergen en resultados medibles para cada proyecto.
+        - generic [ref=e41]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]: "01"
+              - generic [ref=e46]:
+                - heading "Ingeniería Web" [level=3] [ref=e47]
+                - paragraph [ref=e48]: Aplicaciones React con performance real. Arquitectura escalable que resiste el tiempo. SaaS personalizados hasta en el mas minimo detalle del cliente.
+                - generic [ref=e49]:
+                  - generic [ref=e50]: React
+                  - generic [ref=e51]: GSAP
+                  - generic [ref=e52]: Vite
+            - generic [ref=e53]:
+              - generic [ref=e54]: "02"
+              - generic [ref=e55]:
+                - heading "Diseño que impacta" [level=3] [ref=e56]
+                - paragraph [ref=e57]: El diseño no es decoración, es el primer argumento de venta del producto. Lo primero que se ve, lo último que se olvida
+                - generic [ref=e58]:
+                  - generic [ref=e59]: Figma
+                  - generic [ref=e60]: CSS Variables
+                  - generic [ref=e61]: MUI
+            - generic [ref=e62]:
+              - generic [ref=e63]: "03"
+              - generic [ref=e64]:
+                - heading "Experiencias 3D" [level=3] [ref=e65]
+                - paragraph [ref=e66]: WebGL con Three.js y React Three Fiber. Escenas interactivas que convierten visitantes en clientes.
+                - generic [ref=e67]:
+                  - generic [ref=e68]: Three.js
+                  - generic [ref=e69]: R3F
+                  - generic [ref=e70]: WebGL
+            - generic [ref=e71]:
+              - generic [ref=e72]: "04"
+              - generic [ref=e73]:
+                - heading "Optimización IA" [level=3] [ref=e74]
+                - paragraph [ref=e75]: Integración de LLMs en flujos de trabajo. Búsqueda semántica, revisión autónoma de código y automatización de decisiones.
+                - generic [ref=e76]:
+                  - generic [ref=e77]: Claude API
+                  - generic [ref=e78]: Python
+                  - generic [ref=e79]: CI/CD
+          - generic [ref=e81]: 01 / 04
+    - region "Proyectos Seleccionados" [ref=e83]:
+      - generic [ref=e84]:
+        - heading "Proyectos" [level=2] [ref=e86]
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - 'link "Ver caso de estudio: Huevos Point Web" [ref=e90]':
+              - /url: /work/huevos-point
+              - generic [ref=e93]:
+                - heading "Huevos Point Web" [level=3] [ref=e94]
+                - paragraph [ref=e95]: Web · Development · 3D
+            - 'link "Ver caso de estudio: Sistema Huevos Point ERP-SaaS" [ref=e97]':
+              - /url: /work/huevos-point-erp
+              - generic [ref=e100]:
+                - heading "Sistema Huevos Point ERP-SaaS" [level=3] [ref=e101]
+                - paragraph [ref=e102]: Web · Development
+            - 'link "Ver caso de estudio: Cecilia Brook" [ref=e104]':
+              - /url: /work/cecilia-brook
+              - generic [ref=e107]:
+                - heading "Cecilia Brook" [level=3] [ref=e108]
+                - paragraph [ref=e109]: Web · Development
+          - link "Ver todos los proyectos →" [ref=e111]:
+            - /url: /work
+    - region "Contacto" [ref=e112]:
+      - generic [ref=e113]:
+        - heading "Iniciemos el diálogo." [level=2] [ref=e115]
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - paragraph [ref=e118]: 01 — Formulario
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic: Nombre
+                - generic [ref=e122]:
+                  - textbox "Nombre" [ref=e123]
+                  - group:
+                    - generic: Nombre
+              - generic [ref=e124]:
+                - generic: Email
+                - generic [ref=e125]:
+                  - textbox "Email" [ref=e126]
+                  - group:
+                    - generic: Email
+              - generic [ref=e127]:
+                - generic: Mensaje
+                - generic [ref=e128]:
+                  - textbox "Mensaje" [ref=e129]
+                  - group:
+                    - generic: Mensaje
+              - button "Enviar" [ref=e130]
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: 02 — WhatsApp
+            - link "Escribime directo Respuesta en < 24h" [ref=e133]:
+              - /url: https://wa.me/5491168116492?text=Hola!%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto.
+              - img [ref=e134]
+              - generic [ref=e136]:
+                - paragraph [ref=e137]: Escribime directo
+                - paragraph [ref=e138]: Respuesta en < 24h
+            - paragraph [ref=e139]: Proyectos, consultas, colaboraciones — cualquier conversación que valga la pena iniciar.
+  - contentinfo [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - paragraph [ref=e143]: Leandro De Los Santos Aboy
+        - paragraph [ref=e144]: Software Developer & Project Manager
+      - 'generic "Hora local: 14:41 ART" [ref=e145]':
+        - generic [ref=e146]: HORA LOCAL
+        - time [ref=e147]: 14:41 ART
+    - generic [ref=e148]:
+      - navigation "Navegación footer" [ref=e149]:
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - link "Proyectos" [ref=e152]:
+              - /url: /work
+          - listitem [ref=e153]:
+            - link "IA" [ref=e154]:
+              - /url: /ia
+          - listitem [ref=e155]:
+            - link "Sobre mí" [ref=e156]:
+              - /url: /sobre-mi
+      - generic [ref=e157]:
+        - link "GitHub — abre en nueva pestaña" [ref=e158]:
+          - /url: https://github.com/Leandelosantos
+          - text: GitHub
+        - link "LinkedIn — abre en nueva pestaña" [ref=e159]:
+          - /url: https://www.linkedin.com/in/leandrodelossantosaboy/
+          - text: LinkedIn
+        - generic [ref=e160]: © 2026
