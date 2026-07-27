@@ -550,14 +550,94 @@
   },
   "nodes": [
     {
+      "label": "IAPage.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_iapage",
+      "community": 142,
+      "norm_label": "iapage.jsx"
+    },
+    {
+      "label": "MANIFESTO_PARAGRAPHS",
+      "file_type": "code",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "pages_iapage_manifesto_paragraphs",
+      "community": 142,
+      "norm_label": "manifesto_paragraphs"
+    },
+    {
+      "label": "HelmetCanvas",
+      "file_type": "code",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "pages_iapage_helmetcanvas",
+      "community": 142,
+      "norm_label": "helmetcanvas"
+    },
+    {
+      "label": "AI_PROJECTS",
+      "file_type": "code",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "pages_iapage_ai_projects",
+      "community": 142,
+      "norm_label": "ai_projects"
+    },
+    {
+      "label": "TOOLS",
+      "file_type": "code",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "pages_iapage_tools",
+      "community": 142,
+      "norm_label": "tools"
+    },
+    {
+      "label": "TERMINAL_LINES",
+      "file_type": "code",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "pages_iapage_terminal_lines",
+      "community": 142,
+      "norm_label": "terminal_lines"
+    },
+    {
+      "label": "IAPage()",
+      "file_type": "code",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "pages_iapage_iapage",
+      "community": 142,
+      "norm_label": "iapage()"
+    },
+    {
+      "label": "ToolItem()",
+      "file_type": "code",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L523",
+      "_origin": "ast",
+      "id": "pages_iapage_toolitem",
+      "community": 142,
+      "norm_label": "toolitem()"
+    },
+    {
       "label": "Hero.jsx",
       "file_type": "code",
       "source_file": "src/components/sections/Hero.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "sections_hero",
       "community": 77,
-      "norm_label": "hero.jsx"
+      "norm_label": "hero.jsx",
+      "id": "sections_hero"
     },
     {
       "label": "Hero()",
@@ -565,9 +645,9 @@
       "source_file": "src/components/sections/Hero.jsx",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "sections_hero_hero",
       "community": 77,
-      "norm_label": "hero()"
+      "norm_label": "hero()",
+      "id": "sections_hero_hero"
     },
     {
       "label": "AboutPage.jsx",
@@ -575,9 +655,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_aboutpage",
       "community": 238,
-      "norm_label": "aboutpage.jsx"
+      "norm_label": "aboutpage.jsx",
+      "id": "pages_aboutpage"
     },
     {
       "label": "BIO_PARAGRAPHS",
@@ -585,9 +665,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "pages_aboutpage_bio_paragraphs",
       "community": 238,
-      "norm_label": "bio_paragraphs"
+      "norm_label": "bio_paragraphs",
+      "id": "pages_aboutpage_bio_paragraphs"
     },
     {
       "label": "TECH_STACK",
@@ -595,9 +675,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "pages_aboutpage_tech_stack",
       "community": 238,
-      "norm_label": "tech_stack"
+      "norm_label": "tech_stack",
+      "id": "pages_aboutpage_tech_stack"
     },
     {
       "label": "SERVICES",
@@ -605,9 +685,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "pages_aboutpage_services",
       "community": 238,
-      "norm_label": "services"
+      "norm_label": "services",
+      "id": "pages_aboutpage_services"
     },
     {
       "label": "marqueeChipStyle",
@@ -615,9 +695,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "pages_aboutpage_marqueechipstyle",
       "community": 238,
-      "norm_label": "marqueechipstyle"
+      "norm_label": "marqueechipstyle",
+      "id": "pages_aboutpage_marqueechipstyle"
     },
     {
       "label": "onChipHoverLime()",
@@ -625,9 +705,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L63",
       "_origin": "ast",
-      "id": "pages_aboutpage_onchiphoverlime",
       "community": 238,
-      "norm_label": "onchiphoverlime()"
+      "norm_label": "onchiphoverlime()",
+      "id": "pages_aboutpage_onchiphoverlime"
     },
     {
       "label": "onChipHoverLeave()",
@@ -635,9 +715,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "pages_aboutpage_onchiphoverleave",
       "community": 238,
-      "norm_label": "onchiphoverleave()"
+      "norm_label": "onchiphoverleave()",
+      "id": "pages_aboutpage_onchiphoverleave"
     },
     {
       "label": "labelStyle",
@@ -645,9 +725,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L73",
       "_origin": "ast",
-      "id": "pages_aboutpage_labelstyle",
       "community": 238,
-      "norm_label": "labelstyle"
+      "norm_label": "labelstyle",
+      "id": "pages_aboutpage_labelstyle"
     },
     {
       "label": "AboutPage()",
@@ -655,9 +735,9 @@
       "source_file": "src/pages/AboutPage.jsx",
       "source_location": "L82",
       "_origin": "ast",
-      "id": "pages_aboutpage_aboutpage",
       "community": 238,
-      "norm_label": "aboutpage()"
+      "norm_label": "aboutpage()",
+      "id": "pages_aboutpage_aboutpage"
     },
     {
       "label": "WhatsAppButton.jsx",
@@ -1008,86 +1088,6 @@
       "community": 142,
       "norm_label": "magiccard()",
       "id": "ui_magiccard_magiccard"
-    },
-    {
-      "label": "IAPage.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 142,
-      "norm_label": "iapage.jsx",
-      "id": "pages_iapage"
-    },
-    {
-      "label": "MANIFESTO_PARAGRAPHS",
-      "file_type": "code",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 142,
-      "norm_label": "manifesto_paragraphs",
-      "id": "pages_iapage_manifesto_paragraphs"
-    },
-    {
-      "label": "HelmetCanvas",
-      "file_type": "code",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L30",
-      "_origin": "ast",
-      "community": 142,
-      "norm_label": "helmetcanvas",
-      "id": "pages_iapage_helmetcanvas"
-    },
-    {
-      "label": "AI_PROJECTS",
-      "file_type": "code",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L32",
-      "_origin": "ast",
-      "community": 142,
-      "norm_label": "ai_projects",
-      "id": "pages_iapage_ai_projects"
-    },
-    {
-      "label": "TOOLS",
-      "file_type": "code",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 142,
-      "norm_label": "tools",
-      "id": "pages_iapage_tools"
-    },
-    {
-      "label": "TERMINAL_LINES",
-      "file_type": "code",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L42",
-      "_origin": "ast",
-      "community": 142,
-      "norm_label": "terminal_lines",
-      "id": "pages_iapage_terminal_lines"
-    },
-    {
-      "label": "IAPage()",
-      "file_type": "code",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L57",
-      "_origin": "ast",
-      "community": 142,
-      "norm_label": "iapage()",
-      "id": "pages_iapage_iapage"
-    },
-    {
-      "label": "ToolItem()",
-      "file_type": "code",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L517",
-      "_origin": "ast",
-      "community": 142,
-      "norm_label": "toolitem()",
-      "id": "pages_iapage_toolitem"
     },
     {
       "label": "Loader.jsx",
@@ -45944,6 +45944,153 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "data_projects"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "data_projects_projects"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "pages_iapage_ai_projects"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "pages_iapage_helmetcanvas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "pages_iapage_iapage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "pages_iapage_manifesto_paragraphs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "pages_iapage_terminal_lines"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L482",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "pages_iapage_toolitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "pages_iapage_tools"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "sections_projectshowcase"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "sections_projectshowcase_projectshowcase"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "ui_magiccard"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "ui_magiccard_magiccard"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/IAPage.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_iapage",
+      "target": "utils_splittexthelpers_splitcharswords"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/Home.jsx",
       "source_location": "L4",
       "weight": 1.0,
@@ -46571,17 +46718,6 @@
       "target": "cursor_customcursor_customcursor"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "ui_magiccard"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/ui/MagicCard.jsx",
@@ -46590,142 +46726,6 @@
       "confidence_score": 1.0,
       "source": "ui_magiccard",
       "target": "ui_magiccard_magiccard"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "ui_magiccard_magiccard"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "data_projects"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "data_projects_projects"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "pages_iapage_ai_projects"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "pages_iapage_helmetcanvas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "pages_iapage_iapage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "pages_iapage_manifesto_paragraphs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "pages_iapage_terminal_lines"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L482",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "pages_iapage_toolitem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "pages_iapage_tools"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "sections_projectshowcase"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "sections_projectshowcase_projectshowcase"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/IAPage.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_iapage",
-      "target": "utils_splittexthelpers_splitcharswords"
     },
     {
       "relation": "imports_from",
@@ -136120,5 +136120,5 @@
       "source_location": null
     }
   ],
-  "built_at_commit": "57f8034c1bd7e949842abba5a4e44aecb256ca1e"
+  "built_at_commit": "706db645fd6b2bccdbed72c4962c5bb40e95de26"
 }

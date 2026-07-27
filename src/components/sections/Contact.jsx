@@ -1,6 +1,6 @@
 // Contact.jsx — SRS §4.6 — Sección de contacto
 // Headline: "Iniciemos el diálogo." (Figma — aprobado)
-// Canal 1: formulario EmailJS con react-hook-form
+// Canal 1: formulario (Vercel Function + Resend) con react-hook-form
 // Canal 2: WhatsApp deeplink
 // GSAP: entrance dramático — yPercent 100 clip para headline
 // buenas-practicas §3: useGSAP, solo transform + opacity; gsap.to en handlers OK
@@ -9,12 +9,7 @@ import { useRef, useState, lazy, Suspense } from "react";
 import { useForm } from "react-hook-form";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import emailjs from "@emailjs/browser";
 import { TextField, Button } from "@mui/material";
-
-const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 // Lazy loaded — solo desktop descarga el chunk Three.js
 const isMobile = window.matchMedia("(max-width: 767px)").matches;
@@ -100,30 +95,19 @@ export function Contact() {
   );
 
   const onSubmit = async (data) => {
-    if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
-      // EmailJS no configurado — shake form
-      gsap.to(formRef.current, {
-        keyframes: { x: [-8, 8, -6, 6, -3, 3, 0] },
-        duration: 0.5,
-        ease: "power2.inOut",
-      });
-      setStatus("error");
-      return;
-    }
-
     setStatus("sending");
 
     try {
-      await emailjs.send(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        {
-          from_name: data.name,
-          from_email: data.email,
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
           message: data.message,
-        },
-        EMAILJS_PUBLIC_KEY,
-      );
+        }),
+      });
+      if (!res.ok) throw new Error("send failed");
       setStatus("success");
       reset();
     } catch {

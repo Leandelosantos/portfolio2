@@ -499,7 +499,7 @@ useFrame(({ clock, mouse }) => {
 **Canal 1 — Formulario**
 ```
 Campos: Nombre | Email | Mensaje (textarea libre) | Botón Enviar
-Envío: EmailJS (client-side, sin backend)
+Envío: Vercel Function (`/api/contact`) + Resend (server-side)
 Validación: inline con feedback visual GSAP (shake en error, confirm state en éxito)
 ```
 
