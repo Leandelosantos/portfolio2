@@ -10,6 +10,7 @@ import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { usePostHog } from '@posthog/react';
 
 const WA_NUMBER = '5491168116492';
 const WA_MSG = encodeURIComponent(
@@ -23,6 +24,7 @@ const isMobile =
 
 export function WhatsAppButton() {
   const linkRef = useRef(null);
+  const posthog = usePostHog();
 
   useGSAP(() => {
     if (!isMobile || !linkRef.current) return;
@@ -58,6 +60,7 @@ export function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Escribir por WhatsApp"
+      onClick={() => posthog?.capture('whatsapp_sticky_clicked')}
       style={{
         position: 'fixed',
         bottom: '1.5rem',

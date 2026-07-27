@@ -4,10 +4,12 @@
 import { useParams, Navigate } from 'react-router-dom';
 import { getProjectById } from '../data/projects';
 import { TransitionLink } from '../components/ui/TransitionLink';
+import { usePostHog } from '@posthog/react';
 
 export default function CaseStudy() {
   const { slug } = useParams();
   const project = getProjectById(slug);
+  const posthog = usePostHog();
 
   if (!project) return <Navigate to="/work" replace />;
 
@@ -154,6 +156,7 @@ export default function CaseStudy() {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => posthog?.capture('case_study_live_url_clicked', { project_id: project.id, project_title: project.title })}
             style={{
               fontFamily: 'var(--font-mono)',
               fontSize: 'var(--type-mono)',

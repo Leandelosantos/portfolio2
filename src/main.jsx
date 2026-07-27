@@ -12,6 +12,8 @@ import { lenis } from './lib/lenis.js';
 import App from './App.jsx';
 import './styles/globals.css';
 import './styles/typography.css';
+import posthog from 'posthog-js';
+import { PostHogProvider } from '@posthog/react';
 
 // ── GSAP — Registro de plugins — SRS §3.1 ─────────────────
 gsap.registerPlugin(ScrollTrigger, Flip, TextPlugin, useGSAP);
@@ -35,9 +37,27 @@ if (prefersReducedMotion) {
   gsap.globalTimeline.timeScale(0);
 }
 
+// ── PostHog — init ──────────────────────────────────────────
+const phToken = import.meta.env.VITE_POSTHOG_PROJECT_TOKEN;
+const phHost = import.meta.env.VITE_POSTHOG_HOST;
+
+if (phToken && phHost) {
+  posthog.init(phToken, {
+    api_host: phHost,
+    defaults: '2026-05-30',
+    capture_pageview: 'history_change',
+  });
+} else if (import.meta.env.DEV) {
+  console.error(
+    'VITE_POSTHOG_PROJECT_TOKEN variable required by PostHog is missing or un-configured, this causes events to be silently missed. This error stops appearing once VITE_POSTHOG_PROJECT_TOKEN is configured'
+  );
+}
+
 // ── React Root ──────────────────────────────────────────────
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <PostHogProvider client={posthog}>
+      <App />
+    </PostHogProvider>
   </React.StrictMode>
 );

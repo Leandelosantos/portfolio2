@@ -5,6 +5,7 @@
 
 import { useRef, useState } from 'react';
 import { TransitionLink } from './TransitionLink';
+import { usePostHog } from '@posthog/react';
 
 const TITLE_SIZE = {
   big: 'clamp(22px, 3vw, 36px)',
@@ -15,6 +16,7 @@ const TITLE_SIZE = {
 export function ProjectBentoCard({ project, size = 'small', onHoverStart, onHoverEnd }) {
   const videoRef = useRef(null);
   const [imgLoaded, setImgLoaded] = useState(false);
+  const posthog = usePostHog();
 
   const handleEnter = () => {
     if (project.video && videoRef.current) {
@@ -41,6 +43,7 @@ export function ProjectBentoCard({ project, size = 'small', onHoverStart, onHove
       onMouseLeave={handleLeave}
       onFocus={handleEnter}
       onBlur={handleLeave}
+      onClick={() => posthog?.capture('project_bento_clicked', { project_id: project.id, project_title: project.title })}
       aria-label={`Ver caso de estudio: ${project.title}`}
       style={{
         position: 'relative',

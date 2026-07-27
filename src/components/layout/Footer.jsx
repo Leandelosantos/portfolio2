@@ -4,6 +4,7 @@
 
 import { Link } from 'react-router-dom';
 import { useLocalTime } from '../../hooks/useLocalTime';
+import { usePostHog } from '@posthog/react';
 
 const SOCIAL_LINKS = [
   { label: 'GitHub', href: 'https://github.com/Leandelosantos' },
@@ -32,6 +33,7 @@ const onLinkLeave = (e) => (e.currentTarget.style.color = 'var(--color-text-seco
 
 export function Footer() {
   const localTime = useLocalTime();
+  const posthog = usePostHog();
 
   return (
     <footer
@@ -142,6 +144,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`${label} — abre en nueva pestaña`}
+              onClick={() => posthog?.capture('social_link_clicked', { platform: label })}
               style={monoLinkStyle}
               onMouseEnter={onLinkEnter}
               onMouseLeave={onLinkLeave}

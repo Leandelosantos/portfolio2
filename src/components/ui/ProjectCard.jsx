@@ -5,6 +5,7 @@
 
 import { useState } from 'react';
 import { useCardTilt } from '../../hooks/useCardTilt';
+import { usePostHog } from '@posthog/react';
 
 export function ProjectCard({ project, onExpand, dimmed }) {
   // Tilt aplicado a un wrapper interno — Flip anima el <article> externo (layout),
@@ -12,12 +13,16 @@ export function ProjectCard({ project, onExpand, dimmed }) {
   // el transform de Flip con los componentes rotateX/rotateY/scale del quickTo.
   const tiltRef = useCardTilt();
   const [isHovering, setIsHovering] = useState(false);
+  const posthog = usePostHog();
 
   return (
     <article
       className="project-card"
       data-project-id={project.id}
-      onClick={() => onExpand(project.id)}
+      onClick={() => {
+        posthog?.capture('project_card_opened', { project_id: project.id, project_title: project.title });
+        onExpand(project.id);
+      }}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
       role="button"

@@ -10,6 +10,7 @@ import { gsap } from 'gsap';
 import { useNavbarBehavior } from '../../hooks/useNavbarBehavior';
 import { usePageTransition } from '../../context/PageTransitionContext';
 import { lenis } from '../../lib/lenis';
+import { usePostHog } from '@posthog/react';
 
 const NAV_LINKS = [
   { label: 'Proyectos', href: '/work' },
@@ -23,6 +24,7 @@ export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { isVisible, isAtTop } = useNavbarBehavior();
   const { transitionTo } = usePageTransition();
+  const posthog = usePostHog();
 
   // Animar visibilidad con GSAP en scroll
   useGSAP(
@@ -88,6 +90,7 @@ export function Navbar() {
   const handleNavClick = (e, href) => {
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
+    posthog?.capture('nav_link_clicked', { href });
     closeMenu();
     transitionTo(href);
   };
@@ -198,7 +201,11 @@ export function Navbar() {
         {/* Hamburger button — mobile (oculto en desktop via .nav__burger CSS) */}
         <button
           className="nav__burger"
-          onClick={() => setMenuOpen((prev) => !prev)}
+          onClick={() => {
+            const nextOpen = !menuOpen;
+            setMenuOpen(nextOpen);
+            if (nextOpen) posthog?.capture('mobile_menu_opened');
+          }}
           aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
           aria-expanded={menuOpen}
           style={{
@@ -308,7 +315,10 @@ export function Navbar() {
             )}`}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={closeMenu}
+            onClick={() => {
+              posthog?.capture('nav_whatsapp_clicked');
+              closeMenu();
+            }}
             style={{
               fontFamily: 'var(--font-mono)',
               fontSize: 'var(--type-mono)',
