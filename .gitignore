@@ -35,3 +35,4 @@ yarn-error.log*
 # (imágenes > 200kb y videos > 3MB no deben commitearse)
 *.mov
 .vercel
+.env

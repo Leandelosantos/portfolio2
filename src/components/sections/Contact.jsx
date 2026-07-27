@@ -10,6 +10,7 @@ import { useForm } from "react-hook-form";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { TextField, Button } from "@mui/material";
+import posthog from "posthog-js";
 
 // Lazy loaded — solo desktop descarga el chunk Three.js
 const isMobile = window.matchMedia("(max-width: 767px)").matches;
@@ -109,9 +110,11 @@ export function Contact() {
       });
       if (!res.ok) throw new Error("send failed");
       setStatus("success");
+      posthog.capture("contact_form_submitted");
       reset();
     } catch {
       setStatus("error");
+      posthog.capture("contact_form_failed");
       gsap.to(formRef.current, {
         keyframes: { x: [-8, 8, -6, 6, -3, 3, 0] },
         duration: 0.5,
@@ -275,6 +278,7 @@ export function Contact() {
             href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => posthog.capture("whatsapp_clicked", { source: "contact_section" })}
             style={{
               display: "inline-flex",
               alignItems: "center",

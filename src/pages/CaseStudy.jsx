@@ -1,13 +1,20 @@
 // CaseStudy.jsx — SRS §4.4 — Case Study individual (/work/:slug)
 // Long-form: contexto de negocio → problema → solución → resultados → stack → galería
 
+import { useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
+import posthog from 'posthog-js';
 import { getProjectById } from '../data/projects';
 import { TransitionLink } from '../components/ui/TransitionLink';
 
 export default function CaseStudy() {
   const { slug } = useParams();
   const project = getProjectById(slug);
+
+  useEffect(() => {
+    if (!project) return;
+    posthog.capture("case_study_viewed", { project_id: project.id, project_title: project.title });
+  }, [project?.id]);
 
   if (!project) return <Navigate to="/work" replace />;
 

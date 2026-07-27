@@ -8,10 +8,31 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Flip } from 'gsap/Flip';
 import { TextPlugin } from 'gsap/TextPlugin';
 import { useGSAP } from '@gsap/react';
+import posthog from 'posthog-js';
 import { lenis } from './lib/lenis.js';
 import App from './App.jsx';
 import './styles/globals.css';
 import './styles/typography.css';
+
+// ── PostHog — Analytics ────────────────────────────────────────
+const phKey  = import.meta.env.VITE_POSTHOG_KEY;
+const phHost = import.meta.env.VITE_POSTHOG_HOST;
+
+if (import.meta.env.DEV && !phKey) {
+  console.error(
+    'VITE_POSTHOG_KEY variable required by PostHog is missing or un-configured, ' +
+    'this causes events to be silently missed. ' +
+    'This error stops appearing once VITE_POSTHOG_KEY is configured'
+  );
+}
+
+if (phKey) {
+  posthog.init(phKey, {
+    api_host: phHost ?? 'https://us.i.posthog.com',
+    capture_pageview: 'history_change',
+    capture_pageleave: true,
+  });
+}
 
 // ── GSAP — Registro de plugins — SRS §3.1 ─────────────────
 gsap.registerPlugin(ScrollTrigger, Flip, TextPlugin, useGSAP);

@@ -10,6 +10,7 @@ import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import posthog from 'posthog-js';
 
 const WA_NUMBER = '5491168116492';
 const WA_MSG = encodeURIComponent(
@@ -58,6 +59,7 @@ export function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Escribir por WhatsApp"
+      onClick={() => posthog.capture("whatsapp_button_clicked", { source: "sticky_mobile" })}
       style={{
         position: 'fixed',
         bottom: '1.5rem',

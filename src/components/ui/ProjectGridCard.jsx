@@ -3,6 +3,7 @@
 // Idle: imagen fija. Hover: solo zoom leve en la imagen (la card no crece, sin video — Home siempre estático).
 
 import { useState } from "react";
+import posthog from "posthog-js";
 import { TransitionLink } from "./TransitionLink";
 
 export function ProjectGridCard({ project }) {
@@ -27,6 +28,7 @@ export function ProjectGridCard({ project }) {
       onMouseLeave={handleLeave}
       onFocus={handleEnter}
       onBlur={handleLeave}
+      onClick={() => posthog.capture("project_card_clicked", { project_id: project.id, project_title: project.title })}
       aria-label={`Ver caso de estudio: ${project.title}`}
       style={{
         display: "block",

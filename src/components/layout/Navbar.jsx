@@ -7,6 +7,7 @@ import { useRef, useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
+import posthog from 'posthog-js';
 import { useNavbarBehavior } from '../../hooks/useNavbarBehavior';
 import { usePageTransition } from '../../context/PageTransitionContext';
 import { lenis } from '../../lib/lenis';
@@ -88,6 +89,7 @@ export function Navbar() {
   const handleNavClick = (e, href) => {
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
+    posthog.capture("nav_link_clicked", { destination: href });
     closeMenu();
     transitionTo(href);
   };
@@ -198,7 +200,11 @@ export function Navbar() {
         {/* Hamburger button — mobile (oculto en desktop via .nav__burger CSS) */}
         <button
           className="nav__burger"
-          onClick={() => setMenuOpen((prev) => !prev)}
+          onClick={() => {
+            const opening = !menuOpen;
+            setMenuOpen(opening);
+            if (opening) posthog.capture("mobile_menu_opened");
+          }}
           aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
           aria-expanded={menuOpen}
           style={{

@@ -6,6 +6,7 @@
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
+import posthog from "posthog-js";
 import { ProjectGridCard } from "../ui/ProjectGridCard";
 import { TransitionLink } from "../ui/TransitionLink";
 import { useReducedMotion } from "../../hooks/useReducedMotion";
@@ -60,6 +61,7 @@ export function ProjectGridHome({ projects, viewAllHref }) {
         >
           <TransitionLink
             to={viewAllHref}
+            onClick={() => posthog.capture("view_all_projects_clicked")}
             style={{
               fontFamily: "var(--font-mono)",
               fontSize: "var(--type-mono)",
