@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1782693060.8238451,
-    "ast_hash": "596256fb67e446c2981022c1fd7360d1",
+    "mtime": 1785124624.1687818,
+    "ast_hash": "9e50e9b14f318ed5f738da12670c3d07",
     "semantic_hash": ""
   },
   "src/App.jsx": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "src/components/sections/Contact.jsx": {
-    "mtime": 1782696450.1119993,
-    "ast_hash": "5e0c8cf2f5c8b92628a2bbb35606a52b",
+    "mtime": 1785124670.1906416,
+    "ast_hash": "987efe73002bc7283974c757e333c5b7",
     "semantic_hash": ""
   },
   "src/components/sections/Hero.jsx": {
@@ -740,8 +740,8 @@
     "semantic_hash": ""
   },
   "SRS_portfolio.md": {
-    "mtime": 1780779353.5511587,
-    "ast_hash": "88142822e33391f2e94db5306c56c2d6",
+    "mtime": 1785124686.8107686,
+    "ast_hash": "6bb5afde0f5f9ab91db0a19ca9ea2603",
     "semantic_hash": ""
   },
   "buenas-practicas.md": {
@@ -750,7 +750,7 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1782701975.6525028,
+    "mtime": 1782701976.652502,
     "ast_hash": "e7a24ed8946f0b6b502e594fc89eed9f",
     "semantic_hash": ""
   },
@@ -1127,6 +1127,16 @@
   "ia-mobile-hero.png": {
     "mtime": 1782763415.0845814,
     "ast_hash": "745627d4feda8bdf8e4433860f93c8bf",
+    "semantic_hash": ""
+  },
+  "api/contact.js": {
+    "mtime": 1785124650.2544663,
+    "ast_hash": "b824091801e0804cf03498648e93f667",
+    "semantic_hash": ""
+  },
+  "pnpm-workspace.yaml": {
+    "mtime": 1785124707.3832262,
+    "ast_hash": "b742abf2d03aa9d79c3290767176eb41",
     "semantic_hash": ""
   }
 }

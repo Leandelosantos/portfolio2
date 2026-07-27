@@ -4,6 +4,7 @@
 import { lazy, Suspense, useLayoutEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { ThemeProvider, CssBaseline } from '@mui/material';
+import { Analytics } from '@vercel/analytics/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { muiTheme } from './theme/muiTheme';
 import { LoaderProvider } from './context/LoaderContext';
@@ -88,6 +89,9 @@ function App() {
 
               {/* WhatsApp sticky — visible solo en mobile (< 768px) */}
               <WhatsAppButton />
+
+              {/* Vercel Web Analytics — pageviews/visitantes, sin cookies */}
+              <Analytics />
             </PageTransitionProvider>
           </BrowserRouter>
         </MouseProvider>

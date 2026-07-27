@@ -550,14 +550,894 @@
   },
   "nodes": [
     {
+      "label": "SRS_portfolio.md",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "srs_portfolio",
+      "community": 78,
+      "norm_label": "srs_portfolio.md"
+    },
+    {
+      "label": "Software Requirements Specification (SRS)",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "srs_portfolio_software_requirements_specification_srs",
+      "community": 78,
+      "norm_label": "software requirements specification (srs)"
+    },
+    {
+      "label": "Portfolio Personal \u2014 React + GSAP + Three.js",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "srs_portfolio_portfolio_personal_react_gsap_three_js",
+      "community": 78,
+      "norm_label": "portfolio personal \u2014 react + gsap + three.js"
+    },
+    {
+      "label": "1. Introducci\u00f3n",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "srs_portfolio_1_introducci\u00f3n",
+      "community": 78,
+      "norm_label": "1. introduccion"
+    },
+    {
+      "label": "1.1 Visi\u00f3n del Proyecto",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "srs_portfolio_1_1_visi\u00f3n_del_proyecto",
+      "community": 78,
+      "norm_label": "1.1 vision del proyecto"
+    },
+    {
+      "label": "1.2 Objetivos de Conversi\u00f3n",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "srs_portfolio_1_2_objetivos_de_conversi\u00f3n",
+      "community": 78,
+      "norm_label": "1.2 objetivos de conversion"
+    },
+    {
+      "label": "1.3 Alcance T\u00e9cnico",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "srs_portfolio_1_3_alcance_t\u00e9cnico",
+      "community": 78,
+      "norm_label": "1.3 alcance tecnico"
+    },
+    {
+      "label": "2. Especificaciones de UI/UX",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "srs_portfolio_2_especificaciones_de_ui_ux",
+      "community": 78,
+      "norm_label": "2. especificaciones de ui/ux"
+    },
+    {
+      "label": "2.1 Paleta de Colores",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "srs_portfolio_2_1_paleta_de_colores",
+      "community": 78,
+      "norm_label": "2.1 paleta de colores"
+    },
+    {
+      "label": "2.2 Tipograf\u00eda",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "srs_portfolio_2_2_tipograf\u00eda",
+      "community": 78,
+      "norm_label": "2.2 tipografia"
+    },
+    {
+      "label": "2.3 Jerarqu\u00eda Visual y Layout",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "srs_portfolio_2_3_jerarqu\u00eda_visual_y_layout",
+      "community": 78,
+      "norm_label": "2.3 jerarquia visual y layout"
+    },
+    {
+      "label": "2.4 Cursor Personalizado",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "srs_portfolio_2_4_cursor_personalizado",
+      "community": 78,
+      "norm_label": "2.4 cursor personalizado"
+    },
+    {
+      "label": "2.5 Componentes MUI \u2014 Override Strategy",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "srs_portfolio_2_5_componentes_mui_override_strategy",
+      "community": 78,
+      "norm_label": "2.5 componentes mui \u2014 override strategy"
+    },
+    {
+      "label": "3. Plan de Animaciones (GSAP Focus)",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L153",
+      "_origin": "ast",
+      "id": "srs_portfolio_3_plan_de_animaciones_gsap_focus",
+      "community": 78,
+      "norm_label": "3. plan de animaciones (gsap focus)"
+    },
+    {
+      "label": "3.1 Setup Global",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L155",
+      "_origin": "ast",
+      "id": "srs_portfolio_3_1_setup_global",
+      "community": 78,
+      "norm_label": "3.1 setup global"
+    },
+    {
+      "label": "3.2 Loader / Intro Sequence",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L171",
+      "_origin": "ast",
+      "id": "srs_portfolio_3_2_loader_intro_sequence",
+      "community": 78,
+      "norm_label": "3.2 loader / intro sequence"
+    },
+    {
+      "label": "3.3 Scroll Experience Completa",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L185",
+      "_origin": "ast",
+      "id": "srs_portfolio_3_3_scroll_experience_completa",
+      "community": 78,
+      "norm_label": "3.3 scroll experience completa"
+    },
+    {
+      "label": "SECCI\u00d3N: Hero",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "srs_portfolio_secci\u00f3n_hero",
+      "community": 78,
+      "norm_label": "seccion: hero"
+    },
+    {
+      "label": "SECCI\u00d3N: Work / Proyectos \u2014 Lista estilo Lebedev",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L204",
+      "_origin": "ast",
+      "id": "srs_portfolio_secci\u00f3n_work_proyectos_lista_estilo_lebedev",
+      "community": 78,
+      "norm_label": "seccion: work / proyectos \u2014 lista estilo lebedev"
+    },
+    {
+      "label": "SECCI\u00d3N: Proyecto Featured \u2014 Pinning + Reveal Horizontal",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L239",
+      "_origin": "ast",
+      "id": "srs_portfolio_secci\u00f3n_proyecto_featured_pinning_reveal_horizontal",
+      "community": 78,
+      "norm_label": "seccion: proyecto featured \u2014 pinning + reveal horizontal"
+    },
+    {
+      "label": "SECCI\u00d3N: About \u2014 Text Reveal por Palabras",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L258",
+      "_origin": "ast",
+      "id": "srs_portfolio_secci\u00f3n_about_text_reveal_por_palabras",
+      "community": 78,
+      "norm_label": "seccion: about \u2014 text reveal por palabras"
+    },
+    {
+      "label": "SECCI\u00d3N: Skills / Services \u2014 Flip Animation",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L276",
+      "_origin": "ast",
+      "id": "srs_portfolio_secci\u00f3n_skills_services_flip_animation",
+      "community": 78,
+      "norm_label": "seccion: skills / services \u2014 flip animation"
+    },
+    {
+      "label": "SECCI\u00d3N: Contact \u2014 Entrance dram\u00e1tico",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L290",
+      "_origin": "ast",
+      "id": "srs_portfolio_secci\u00f3n_contact_entrance_dram\u00e1tico",
+      "community": 78,
+      "norm_label": "seccion: contact \u2014 entrance dramatico"
+    },
+    {
+      "label": "3.4 Micro-interacciones",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L307",
+      "_origin": "ast",
+      "id": "srs_portfolio_3_4_micro_interacciones",
+      "community": 78,
+      "norm_label": "3.4 micro-interacciones"
+    },
+    {
+      "label": "Botones",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L309",
+      "_origin": "ast",
+      "id": "srs_portfolio_botones",
+      "community": 78,
+      "norm_label": "botones"
+    },
+    {
+      "label": "Cards de Proyecto",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L329",
+      "_origin": "ast",
+      "id": "srs_portfolio_cards_de_proyecto",
+      "community": 78,
+      "norm_label": "cards de proyecto"
+    },
+    {
+      "label": "Navbar",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L342",
+      "_origin": "ast",
+      "id": "srs_portfolio_navbar",
+      "community": 78,
+      "norm_label": "navbar"
+    },
+    {
+      "label": "3.5 Three.js \u2014 Escenas 3D",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L361",
+      "_origin": "ast",
+      "id": "srs_portfolio_3_5_three_js_escenas_3d",
+      "community": 78,
+      "norm_label": "3.5 three.js \u2014 escenas 3d"
+    },
+    {
+      "label": "Hero Background \u2014 Mesh de Part\u00edculas",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L363",
+      "_origin": "ast",
+      "id": "srs_portfolio_hero_background_mesh_de_part\u00edculas",
+      "community": 78,
+      "norm_label": "hero background \u2014 mesh de particulas"
+    },
+    {
+      "label": "Objeto 3D Central \u2014 Hero Statement",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L382",
+      "_origin": "ast",
+      "id": "srs_portfolio_objeto_3d_central_hero_statement",
+      "community": 78,
+      "norm_label": "objeto 3d central \u2014 hero statement"
+    },
+    {
+      "label": "Transici\u00f3n de P\u00e1gina \u2014 Three.js Wipe",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L397",
+      "_origin": "ast",
+      "id": "srs_portfolio_transici\u00f3n_de_p\u00e1gina_three_js_wipe",
+      "community": 78,
+      "norm_label": "transicion de pagina \u2014 three.js wipe"
+    },
+    {
+      "label": "4. Requerimientos Funcionales",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L408",
+      "_origin": "ast",
+      "id": "srs_portfolio_4_requerimientos_funcionales",
+      "community": 78,
+      "norm_label": "4. requerimientos funcionales"
+    },
+    {
+      "label": "4.1 Estructura de Navegaci\u00f3n",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L410",
+      "_origin": "ast",
+      "id": "srs_portfolio_4_1_estructura_de_navegaci\u00f3n",
+      "community": 78,
+      "norm_label": "4.1 estructura de navegacion"
+    },
+    {
+      "label": "4.2 Secci\u00f3n Hero",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L421",
+      "_origin": "ast",
+      "id": "srs_portfolio_4_2_secci\u00f3n_hero",
+      "community": 78,
+      "norm_label": "4.2 seccion hero"
+    },
+    {
+      "label": "4.3 Secci\u00f3n Work \u2014 Lista de Proyectos",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L431",
+      "_origin": "ast",
+      "id": "srs_portfolio_4_3_secci\u00f3n_work_lista_de_proyectos",
+      "community": 78,
+      "norm_label": "4.3 seccion work \u2014 lista de proyectos"
+    },
+    {
+      "label": "4.4 Case Study Individual (`/work/:slug`)",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L465",
+      "_origin": "ast",
+      "id": "srs_portfolio_4_4_case_study_individual_work_slug",
+      "community": 78,
+      "norm_label": "4.4 case study individual (`/work/:slug`)"
+    },
+    {
+      "label": "4.5 Secci\u00f3n About",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L486",
+      "_origin": "ast",
+      "id": "srs_portfolio_4_5_secci\u00f3n_about",
+      "community": 78,
+      "norm_label": "4.5 seccion about"
+    },
+    {
+      "label": "4.6 Secci\u00f3n Contact",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L495",
+      "_origin": "ast",
+      "id": "srs_portfolio_4_6_secci\u00f3n_contact",
+      "community": 78,
+      "norm_label": "4.6 seccion contact"
+    },
+    {
+      "label": "4.7 Footer",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L517",
+      "_origin": "ast",
+      "id": "srs_portfolio_4_7_footer",
+      "community": 78,
+      "norm_label": "4.7 footer"
+    },
+    {
+      "label": "5. Requerimientos No Funcionales",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L527",
+      "_origin": "ast",
+      "id": "srs_portfolio_5_requerimientos_no_funcionales",
+      "community": 78,
+      "norm_label": "5. requerimientos no funcionales"
+    },
+    {
+      "label": "5.1 Performance y 60fps",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L529",
+      "_origin": "ast",
+      "id": "srs_portfolio_5_1_performance_y_60fps",
+      "community": 78,
+      "norm_label": "5.1 performance y 60fps"
+    },
+    {
+      "label": "5.2 SEO T\u00e9cnico",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L567",
+      "_origin": "ast",
+      "id": "srs_portfolio_5_2_seo_t\u00e9cnico",
+      "community": 78,
+      "norm_label": "5.2 seo tecnico"
+    },
+    {
+      "label": "5.3 Accesibilidad (a11y)",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L592",
+      "_origin": "ast",
+      "id": "srs_portfolio_5_3_accesibilidad_a11y",
+      "community": 78,
+      "norm_label": "5.3 accesibilidad (a11y)"
+    },
+    {
+      "label": "5.4 Responsive Design",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L619",
+      "_origin": "ast",
+      "id": "srs_portfolio_5_4_responsive_design",
+      "community": 78,
+      "norm_label": "5.4 responsive design"
+    },
+    {
+      "label": "5.5 Core Web Vitals Targets",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L651",
+      "_origin": "ast",
+      "id": "srs_portfolio_5_5_core_web_vitals_targets",
+      "community": 78,
+      "norm_label": "5.5 core web vitals targets"
+    },
+    {
+      "label": "6. Arquitectura de Archivos",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L662",
+      "_origin": "ast",
+      "id": "srs_portfolio_6_arquitectura_de_archivos",
+      "community": 78,
+      "norm_label": "6. arquitectura de archivos"
+    },
+    {
+      "label": "Hook `useGSAP` \u2014 Patr\u00f3n cr\u00edtico para React",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L716",
+      "_origin": "ast",
+      "id": "srs_portfolio_hook_usegsap_patr\u00f3n_cr\u00edtico_para_react",
+      "community": 78,
+      "norm_label": "hook `usegsap` \u2014 patron critico para react"
+    },
+    {
+      "label": "7. Dependencias del Proyecto",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L734",
+      "_origin": "ast",
+      "id": "srs_portfolio_7_dependencias_del_proyecto",
+      "community": 78,
+      "norm_label": "7. dependencias del proyecto"
+    },
+    {
+      "label": "8. Checklist de Implementaci\u00f3n",
+      "file_type": "document",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L764",
+      "_origin": "ast",
+      "id": "srs_portfolio_8_checklist_de_implementaci\u00f3n",
+      "community": 78,
+      "norm_label": "8. checklist de implementacion"
+    },
+    {
+      "label": "contact.js",
+      "file_type": "code",
+      "source_file": "api/contact.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_contact",
+      "community": 252,
+      "norm_label": "contact.js"
+    },
+    {
+      "label": "resend",
+      "file_type": "code",
+      "source_file": "api/contact.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "api_contact_resend",
+      "community": 252,
+      "norm_label": "resend"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "api/contact.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "api_contact_post",
+      "community": 252,
+      "norm_label": "post()"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 28,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 28,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 28,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 28,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 28,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 28,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 28,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 28,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_preview",
+      "community": 28,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 28,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@emotion/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_dependencies_emotion_react",
+      "community": 28,
+      "norm_label": "@emotion/react"
+    },
+    {
+      "label": "@emotion/styled",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_dependencies_emotion_styled",
+      "community": 28,
+      "norm_label": "@emotion/styled"
+    },
+    {
+      "label": "@gsap/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_dependencies_gsap_react",
+      "community": 28,
+      "norm_label": "@gsap/react"
+    },
+    {
+      "label": "@mui/material",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_dependencies_mui_material",
+      "community": 28,
+      "norm_label": "@mui/material"
+    },
+    {
+      "label": "@react-three/drei",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_dependencies_react_three_drei",
+      "community": 28,
+      "norm_label": "@react-three/drei"
+    },
+    {
+      "label": "@react-three/fiber",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_dependencies_react_three_fiber",
+      "community": 28,
+      "norm_label": "@react-three/fiber"
+    },
+    {
+      "label": "@react-three/postprocessing",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "package_dependencies_react_three_postprocessing",
+      "community": 28,
+      "norm_label": "@react-three/postprocessing"
+    },
+    {
+      "label": "gsap",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "package_dependencies_gsap",
+      "community": 28,
+      "norm_label": "gsap"
+    },
+    {
+      "label": "lenis",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_dependencies_lenis",
+      "community": 28,
+      "norm_label": "lenis"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_dependencies_react",
+      "community": 28,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "package_dependencies_react_dom",
+      "community": 28,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "react-hook-form",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_dependencies_react_hook_form",
+      "community": 28,
+      "norm_label": "react-hook-form"
+    },
+    {
+      "label": "react-router-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_dependencies_react_router_dom",
+      "community": 28,
+      "norm_label": "react-router-dom"
+    },
+    {
+      "label": "resend",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "package_dependencies_resend",
+      "community": 28,
+      "norm_label": "resend"
+    },
+    {
+      "label": "split-type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "package_dependencies_split_type",
+      "community": 28,
+      "norm_label": "split-type"
+    },
+    {
+      "label": "three",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "package_dependencies_three",
+      "community": 28,
+      "norm_label": "three"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 28,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "package_devdependencies_vitejs_plugin_react",
+      "community": 28,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "package_devdependencies_vite",
+      "community": 28,
+      "norm_label": "vite"
+    },
+    {
+      "label": "packageManager",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "package_packagemanager",
+      "community": 28,
+      "norm_label": "packagemanager"
+    },
+    {
+      "label": "Contact.jsx",
+      "file_type": "code",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "sections_contact",
+      "community": 73,
+      "norm_label": "contact.jsx"
+    },
+    {
+      "label": "WA_MSG",
+      "file_type": "code",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "sections_contact_wa_msg",
+      "community": 73,
+      "norm_label": "wa_msg"
+    },
+    {
+      "label": "textFieldSx",
+      "file_type": "code",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "sections_contact_textfieldsx",
+      "community": 73,
+      "norm_label": "textfieldsx"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "sections_contact_contact",
+      "community": 73,
+      "norm_label": "contact()"
+    },
+    {
+      "label": "channelLabelStyle",
+      "file_type": "code",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L355",
+      "_origin": "ast",
+      "id": "sections_contact_channellabelstyle",
+      "community": 73,
+      "norm_label": "channellabelstyle"
+    },
+    {
+      "label": "feedbackStyle",
+      "file_type": "code",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L364",
+      "_origin": "ast",
+      "id": "sections_contact_feedbackstyle",
+      "community": 73,
+      "norm_label": "feedbackstyle"
+    },
+    {
       "label": "IAPage.jsx",
       "file_type": "code",
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_iapage",
       "community": 142,
-      "norm_label": "iapage.jsx"
+      "norm_label": "iapage.jsx",
+      "id": "pages_iapage"
     },
     {
       "label": "MANIFESTO_PARAGRAPHS",
@@ -565,9 +1445,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "pages_iapage_manifesto_paragraphs",
       "community": 142,
-      "norm_label": "manifesto_paragraphs"
+      "norm_label": "manifesto_paragraphs",
+      "id": "pages_iapage_manifesto_paragraphs"
     },
     {
       "label": "HelmetCanvas",
@@ -575,9 +1455,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "pages_iapage_helmetcanvas",
       "community": 142,
-      "norm_label": "helmetcanvas"
+      "norm_label": "helmetcanvas",
+      "id": "pages_iapage_helmetcanvas"
     },
     {
       "label": "AI_PROJECTS",
@@ -585,9 +1465,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "pages_iapage_ai_projects",
       "community": 142,
-      "norm_label": "ai_projects"
+      "norm_label": "ai_projects",
+      "id": "pages_iapage_ai_projects"
     },
     {
       "label": "TOOLS",
@@ -595,9 +1475,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "pages_iapage_tools",
       "community": 142,
-      "norm_label": "tools"
+      "norm_label": "tools",
+      "id": "pages_iapage_tools"
     },
     {
       "label": "TERMINAL_LINES",
@@ -605,9 +1485,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "pages_iapage_terminal_lines",
       "community": 142,
-      "norm_label": "terminal_lines"
+      "norm_label": "terminal_lines",
+      "id": "pages_iapage_terminal_lines"
     },
     {
       "label": "IAPage()",
@@ -615,9 +1495,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "pages_iapage_iapage",
       "community": 142,
-      "norm_label": "iapage()"
+      "norm_label": "iapage()",
+      "id": "pages_iapage_iapage"
     },
     {
       "label": "ToolItem()",
@@ -625,9 +1505,9 @@
       "source_file": "src/pages/IAPage.jsx",
       "source_location": "L523",
       "_origin": "ast",
-      "id": "pages_iapage_toolitem",
       "community": 142,
-      "norm_label": "toolitem()"
+      "norm_label": "toolitem()",
+      "id": "pages_iapage_toolitem"
     },
     {
       "label": "Hero.jsx",
@@ -1368,366 +2248,6 @@
       "community": 238,
       "norm_label": "marquee()",
       "id": "ui_marquee_marquee"
-    },
-    {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "package.json",
-      "id": "package"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "name",
-      "id": "package_name"
-    },
-    {
-      "label": "private",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "private",
-      "id": "package_private"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "version",
-      "id": "package_version"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "type",
-      "id": "package_type"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "scripts",
-      "id": "package_scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "dev",
-      "id": "package_scripts_dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "build",
-      "id": "package_scripts_build"
-    },
-    {
-      "label": "preview",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "preview",
-      "id": "package_scripts_preview"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "dependencies",
-      "id": "package_dependencies"
-    },
-    {
-      "label": "@emailjs/browser",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "@emailjs/browser",
-      "id": "package_dependencies_emailjs_browser"
-    },
-    {
-      "label": "@emotion/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "@emotion/react",
-      "id": "package_dependencies_emotion_react"
-    },
-    {
-      "label": "@emotion/styled",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "@emotion/styled",
-      "id": "package_dependencies_emotion_styled"
-    },
-    {
-      "label": "@gsap/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "@gsap/react",
-      "id": "package_dependencies_gsap_react"
-    },
-    {
-      "label": "@mui/material",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "@mui/material",
-      "id": "package_dependencies_mui_material"
-    },
-    {
-      "label": "@react-three/drei",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "@react-three/drei",
-      "id": "package_dependencies_react_three_drei"
-    },
-    {
-      "label": "@react-three/fiber",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 170,
-      "norm_label": "@react-three/fiber",
-      "id": "package_dependencies_react_three_fiber"
-    },
-    {
-      "label": "@react-three/postprocessing",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "@react-three/postprocessing",
-      "id": "package_dependencies_react_three_postprocessing"
-    },
-    {
-      "label": "gsap",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "gsap",
-      "id": "package_dependencies_gsap"
-    },
-    {
-      "label": "lenis",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "lenis",
-      "id": "package_dependencies_lenis"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "react",
-      "id": "package_dependencies_react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "react-dom",
-      "id": "package_dependencies_react_dom"
-    },
-    {
-      "label": "react-hook-form",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "react-hook-form",
-      "id": "package_dependencies_react_hook_form"
-    },
-    {
-      "label": "react-router-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "react-router-dom",
-      "id": "package_dependencies_react_router_dom"
-    },
-    {
-      "label": "split-type",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "split-type",
-      "id": "package_dependencies_split_type"
-    },
-    {
-      "label": "three",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 78,
-      "norm_label": "three",
-      "id": "package_dependencies_three"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L29",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "devdependencies",
-      "id": "package_devdependencies"
-    },
-    {
-      "label": "@vitejs/plugin-react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L30",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "@vitejs/plugin-react",
-      "id": "package_devdependencies_vitejs_plugin_react"
-    },
-    {
-      "label": "vite",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L31",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "vite",
-      "id": "package_devdependencies_vite"
-    },
-    {
-      "label": "packageManager",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L33",
-      "_origin": "ast",
-      "community": 28,
-      "norm_label": "packagemanager",
-      "id": "package_packagemanager"
-    },
-    {
-      "label": "Contact.jsx",
-      "file_type": "code",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "contact.jsx",
-      "id": "sections_contact"
-    },
-    {
-      "label": "WA_MSG",
-      "file_type": "code",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "wa_msg",
-      "id": "sections_contact_wa_msg"
-    },
-    {
-      "label": "textFieldSx",
-      "file_type": "code",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L32",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "textfieldsx",
-      "id": "sections_contact_textfieldsx"
-    },
-    {
-      "label": "Contact()",
-      "file_type": "code",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L61",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "contact()",
-      "id": "sections_contact_contact"
-    },
-    {
-      "label": "channelLabelStyle",
-      "file_type": "code",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L371",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "channellabelstyle",
-      "id": "sections_contact_channellabelstyle"
-    },
-    {
-      "label": "feedbackStyle",
-      "file_type": "code",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L380",
-      "_origin": "ast",
-      "community": 73,
-      "norm_label": "feedbackstyle",
-      "id": "sections_contact_feedbackstyle"
     },
     {
       "label": "projects.js",
@@ -2635,7 +3155,7 @@
       "source_file": ".agents/skills/impeccable/scripts/context-signals.mjs",
       "source_location": "L208",
       "_origin": "ast",
-      "community": 93,
+      "community": 96,
       "norm_label": "cli()",
       "id": "agents_skills_impeccable_scripts_context_signals_mjs_scripts_context_signals_cli"
     },
@@ -5715,7 +6235,7 @@
       "source_file": ".agents/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs",
       "source_location": "L416",
       "_origin": "ast",
-      "community": 51,
+      "community": 72,
       "norm_label": "text_content_analyzer_ids",
       "id": "agents_skills_impeccable_scripts_detector_engines_regex_detect_text_mjs_regex_detect_text_text_content_analyzer_ids"
     },
@@ -7065,7 +7585,7 @@
       "source_file": ".agents/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1109",
       "_origin": "ast",
-      "community": 36,
+      "community": 5,
       "norm_label": "checkelementglowdom()",
       "id": "agents_skills_impeccable_scripts_detector_rules_checks_mjs_rules_checks_checkelementglowdom"
     },
@@ -7075,7 +7595,7 @@
       "source_file": ".agents/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1138",
       "_origin": "ast",
-      "community": 36,
+      "community": 5,
       "norm_label": "checkelementaipalettedom()",
       "id": "agents_skills_impeccable_scripts_detector_rules_checks_mjs_rules_checks_checkelementaipalettedom"
     },
@@ -7245,7 +7765,7 @@
       "source_file": ".agents/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1792",
       "_origin": "ast",
-      "community": 287,
+      "community": 36,
       "norm_label": "checktypography()",
       "id": "agents_skills_impeccable_scripts_detector_rules_checks_mjs_rules_checks_checktypography"
     },
@@ -8055,7 +8575,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-accept.mjs",
       "source_location": "L183",
       "_origin": "ast",
-      "community": 3,
+      "community": 34,
       "norm_label": "scrubmanualeditsagainstoriginalblock()",
       "id": "agents_skills_impeccable_scripts_live_accept_mjs_scripts_live_accept_scrubmanualeditsagainstoriginalblock"
     },
@@ -8105,7 +8625,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-accept.mjs",
       "source_location": "L230",
       "_origin": "ast",
-      "community": 3,
+      "community": 34,
       "norm_label": "scrubmanualeditsagainstfile()",
       "id": "agents_skills_impeccable_scripts_live_accept_mjs_scripts_live_accept_scrubmanualeditsagainstfile"
     },
@@ -15345,7 +15865,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L716",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "manualapplytransactionpath()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_manualapplytransactionpath"
     },
@@ -15355,7 +15875,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L720",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "readmanualapplytransaction()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_readmanualapplytransaction"
     },
@@ -15365,7 +15885,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L730",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "writemanualapplytransaction()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_writemanualapplytransaction"
     },
@@ -15375,7 +15895,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L755",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "clearmanualapplytransaction()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_clearmanualapplytransaction"
     },
@@ -15385,7 +15905,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L770",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "rollbackmanualapplytransaction()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_rollbackmanualapplytransaction"
     },
@@ -15405,7 +15925,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L836",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "normalizeprojectfile()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_normalizeprojectfile"
     },
@@ -15615,7 +16135,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L1099",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "broadcast()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_broadcast"
     },
@@ -15625,7 +16145,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L1106",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "recordmanualeditactivity()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_recordmanualeditactivity"
     },
@@ -15665,7 +16185,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-server.mjs",
       "source_location": "L1168",
       "_origin": "ast",
-      "community": 4,
+      "community": 223,
       "norm_label": "summarizemanualdiagnostics()",
       "id": "agents_skills_impeccable_scripts_live_server_mjs_scripts_live_server_summarizemanualdiagnostics"
     },
@@ -16745,7 +17265,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-vocabulary.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 240,
+      "community": 29,
       "norm_label": "live-vocabulary.mjs",
       "id": "agents_skills_impeccable_scripts_live_vocabulary_mjs_scripts_live_vocabulary"
     },
@@ -16755,7 +17275,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-vocabulary.mjs",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 240,
+      "community": 29,
       "norm_label": "live_commands",
       "id": "agents_skills_impeccable_scripts_live_vocabulary_mjs_scripts_live_vocabulary_live_commands"
     },
@@ -16765,7 +17285,7 @@
       "source_file": ".agents/skills/impeccable/scripts/live-vocabulary.mjs",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 240,
+      "community": 29,
       "norm_label": "visual_actions",
       "id": "agents_skills_impeccable_scripts_live_vocabulary_mjs_scripts_live_vocabulary_visual_actions"
     },
@@ -17815,7 +18335,7 @@
       "source_file": ".agents/skills/impeccable/scripts/pin.mjs",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 223,
+      "community": 29,
       "norm_label": "valid_commands",
       "id": "agents_skills_impeccable_scripts_pin_mjs_scripts_pin_valid_commands"
     },
@@ -18285,7 +18805,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "cleanup-deprecated.mjs",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated"
     },
@@ -18295,7 +18815,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "deprecated_names",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_deprecated_names"
     },
@@ -18305,7 +18825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "harness_dirs",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_harness_dirs"
     },
@@ -18315,7 +18835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "skill_fingerprints",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_skill_fingerprints"
     },
@@ -18325,7 +18845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L75",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "findprojectroot()",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_findprojectroot"
     },
@@ -18335,7 +18855,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L96",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "loadlock()",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_loadlock"
     },
@@ -18345,7 +18865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L114",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "isimpeccableskill()",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_isimpeccableskill"
     },
@@ -18355,7 +18875,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L142",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "buildtargetnames()",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_buildtargetnames"
     },
@@ -18365,7 +18885,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L155",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "findskillsdirs()",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_findskillsdirs"
     },
@@ -18375,7 +18895,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L172",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "removedeprecatedskills()",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_removedeprecatedskills"
     },
@@ -18385,7 +18905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L221",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "cleanskillslock()",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_cleanskillslock"
     },
@@ -18395,7 +18915,7 @@
       "source_file": ".claude/skills/impeccable/scripts/cleanup-deprecated.mjs",
       "source_location": "L261",
       "_origin": "ast",
-      "community": 21,
+      "community": 163,
       "norm_label": "cleanup()",
       "id": "claude_skills_impeccable_scripts_cleanup_deprecated_mjs_scripts_cleanup_deprecated_cleanup"
     },
@@ -18425,7 +18945,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context-signals.mjs",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 93,
+      "community": 81,
       "norm_label": "latestcritique()",
       "id": "claude_skills_impeccable_scripts_context_signals_mjs_scripts_context_signals_latestcritique"
     },
@@ -23585,7 +24105,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/constants.mjs",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 287,
+      "community": 36,
       "norm_label": "brand_font_domains",
       "id": "claude_skills_impeccable_scripts_detector_shared_constants_mjs_shared_constants_brand_font_domains"
     },
@@ -29495,7 +30015,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "live-event-validation.mjs",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation"
     },
@@ -29505,7 +30025,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "insert_positions",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_insert_positions"
     },
@@ -29515,7 +30035,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "forbidden_manual_edit_text_chars",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_forbidden_manual_edit_text_chars"
     },
@@ -29525,7 +30045,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "isvalidid()",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_isvalidid"
     },
@@ -29535,7 +30055,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "isvalidvariantid()",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_isvalidvariantid"
     },
@@ -29545,7 +30065,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "validatemanualedittext()",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_validatemanualedittext"
     },
@@ -29555,7 +30075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "validateannotationfields()",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_validateannotationfields"
     },
@@ -29565,7 +30085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "validateinsertgenerate()",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_validateinsertgenerate"
     },
@@ -29575,7 +30095,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "validatereplacegenerate()",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_validatereplacegenerate"
     },
@@ -29585,7 +30105,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L69",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "validatemanualeditevent()",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_validatemanualeditevent"
     },
@@ -29595,7 +30115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-event-validation.mjs",
       "source_location": "L95",
       "_origin": "ast",
-      "community": 163,
+      "community": 52,
       "norm_label": "validateevent()",
       "id": "claude_skills_impeccable_scripts_live_event_validation_mjs_scripts_live_event_validation_validateevent"
     },
@@ -32525,7 +33045,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "live-ui-core.mjs",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core"
     },
@@ -32535,7 +33055,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "live_chrome_mount_contract",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_live_chrome_mount_contract"
     },
@@ -32545,7 +33065,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "live_ui_surfaces",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_live_ui_surfaces"
     },
@@ -32555,7 +33075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L121",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "live_ui_component_ids",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_live_ui_component_ids"
     },
@@ -32565,7 +33085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L125",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "resolveliveuiroot()",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_resolveliveuiroot"
     },
@@ -32575,7 +33095,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L133",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "getliveuielementbyid()",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_getliveuielementbyid"
     },
@@ -32585,7 +33105,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L148",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "appendtoliveuiroot()",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_appendtoliveuiroot"
     },
@@ -32595,7 +33115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L155",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "appendstyletoliveuiroot()",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_appendstyletoliveuiroot"
     },
@@ -32605,7 +33125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L166",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "activeelementdeep()",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_activeelementdeep"
     },
@@ -32615,7 +33135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-ui-core.mjs",
       "source_location": "L174",
       "_origin": "ast",
-      "community": 283,
+      "community": 29,
       "norm_label": "escapecssident()",
       "id": "claude_skills_impeccable_scripts_live_ui_core_mjs_scripts_live_ui_core_escapecssident"
     },
@@ -32625,7 +33145,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-vocabulary.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 240,
+      "community": 29,
       "norm_label": "live-vocabulary.mjs",
       "id": "claude_skills_impeccable_scripts_live_vocabulary_mjs_scripts_live_vocabulary"
     },
@@ -32635,7 +33155,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-vocabulary.mjs",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 240,
+      "community": 29,
       "norm_label": "live_commands",
       "id": "claude_skills_impeccable_scripts_live_vocabulary_mjs_scripts_live_vocabulary_live_commands"
     },
@@ -32645,7 +33165,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-vocabulary.mjs",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 240,
+      "community": 29,
       "norm_label": "visual_actions",
       "id": "claude_skills_impeccable_scripts_live_vocabulary_mjs_scripts_live_vocabulary_visual_actions"
     },
@@ -36256,7 +36776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 240,
       "norm_label": "shape.md \u2014 ux/ui design brief command",
       "id": "shape_md"
     },
@@ -36269,7 +36789,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 240,
       "norm_label": "phase 1: discovery interview",
       "id": "shape_discovery_interview"
     },
@@ -36282,7 +36802,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 240,
       "norm_label": "phase 1.5: visual direction probe",
       "id": "shape_visual_direction_probe"
     },
@@ -36295,7 +36815,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 240,
       "norm_label": "phase 2: design brief",
       "id": "shape_design_brief"
     },
@@ -36308,7 +36828,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 240,
       "norm_label": "color strategy options (restrained/committed/full palette/drenched)",
       "id": "shape_color_strategy"
     },
@@ -36503,7 +37023,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 240,
       "norm_label": "command-metadata.json: shape entry",
       "id": "command_metadata_shape"
     },
@@ -36542,7 +37062,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 93,
+      "community": 81,
       "norm_label": "getcritiquedir() (impeccable-paths.mjs)",
       "id": "impeccable_paths_getcritiquedir"
     },
@@ -36724,7 +37244,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 68,
+      "community": 36,
       "norm_label": "formatfindings",
       "id": "main_formatfindings"
     },
@@ -36789,7 +37309,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 172,
+      "community": 68,
       "norm_label": "createbrowserdetector",
       "id": "detect_url_createbrowserdetector"
     },
@@ -38181,7 +38701,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 223,
+      "community": 29,
       "norm_label": "pin",
       "id": "pin_pin"
     },
@@ -38194,7 +38714,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 223,
+      "community": 29,
       "norm_label": "unpin",
       "id": "pin_unpin"
     },
@@ -38207,7 +38727,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 223,
+      "community": 29,
       "norm_label": "findprojectroot",
       "id": "pin_findprojectroot"
     },
@@ -38220,7 +38740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 223,
+      "community": 29,
       "norm_label": "findharnessdirs",
       "id": "pin_findharnessdirs"
     },
@@ -38233,7 +38753,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 223,
+      "community": 29,
       "norm_label": "loadcommandmetadata",
       "id": "pin_loadcommandmetadata"
     },
@@ -38246,7 +38766,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 223,
+      "community": 29,
       "norm_label": "generatepinnedskill",
       "id": "pin_generatepinnedskill"
     },
@@ -38259,7 +38779,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 223,
+      "community": 29,
       "norm_label": "pin_marker",
       "id": "pin_pin_marker"
     },
@@ -39210,7 +39730,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 5,
       "norm_label": "parsergb",
       "id": "color_parsergb"
     },
@@ -39249,7 +39769,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 5,
       "norm_label": "parsegradientcolors",
       "id": "color_parsegradientcolors"
     },
@@ -39340,7 +39860,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 287,
+      "community": 36,
       "norm_label": "brand_font_domains map",
       "id": "constants_brand_font_domains"
     },
@@ -39353,7 +39873,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 287,
+      "community": 36,
       "norm_label": "isbrandfontonowndomain",
       "id": "constants_isbrandfontonowndomain"
     },
@@ -41420,7 +41940,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 171,
+      "community": 34,
       "norm_label": "manual_edits event handler",
       "id": "live_server_manualeditsendpoint"
     },
@@ -42182,19 +42702,6 @@
       "id": "senior_architect_performance_budget"
     },
     {
-      "label": "SRS_portfolio.md \u2014 Portfolio SRS (highest precedence)",
-      "file_type": "document",
-      "source_file": "SRS_portfolio.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": "Leandro De Los Santos Aboy",
-      "contributor": null,
-      "community": 85,
-      "norm_label": "srs_portfolio.md \u2014 portfolio srs (highest precedence)",
-      "id": "srs_portfolio"
-    },
-    {
       "label": "DESIGN.md \u2014 Design system tokens",
       "file_type": "document",
       "source_file": "DESIGN.md",
@@ -42268,7 +42775,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 170,
+      "community": 132,
       "norm_label": "#e8e0d4 \u2014 crema accent (hover states)",
       "id": "color_accent_crema"
     },
@@ -42351,227 +42858,6 @@
       "id": "gsap_use_gsap_hook"
     },
     {
-      "label": "ScrollTrigger \u2014 scroll-driven animation plugin",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.1",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 117,
-      "norm_label": "scrolltrigger \u2014 scroll-driven animation plugin",
-      "id": "gsap_scroll_trigger"
-    },
-    {
-      "label": "GSAP Flip \u2014 layout-change animation plugin",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "gsap flip \u2014 layout-change animation plugin",
-      "id": "gsap_flip"
-    },
-    {
-      "label": "GSAP TextPlugin \u2014 text animation plugin",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.1",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "gsap textplugin \u2014 text animation plugin",
-      "id": "gsap_text_plugin"
-    },
-    {
-      "label": "Three.js r165 \u2014 WebGL 3D library",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "1.3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "three.js r165 \u2014 webgl 3d library",
-      "id": "threejs_r165"
-    },
-    {
-      "label": "@react-three/fiber \u2014 R3F React renderer for Three.js",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "1.3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 170,
-      "norm_label": "@react-three/fiber \u2014 r3f react renderer for three.js",
-      "id": "react_three_fiber"
-    },
-    {
-      "label": "@react-three/drei \u2014 R3F helper components",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "1.3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 78,
-      "norm_label": "@react-three/drei \u2014 r3f helper components",
-      "id": "react_three_drei"
-    },
-    {
-      "label": "React 18 + Vite 5 \u2014 Frontend framework + build tool",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "1.3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "react 18 + vite 5 \u2014 frontend framework + build tool",
-      "id": "react18_vite5"
-    },
-    {
-      "label": "MUI v5 \u2014 Accessibility/behavior layer (all default styles overridden)",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "2.5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "mui v5 \u2014 accessibility/behavior layer (all default styles overridden)",
-      "id": "mui_v5"
-    },
-    {
-      "label": "EmailJS \u2014 Client-side email delivery (no backend)",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.6",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "emailjs \u2014 client-side email delivery (no backend)",
-      "id": "emailjs"
-    },
-    {
-      "label": "Section: Hero \u2014 Full-width 3D canvas + typographic headline",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.2",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 117,
-      "norm_label": "section: hero \u2014 full-width 3d canvas + typographic headline",
-      "id": "section_hero"
-    },
-    {
-      "label": "Section: SelectedWork \u2014 Lebedev-style project list rows",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "section: selectedwork \u2014 lebedev-style project list rows",
-      "id": "section_selected_work"
-    },
-    {
-      "label": "Section: Contact \u2014 Form (EmailJS) + WhatsApp deeplink",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.6",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "section: contact \u2014 form (emailjs) + whatsapp deeplink",
-      "id": "section_contact"
-    },
-    {
-      "label": "Section: About \u2014 Bio + tech stack + links",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "section: about \u2014 bio + tech stack + links",
-      "id": "section_about"
-    },
-    {
-      "label": "HeroCanvas.jsx \u2014 R3F Canvas (lazy loaded, dpr=[1,1.5])",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 170,
-      "norm_label": "herocanvas.jsx \u2014 r3f canvas (lazy loaded, dpr=[1,1.5])",
-      "id": "hero_canvas"
-    },
-    {
-      "label": "ParticleField.jsx \u2014 2000-particle BufferGeometry mouse-reactive",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 170,
-      "norm_label": "particlefield.jsx \u2014 2000-particle buffergeometry mouse-reactive",
-      "id": "particle_field"
-    },
-    {
-      "label": "CustomCursor.jsx \u2014 8px lima dot + 40px ring, GSAP quickTo",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "2.4",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 132,
-      "norm_label": "customcursor.jsx \u2014 8px lima dot + 40px ring, gsap quickto",
-      "id": "custom_cursor"
-    },
-    {
-      "label": "Loader.jsx \u2014 1.8s intro: counter + split-type reveal + wipe",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.2",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "loader.jsx \u2014 1.8s intro: counter + split-type reveal + wipe",
-      "id": "loader_component"
-    },
-    {
       "label": "Navbar.jsx \u2014 Fixed, hide/show on scroll, LDS logo, GSAP yPercent",
       "file_type": "concept",
       "source_file": "DESIGN.md",
@@ -42585,110 +42871,6 @@
       "id": "navbar_component"
     },
     {
-      "label": "WhatsAppButton.jsx \u2014 Sticky mobile bottom-right, deeplink",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.6",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "whatsappbutton.jsx \u2014 sticky mobile bottom-right, deeplink",
-      "id": "whatsapp_button"
-    },
-    {
-      "label": "ProjectRow.jsx \u2014 Lebedev-style row: index + title + year + tags",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "projectrow.jsx \u2014 lebedev-style row: index + title + year + tags",
-      "id": "project_row"
-    },
-    {
-      "label": "prefers-reduced-motion \u2014 gsap.globalTimeline.timeScale(0)",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "prefers-reduced-motion \u2014 gsap.globaltimeline.timescale(0)",
-      "id": "prefers_reduced_motion"
-    },
-    {
-      "label": "CWV: LCP \u2264 2.5s",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "cwv: lcp \u2264 2.5s",
-      "id": "cwv_lcp"
-    },
-    {
-      "label": "CWV: INP \u2264 100ms",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "cwv: inp \u2264 100ms",
-      "id": "cwv_inp"
-    },
-    {
-      "label": "CWV: CLS \u2264 0.1",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "cwv: cls \u2264 0.1",
-      "id": "cwv_cls"
-    },
-    {
-      "label": "CWV: 60fps animation budget",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 252,
-      "norm_label": "cwv: 60fps animation budget",
-      "id": "cwv_fps"
-    },
-    {
-      "label": "JS bundle < 150kb gzipped (excluding lazy Three.js)",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.1",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "js bundle < 150kb gzipped (excluding lazy three.js)",
-      "id": "js_bundle_target"
-    },
-    {
       "label": "Three.js lazy load \u2014 React.lazy() mandatory, never in main bundle",
       "file_type": "concept",
       "source_file": "buenas-practicas.md",
@@ -42700,19 +42882,6 @@
       "community": 170,
       "norm_label": "three.js lazy load \u2014 react.lazy() mandatory, never in main bundle",
       "id": "threejs_lazy_load"
-    },
-    {
-      "label": "Three.js hero budget: 50k tris, 10 draw calls, dpr max 1.5",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.1",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "three.js hero budget: 50k tris, 10 draw calls, dpr max 1.5",
-      "id": "threejs_perf_budget"
     },
     {
       "label": "Skill: senior-architect \u2014 architecture diagrams, dependency analysis",
@@ -42762,7 +42931,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 85,
+      "community": 282,
       "norm_label": "threejs-webgl.project.md \u2014 project-specific three.js overrides",
       "id": "threejs_project_md"
     },
@@ -42921,19 +43090,6 @@
       "community": 117,
       "norm_label": "aircenter pattern 6 \u2014 color scheme inversion at footer",
       "id": "aircenter_pattern6"
-    },
-    {
-      "label": "Mobile <768px: no Three.js canvas, static image, no parallax",
-      "file_type": "concept",
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.4",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 85,
-      "norm_label": "mobile <768px: no three.js canvas, static image, no parallax",
-      "id": "mobile_breakpoint"
     },
     {
       "label": "Quieter (reduce visual intensity)",
@@ -43100,7 +43256,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 93,
+      "community": 195,
       "norm_label": "live mode (interactive variants)",
       "id": "live_concept"
     },
@@ -45941,6 +46097,938 @@
   ],
   "links": [
     {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "SRS_portfolio.md",
+      "source_location": "2.1",
+      "weight": 0.8,
+      "source": "srs_portfolio",
+      "target": "design_md"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "srs_portfolio",
+      "target": "srs_portfolio_software_requirements_specification_srs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_1_introducci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_2_especificaciones_de_ui_ux",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_3_plan_de_animaciones_gsap_focus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L408",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_4_requerimientos_funcionales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L527",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_5_requerimientos_no_funcionales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L662",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_6_arquitectura_de_archivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L734",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_7_dependencias_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L764",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_8_checklist_de_implementaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "srs_portfolio_software_requirements_specification_srs",
+      "target": "srs_portfolio_portfolio_personal_react_gsap_three_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "srs_portfolio_1_introducci\u00f3n",
+      "target": "srs_portfolio_1_1_visi\u00f3n_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "srs_portfolio_1_introducci\u00f3n",
+      "target": "srs_portfolio_1_2_objetivos_de_conversi\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "srs_portfolio_1_introducci\u00f3n",
+      "target": "srs_portfolio_1_3_alcance_t\u00e9cnico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "srs_portfolio_2_especificaciones_de_ui_ux",
+      "target": "srs_portfolio_2_1_paleta_de_colores",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "srs_portfolio_2_especificaciones_de_ui_ux",
+      "target": "srs_portfolio_2_2_tipograf\u00eda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "srs_portfolio_2_especificaciones_de_ui_ux",
+      "target": "srs_portfolio_2_3_jerarqu\u00eda_visual_y_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "srs_portfolio_2_especificaciones_de_ui_ux",
+      "target": "srs_portfolio_2_4_cursor_personalizado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "srs_portfolio_2_especificaciones_de_ui_ux",
+      "target": "srs_portfolio_2_5_componentes_mui_override_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_plan_de_animaciones_gsap_focus",
+      "target": "srs_portfolio_3_1_setup_global",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_plan_de_animaciones_gsap_focus",
+      "target": "srs_portfolio_3_2_loader_intro_sequence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_plan_de_animaciones_gsap_focus",
+      "target": "srs_portfolio_3_3_scroll_experience_completa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L307",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_plan_de_animaciones_gsap_focus",
+      "target": "srs_portfolio_3_4_micro_interacciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L361",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_plan_de_animaciones_gsap_focus",
+      "target": "srs_portfolio_3_5_three_js_escenas_3d",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L258",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_3_scroll_experience_completa",
+      "target": "srs_portfolio_secci\u00f3n_about_text_reveal_por_palabras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L290",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_3_scroll_experience_completa",
+      "target": "srs_portfolio_secci\u00f3n_contact_entrance_dram\u00e1tico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_3_scroll_experience_completa",
+      "target": "srs_portfolio_secci\u00f3n_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_3_scroll_experience_completa",
+      "target": "srs_portfolio_secci\u00f3n_proyecto_featured_pinning_reveal_horizontal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L276",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_3_scroll_experience_completa",
+      "target": "srs_portfolio_secci\u00f3n_skills_services_flip_animation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_3_scroll_experience_completa",
+      "target": "srs_portfolio_secci\u00f3n_work_proyectos_lista_estilo_lebedev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L309",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_4_micro_interacciones",
+      "target": "srs_portfolio_botones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L329",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_4_micro_interacciones",
+      "target": "srs_portfolio_cards_de_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L342",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_4_micro_interacciones",
+      "target": "srs_portfolio_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L363",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_5_three_js_escenas_3d",
+      "target": "srs_portfolio_hero_background_mesh_de_part\u00edculas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L382",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_5_three_js_escenas_3d",
+      "target": "srs_portfolio_objeto_3d_central_hero_statement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L397",
+      "weight": 1.0,
+      "source": "srs_portfolio_3_5_three_js_escenas_3d",
+      "target": "srs_portfolio_transici\u00f3n_de_p\u00e1gina_three_js_wipe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L410",
+      "weight": 1.0,
+      "source": "srs_portfolio_4_requerimientos_funcionales",
+      "target": "srs_portfolio_4_1_estructura_de_navegaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L421",
+      "weight": 1.0,
+      "source": "srs_portfolio_4_requerimientos_funcionales",
+      "target": "srs_portfolio_4_2_secci\u00f3n_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L431",
+      "weight": 1.0,
+      "source": "srs_portfolio_4_requerimientos_funcionales",
+      "target": "srs_portfolio_4_3_secci\u00f3n_work_lista_de_proyectos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L465",
+      "weight": 1.0,
+      "source": "srs_portfolio_4_requerimientos_funcionales",
+      "target": "srs_portfolio_4_4_case_study_individual_work_slug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L486",
+      "weight": 1.0,
+      "source": "srs_portfolio_4_requerimientos_funcionales",
+      "target": "srs_portfolio_4_5_secci\u00f3n_about",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L495",
+      "weight": 1.0,
+      "source": "srs_portfolio_4_requerimientos_funcionales",
+      "target": "srs_portfolio_4_6_secci\u00f3n_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L517",
+      "weight": 1.0,
+      "source": "srs_portfolio_4_requerimientos_funcionales",
+      "target": "srs_portfolio_4_7_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L529",
+      "weight": 1.0,
+      "source": "srs_portfolio_5_requerimientos_no_funcionales",
+      "target": "srs_portfolio_5_1_performance_y_60fps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L567",
+      "weight": 1.0,
+      "source": "srs_portfolio_5_requerimientos_no_funcionales",
+      "target": "srs_portfolio_5_2_seo_t\u00e9cnico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L592",
+      "weight": 1.0,
+      "source": "srs_portfolio_5_requerimientos_no_funcionales",
+      "target": "srs_portfolio_5_3_accesibilidad_a11y",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L619",
+      "weight": 1.0,
+      "source": "srs_portfolio_5_requerimientos_no_funcionales",
+      "target": "srs_portfolio_5_4_responsive_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L651",
+      "weight": 1.0,
+      "source": "srs_portfolio_5_requerimientos_no_funcionales",
+      "target": "srs_portfolio_5_5_core_web_vitals_targets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SRS_portfolio.md",
+      "source_location": "L716",
+      "weight": 1.0,
+      "source": "srs_portfolio_6_arquitectura_de_archivos",
+      "target": "srs_portfolio_hook_usegsap_patr\u00f3n_cr\u00edtico_para_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/contact.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "api_contact",
+      "target": "api_contact_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/contact.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "api_contact",
+      "target": "api_contact_resend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "provides_dependency_react_three_drei",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package",
+      "target": "helmetcanvas_helmetcanvas"
+    },
+    {
+      "relation": "provides_dependency_react_three_fiber",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package",
+      "target": "herocanvas_herocanvas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_packagemanager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_version"
+    },
+    {
+      "relation": "provides_dependency_lenis",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package",
+      "target": "pagetransitioncontext_pagetransitionprovider"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_preview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_emotion_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_emotion_styled"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_gsap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_gsap_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_lenis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_mui_material"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_hook_form"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_router_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_three_drei"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_three_fiber"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_three_postprocessing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_resend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_split_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_three"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitejs_plugin_react"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_home",
+      "target": "sections_contact"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L336",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_contact",
+      "target": "sections_contact_channellabelstyle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_contact",
+      "target": "sections_contact_contact"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L345",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_contact",
+      "target": "sections_contact_feedbackstyle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_contact",
+      "target": "sections_contact_textfieldsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/sections/Contact.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sections_contact",
+      "target": "sections_contact_wa_msg"
+    },
+    {
+      "relation": "renders",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Home.jsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_home",
+      "target": "sections_contact_contact"
+    },
+    {
+      "relation": "applies_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tasks/lessons.md",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "lessons_emailjs_decision",
+      "target": "sections_contact_contact"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_home",
+      "target": "sections_contact_contact"
+    },
+    {
+      "relation": "used_by",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "src/hooks/useLocalTime.js",
+      "source_location": null,
+      "weight": 0.3,
+      "source": "uselocaltime_uselocaltime",
+      "target": "sections_contact_contact"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -47075,450 +48163,6 @@
       "confidence_score": 1.0,
       "source": "ui_marquee",
       "target": "ui_marquee_marquee"
-    },
-    {
-      "relation": "provides_dependency_react_three_drei",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "package.json",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "package",
-      "target": "helmetcanvas_helmetcanvas"
-    },
-    {
-      "relation": "provides_dependency_react_three_fiber",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "package.json",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "package",
-      "target": "herocanvas_herocanvas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_dependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_devdependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_name"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_packagemanager"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_private"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_scripts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_type"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_version"
-    },
-    {
-      "relation": "provides_dependency_lenis",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "package.json",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "package",
-      "target": "pagetransitioncontext_pagetransitionprovider"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_build"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_dev"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_preview"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_emailjs_browser"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_emotion_react"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_emotion_styled"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_gsap"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_gsap_react"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_lenis"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_mui_material"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react_dom"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react_hook_form"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react_router_dom"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react_three_drei"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react_three_fiber"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react_three_postprocessing"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_split_type"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_three"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "package_dependencies_react_three_drei",
-      "target": "react_three_drei"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "context": "import",
-      "confidence_score": 1.0,
-      "source": "package_dependencies_react_three_fiber",
-      "target": "react_three_fiber"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_vite"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_vitejs_plugin_react"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Home.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_home",
-      "target": "sections_contact"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L336",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_contact",
-      "target": "sections_contact_channellabelstyle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L55",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_contact",
-      "target": "sections_contact_contact"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L345",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_contact",
-      "target": "sections_contact_feedbackstyle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_contact",
-      "target": "sections_contact_textfieldsx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/sections/Contact.jsx",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sections_contact",
-      "target": "sections_contact_wa_msg"
-    },
-    {
-      "relation": "renders",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/pages/Home.jsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "home_home",
-      "target": "sections_contact_contact"
-    },
-    {
-      "relation": "applies_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "tasks/lessons.md",
-      "source_location": null,
-      "weight": 0.8,
-      "source": "lessons_emailjs_decision",
-      "target": "sections_contact_contact"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Home.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_home",
-      "target": "sections_contact_contact"
-    },
-    {
-      "relation": "used_by",
-      "confidence": "AMBIGUOUS",
-      "confidence_score": 0.2,
-      "source_file": "src/hooks/useLocalTime.js",
-      "source_location": null,
-      "weight": 0.3,
-      "source": "uselocaltime_uselocaltime",
-      "target": "sections_contact_contact"
     },
     {
       "relation": "contains",
@@ -133468,216 +134112,6 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.5",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "cwv_cls"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.5",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "cwv_inp"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.5",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "cwv_lcp"
-    },
-    {
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "2.1",
-      "weight": 0.8,
-      "source": "srs_portfolio",
-      "target": "design_md"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.6",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "emailjs"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.1",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "gsap_flip"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.1",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "gsap_scroll_trigger"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.1",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "gsap_text_plugin"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.1",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "js_bundle_target"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.4",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "mobile_breakpoint"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "2.5",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "mui_v5"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.3",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "prefers_reduced_motion"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "1.3",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "react18_vite5"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "1.3",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "react_three_drei"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "1.3",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "react_three_fiber"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.5",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "section_about"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.6",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "section_contact"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.2",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "section_hero"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.3",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "section_selected_work"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "5.1",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "threejs_perf_budget"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "1.3",
-      "weight": 1.0,
-      "source": "srs_portfolio",
-      "target": "threejs_r165"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "DESIGN.md",
       "source_location": "Color palette",
       "weight": 1.0,
@@ -133838,211 +134272,11 @@
       "relation": "uses",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "2.4",
-      "weight": 1.0,
-      "source": "custom_cursor",
-      "target": "color_accent_hot"
-    },
-    {
-      "relation": "uses",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.5",
-      "weight": 1.0,
-      "source": "particle_field",
-      "target": "color_accent_crema"
-    },
-    {
-      "relation": "uses",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "PROJECT_MEMORY.md",
-      "source_location": "Componentes completados",
-      "weight": 1.0,
-      "source": "custom_cursor",
-      "target": "gsap_use_gsap_hook"
-    },
-    {
-      "relation": "uses",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "PROJECT_MEMORY.md",
       "source_location": "Componentes completados",
       "weight": 1.0,
       "source": "navbar_component",
       "target": "gsap_use_gsap_hook"
-    },
-    {
-      "relation": "uses",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "BRIEF_ANIMACIONES_AIRCENTER.md",
-      "source_location": "PATRON 4 GSAP",
-      "weight": 1.0,
-      "source": "aircenter_pattern4",
-      "target": "gsap_scroll_trigger"
-    },
-    {
-      "relation": "uses",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.3",
-      "weight": 1.0,
-      "source": "section_selected_work",
-      "target": "gsap_flip"
-    },
-    {
-      "relation": "uses",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.2",
-      "weight": 0.9,
-      "source": "loader_component",
-      "target": "gsap_text_plugin"
-    },
-    {
-      "relation": "uses",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.5",
-      "weight": 1.0,
-      "source": "hero_canvas",
-      "target": "react_three_fiber"
-    },
-    {
-      "relation": "uses",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.6",
-      "weight": 1.0,
-      "source": "section_contact",
-      "target": "emailjs"
-    },
-    {
-      "relation": "referenced_by",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "BRIEF_ANIMACIONES_AIRCENTER.md",
-      "source_location": "PATRON 1 Adaptacion",
-      "weight": 1.0,
-      "source": "aircenter_pattern1",
-      "target": "section_hero"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.5",
-      "weight": 1.0,
-      "source": "section_hero",
-      "target": "hero_canvas"
-    },
-    {
-      "relation": "referenced_by",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "BRIEF_ANIMACIONES_AIRCENTER.md",
-      "source_location": "PATRON 5 Adaptacion",
-      "weight": 0.7,
-      "source": "aircenter_pattern5",
-      "target": "section_selected_work"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "PROJECT_MEMORY.md",
-      "source_location": "Componentes completados",
-      "weight": 1.0,
-      "source": "section_selected_work",
-      "target": "project_row"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "4.6",
-      "weight": 1.0,
-      "source": "section_contact",
-      "target": "whatsapp_button"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "SRS_portfolio.md",
-      "source_location": "3.5",
-      "weight": 1.0,
-      "source": "hero_canvas",
-      "target": "particle_field"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "buenas-practicas.md",
-      "source_location": "3 Three.js",
-      "weight": 1.0,
-      "source": "hero_canvas",
-      "target": "threejs_lazy_load"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".claude/skills/threejs-webgl.project.md",
-      "source_location": "Hero Canvas",
-      "weight": 1.0,
-      "source": "threejs_project_md",
-      "target": "hero_canvas"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".claude/skills/senior-qa/PROJECT_CONTEXT.md",
-      "source_location": "Core Web Vitals targets",
-      "weight": 1.0,
-      "source": "senior_qa_project_context",
-      "target": "cwv_lcp"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".claude/skills/senior-qa/PROJECT_CONTEXT.md",
-      "source_location": "Core Web Vitals targets",
-      "weight": 1.0,
-      "source": "senior_qa_project_context",
-      "target": "cwv_inp"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".claude/skills/senior-qa/PROJECT_CONTEXT.md",
-      "source_location": "Core Web Vitals targets",
-      "weight": 1.0,
-      "source": "senior_qa_project_context",
-      "target": "cwv_cls"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".claude/skills/threejs-webgl.project.md",
-      "source_location": "Performance budget",
-      "weight": 1.0,
-      "source": "threejs_project_md",
-      "target": "threejs_perf_budget"
     },
     {
       "relation": "contains",
@@ -134103,16 +134337,6 @@
       "weight": 1.0,
       "source": "senior_qa_project_context",
       "target": "lighthouse_targets"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".claude/skills/threejs-webgl.project.md",
-      "source_location": "Mobile SRS 5.4",
-      "weight": 1.0,
-      "source": "threejs_project_md",
-      "target": "mobile_breakpoint"
     },
     {
       "relation": "describes",
@@ -136120,5 +136344,5 @@
       "source_location": null
     }
   ],
-  "built_at_commit": "706db645fd6b2bccdbed72c4962c5bb40e95de26"
+  "built_at_commit": "7e7aa660331e57247d676d665795c6051412f1ec"
 }
